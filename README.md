@@ -10,10 +10,25 @@ Phase 4 remains safety-gated. It builds the backup/restore foundation, keeps act
 
 ## Launch
 
-From the Phase 4 folder:
+From the repository/app root:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_app.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1
+```
+
+The top-level launcher automatically selects the newest `PHASE_*` folder that contains `scripts\run_app.ps1`, so future phases can become the default without changing the launch command.
+
+Useful checks:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -DryRun
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -ListPhases
+```
+
+The current Phase 4 runner is still available directly:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\scripts\run_app.ps1
 ```
 
 ## Current UI
