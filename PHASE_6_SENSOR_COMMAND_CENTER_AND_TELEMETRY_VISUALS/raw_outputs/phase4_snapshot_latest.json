@@ -1,0 +1,1756 @@
+{
+  "timestamp_local": "2026-06-15T11:41:10",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "phase": "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+  "active_power_plan": {
+    "source": "live",
+    "raw": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+    "name": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "command": {
+      "command": [
+        "powercfg.exe",
+        "/getactivescheme"
+      ],
+      "cwd": null,
+      "read_only": true,
+      "dry_run": false,
+      "executed": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+      "stderr": "",
+      "error": null,
+      "started_at": "2026-06-15T11:41:10",
+      "elapsed_seconds": 0.015
+    }
+  },
+  "nvidia_smi": {
+    "ok": true,
+    "source": "live",
+    "data": {
+      "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "driver_version": "610.47",
+      "utilization.gpu": "15",
+      "utilization.memory": "1",
+      "memory.total": "8151",
+      "memory.used": "1256",
+      "memory.free": "6636",
+      "temperature.gpu": "62",
+      "power.draw": "16.55",
+      "power.limit": "[N/A]",
+      "clocks.current.graphics": "1567",
+      "clocks.current.memory": "11001"
+    },
+    "fields": [
+      "name",
+      "driver_version",
+      "utilization.gpu",
+      "utilization.memory",
+      "memory.total",
+      "memory.used",
+      "memory.free",
+      "temperature.gpu",
+      "power.draw",
+      "power.limit",
+      "clocks.current.graphics",
+      "clocks.current.memory"
+    ],
+    "command": {
+      "command": [
+        "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+        "--query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory",
+        "--format=csv,noheader,nounits"
+      ],
+      "cwd": null,
+      "read_only": true,
+      "dry_run": false,
+      "executed": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout": "NVIDIA GeForce RTX 5070 Laptop GPU, 610.47, 15, 1, 8151, 1256, 6636, 62, 16.55, [N/A], 1567, 11001\n",
+      "stderr": "",
+      "error": null,
+      "started_at": "2026-06-15T11:41:10",
+      "elapsed_seconds": 0.094
+    }
+  },
+  "msi_afterburner": {
+    "installed": true,
+    "executable_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+    "rtss_path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+    "install_folder": "C:\\Program Files (x86)\\MSI Afterburner",
+    "profiles_folder": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles",
+    "profile_files": [
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+        "name": "MSIAfterburner.cfg",
+        "exists": true,
+        "length_bytes": 2307,
+        "last_write_local": "2026-06-14T18:16:47",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+        "name": "Profile2.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-04-20T18:06:24",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+        "name": "Profile3.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-13T21:40:47",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+        "name": "Profile4.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-13T22:50:31",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+        "name": "Profile5.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-14T17:56:19",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+        "name": "VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 60,
+        "last_write_local": "2026-04-21T20:10:42",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+        "name": "VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 109,
+        "last_write_local": "2026-06-14T21:01:18",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+        "name": "VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 26122,
+        "last_write_local": "2026-06-14T21:01:18",
+        "file_version": null,
+        "is_directory": false
+      }
+    ],
+    "config_files": [
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+        "name": "MSIAfterburner.cfg",
+        "exists": true,
+        "length_bytes": 7962,
+        "last_write_local": "2025-09-09T19:14:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+        "name": "RTCore.cfg",
+        "exists": true,
+        "length_bytes": 7739,
+        "last_write_local": "2017-10-07T05:39:00",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+        "name": "MSIAfterburner.dat",
+        "exists": true,
+        "length_bytes": 36387,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+        "name": "MSIAfterburner.oem",
+        "exists": true,
+        "length_bytes": 92967,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+        "name": "MSIAfterburner.oem1",
+        "exists": true,
+        "length_bytes": 96146,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+        "name": "MSIAfterburner.oem2",
+        "exists": true,
+        "length_bytes": 11112,
+        "last_write_local": "2025-09-14T02:37:18",
+        "file_version": null,
+        "is_directory": false
+      }
+    ],
+    "appears_running_phase1": true
+  },
+  "process_targets": {
+    "matched_targets": [
+      {
+        "id": "steam",
+        "friendly": "Steam",
+        "category": "Launcher",
+        "process_names": [
+          "steam",
+          "steamwebhelper"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "steam",
+            "Id": 29356,
+            "Path": "C:\\Program Files (x86)\\Steam\\steam.exe"
+          },
+          {
+            "ProcessName": "steamservice",
+            "Id": 9032,
+            "Path": null
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "msi_afterburner",
+        "friendly": "MSI Afterburner",
+        "category": "Tool",
+        "process_names": [
+          "MSIAfterburner"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "MSIAfterburner",
+            "Id": 10260,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "presentmon",
+        "friendly": "PresentMon",
+        "category": "Tool",
+        "process_names": [
+          "PresentMon"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "PresentMon_x64",
+            "Id": 10672,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "gigabyte_control_center",
+        "friendly": "GIGABYTE Control Center",
+        "category": "OEM control",
+        "process_names": [
+          "GCC",
+          "ControlCenter",
+          "GIGABYTE",
+          "GService",
+          "GigabyteUpdateService"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "GCC",
+            "Id": 10692,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "nvidia_app",
+        "friendly": "NVIDIA App / NVIDIA services",
+        "category": "GPU tool",
+        "process_names": [
+          "NVIDIA App",
+          "NVIDIA Overlay",
+          "NVIDIA Share",
+          "NVIDIA Web Helper",
+          "nvcontainer",
+          "NVIDIA GeForce Experience"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "NVIDIA Overlay",
+            "Id": 30300,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+          },
+          {
+            "ProcessName": "nvcontainer",
+            "Id": 8940,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+          }
+        ],
+        "automation_enabled": false
+      }
+    ],
+    "all_targets": [
+      {
+        "id": "battlefield_6",
+        "friendly": "Battlefield 6 / BF6",
+        "category": "Game",
+        "process_names": [
+          "BF6",
+          "Battlefield6",
+          "Battlefield 6",
+          "bf6game"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "steam",
+        "friendly": "Steam",
+        "category": "Launcher",
+        "process_names": [
+          "steam",
+          "steamwebhelper"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "steam",
+            "Id": 29356,
+            "Path": "C:\\Program Files (x86)\\Steam\\steam.exe"
+          },
+          {
+            "ProcessName": "steamservice",
+            "Id": 9032,
+            "Path": null
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "ea_app",
+        "friendly": "EA App",
+        "category": "Launcher",
+        "process_names": [
+          "EADesktop",
+          "EALauncher",
+          "EABackgroundService",
+          "EACefSubProcess",
+          "Origin"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "epic_games",
+        "friendly": "Epic Games Launcher",
+        "category": "Launcher",
+        "process_names": [
+          "EpicGamesLauncher",
+          "EpicWebHelper"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "sea_of_thieves",
+        "friendly": "Sea of Thieves",
+        "category": "Game",
+        "process_names": [
+          "SoTGame",
+          "SeaOfThieves"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "minecraft",
+        "friendly": "Minecraft",
+        "category": "Game",
+        "process_names": [
+          "Minecraft",
+          "Minecraft.Windows",
+          "javaw",
+          "java"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "msi_afterburner",
+        "friendly": "MSI Afterburner",
+        "category": "Tool",
+        "process_names": [
+          "MSIAfterburner"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "MSIAfterburner",
+            "Id": 10260,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "rtss",
+        "friendly": "RivaTuner Statistics Server",
+        "category": "Tool",
+        "process_names": [
+          "RTSS",
+          "RTSSHooksLoader64",
+          "RTSSHooksLoader"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "presentmon",
+        "friendly": "PresentMon",
+        "category": "Tool",
+        "process_names": [
+          "PresentMon"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "PresentMon_x64",
+            "Id": 10672,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "hwinfo",
+        "friendly": "HWiNFO",
+        "category": "Tool",
+        "process_names": [
+          "HWiNFO64",
+          "HWiNFO32",
+          "HWiNFO"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "gigabyte_control_center",
+        "friendly": "GIGABYTE Control Center",
+        "category": "OEM control",
+        "process_names": [
+          "GCC",
+          "ControlCenter",
+          "GIGABYTE",
+          "GService",
+          "GigabyteUpdateService"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "GCC",
+            "Id": 10692,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "nvidia_app",
+        "friendly": "NVIDIA App / NVIDIA services",
+        "category": "GPU tool",
+        "process_names": [
+          "NVIDIA App",
+          "NVIDIA Overlay",
+          "NVIDIA Share",
+          "NVIDIA Web Helper",
+          "nvcontainer",
+          "NVIDIA GeForce Experience"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "NVIDIA Overlay",
+            "Id": 30300,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+          },
+          {
+            "ProcessName": "nvcontainer",
+            "Id": 8940,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+          }
+        ],
+        "automation_enabled": false
+      }
+    ]
+  },
+  "tool_availability": {
+    "active_power_plan": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "active_power_plan_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "msi_afterburner_detected": true,
+    "nvidia_smi_detected": true,
+    "presentmon_detected": true,
+    "librehardwaremonitor_detected": true,
+    "gigabyte_detected": true,
+    "risk_item_count": 23,
+    "readable_cpu_settings": 6,
+    "process_count_phase1": 279
+  },
+  "control_surface": {
+    "manifest_controls": 102,
+    "coverage_rows": 102,
+    "actions": 16,
+    "restore_requirements": 44
+  },
+  "phase4": {
+    "backup_manifest": {
+      "generated_local": "2026-06-15T11:40:55",
+      "machine_name": "LIMITNOTFOUND",
+      "user_name": "kkids",
+      "phase_root": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+      "source_phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+      "active_power_plan_guid_before_backup": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+      "active_power_plan_name_before_backup": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+      "active_power_plan_export_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\power_plans\\active_power_plan_20260615-114052.pow",
+      "active_power_plan_export_succeeded": false,
+      "active_power_plan_export_file_length": 0,
+      "active_power_plan_export_failure_reason": "Unable to perform operation.  An unexpected error (0x522) has occurred:  A required privilege is not held by the client.",
+      "active_power_plan_query_snapshot_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\active_power_plan_snapshot_20260615-114052.json",
+      "cpu_readable_values_snapshot_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\cpu_readable_values_20260615-114052.json",
+      "msi_afterburner_executable_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+      "msi_afterburner_install_folder": "C:\\Program Files (x86)\\MSI Afterburner",
+      "msi_files_copied": [
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46FBD9572AB9_MSIAfterburner.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+            "name": "MSIAfterburner.cfg",
+            "length_bytes": 7962,
+            "last_write_local": "2025-09-09T19:14:14",
+            "sha256": "8FDE2DD6F907F95B040ACED82726E539AC13E15A6629F853E5C261578B08967B"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46FBD9572AB9_MSIAfterburner.cfg",
+            "name": "46FBD9572AB9_MSIAfterburner.cfg",
+            "length_bytes": 7962,
+            "last_write_local": "2025-09-09T19:14:14",
+            "sha256": "8FDE2DD6F907F95B040ACED82726E539AC13E15A6629F853E5C261578B08967B"
+          },
+          "copied": true
+        },
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\40D41C4E4C1D_RTCore.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+            "name": "RTCore.cfg",
+            "length_bytes": 7739,
+            "last_write_local": "2017-10-07T05:39:00",
+            "sha256": "6667C31698EC40A87FD70961BE88C52221D1FB6EBE8EE2B231BD1041657936CE"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\40D41C4E4C1D_RTCore.cfg",
+            "name": "40D41C4E4C1D_RTCore.cfg",
+            "length_bytes": 7739,
+            "last_write_local": "2017-10-07T05:39:00",
+            "sha256": "6667C31698EC40A87FD70961BE88C52221D1FB6EBE8EE2B231BD1041657936CE"
+          },
+          "copied": true
+        },
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F39B9F982853_MSIAfterburner.dat",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+            "name": "MSIAfterburner.dat",
+            "length_bytes": 36387,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "B9244C51CB94E04415632B4CF95C24A716C5E7A29B467FB9C16F9FD1EF5EB3B0"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F39B9F982853_MSIAfterburner.dat",
+            "name": "F39B9F982853_MSIAfterburner.dat",
+            "length_bytes": 36387,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "B9244C51CB94E04415632B4CF95C24A716C5E7A29B467FB9C16F9FD1EF5EB3B0"
+          },
+          "copied": true
+        },
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\10B7F8B68237_MSIAfterburner.oem",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+            "name": "MSIAfterburner.oem",
+            "length_bytes": 92967,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "20F5A29BB21567C6AAB8DE452F77FBB82A855B0651D0DC3961A9F51623DBAFEE"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\10B7F8B68237_MSIAfterburner.oem",
+            "name": "10B7F8B68237_MSIAfterburner.oem",
+            "length_bytes": 92967,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "20F5A29BB21567C6AAB8DE452F77FBB82A855B0651D0DC3961A9F51623DBAFEE"
+          },
+          "copied": true
+        },
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\A5E5CBA9D2A8_MSIAfterburner.oem1",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+            "name": "MSIAfterburner.oem1",
+            "length_bytes": 96146,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "35C02EE1E8FB244469E489718BEB413A8D602A39BDFD7801D46AE75FA1D730B4"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\A5E5CBA9D2A8_MSIAfterburner.oem1",
+            "name": "A5E5CBA9D2A8_MSIAfterburner.oem1",
+            "length_bytes": 96146,
+            "last_write_local": "2025-09-28T19:38:14",
+            "sha256": "35C02EE1E8FB244469E489718BEB413A8D602A39BDFD7801D46AE75FA1D730B4"
+          },
+          "copied": true
+        },
+        {
+          "collection": "config_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\EB95CA5B61BC_MSIAfterburner.oem2",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+            "name": "MSIAfterburner.oem2",
+            "length_bytes": 11112,
+            "last_write_local": "2025-09-14T02:37:18",
+            "sha256": "8D4ED36B88A2716609738951F4980D4486EA513A787271B1DBC0FC3AACACD3B4"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\EB95CA5B61BC_MSIAfterburner.oem2",
+            "name": "EB95CA5B61BC_MSIAfterburner.oem2",
+            "length_bytes": 11112,
+            "last_write_local": "2025-09-14T02:37:18",
+            "sha256": "8D4ED36B88A2716609738951F4980D4486EA513A787271B1DBC0FC3AACACD3B4"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\80C2E8756D81_MSIAfterburner.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+            "name": "MSIAfterburner.cfg",
+            "length_bytes": 2307,
+            "last_write_local": "2026-06-14T18:16:47",
+            "sha256": "B4570296921A264FE05FDC31B0A8F6FD9D1722F556E4C241C8E1DA2EBAE02232"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\80C2E8756D81_MSIAfterburner.cfg",
+            "name": "80C2E8756D81_MSIAfterburner.cfg",
+            "length_bytes": 2307,
+            "last_write_local": "2026-06-14T18:16:47",
+            "sha256": "B4570296921A264FE05FDC31B0A8F6FD9D1722F556E4C241C8E1DA2EBAE02232"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\0E567F09DA4D_Profile2.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+            "name": "Profile2.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-04-20T18:06:24",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\0E567F09DA4D_Profile2.cfg",
+            "name": "0E567F09DA4D_Profile2.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-04-20T18:06:24",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\354EBFE45EC9_Profile3.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+            "name": "Profile3.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-13T21:40:47",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\354EBFE45EC9_Profile3.cfg",
+            "name": "354EBFE45EC9_Profile3.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-13T21:40:47",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\534138F73FEB_Profile4.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+            "name": "Profile4.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-13T22:50:31",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\534138F73FEB_Profile4.cfg",
+            "name": "534138F73FEB_Profile4.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-13T22:50:31",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46766608D01A_Profile5.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+            "name": "Profile5.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-14T17:56:19",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46766608D01A_Profile5.cfg",
+            "name": "46766608D01A_Profile5.cfg",
+            "length_bytes": 31,
+            "last_write_local": "2026-06-14T17:56:19",
+            "sha256": "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+            "name": "VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+            "length_bytes": 60,
+            "last_write_local": "2026-04-21T20:10:42",
+            "sha256": "397DC9EDCA4A53681D8A231E9D4F7692BC4ABD2EA0E0265D08CA90F58AA36AED"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+            "name": "F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+            "length_bytes": 60,
+            "last_write_local": "2026-04-21T20:10:42",
+            "sha256": "397DC9EDCA4A53681D8A231E9D4F7692BC4ABD2EA0E0265D08CA90F58AA36AED"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+            "name": "VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+            "length_bytes": 109,
+            "last_write_local": "2026-06-14T21:01:18",
+            "sha256": "5271527F2AC30E403DD8F3A1964E8BCA5C0F72606631D1BD42F29FFE7B7CA80A"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+            "name": "AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+            "length_bytes": 109,
+            "last_write_local": "2026-06-14T21:01:18",
+            "sha256": "5271527F2AC30E403DD8F3A1964E8BCA5C0F72606631D1BD42F29FFE7B7CA80A"
+          },
+          "copied": true
+        },
+        {
+          "collection": "profile_files",
+          "source_path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+          "source_hash": {
+            "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+            "name": "VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+            "length_bytes": 26122,
+            "last_write_local": "2026-06-14T21:01:18",
+            "sha256": "9402F8ED8E67C7AE1F761E536AA72FB9756E7E245A0C2897F7AAA4D27C73A0E1"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+            "name": "BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+            "length_bytes": 26122,
+            "last_write_local": "2026-06-14T21:01:18",
+            "sha256": "9402F8ED8E67C7AE1F761E536AA72FB9756E7E245A0C2897F7AAA4D27C73A0E1"
+          },
+          "copied": true
+        }
+      ],
+      "msi_skipped_items": [],
+      "app_config_files_copied": [
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\action_catalog.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\action_catalog.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\action_catalog.json",
+            "name": "action_catalog.json",
+            "length_bytes": 7416,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "5D11D989369541396D5CCDE003DED9078BF1E6C6DBA9875D26D2452A0DE8F4B2"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\action_catalog.json",
+            "name": "action_catalog.json",
+            "length_bytes": 7416,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "5D11D989369541396D5CCDE003DED9078BF1E6C6DBA9875D26D2452A0DE8F4B2"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\apply_gate_config.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\apply_gate_config.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\apply_gate_config.json",
+            "name": "apply_gate_config.json",
+            "length_bytes": 636,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "9C4DA7F5FDB19AFDC7A3F9584ACCC2AE17C0CDA08D649B390D2F4CE0C8AF8599"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\apply_gate_config.json",
+            "name": "apply_gate_config.json",
+            "length_bytes": 636,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "9C4DA7F5FDB19AFDC7A3F9584ACCC2AE17C0CDA08D649B390D2F4CE0C8AF8599"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\app_config.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\app_config.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\app_config.json",
+            "name": "app_config.json",
+            "length_bytes": 790,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "14F68A34B35F333A2925859E96FD109E8DAE9523E27FAA5845D168F2680403F5"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\app_config.json",
+            "name": "app_config.json",
+            "length_bytes": 790,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "14F68A34B35F333A2925859E96FD109E8DAE9523E27FAA5845D168F2680403F5"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\backup_policy.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\backup_policy.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\backup_policy.json",
+            "name": "backup_policy.json",
+            "length_bytes": 506,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "27AE3F0CE3A320F99A1188FE05F844B85E30EF6CB8CB5FE11DEFCA17F238D4D7"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\backup_policy.json",
+            "name": "backup_policy.json",
+            "length_bytes": 506,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "27AE3F0CE3A320F99A1188FE05F844B85E30EF6CB8CB5FE11DEFCA17F238D4D7"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\capability_cache.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\capability_cache.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\capability_cache.json",
+            "name": "capability_cache.json",
+            "length_bytes": 6989,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "31D01C665DE794AD59A186A6D742C5CAF1B017088ADDCE9D7E274004461194F6"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\capability_cache.json",
+            "name": "capability_cache.json",
+            "length_bytes": 6989,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "31D01C665DE794AD59A186A6D742C5CAF1B017088ADDCE9D7E274004461194F6"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\control_surface_manifest.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\control_surface_manifest.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\control_surface_manifest.json",
+            "name": "control_surface_manifest.json",
+            "length_bytes": 212607,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "4F8A7FAD1369DC669FF5B6C374569F7700493AB0C15831308D30BED9480869E4"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\control_surface_manifest.json",
+            "name": "control_surface_manifest.json",
+            "length_bytes": 212607,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "4F8A7FAD1369DC669FF5B6C374569F7700493AB0C15831308D30BED9480869E4"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\restore_requirement_catalog.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\restore_requirement_catalog.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\restore_requirement_catalog.json",
+            "name": "restore_requirement_catalog.json",
+            "length_bytes": 24417,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "0B94C8781AF785E84AFB92937A9A44CB222B61698F149D9B47C10D87A95EC527"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\restore_requirement_catalog.json",
+            "name": "restore_requirement_catalog.json",
+            "length_bytes": 24417,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "0B94C8781AF785E84AFB92937A9A44CB222B61698F149D9B47C10D87A95EC527"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\sandbox_test_policy.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\sandbox_test_policy.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\sandbox_test_policy.json",
+            "name": "sandbox_test_policy.json",
+            "length_bytes": 274,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "934E46B0A156D60A2E805F575BCB8C445349B58B68E25AFCD2704EE1DD8E2EC2"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\sandbox_test_policy.json",
+            "name": "sandbox_test_policy.json",
+            "length_bytes": 274,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "934E46B0A156D60A2E805F575BCB8C445349B58B68E25AFCD2704EE1DD8E2EC2"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\tool_paths.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\tool_paths.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\tool_paths.json",
+            "name": "tool_paths.json",
+            "length_bytes": 4770,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "0A8A7587CBFB74B2ACD7863F957EA7A4B3F48A6AF2C1196D29982DB133EBE90D"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\tool_paths.json",
+            "name": "tool_paths.json",
+            "length_bytes": 4770,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "0A8A7587CBFB74B2ACD7863F957EA7A4B3F48A6AF2C1196D29982DB133EBE90D"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\ui_coverage_matrix.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\ui_coverage_matrix.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\ui_coverage_matrix.json",
+            "name": "ui_coverage_matrix.json",
+            "length_bytes": 75905,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "FC55D099DBD96EB588F4A46299FFC96A4BC19BDDDCA450EACD0D10F4BCF2012A"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\ui_coverage_matrix.json",
+            "name": "ui_coverage_matrix.json",
+            "length_bytes": 75905,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "FC55D099DBD96EB588F4A46299FFC96A4BC19BDDDCA450EACD0D10F4BCF2012A"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\unsupported_or_blocked_controls.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\unsupported_or_blocked_controls.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\unsupported_or_blocked_controls.json",
+            "name": "unsupported_or_blocked_controls.json",
+            "length_bytes": 24081,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "BD56F18A7E99E96CFC4630E54155F1E956F68C4085DF2667649784D26E016E00"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\unsupported_or_blocked_controls.json",
+            "name": "unsupported_or_blocked_controls.json",
+            "length_bytes": 24081,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "BD56F18A7E99E96CFC4630E54155F1E956F68C4085DF2667649784D26E016E00"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\combined_presets.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\combined_presets.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\combined_presets.json",
+            "name": "combined_presets.json",
+            "length_bytes": 2954,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "6DC6324C389C73E4D048E7EEFE0788D62A971448659B4B281F9D7FF02BE1CADA"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\combined_presets.json",
+            "name": "combined_presets.json",
+            "length_bytes": 2954,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "6DC6324C389C73E4D048E7EEFE0788D62A971448659B4B281F9D7FF02BE1CADA"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\cpu_presets.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\cpu_presets.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\cpu_presets.json",
+            "name": "cpu_presets.json",
+            "length_bytes": 42577,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "1FB912E646AC979D62232BCADC437D866BA4042452DAA25DB7107D53982C8A36"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\cpu_presets.json",
+            "name": "cpu_presets.json",
+            "length_bytes": 42577,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "1FB912E646AC979D62232BCADC437D866BA4042452DAA25DB7107D53982C8A36"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\game_rules.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\game_rules.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\game_rules.json",
+            "name": "game_rules.json",
+            "length_bytes": 9163,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "EF5E8D2318006A0A2FFE4B4DDF8C220ECC9C70C6E89DB7E2429079575F05CF3E"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\game_rules.json",
+            "name": "game_rules.json",
+            "length_bytes": 9163,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "EF5E8D2318006A0A2FFE4B4DDF8C220ECC9C70C6E89DB7E2429079575F05CF3E"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\gpu_profiles.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\gpu_profiles.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\gpu_profiles.json",
+            "name": "gpu_profiles.json",
+            "length_bytes": 2087,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "8109073242E9D27276471D0F858185A540A4BDFAC8B5AC131B744ED22B6B88B0"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\gpu_profiles.json",
+            "name": "gpu_profiles.json",
+            "length_bytes": 2087,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "8109073242E9D27276471D0F858185A540A4BDFAC8B5AC131B744ED22B6B88B0"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_schema.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_schema.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_schema.json",
+            "name": "preset_schema.json",
+            "length_bytes": 1069,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "A9D6AD227D67591160BA064EE2DA8761233F64C3C169C625EA6241A17CC0EE5E"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_schema.json",
+            "name": "preset_schema.json",
+            "length_bytes": 1069,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "A9D6AD227D67591160BA064EE2DA8761233F64C3C169C625EA6241A17CC0EE5E"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_validation_report.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_validation_report.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_validation_report.json",
+            "name": "preset_validation_report.json",
+            "length_bytes": 349,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "C9E9A86BB00AC54AE84EA5E29B2A3C5393906E1320FB527766BB06FEB2457208"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_validation_report.json",
+            "name": "preset_validation_report.json",
+            "length_bytes": 349,
+            "last_write_local": "2026-06-15T03:18:02",
+            "sha256": "C9E9A86BB00AC54AE84EA5E29B2A3C5393906E1320FB527766BB06FEB2457208"
+          }
+        },
+        {
+          "source_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_manifest_latest.json",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\restore\\restore_manifest_latest.json",
+          "source_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_manifest_latest.json",
+            "name": "restore_manifest_latest.json",
+            "length_bytes": 5358,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "85AE8B187F3C428C0A29A6E9F39FE9EFF902AA4299C3CF9D782BE05DF375A87F"
+          },
+          "destination_hash": {
+            "path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\restore\\restore_manifest_latest.json",
+            "name": "restore_manifest_latest.json",
+            "length_bytes": 5358,
+            "last_write_local": "2026-06-15T11:40:01",
+            "sha256": "85AE8B187F3C428C0A29A6E9F39FE9EFF902AA4299C3CF9D782BE05DF375A87F"
+          }
+        }
+      ],
+      "tool_paths": {
+        "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+        "msi_afterburner": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+        "rtss": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+        "nvidia_smi": "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+        "presentmon_candidates": [
+          {
+            "path": "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+            "name": "PresentMon-x64.exe",
+            "exists": true,
+            "length_bytes": 401680,
+            "last_write_local": "2026-05-21T22:05:48",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\ThirdParty\\PresentMon\\Win64\\PresentMon-1.8.0-x64.exe",
+            "name": "PresentMon-1.8.0-x64.exe",
+            "exists": true,
+            "length_bytes": 329656,
+            "last_write_local": "2026-05-07T19:42:57",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files\\NVIDIA Corporation\\FrameView\\bin\\PresentMon_x64.exe",
+            "name": "PresentMon_x64.exe",
+            "exists": true,
+            "length_bytes": 1106544,
+            "last_write_local": "2026-04-02T06:28:38",
+            "file_version": "1.8.12325.0",
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK\\bin\\PresentMon_x64.exe",
+            "name": "PresentMon_x64.exe",
+            "exists": true,
+            "length_bytes": 1107568,
+            "last_write_local": "2026-04-24T03:15:49",
+            "file_version": "1.7.12119.0",
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\CapFrameX\\PresentMon\\PresentMon-2.4.1-x64.exe",
+            "name": "PresentMon-2.4.1-x64.exe",
+            "exists": true,
+            "length_bytes": 927304,
+            "last_write_local": "2026-01-16T18:28:26",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-1.10.0-x64.exe",
+            "name": "PresentMon-1.10.0-x64.exe",
+            "exists": true,
+            "length_bytes": 388096,
+            "last_write_local": "2024-04-08T23:30:44",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-2.3.1-x64-DLSS4.exe",
+            "name": "PresentMon-2.3.1-x64-DLSS4.exe",
+            "exists": true,
+            "length_bytes": 434688,
+            "last_write_local": "2025-06-25T10:25:56",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-2.3.1-x64.exe",
+            "name": "PresentMon-2.3.1-x64.exe",
+            "exists": true,
+            "length_bytes": 421312,
+            "last_write_local": "2025-06-12T16:00:52",
+            "file_version": null,
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMonDataProvider.exe",
+            "name": "PresentMonDataProvider.exe",
+            "exists": true,
+            "length_bytes": 65024,
+            "last_write_local": "2025-06-27T01:53:14",
+            "file_version": "1.6.1.0",
+            "is_directory": false
+          }
+        ],
+        "librehardwaremonitor_libraries": [
+          {
+            "path": "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+            "name": "LibreHardwareMonitorLib.dll",
+            "exists": true,
+            "length_bytes": 668672,
+            "last_write_local": "2024-09-21T20:43:32",
+            "file_version": "0.9.3.0",
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\CapFrameX\\LibreHardwareMonitorLib.dll",
+            "name": "LibreHardwareMonitorLib.dll",
+            "exists": true,
+            "length_bytes": 1201664,
+            "last_write_local": "2026-02-19T15:54:44",
+            "file_version": "1.0.0.0",
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll",
+            "name": "LibreHardwareMonitorLib.dll",
+            "exists": true,
+            "length_bytes": 719872,
+            "last_write_local": "2025-02-27T17:45:32",
+            "file_version": "0.9.5.0",
+            "is_directory": false
+          },
+          {
+            "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Include\\LHM\\LibreHardwareMonitorLib.dll",
+            "name": "LibreHardwareMonitorLib.dll",
+            "exists": true,
+            "length_bytes": 719872,
+            "last_write_local": "2025-02-27T17:45:32",
+            "file_version": "0.9.5.0",
+            "is_directory": false
+          }
+        ]
+      },
+      "nvidia_smi_telemetry_snapshot_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\nvidia_smi_telemetry_phase1_snapshot.json",
+      "process_snapshot_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\process_snapshot_phase1.json",
+      "failures_or_skipped_items": [
+        "Active power plan export did not succeed."
+      ],
+      "backup_sufficient_for_phase5_apply_tests": false
+    },
+    "restore_manifest": {
+      "generated_local": "2026-06-15T11:40:56",
+      "preview_only": true,
+      "restore_entries": [
+        {
+          "restore_id": "power_plan.active_export",
+          "can_restore": false,
+          "source_backup_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\power_plans\\active_power_plan_20260615-114052.pow",
+          "destination_path": "Windows power plan store",
+          "restore_proven": false,
+          "preview_only": true,
+          "needs_admin": "maybe",
+          "preview_command": "powercfg [preview-only] /import <backup.pow>",
+          "blocked_reason": "No usable .pow export is available. The non-admin export attempt was blocked or produced an empty file.",
+          "risk_level": "Medium",
+          "required_user_confirmation": "Explicit future apply-phase confirmation",
+          "verification_steps": [
+            "Import plan",
+            "confirm GUID",
+            "compare settings",
+            "only then set active if explicitly approved"
+          ]
+        },
+        {
+          "restore_id": "msi_afterburner.files",
+          "can_restore": true,
+          "source_backup_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files",
+          "destination_path": "C:\\Program Files (x86)\\MSI Afterburner",
+          "restore_proven": false,
+          "preview_only": true,
+          "needs_admin": "yes_for_program_files",
+          "preview_command": "Copy backed-up MSI files to original paths",
+          "risk_level": "High",
+          "required_user_confirmation": "Explicit future restore confirmation",
+          "verification_steps": [
+            "Close MSI Afterburner",
+            "copy files",
+            "verify hashes",
+            "restart MSI manually"
+          ]
+        },
+        {
+          "restore_id": "app_config.json_files",
+          "can_restore": true,
+          "source_backup_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config",
+          "destination_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+          "restore_proven": false,
+          "preview_only": true,
+          "needs_admin": "no",
+          "preview_command": "Copy app JSON backups into Phase 4 config/presets",
+          "risk_level": "Safe",
+          "required_user_confirmation": "Explicit future app-config restore confirmation",
+          "verification_steps": [
+            "Parse JSON",
+            "restart app",
+            "verify expected preset state"
+          ]
+        }
+      ],
+      "generated_scripts": [
+        "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_power_plan_preview.ps1",
+        "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_msi_afterburner_files_preview.ps1",
+        "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_app_config_preview.ps1"
+      ]
+    },
+    "sandbox_result": {
+      "generated_local": "2026-06-15T11:40:36",
+      "ran": true,
+      "passed": true,
+      "sandbox_name": "AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035",
+      "sandbox_guid": "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+      "sandbox_was_active": false,
+      "active_scheme_before": {
+        "guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+        "name": "AERO24_MODERATE_AGGRESSIVE_GAMING"
+      },
+      "active_scheme_after": {
+        "guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+        "name": "AERO24_MODERATE_AGGRESSIVE_GAMING"
+      },
+      "writes": [
+        {
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+            "44"
+          ],
+          "target_guid": "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "value": 44
+        },
+        {
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+            "0"
+          ],
+          "target_guid": "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "value": 0
+        }
+      ],
+      "before_values": {
+        "epp_ac": 55,
+        "cooling_ac": 1
+      },
+      "test_values": {
+        "epp_ac": 44,
+        "cooling_ac": 0
+      },
+      "after_values": {
+        "epp_ac": 44,
+        "cooling_ac": 0
+      },
+      "verified_expected_values": true,
+      "cleanup": {
+        "generated_local": "2026-06-15T11:40:36",
+        "sandbox_guid": "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+        "active_scheme_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+        "delete_exit_code": 0,
+        "deleted": true,
+        "exists_after": false,
+        "warning": null,
+        "commands": [
+          {
+            "name": "powercfg_get_active_scheme",
+            "command": [
+              "powercfg.exe",
+              "/getactivescheme"
+            ],
+            "exit_code": 0,
+            "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_get_active_scheme_stdout.txt",
+            "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_get_active_scheme_stderr.txt",
+            "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+            "stderr": "",
+            "error": null,
+            "started_at": "2026-06-15T11:40:36",
+            "completed_at": "2026-06-15T11:40:36"
+          },
+          {
+            "name": "powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "command": [
+              "powercfg.exe",
+              "/delete",
+              "ef24eec5-0039-4bfc-bc34-dd232ec94767"
+            ],
+            "exit_code": 0,
+            "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767_stdout.txt",
+            "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767_stderr.txt",
+            "stdout": "",
+            "stderr": "",
+            "error": null,
+            "started_at": "2026-06-15T11:40:36",
+            "completed_at": "2026-06-15T11:40:36"
+          },
+          {
+            "name": "powercfg_list_after_cleanup",
+            "command": [
+              "powercfg.exe",
+              "/list"
+            ],
+            "exit_code": 0,
+            "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_list_after_cleanup_stdout.txt",
+            "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_list_after_cleanup_stderr.txt",
+            "stdout": "Existing Power Schemes (* Active)\r\n-----------------------------------\r\nPower Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)\r\nPower Scheme GUID: 432a9fa0-652f-4f05-aab5-462628fc58bb  (Gaming - GPU Priority)\r\nPower Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING) *",
+            "stderr": "",
+            "error": null,
+            "started_at": "2026-06-15T11:40:36",
+            "completed_at": "2026-06-15T11:40:36"
+          }
+        ]
+      },
+      "safety": {
+        "write_targeted_active_scheme": false,
+        "write_used_scheme_current": false,
+        "setactive_executed": false
+      },
+      "commands": [
+        {
+          "name": "powercfg_get_active_scheme",
+          "command": [
+            "powercfg.exe",
+            "/getactivescheme"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+          "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "powercfg_duplicate_active_to_sandbox",
+          "command": [
+            "powercfg.exe",
+            "/duplicatescheme",
+            "692ee1d0-ffc2-4c47-91b3-2a4814f3964e"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_duplicate_active_to_sandbox_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_duplicate_active_to_sandbox_stderr.txt",
+          "stdout": "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "powercfg_rename_sandbox",
+          "command": [
+            "powercfg.exe",
+            "/changename",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_rename_sandbox_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_rename_sandbox_stderr.txt",
+          "stdout": "",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "powercfg_get_active_scheme",
+          "command": [
+            "powercfg.exe",
+            "/getactivescheme"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+          "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_query_epp_before",
+          "command": [
+            "powercfg.exe",
+            "/query",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_before_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_before_stderr.txt",
+          "stdout": "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 36687f9e-e3a5-4dbf-b1dc-15eb381c6863  (Processor energy performance preference policy)\r\n      GUID Alias: PERFEPP\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x00000037\r\n    Current DC Power Setting Index: 0x00000000",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_query_cooling_before",
+          "command": [
+            "powercfg.exe",
+            "/query",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_before_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_before_stderr.txt",
+          "stdout": "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)\r\n      GUID Alias: SYSCOOLPOL\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Passive\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Active\r\n    Current AC Power Setting Index: 0x00000001\r\n    Current DC Power Setting Index: 0x00000001",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_write_epp_ac",
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+            "44"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_epp_ac_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_epp_ac_stderr.txt",
+          "stdout": "",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_write_cooling_ac",
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+            "0"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_cooling_ac_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_cooling_ac_stderr.txt",
+          "stdout": "",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_query_epp_after",
+          "command": [
+            "powercfg.exe",
+            "/query",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_after_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_after_stderr.txt",
+          "stdout": "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 36687f9e-e3a5-4dbf-b1dc-15eb381c6863  (Processor energy performance preference policy)\r\n      GUID Alias: PERFEPP\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x0000002c\r\n    Current DC Power Setting Index: 0x00000000",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_query_cooling_after",
+          "command": [
+            "powercfg.exe",
+            "/query",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_after_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_after_stderr.txt",
+          "stdout": "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)\r\n      GUID Alias: SYSCOOLPOL\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Passive\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Active\r\n    Current AC Power Setting Index: 0x00000000\r\n    Current DC Power Setting Index: 0x00000001",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_restore_epp_ac_inside_clone",
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+            "55"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_epp_ac_inside_clone_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_epp_ac_inside_clone_stderr.txt",
+          "stdout": "",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "sandbox_restore_cooling_ac_inside_clone",
+          "command": [
+            "powercfg.exe",
+            "/setacvalueindex",
+            "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+            "54533251-82be-4824-96c1-47b60b740d00",
+            "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+            "1"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_cooling_ac_inside_clone_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_cooling_ac_inside_clone_stderr.txt",
+          "stdout": "",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:35",
+          "completed_at": "2026-06-15T11:40:35"
+        },
+        {
+          "name": "powercfg_get_active_scheme",
+          "command": [
+            "powercfg.exe",
+            "/getactivescheme"
+          ],
+          "exit_code": 0,
+          "stdout_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+          "stderr_path": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+          "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+          "stderr": "",
+          "error": null,
+          "started_at": "2026-06-15T11:40:36",
+          "completed_at": "2026-06-15T11:40:36"
+        }
+      ],
+      "failure": null,
+      "skip_reason": null
+    },
+    "apply_gates": {
+      "generated_local": "2026-06-15T11:40:56",
+      "backups_exist": true,
+      "active_power_plan_exported": false,
+      "current_values_snapshot_exists": true,
+      "restore_manifest_exists": true,
+      "sandbox_powercfg_write_test_passed": true,
+      "msi_configs_backed_up": true,
+      "msi_slot_mapping_verified": false,
+      "nvidia_write_blocked": true,
+      "fan_write_blocked": true,
+      "ec_write_blocked": true,
+      "active_plan_write_enabled": false,
+      "msi_profile_apply_enabled": false,
+      "fan_write_enabled": false,
+      "ec_write_enabled": false,
+      "automation_apply_enabled": false
+    }
+  }
+}

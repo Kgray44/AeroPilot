@@ -1,0 +1,41 @@
+﻿{
+    "generated_local":  "2026-06-15T17:58:37",
+    "phase":  "PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT",
+    "preview_only":  true,
+    "restore_proven":  false,
+    "items":  [
+                  {
+                      "name":  "Power plan export/import",
+                      "available":  false,
+                      "preview_only":  true,
+                      "needs_admin":  true,
+                      "script":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\restore\\generated_scripts\\restore_power_plan_preview.ps1",
+                      "risk":  "Medium"
+                  },
+                  {
+                      "name":  "MSI Afterburner backed-up files",
+                      "available":  true,
+                      "preview_only":  true,
+                      "needs_admin":  "maybe",
+                      "script":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\restore\\generated_scripts\\restore_msi_afterburner_files_preview.ps1",
+                      "risk":  "Medium"
+                  },
+                  {
+                      "name":  "AeroTune app config/presets",
+                      "available":  true,
+                      "preview_only":  true,
+                      "needs_admin":  false,
+                      "script":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\restore\\generated_scripts\\restore_app_config_preview.ps1",
+                      "risk":  "Low"
+                  },
+                  {
+                      "name":  "CPU settings from captured current values",
+                      "available":  true,
+                      "preview_only":  true,
+                      "needs_admin":  "maybe",
+                      "script":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\restore\\generated_scripts\\restore_cpu_settings_from_snapshot_preview.ps1",
+                      "risk":  "Medium"
+                  }
+              ],
+    "required_confirmation":  "Explicit future-phase user approval required before any restore script executes."
+}

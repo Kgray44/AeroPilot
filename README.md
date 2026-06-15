@@ -4,9 +4,9 @@ AeroTune is the current name of the AERO X16 / RTX 5070 laptop optimization cont
 
 The latest usable app lives in:
 
-`PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT`
+`PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS`
 
-Phase 5 remains safety-gated. It adds guarded CPU apply foundation plumbing, a cleaner AC/DC CPU preset editor, read-only power plan management visibility, command-line game process matching, PresentMon lifecycle cleanup, and improved LibreHardwareMonitor headline parsing. It does not apply MSI Afterburner profiles, change NVIDIA driver settings, change fan modes, access embedded-controller write paths, create scheduled tasks, write registry settings, or change the active power plan.
+Phase 6 remains telemetry/UI-only. It upgrades the Sensors tab into a sensor command center with overview metric cards, grouped panels, an all-sensors raw explorer, CPU temperature diagnostics, sensor favorites, and normalized bottom-bar telemetry. It does not apply MSI Afterburner profiles, change NVIDIA driver settings, change fan modes, access embedded-controller write paths, create scheduled tasks, write registry settings, automate game-triggered apply, or change the active power plan.
 
 ## Launch
 
@@ -25,10 +25,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -Dr
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -ListPhases
 ```
 
-The current Phase 5 runner is still available directly:
+The current Phase 6 runner is still available directly:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\scripts\run_app.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\scripts\run_app.ps1
 ```
 
 ## Current UI
@@ -45,7 +45,7 @@ AeroTune now has nine tabs:
 - Logs
 - Settings
 
-The app uses form-based editors for app-side CPU presets, GPU profile labels, game rules, and auto-tuning plans. Tables are kept for read-only data, logs, manifests, and sensor listings.
+The app uses form-based editors for app-side CPU presets, GPU profile labels, game rules, and auto-tuning plans. Tables are kept for read-only data, logs, manifests, and complete sensor listings.
 
 ## Sensor Support
 
@@ -55,7 +55,7 @@ Read-only sensor surfaces currently include:
 - PresentMon candidate discovery plus opt-in capture controls
 - LibreHardwareMonitor sensor reads through a discovered DLL and a read-only PowerShell probe
 
-Basic GPU, VRAM, CPU/LHM, load, fan availability, and FPS status is always visible in the app status bar.
+Basic GPU, VRAM, CPU/LHM, fan availability, and FPS status is always visible in the app status bar. Phase 6 also shows every normalized raw sensor in the Sensors tab.
 
 ## Page Photos
 
@@ -63,25 +63,25 @@ Screenshots for quick inspection are mirrored at the repository root in:
 
 `page_photos`
 
-The Phase 5 source copy is also in:
+The Phase 6 source copy is also in:
 
-`PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\page_photos`
+`PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\page_photos`
 
 Regenerate them with:
 
 ```powershell
-python .\scripts\capture_page_photos.py
+python .\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\scripts\capture_page_photos.py
 ```
 
 ## Validation
 
-The Phase 5 validator checks required files, JSON parsing, Python compilation/imports, PySide6 construction, AeroTune UI contracts, LHM headline parsing, backup/restore artifacts, apply gates, screenshots, and blocked write patterns:
+The Phase 6 validator checks required files, JSON parsing, Python compilation/imports, PySide6 construction, sensor normalizer behavior, AeroTune UI contracts, LHM headline parsing, screenshots, apply gates, and blocked write patterns:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\scripts\validate_phase5.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\scripts\validate_phase6.ps1
 ```
 
-Latest known result: `122` checks, `0` failures.
+Latest known result: `145` checks, `0` failures.
 
 ## Phase History
 
@@ -90,3 +90,4 @@ Latest known result: `122` checks, `0` failures.
 - `PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING`: complete control surface and app-side preset editing.
 - `PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS`: backup/restore foundation, sandboxed inactive power-plan write test, modern AeroTune UI, screenshots, and sensor integration.
 - `PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT`: guarded CPU apply foundation, AC/DC CPU editor, power plan visibility, process command-line matching, PresentMon cleanup, LHM headline fix, and validation.
+- `PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS`: telemetry command center, sensor normalization, CPU temp diagnostics, raw sensor explorer, favorites, screenshots, and validation.

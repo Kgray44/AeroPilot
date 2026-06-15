@@ -1,0 +1,5 @@
+"""AeroTune Phase 6 app package."""
+
+APP_NAME = "AeroTune"
+APP_PHASE = "PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS"
+APP_VERSION = "0.6.0-preview"

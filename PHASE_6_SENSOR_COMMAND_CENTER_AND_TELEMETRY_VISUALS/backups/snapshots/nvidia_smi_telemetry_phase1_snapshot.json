@@ -1,0 +1,106 @@
+﻿{
+    "detector":  "nvidia_telemetry",
+    "timestamp_local":  "2026-06-14T21:07:52",
+    "nvidia_smi_available":  true,
+    "nvidia_smi_path":  "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+    "candidate_paths":  [
+                            "C:\\WINDOWS\\system32\\nvidia-smi.exe"
+                        ],
+    "nvidia_smi_file_info":  {
+                                 "path":  "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+                                 "name":  "nvidia-smi.exe",
+                                 "exists":  true,
+                                 "length_bytes":  1682152,
+                                 "last_write_local":  "2026-05-21T01:35:26",
+                                 "file_version":  "8.17.16.1047",
+                                 "is_directory":  false
+                             },
+    "gpu_summary":  {
+                        "name":  "NVIDIA GeForce RTX 5070 Laptop GPU",
+                        "driver_version":  "610.47",
+                        "utilization.gpu":  "5",
+                        "utilization.memory":  "0",
+                        "memory.total":  "8151",
+                        "memory.used":  "1349",
+                        "memory.free":  "6543",
+                        "temperature.gpu":  "57",
+                        "power.draw":  "14.25",
+                        "power.limit":  "[N/A]",
+                        "clocks.current.graphics":  "1515",
+                        "clocks.current.memory":  "11001"
+                    },
+    "supported_query_fields_raw_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_help_query_gpu_stdout.txt",
+    "current_gpu_processes_raw":  "pid, process_name, used_gpu_memory [MiB]\r\n2060, [Insufficient Permissions], [N/A]\r\n9480, C:\\Windows\\explorer.exe, [N/A]\r\n14668, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\149.0.4022.62\\msedgewebview2.exe, [N/A]\r\n16464, C:\\Users\\kkids\\AppData\\Local\\Discord\\app-1.0.9241\\Discord.exe, [N/A]\r\n8924, C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe, [N/A]\r\n13688, C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.11701.50.0_x64__cw5n1h2txyewy\\WidgetBoard.exe, [N/A]\r\n10636, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe, [N/A]\r\n14456, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe, [N/A]\r\n10756, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe, [N/A]\r\n28524, C:\\Program Files (x86)\\Steam\\steamapps\\common\\3DMark\\bin\\x64\\jre\\bin\\javaw.exe, [N/A]\r\n8204, C:\\Program Files (x86)\\Steam\\steamapps\\common\\3DMark\\bin\\x64\\3DMark.exe, [N/A]\r\n11388, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe, [N/A]\r\n24280, [Insufficient Permissions], [N/A]\r\n23952, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\\ClickToDo.exe, [N/A]\r\n32508, C:\\Program Files\\WindowsApps\\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe, [N/A]\r\n29136, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\\app\\Codex.exe, [N/A]\r\n33728, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe, [N/A]\r\n16328, C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe, [N/A]\r\n\r\n# gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command \r\n# Idx           #    C/G      %      %      %      %      %      %    name \r\n    0       8204   C+G      -      -      -      -      -      -    3DMark.exe     \r\n    0       8924   C+G      -      -      -      -      -      -    nvcontainer.exe\r\n    0       9480   C+G      -      -      -      -      -      -    explorer.exe   \r\n    0      10636   C+G      -      -      -      -      -      -    StartMenuExperi\r\n    0      10756   C+G      -      -      -      -      -      -    SearchHost.exe \r\n    0      11388   C+G      -      -      -      -      -      -    ShellExperience\r\n    0      13688   C+G      -      -      -      -      -      -    WidgetBoard.exe\r\n    0      14456   C+G      -      -      -      -      -      -    NVIDIA Overlay.\r\n    0      14668   C+G      -      -      -      -      -      -    msedgewebview2.\r\n    0      16328   C+G      -      -      -      -      -      -    msedge.exe     \r\n    0      16464   C+G      -      -      -      -      -      -    Discord.exe    \r\n    0      23952   C+G      -      -      -      -      -      -    ClickToDo.exe  \r\n    0      28524   C+G      -      -      -      -      -      -    javaw.exe      \r\n    0      29136   C+G      2      0      -      -      -      -    Codex.exe      \r\n    0      32508   C+G      -      -      -      -      -      -    ChatGPT.exe    \r\n    0      33728   C+G      -      -      -      -      -      -    NVIDIA Overlay.\r\n",
+    "read_only_commands":  [
+                               {
+                                   "name":  "nvidia_smi_plain",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_plain_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_plain_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "nvidia_smi_help_query_gpu",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe --help-query-gpu",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_help_query_gpu_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_help_query_gpu_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "nvidia_smi_query_gpu_full",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe --query-gpu=name,driver_version,cuda_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits",
+                                   "exit_code":  2,
+                                   "timed_out":  false,
+                                   "succeeded":  false,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_gpu_full_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_gpu_full_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "nvidia_smi_query_gpu_fallback",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe --query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_gpu_fallback_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_gpu_fallback_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "nvidia_smi_query_compute_apps",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe --query-compute-apps=pid,process_name,used_memory --format=csv",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_compute_apps_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_query_compute_apps_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "nvidia_smi_pmon_once",
+                                   "command_line":  "C:\\WINDOWS\\system32\\nvidia-smi.exe pmon -c 1",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_pmon_once_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\nvidia_telemetry_nvidia_smi_pmon_once_stderr.txt",
+                                   "error":  null
+                               }
+                           ],
+    "future_integration":  {
+                               "nvidia_smi_polling":  "Practical for MVP read-only telemetry polling.",
+                               "nvml_python":  "Recommended later for lower-overhead polling and structured GPU telemetry if Python NVML bindings are installed or vendored.",
+                               "enough_for_mvp":  true,
+                               "notes":  [
+                                             "Phase 1 did not set clocks, power limits, persistence mode, or driver settings.",
+                                             "nvidia-smi is suitable for MVP dashboards if polling interval is conservative.",
+                                             "NVML may become useful for cleaner process and telemetry APIs later."
+                                         ]
+                           }
+}

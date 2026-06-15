@@ -1,0 +1,733 @@
+﻿{
+    "timestamp_local":  "2026-06-15T19:19:44",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS",
+    "total_checks":  145,
+    "failed_checks":  0,
+    "results":  [
+                    {
+                        "name":  "required_path:phase6_report.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\phase6_report.md"
+                    },
+                    {
+                        "name":  "required_path:phase6_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\phase6_report.json"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase6_safety_boundary.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\phase6_safety_boundary.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\sensor_command_center_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\sensor_command_center_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\sensor_normalization_model.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\sensor_normalization_model.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\cpu_temperature_detection_debugging.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\cpu_temperature_detection_debugging.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\sensor_cards_and_visuals.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\sensor_cards_and_visuals.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\presentmon_sensor_integration.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\presentmon_sensor_integration.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase7_recommendation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\docs\\phase7_recommendation.md"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\sensor_normalizer.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\app\\core\\sensor_normalizer.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\sensor_history.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\app\\core\\sensor_history.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_widgets.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\app\\ui\\telemetry_widgets.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\app\\ui\\telemetry_tab.py"
+                    },
+                    {
+                        "name":  "required_path:config\\sensor_favorites.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\sensor_favorites.json"
+                    },
+                    {
+                        "name":  "required_path:scripts\\capture_page_photos.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\scripts\\capture_page_photos.py"
+                    },
+                    {
+                        "name":  "required_path:scripts\\validate_phase6.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\scripts\\validate_phase6.ps1"
+                    },
+                    {
+                        "name":  "required_path:tests\\phase6_sensor_normalizer_check.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\tests\\phase6_sensor_normalizer_check.py"
+                    },
+                    {
+                        "name":  "required_path:tests\\phase6_ui_contract_check.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\tests\\phase6_ui_contract_check.py"
+                    },
+                    {
+                        "name":  "required_path:page_photos\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\README.md"
+                    },
+                    {
+                        "name":  "json_parse:phase4_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\phase4_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase5_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\phase5_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\phase6_report.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\backup_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\app_config\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:msi_backup_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\msi_afterburner\\msi_backup_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\active_power_plan_snapshot_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\active_power_plan_snapshot_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\active_power_plan_snapshot_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_phase5_20260615-175813.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\active_power_plan_snapshot_phase5_20260615-175813.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_phase5_20260615-175835.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\active_power_plan_snapshot_phase5_20260615-175835.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\cpu_readable_values_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\cpu_readable_values_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\cpu_readable_values_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_phase5_20260615-175813.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\cpu_readable_values_phase5_20260615-175813.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_phase5_20260615-175835.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\cpu_readable_values_phase5_20260615-175835.json"
+                    },
+                    {
+                        "name":  "json_parse:nvidia_smi_telemetry_phase1_snapshot.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\nvidia_smi_telemetry_phase1_snapshot.json"
+                    },
+                    {
+                        "name":  "json_parse:process_snapshot_phase1.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\backups\\snapshots\\process_snapshot_phase1.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:sensor_favorites.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\sensor_favorites.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_phase5_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\export_active_power_plan_phase5_result.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_adapter_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\librehardwaremonitor_adapter_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_read_capframex_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\librehardwaremonitor_read_capframex_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_read_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\librehardwaremonitor_read_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase4_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase4_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase4_validation_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase5_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase5_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_live_sensor_normalization_probe.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase6_live_sensor_normalization_probe.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\phase6_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:create_backup_manifest_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\backup_manifest\\create_backup_manifest_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_msi_afterburner_configs_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\msi_backup\\backup_msi_afterburner_configs_result.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\power_plan_backup\\export_active_power_plan_result.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_phase5_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\power_plan_backup_phase5\\export_active_power_plan_phase5_result.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\raw_outputs\\sandbox_powercfg\\sandbox_powercfg_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_test_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\sandbox\\sandbox_powercfg_test_result.json"
+                    },
+                    {
+                        "name":  "powershell_parse:backup_msi_afterburner_configs.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:cleanup_sandbox_power_plan.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:collect_phase4_snapshot.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:create_backup_manifest.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:create_phase5_backup_manifest.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:export_active_power_plan.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:export_active_power_plan_phase5.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:generate_phase5_restore_scripts.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:generate_restore_scripts.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:Phase4Common.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:Phase5Common.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:read_librehardwaremonitor_sensors.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:run_app.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:sandbox_powercfg_apply_test.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase4.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase5.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase6.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "python_compile_app_and_tests",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "phase6_sensor_normalizer_contract",
+                        "passed":  true,
+                        "details":  "phase6 sensor normalizer contract ok\r\n"
+                    },
+                    {
+                        "name":  "lhm_headline_contract",
+                        "passed":  true,
+                        "details":  "lhm headline contract ok\r\n"
+                    },
+                    {
+                        "name":  "phase6_ui_contract_offscreen",
+                        "passed":  true,
+                        "details":  "phase6 ui contract ok\r\n"
+                    },
+                    {
+                        "name":  "screenshot_exists:01_dashboard.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\01_dashboard.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:02_cpu_presets_ac.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\02_cpu_presets_ac.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:03_cpu_presets_dc.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\03_cpu_presets_dc.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:04_gpu_profiles.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\04_gpu_profiles.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:05_sensors_overview.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\05_sensors_overview.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:06_sensors_all_raw.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\06_sensors_all_raw.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:07_sensors_cpu_diagnostics.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\07_sensors_cpu_diagnostics.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:08_game_automation.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\08_game_automation.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:09_auto_tuning.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\09_auto_tuning.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:10_fan_experimental.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\10_fan_experimental.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:11_logs.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\11_logs.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:12_settings.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS\\page_photos\\12_settings.png"
+                    },
+                    {
+                        "name":  "page_photos_count_12",
+                        "passed":  true,
+                        "details":  "count=12"
+                    },
+                    {
+                        "name":  "gate_false:active_plan_write_enabled",
+                        "passed":  true,
+                        "details":  "active_plan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:msi_profile_apply_enabled",
+                        "passed":  true,
+                        "details":  "msi_profile_apply_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:fan_write_enabled",
+                        "passed":  true,
+                        "details":  "fan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:ec_write_enabled",
+                        "passed":  true,
+                        "details":  "ec_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:automation_apply_enabled",
+                        "passed":  true,
+                        "details":  "automation_apply_enabled=False"
+                    },
+                    {
+                        "name":  "status_bar_uses_normalized_display",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "presentmon_not_started_in_main_window",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_overview_cards",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_raw_explorer",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_cpu_diagnostics",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:CPU Package",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:Core Max",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:P-Core Max",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:Tctl/Tdie",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_msi_profile_execution",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_nvidia_write_commands",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_registry_writes",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_scheduled_tasks",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_service_control",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_fan_or_ec_writes",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_shell_true",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_scheme_current_powercfg_write",
+                        "passed":  true,
+                        "details":  ""
+                    }
+                ]
+}
