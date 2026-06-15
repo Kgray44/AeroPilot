@@ -1,0 +1,28 @@
+﻿{
+    "generated_local":  "2026-06-15T17:58:36",
+    "active_power_plan_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_power_plan_name":  "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "full_query":  {
+                       "command":  [
+                                       "powercfg.exe",
+                                       "/query",
+                                       "SCHEME_CURRENT"
+                                   ],
+                       "exit_code":  0,
+                       "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_query_scheme_current_full_stdout.txt",
+                       "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_query_scheme_current_full_stderr.txt",
+                       "error":  null
+                   },
+    "processor_query":  {
+                            "command":  [
+                                            "powercfg.exe",
+                                            "/query",
+                                            "SCHEME_CURRENT",
+                                            "SUB_PROCESSOR"
+                                        ],
+                            "exit_code":  0,
+                            "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_query_scheme_current_processor_stdout.txt",
+                            "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_query_scheme_current_processor_stderr.txt",
+                            "error":  null
+                        }
+}

@@ -4,9 +4,9 @@ AeroTune is the current name of the AERO X16 / RTX 5070 laptop optimization cont
 
 The latest usable app lives in:
 
-`PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS`
+`PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT`
 
-Phase 4 remains safety-gated. It builds the backup/restore foundation, keeps active laptop tuning protected, and adds a cleaner PySide6 UI with editable app-side presets, read-only telemetry, and dry-run apply previews. It does not apply MSI Afterburner profiles, change NVIDIA driver settings, change fan modes, write EC registers, create scheduled tasks, write registry settings, or change the active power plan.
+Phase 5 remains safety-gated. It adds guarded CPU apply foundation plumbing, a cleaner AC/DC CPU preset editor, read-only power plan management visibility, command-line game process matching, PresentMon lifecycle cleanup, and improved LibreHardwareMonitor headline parsing. It does not apply MSI Afterburner profiles, change NVIDIA driver settings, change fan modes, access embedded-controller write paths, create scheduled tasks, write registry settings, or change the active power plan.
 
 ## Launch
 
@@ -25,10 +25,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -Dr
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Start-AeroTune.ps1 -ListPhases
 ```
 
-The current Phase 4 runner is still available directly:
+The current Phase 5 runner is still available directly:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\scripts\run_app.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\scripts\run_app.ps1
 ```
 
 ## Current UI
@@ -55,7 +55,7 @@ Read-only sensor surfaces currently include:
 - PresentMon candidate discovery plus opt-in capture controls
 - LibreHardwareMonitor sensor reads through a discovered DLL and a read-only PowerShell probe
 
-Basic GPU, VRAM, CPU/LHM, and FPS status is always visible in the app status bar.
+Basic GPU, VRAM, CPU/LHM, load, fan availability, and FPS status is always visible in the app status bar.
 
 ## Page Photos
 
@@ -63,9 +63,9 @@ Screenshots for quick inspection are mirrored at the repository root in:
 
 `page_photos`
 
-The Phase 4 source copy is also in:
+The Phase 5 source copy is also in:
 
-`PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\page_photos`
+`PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\page_photos`
 
 Regenerate them with:
 
@@ -75,13 +75,13 @@ python .\scripts\capture_page_photos.py
 
 ## Validation
 
-The Phase 4 validator checks required files, JSON parsing, Python compilation/imports, PySide6 construction, AeroTune UI contracts, backup/restore artifacts, sandbox power plan safety, apply gates, and blocked write patterns:
+The Phase 5 validator checks required files, JSON parsing, Python compilation/imports, PySide6 construction, AeroTune UI contracts, LHM headline parsing, backup/restore artifacts, apply gates, screenshots, and blocked write patterns:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate_phase4.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\scripts\validate_phase5.ps1
 ```
 
-Latest known result: `168` checks, `0` failures.
+Latest known result: `122` checks, `0` failures.
 
 ## Phase History
 
@@ -89,3 +89,4 @@ Latest known result: `168` checks, `0` failures.
 - `PHASE_2_APP_SKELETON_READONLY_DRYRUN`: first PySide6 read-only app skeleton.
 - `PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING`: complete control surface and app-side preset editing.
 - `PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS`: backup/restore foundation, sandboxed inactive power-plan write test, modern AeroTune UI, screenshots, and sensor integration.
+- `PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT`: guarded CPU apply foundation, AC/DC CPU editor, power plan visibility, process command-line matching, PresentMon cleanup, LHM headline fix, and validation.

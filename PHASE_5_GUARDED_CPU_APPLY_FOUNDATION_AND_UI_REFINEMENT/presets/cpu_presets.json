@@ -1,0 +1,1057 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "saved_values_are_desired_state_only": true,
+  "presets": [
+    {
+      "name": "Stock / Restore Preview",
+      "description": "Stock / Restore Preview desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": false,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": false,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": false,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": false,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": false,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": false,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "Quiet School Mode",
+      "description": "Quiet School Mode desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "Gaming Balanced",
+      "description": "Gaming Balanced desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "BF6 Emergency",
+      "description": "BF6 Emergency desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "Benchmark Mode",
+      "description": "Benchmark Mode desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "Custom 1",
+      "description": "Custom 1 desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    },
+    {
+      "name": "Custom 2",
+      "description": "Custom 2 desired CPU values for preview/editing only.",
+      "phase_status": "preview_only",
+      "settings": [
+        {
+          "control_id": "cpu.boost.mode",
+          "friendly_name": "Processor performance boost mode",
+          "alias": "PERFBOOSTMODE",
+          "setting_guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "enabled": true,
+          "desired_ac_value": 0,
+          "desired_dc_value": 2,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.policy",
+          "friendly_name": "Processor performance boost policy",
+          "alias": "PERFBOOSTPOL",
+          "setting_guid": "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.power.epp",
+          "friendly_name": "Processor energy performance preference / EPP",
+          "alias": "PERFEPP",
+          "setting_guid": "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+          "enabled": true,
+          "desired_ac_value": 55,
+          "desired_dc_value": 0,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.minimum",
+          "friendly_name": "Minimum processor state",
+          "alias": "PROCTHROTTLEMIN",
+          "setting_guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "enabled": true,
+          "desired_ac_value": 5,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.state.maximum",
+          "friendly_name": "Maximum processor state",
+          "alias": "PROCTHROTTLEMAX",
+          "setting_guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "enabled": true,
+          "desired_ac_value": 99,
+          "desired_dc_value": 100,
+          "risk": "Medium",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.cooling.system_policy",
+          "friendly_name": "System cooling policy",
+          "alias": "SYSCOOLPOL",
+          "setting_guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "enabled": true,
+          "desired_ac_value": 1,
+          "desired_dc_value": 1,
+          "risk": "Low",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.frequency.maximum",
+          "friendly_name": "Maximum processor frequency",
+          "alias": "PROCFREQMAX",
+          "setting_guid": "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+          "enabled": true,
+          "desired_ac_value": 3250,
+          "desired_dc_value": 0,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.min_cores",
+          "friendly_name": "Processor performance core parking min cores",
+          "alias": "CPMINCORES",
+          "setting_guid": "0cc5b647-c1df-4637-891a-dec35c318583",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.parking.max_cores",
+          "friendly_name": "Processor performance core parking max cores",
+          "alias": "CPMAXCORES",
+          "setting_guid": "ea062031-0e34-4ff1-9b6d-eb1059334028",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.idle.disable",
+          "friendly_name": "Processor idle disable",
+          "alias": "IDLEDISABLE",
+          "setting_guid": "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Dangerous / Experimental",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.scheduling.heterogeneous_policy",
+          "friendly_name": "Heterogeneous policy in effect",
+          "alias": "HETEROPOLICY",
+          "setting_guid": "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "Unknown",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_increase_threshold",
+          "friendly_name": "Processor performance increase threshold",
+          "alias": "PERFINCTHRESHOLD",
+          "setting_guid": "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        },
+        {
+          "control_id": "cpu.boost.performance_decrease_threshold",
+          "friendly_name": "Processor performance decrease threshold",
+          "alias": "PERFDECTHRESHOLD",
+          "setting_guid": "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+          "enabled": false,
+          "desired_ac_value": null,
+          "desired_dc_value": null,
+          "risk": "High",
+          "phase3_note": "Preset value only. No powercfg write is executed."
+        }
+      ]
+    }
+  ]
+}

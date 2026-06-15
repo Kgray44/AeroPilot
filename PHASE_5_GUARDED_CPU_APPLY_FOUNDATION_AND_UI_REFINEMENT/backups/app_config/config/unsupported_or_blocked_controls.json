@@ -1,0 +1,536 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "generated_local": "2026-06-15T03:18:02",
+  "controls": [
+    {
+      "control_id": "cpu.boost.policy",
+      "friendly_name": "Processor performance boost policy",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "Medium",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.parking.min_cores",
+      "friendly_name": "Processor performance core parking min cores",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "High",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.parking.max_cores",
+      "friendly_name": "Processor performance core parking max cores",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "High",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.idle.disable",
+      "friendly_name": "Processor idle disable",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "Dangerous / Experimental",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.scheduling.heterogeneous_policy",
+      "friendly_name": "Heterogeneous policy in effect",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "Unknown",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.boost.performance_increase_threshold",
+      "friendly_name": "Processor performance increase threshold",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "High",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "cpu.boost.performance_decrease_threshold",
+      "friendly_name": "Processor performance decrease threshold",
+      "status": "blocked_or_unavailable",
+      "reason": "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.",
+      "risk": "High",
+      "ui_tab": "CPU Presets",
+      "future_work_needed": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "source_capability_name": "Windows CPU power setting viewer"
+    },
+    {
+      "control_id": "gpu.msi.backup.config_profiles",
+      "friendly_name": "MSI profile/config backup",
+      "status": "future",
+      "reason": "Copy MSIAfterburner.cfg and Profiles into a timestamped restore manifest.",
+      "risk": "Medium",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": "MSI Afterburner profile/config backup"
+    },
+    {
+      "control_id": "gpu.msi.curve_editor.future",
+      "friendly_name": "GPU voltage/frequency curve profile editing as future/MSI-owned",
+      "status": "future",
+      "reason": "The app does not edit MSI curve files in Phase 3.",
+      "risk": "High",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "gpu.profile.stock_safe_concept",
+      "friendly_name": "GPU stock/safe profile concept",
+      "status": "future",
+      "reason": "Requires manual MSI slot verification.",
+      "risk": "Medium",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "gpu.profile.efficient_undervolt_concept",
+      "friendly_name": "GPU efficient undervolt profile concept",
+      "status": "future",
+      "reason": "Requires stability validation.",
+      "risk": "Medium",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "gpu.profile.balanced_concept",
+      "friendly_name": "GPU balanced profile concept",
+      "status": "future",
+      "reason": "Requires telemetry comparison.",
+      "risk": "Medium",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "gpu.profile.aggressive_concept",
+      "friendly_name": "GPU aggressive profile concept",
+      "status": "future",
+      "reason": "Requires explicit confirmation and restore plan.",
+      "risk": "High",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "gpu.profile.test_concept",
+      "friendly_name": "GPU test profile concept",
+      "status": "future",
+      "reason": "Testing slot must be isolated and verified.",
+      "risk": "Medium",
+      "ui_tab": "GPU Profiles",
+      "future_work_needed": "Use MSI config/profile file backup before any future apply.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "telemetry.nvml.future_adapter",
+      "friendly_name": "NVML future optional adapter",
+      "status": "future",
+      "reason": "Optional future Python NVML path if nvidia-smi polling is too awkward.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only telemetry.",
+      "source_capability_name": "NVML Python telemetry later"
+    },
+    {
+      "control_id": "presentmon.process_targeting",
+      "friendly_name": "PresentMon process targeting",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "presentmon.csv_output",
+      "friendly_name": "PresentMon CSV output",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "presentmon.timed_capture",
+      "friendly_name": "PresentMon timed capture",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "metrics.fps.average",
+      "friendly_name": "FPS average future metric",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "metrics.fps.one_percent_low",
+      "friendly_name": "1 percent low future metric",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "metrics.frametime",
+      "friendly_name": "Frame-time future metric",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "capture.session_folder",
+      "friendly_name": "Capture session folder future behavior",
+      "status": "future",
+      "reason": "No PresentMon capture is started in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "Stop capture and keep session files under app-controlled session folder.",
+      "source_capability_name": "PresentMon frame-time capture"
+    },
+    {
+      "control_id": "lhm.sensor.cpu_temperature",
+      "friendly_name": "CPU temperature future sensor",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "lhm.sensor.cpu_clock",
+      "friendly_name": "CPU clock future sensor",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "lhm.sensor.cpu_package_power",
+      "friendly_name": "CPU package power future sensor",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "lhm.sensor.fan_rpm",
+      "friendly_name": "Fan RPM future sensor if available",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "lhm.sensor.voltage",
+      "friendly_name": "Voltage sensor future support",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "lhm.sensor.motherboard",
+      "friendly_name": "Motherboard sensor future support",
+      "status": "future",
+      "reason": "Phase 3 does not load LibreHardwareMonitor DLLs.",
+      "risk": "Read-only",
+      "ui_tab": "Sensors / Telemetry",
+      "future_work_needed": "No restore needed for read-only sensor discovery.",
+      "source_capability_name": "LibreHardwareMonitor sensors"
+    },
+    {
+      "control_id": "automation.auto_apply.future",
+      "friendly_name": "Auto-apply future action",
+      "status": "future",
+      "reason": "Forced off in Phase 3.",
+      "risk": "Low",
+      "ui_tab": "Game Automation",
+      "future_work_needed": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "automation.restore_on_exit.future",
+      "friendly_name": "Auto-restore-on-exit future action",
+      "status": "future",
+      "reason": "Future automation must restore after game exit.",
+      "risk": "Low",
+      "ui_tab": "Game Automation",
+      "future_work_needed": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "network.ping_logger.future",
+      "friendly_name": "Ping logger future support",
+      "status": "future",
+      "reason": "No ping logger is started in Phase 3.",
+      "risk": "Safe",
+      "ui_tab": "Auto Tuning",
+      "future_work_needed": "No system restore needed; delete or archive app-side logs.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "network.session_logging",
+      "friendly_name": "Session logging",
+      "status": "future",
+      "reason": "No ping logger is started in Phase 3.",
+      "risk": "Safe",
+      "ui_tab": "Auto Tuning",
+      "future_work_needed": "No system restore needed; delete or archive app-side logs.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "network.ping_spike_detection",
+      "friendly_name": "Ping spike detection future metric",
+      "status": "future",
+      "reason": "No ping logger is started in Phase 3.",
+      "risk": "Safe",
+      "ui_tab": "Auto Tuning",
+      "future_work_needed": "No system restore needed; delete or archive app-side logs.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "fan.official_api.status",
+      "friendly_name": "Official API status unknown",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.command_line_control.status",
+      "friendly_name": "Command-line control unknown",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.config_file_control.status",
+      "friendly_name": "Config-file control unproven",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.ui_automation.status",
+      "friendly_name": "UI automation possible but fragile",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.ec_write.research_only",
+      "friendly_name": "Embedded controller writes dangerous/research-only",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "Dangerous / Experimental",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.mode_display.future",
+      "friendly_name": "Fan mode display future concept",
+      "status": "future",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "fan.apply_action.blocked",
+      "friendly_name": "Fan apply action blocked",
+      "status": "blocked",
+      "reason": "No fan modes, services, config files, or EC registers are changed in Phase 3.",
+      "risk": "High",
+      "ui_tab": "Fan Control / Experimental",
+      "future_work_needed": "Blocked until a proven OEM restore path exists.",
+      "source_capability_name": "Gigabyte/GCC discovery"
+    },
+    {
+      "control_id": "restore.save_current_state",
+      "friendly_name": "Save current state",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.power_plan.clone_export",
+      "friendly_name": "Clone/export active power plan",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.powercfg.previous_values",
+      "friendly_name": "Restore previous powercfg values",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.msi.config_backup",
+      "friendly_name": "Back up MSI Afterburner config/profile files",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.msi.config_restore",
+      "friendly_name": "Restore MSI Afterburner config/profile files",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.msi.known_safe_slot_future",
+      "friendly_name": "Restore known safe MSI slot future concept",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.app_preset_json",
+      "friendly_name": "Restore app preset JSON",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "restore.panic.future_command",
+      "friendly_name": "Panic restore future command",
+      "status": "future",
+      "reason": "Phase 3 defines requirements but creates no real system restore manifest.",
+      "risk": "Safe",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Restore workflow is defined here but not proven until Phase 4.",
+      "source_capability_name": "Restore and panic restore framework"
+    },
+    {
+      "control_id": "startup.launch_app.future",
+      "friendly_name": "Launch app at startup future setting",
+      "status": "future",
+      "reason": "No startup entry or scheduled task is created in Phase 3.",
+      "risk": "Medium",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Back up app config and any startup/scheduled-task state before enabling.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "startup.scheduled_task.future",
+      "friendly_name": "Scheduled task future setting",
+      "status": "future",
+      "reason": "No startup entry or scheduled task is created in Phase 3.",
+      "risk": "Medium",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Back up app config and any startup/scheduled-task state before enabling.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "startup.start_minimized.future",
+      "friendly_name": "Start minimized future setting",
+      "status": "future",
+      "reason": "No startup entry or scheduled task is created in Phase 3.",
+      "risk": "Medium",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Back up app config and any startup/scheduled-task state before enabling.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "startup.auto_detect_game.future",
+      "friendly_name": "Auto-detect game future setting",
+      "status": "future",
+      "reason": "No startup entry or scheduled task is created in Phase 3.",
+      "risk": "Medium",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Back up app config and any startup/scheduled-task state before enabling.",
+      "source_capability_name": null
+    },
+    {
+      "control_id": "startup.auto_apply_preset.future",
+      "friendly_name": "Auto-apply preset future setting",
+      "status": "future",
+      "reason": "No startup entry or scheduled task is created in Phase 3.",
+      "risk": "Medium",
+      "ui_tab": "Settings / Safety",
+      "future_work_needed": "Back up app config and any startup/scheduled-task state before enabling.",
+      "source_capability_name": null
+    }
+  ]
+}

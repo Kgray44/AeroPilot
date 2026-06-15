@@ -1,0 +1,126 @@
+{
+  "phase": "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+  "status": "validated_with_power_plan_export_admin_blocker",
+  "generated_local": "2026-06-15T12:16:02",
+  "phase_root": "C:/Users/kkids/Documents/Codex_Computer_Optimizing/AERO_X16_CONTROL_CENTER_APP/PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+  "source_phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "app_name": "AeroTune",
+  "active_laptop_tuning_behavior_changed": false,
+  "msi_profiles_launched": false,
+  "nvidia_writes_executed": false,
+  "fan_or_ec_writes_executed": false,
+  "service_start_stop_executed": false,
+  "registry_writes_executed": false,
+  "scheduled_tasks_created": false,
+  "startup_entries_created": false,
+  "backup_summary": {
+    "backup_manifest_path": "backups/backup_manifest_latest.json",
+    "backup_generated_local": "2026-06-15T11:40:55",
+    "phase5_backup_sufficient": false,
+    "active_power_plan_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_power_plan_name": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "active_power_plan_export_succeeded": false,
+    "active_power_plan_export_file_length": 0,
+    "active_power_plan_export_failure_reason": "Unable to perform operation. An unexpected error (0x522) has occurred: A required privilege is not held by the client.",
+    "cpu_values_snapshot_exists": true,
+    "powercfg_query_snapshot_exists": true,
+    "msi_files_copied": 14,
+    "app_config_files_copied": 18
+  },
+  "restore_summary": {
+    "restore_manifest_path": "restore/restore_manifest_latest.json",
+    "preview_only": true,
+    "power_plan_restore_available": false,
+    "msi_restore_preview_available": true,
+    "app_config_restore_preview_available": true,
+    "generated_scripts": [
+      "restore/generated_scripts/restore_power_plan_preview.ps1",
+      "restore/generated_scripts/restore_msi_afterburner_files_preview.ps1",
+      "restore/generated_scripts/restore_app_config_preview.ps1"
+    ]
+  },
+  "sandbox_apply_test": {
+    "result_path": "sandbox/sandbox_powercfg_test_result.json",
+    "ran": true,
+    "passed": true,
+    "sandbox_guid": "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+    "sandbox_was_active": false,
+    "active_scheme_before_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_scheme_after_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_scheme_unchanged": true,
+    "verified_expected_values": true,
+    "cleanup_deleted": true,
+    "leftover_sandbox_plan_found": false,
+    "write_commands_targeted_active_scheme": false,
+    "write_commands_used_scheme_current": false,
+    "setactive_executed": false
+  },
+  "apply_gates": {
+    "backups_exist": true,
+    "active_power_plan_exported": false,
+    "current_values_snapshot_exists": true,
+    "restore_manifest_exists": true,
+    "sandbox_powercfg_write_test_passed": true,
+    "msi_configs_backed_up": true,
+    "msi_slot_mapping_verified": false,
+    "nvidia_write_blocked": true,
+    "fan_write_blocked": true,
+    "ec_write_blocked": true,
+    "active_plan_write_enabled": false,
+    "msi_profile_apply_enabled": false,
+    "fan_write_enabled": false,
+    "ec_write_enabled": false,
+    "automation_apply_enabled": false
+  },
+  "app_ui_updates": {
+    "branding": "The app window and launch surface are now branded AeroTune.",
+    "layout": "The PySide6 UI uses a cleaner top-tab layout, card sections, larger spacing, and an always-visible telemetry status bar.",
+    "editable_surfaces": [
+      "CPU presets are editable with form controls and dropdowns for fixed-option settings.",
+      "GPU profile slots are editable as labeled cards while MSI profile launching remains blocked.",
+      "Game automation rules are editable as app-side JSON forms with automation disabled by default.",
+      "Auto Tuning experiment plans are editable as preview-only JSON plans."
+    ],
+    "read_only_tables": "Tables remain for manifests, logs, sensor lists, process matches, and other read-only data.",
+    "page_photos": [
+      "page_photos/01_dashboard.png",
+      "page_photos/02_cpu_presets.png",
+      "page_photos/03_gpu_profiles.png",
+      "page_photos/04_sensors.png",
+      "page_photos/05_game_automation.png",
+      "page_photos/06_auto_tuning.png",
+      "page_photos/07_fan_experimental.png",
+      "page_photos/08_logs.png",
+      "page_photos/09_settings.png"
+    ]
+  },
+  "sensor_integration": {
+    "nvidia_smi": "Read-only live telemetry is shown in the Sensors tab and status bar when nvidia-smi is available.",
+    "presentmon": "Discovered candidates are listed and opt-in capture controls were added. Capture does not start automatically.",
+    "librehardwaremonitor": {
+      "status": "read_only_probe_working",
+      "dll_path": "C:/Program Files (x86)/RivaTuner Statistics Server/Plugins/Client/LHMDataProvider/LibreHardwareMonitorLib.dll",
+      "latest_sensor_count": 139,
+      "snapshot_path": "raw_outputs/librehardwaremonitor_adapter_snapshot_latest.json"
+    },
+    "always_visible_status": "GPU, VRAM, CPU/LHM, and FPS status are shown in the app status bar across all tabs."
+  },
+  "validation": {
+    "validation_report_path": "phase4_validation.md",
+    "validation_json_path": "raw_outputs/phase4_validation.json",
+    "timestamp_local": "2026-06-15T12:16:02",
+    "total_checks": 168,
+    "failed_checks": 0,
+    "pyside6_offscreen_construct_passed": true,
+    "app_tabs_constructed": 9,
+    "aerotune_ui_contract_passed": true
+  },
+  "known_issues": [
+    "Active power plan .pow export is blocked from the current non-admin session by Windows privilege error 0x522.",
+    "Phase 5 readiness remains false until the active power plan export gate is resolved.",
+    "MSI profile slot mapping remains unverified.",
+    "Fan and EC controls remain blocked and research-only.",
+    "NVIDIA write paths remain blocked."
+  ],
+  "phase5_recommendation": "Manual MSI profile slot verification and first real guarded active CPU preset apply/restore test. Require successful Phase 4 backup/restore gates first. Verify MSI slot mapping manually with telemetry before allowing app-launched MSI profiles. For CPU, allow one explicitly selected low/medium-risk setting apply to the active plan with immediate verification and one-click restore. No fan control or EC writes yet."
+}
