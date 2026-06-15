@@ -1,0 +1,26 @@
+{
+  "generated_from": "PHASE_1_EXPLORATION/discovered_paths.json",
+  "msi_afterburner": {
+    "detected": true,
+    "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+    "profile_slots_verified": false
+  },
+  "rtss": {
+    "detected": true,
+    "path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe"
+  },
+  "nvidia_smi": {
+    "detected": true,
+    "path": "C:\\WINDOWS\\system32\\nvidia-smi.exe"
+  },
+  "presentmon": {
+    "detected": true,
+    "primary_phase1_candidate": "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+    "help_output_confirmed": false
+  },
+  "librehardwaremonitor": {
+    "detected": true,
+    "primary_library": "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+    "phase2_loads_library": false
+  }
+}

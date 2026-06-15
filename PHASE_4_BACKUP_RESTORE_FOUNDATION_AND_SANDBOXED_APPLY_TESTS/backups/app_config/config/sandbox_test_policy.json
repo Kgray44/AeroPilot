@@ -1,0 +1,7 @@
+﻿{
+    "phase":  "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+    "only_allowed_write_target":  "temporary inactive cloned power scheme",
+    "setactive_allowed":  false,
+    "write_scheme_current_allowed":  false,
+    "cleanup_required":  true
+}

@@ -1,0 +1,334 @@
+﻿{
+    "detector":  "process_targets",
+    "timestamp_local":  "2026-06-14T21:10:07",
+    "process_count":  279,
+    "all_processes_csv":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\process_targets_all_running_processes.csv",
+    "seed_list_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json",
+    "targets":  [
+                    {
+                        "id":  "battlefield_6",
+                        "friendly":  "Battlefield 6 / BF6",
+                        "category":  "Game",
+                        "configured_process_names":  [
+                                                         "BF6",
+                                                         "Battlefield6",
+                                                         "Battlefield 6",
+                                                         "bf6game"
+                                                     ],
+                        "running_now":  false,
+                        "matches":  [
+
+                                    ],
+                        "match_notes":  "Names are seed guesses and need confirmation from an active BF6 session."
+                    },
+                    {
+                        "id":  "steam",
+                        "friendly":  "Steam",
+                        "category":  "Launcher",
+                        "configured_process_names":  [
+                                                         "steam",
+                                                         "steamwebhelper"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "steam",
+                                            "id":  2868,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\steam.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamservice",
+                                            "id":  10140,
+                                            "path":  null,
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  5332,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  5916,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  11316,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  12572,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  13324,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  18016,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  22216,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        },
+                                        {
+                                            "process_name":  "steamwebhelper",
+                                            "id":  25480,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe",
+                                            "matched_seed":  "steam"
+                                        }
+                                    ],
+                        "match_notes":  "Steam client and web helper."
+                    },
+                    {
+                        "id":  "ea_app",
+                        "friendly":  "EA App",
+                        "category":  "Launcher",
+                        "configured_process_names":  [
+                                                         "EADesktop",
+                                                         "EALauncher",
+                                                         "EABackgroundService",
+                                                         "EACefSubProcess",
+                                                         "Origin"
+                                                     ],
+                        "running_now":  false,
+                        "matches":  [
+
+                                    ],
+                        "match_notes":  "EA App background and launcher processes."
+                    },
+                    {
+                        "id":  "epic_games",
+                        "friendly":  "Epic Games Launcher",
+                        "category":  "Launcher",
+                        "configured_process_names":  [
+                                                         "EpicGamesLauncher",
+                                                         "EpicWebHelper"
+                                                     ],
+                        "running_now":  false,
+                        "matches":  [
+
+                                    ],
+                        "match_notes":  "Epic launcher and helpers."
+                    },
+                    {
+                        "id":  "sea_of_thieves",
+                        "friendly":  "Sea of Thieves",
+                        "category":  "Game",
+                        "configured_process_names":  [
+                                                         "SoTGame",
+                                                         "SeaOfThieves"
+                                                     ],
+                        "running_now":  false,
+                        "matches":  [
+
+                                    ],
+                        "match_notes":  "Common Sea of Thieves executable names."
+                    },
+                    {
+                        "id":  "minecraft",
+                        "friendly":  "Minecraft",
+                        "category":  "Game",
+                        "configured_process_names":  [
+                                                         "Minecraft",
+                                                         "Minecraft.Windows",
+                                                         "javaw",
+                                                         "java"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "javaw",
+                                            "id":  28524,
+                                            "path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\3DMark\\bin\\x64\\jre\\bin\\javaw.exe",
+                                            "matched_seed":  "javaw"
+                                        }
+                                    ],
+                        "match_notes":  "java/javaw are broad and require command-line filtering later."
+                    },
+                    {
+                        "id":  "msi_afterburner",
+                        "friendly":  "MSI Afterburner",
+                        "category":  "Tool",
+                        "configured_process_names":  [
+                                                         "MSIAfterburner"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "MSIAfterburner",
+                                            "id":  10260,
+                                            "path":  null,
+                                            "matched_seed":  "MSIAfterburner"
+                                        }
+                                    ],
+                        "match_notes":  "GPU profile tool."
+                    },
+                    {
+                        "id":  "rtss",
+                        "friendly":  "RivaTuner Statistics Server",
+                        "category":  "Tool",
+                        "configured_process_names":  [
+                                                         "RTSS",
+                                                         "RTSSHooksLoader64",
+                                                         "RTSSHooksLoader"
+                                                     ],
+                        "running_now":  false,
+                        "matches":  [
+
+                                    ],
+                        "match_notes":  "OSD/frame limiter support tool."
+                    },
+                    {
+                        "id":  "presentmon",
+                        "friendly":  "PresentMon",
+                        "category":  "Tool",
+                        "configured_process_names":  [
+                                                         "PresentMon"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "PresentMon_x64",
+                                            "id":  10672,
+                                            "path":  null,
+                                            "matched_seed":  "PresentMon"
+                                        }
+                                    ],
+                        "match_notes":  "Future frame-time capture tool."
+                    },
+                    {
+                        "id":  "hwinfo",
+                        "friendly":  "HWiNFO",
+                        "category":  "Tool",
+                        "configured_process_names":  [
+                                                         "HWiNFO64",
+                                                         "HWiNFO32",
+                                                         "HWiNFO"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "HWiNFO64",
+                                            "id":  27084,
+                                            "path":  null,
+                                            "matched_seed":  "HWiNFO64"
+                                        }
+                                    ],
+                        "match_notes":  "Optional sensor tool."
+                    },
+                    {
+                        "id":  "gigabyte_control_center",
+                        "friendly":  "GIGABYTE Control Center",
+                        "category":  "OEM control",
+                        "configured_process_names":  [
+                                                         "GCC",
+                                                         "ControlCenter",
+                                                         "GIGABYTE",
+                                                         "GService",
+                                                         "GigabyteUpdateService"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "GCC",
+                                            "id":  10692,
+                                            "path":  null,
+                                            "matched_seed":  "GCC"
+                                        }
+                                    ],
+                        "match_notes":  "Names vary by GCC version."
+                    },
+                    {
+                        "id":  "nvidia_app",
+                        "friendly":  "NVIDIA App / NVIDIA services",
+                        "category":  "GPU tool",
+                        "configured_process_names":  [
+                                                         "NVIDIA App",
+                                                         "NVIDIA Overlay",
+                                                         "NVIDIA Share",
+                                                         "NVIDIA Web Helper",
+                                                         "nvcontainer",
+                                                         "NVIDIA GeForce Experience"
+                                                     ],
+                        "running_now":  true,
+                        "matches":  [
+                                        {
+                                            "process_name":  "nvcontainer",
+                                            "id":  4984,
+                                            "path":  null,
+                                            "matched_seed":  "nvcontainer"
+                                        },
+                                        {
+                                            "process_name":  "nvcontainer",
+                                            "id":  8908,
+                                            "path":  null,
+                                            "matched_seed":  "nvcontainer"
+                                        },
+                                        {
+                                            "process_name":  "nvcontainer",
+                                            "id":  8924,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+                                            "matched_seed":  "nvcontainer"
+                                        },
+                                        {
+                                            "process_name":  "nvcontainer",
+                                            "id":  8940,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+                                            "matched_seed":  "nvcontainer"
+                                        },
+                                        {
+                                            "process_name":  "NVIDIA Overlay",
+                                            "id":  6908,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+                                            "matched_seed":  "NVIDIA Overlay"
+                                        },
+                                        {
+                                            "process_name":  "NVIDIA Overlay",
+                                            "id":  10568,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+                                            "matched_seed":  "NVIDIA Overlay"
+                                        },
+                                        {
+                                            "process_name":  "NVIDIA Overlay",
+                                            "id":  14456,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+                                            "matched_seed":  "NVIDIA Overlay"
+                                        },
+                                        {
+                                            "process_name":  "NVIDIA Overlay",
+                                            "id":  26588,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+                                            "matched_seed":  "NVIDIA Overlay"
+                                        },
+                                        {
+                                            "process_name":  "NVIDIA Overlay",
+                                            "id":  33728,
+                                            "path":  "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+                                            "matched_seed":  "NVIDIA Overlay"
+                                        }
+                                    ],
+                        "match_notes":  "NVIDIA App components and service containers."
+                    }
+                ],
+    "phase1_safety":  [
+                          "Enumerated running processes only.",
+                          "No process was killed, suspended, deprioritized, or modified.",
+                          "Future app should let users edit process names and require confirmation for automation."
+                      ]
+}
+

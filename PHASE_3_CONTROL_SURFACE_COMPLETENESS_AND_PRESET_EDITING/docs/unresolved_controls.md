@@ -1,0 +1,55 @@
+# Unresolved Controls
+
+- `cpu.boost.policy`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.parking.min_cores`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.parking.max_cores`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.idle.disable`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.scheduling.heterogeneous_policy`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.boost.performance_increase_threshold`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `cpu.boost.performance_decrease_threshold`: Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent.
+- `gpu.msi.backup.config_profiles`: Copy MSIAfterburner.cfg and Profiles into a timestamped restore manifest.
+- `gpu.msi.curve_editor.future`: The app does not edit MSI curve files in Phase 3.
+- `gpu.profile.stock_safe_concept`: Requires manual MSI slot verification.
+- `gpu.profile.efficient_undervolt_concept`: Requires stability validation.
+- `gpu.profile.balanced_concept`: Requires telemetry comparison.
+- `gpu.profile.aggressive_concept`: Requires explicit confirmation and restore plan.
+- `gpu.profile.test_concept`: Testing slot must be isolated and verified.
+- `telemetry.nvml.future_adapter`: Optional future Python NVML path if nvidia-smi polling is too awkward.
+- `presentmon.process_targeting`: No PresentMon capture is started in Phase 3.
+- `presentmon.csv_output`: No PresentMon capture is started in Phase 3.
+- `presentmon.timed_capture`: No PresentMon capture is started in Phase 3.
+- `metrics.fps.average`: No PresentMon capture is started in Phase 3.
+- `metrics.fps.one_percent_low`: No PresentMon capture is started in Phase 3.
+- `metrics.frametime`: No PresentMon capture is started in Phase 3.
+- `capture.session_folder`: No PresentMon capture is started in Phase 3.
+- `lhm.sensor.cpu_temperature`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `lhm.sensor.cpu_clock`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `lhm.sensor.cpu_package_power`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `lhm.sensor.fan_rpm`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `lhm.sensor.voltage`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `lhm.sensor.motherboard`: Phase 3 does not load LibreHardwareMonitor DLLs.
+- `automation.auto_apply.future`: Forced off in Phase 3.
+- `automation.restore_on_exit.future`: Future automation must restore after game exit.
+- `network.ping_logger.future`: No ping logger is started in Phase 3.
+- `network.session_logging`: No ping logger is started in Phase 3.
+- `network.ping_spike_detection`: No ping logger is started in Phase 3.
+- `fan.official_api.status`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.command_line_control.status`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.config_file_control.status`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.ui_automation.status`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.ec_write.research_only`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.mode_display.future`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `fan.apply_action.blocked`: No fan modes, services, config files, or EC registers are changed in Phase 3.
+- `restore.save_current_state`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.power_plan.clone_export`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.powercfg.previous_values`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.msi.config_backup`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.msi.config_restore`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.msi.known_safe_slot_future`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.app_preset_json`: Phase 3 defines requirements but creates no real system restore manifest.
+- `restore.panic.future_command`: Phase 3 defines requirements but creates no real system restore manifest.
+- `startup.launch_app.future`: No startup entry or scheduled task is created in Phase 3.
+- `startup.scheduled_task.future`: No startup entry or scheduled task is created in Phase 3.
+- `startup.start_minimized.future`: No startup entry or scheduled task is created in Phase 3.
+- `startup.auto_detect_game.future`: No startup entry or scheduled task is created in Phase 3.
+- `startup.auto_apply_preset.future`: No startup entry or scheduled task is created in Phase 3.

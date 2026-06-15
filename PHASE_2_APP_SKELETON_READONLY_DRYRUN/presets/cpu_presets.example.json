@@ -1,0 +1,43 @@
+{
+  "phase_status": "preview_only",
+  "presets": [
+    {
+      "name": "Stock / Restore",
+      "description": "Placeholder for restoring a backed-up baseline later.",
+      "risk": "Safe",
+      "settings": []
+    },
+    {
+      "name": "Quiet School Mode",
+      "description": "Preview of a cool/noise-conscious CPU posture.",
+      "risk": "Medium",
+      "settings": [
+        {
+          "friendly_name": "Processor performance boost mode",
+          "guid": "be337238-0d82-4146-a960-4f3749d470c7",
+          "target": "AC",
+          "preview_value": 0,
+          "dry_run_only": true
+        }
+      ]
+    },
+    {
+      "name": "Gaming Balanced",
+      "description": "Preview of balanced gaming settings.",
+      "risk": "Medium",
+      "settings": []
+    },
+    {
+      "name": "BF6 Emergency",
+      "description": "Preview-only fallback for stability testing.",
+      "risk": "High",
+      "settings": []
+    },
+    {
+      "name": "Benchmark Mode",
+      "description": "Preview-only benchmarking mode. Requires strict restore workflow later.",
+      "risk": "High",
+      "settings": []
+    }
+  ]
+}

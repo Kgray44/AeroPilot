@@ -1,0 +1,31 @@
+{
+  "phase_status": "preview_only",
+  "warning": "MSI profile slots are unverified. Wrong slot may apply an unintended GPU curve.",
+  "slots": {
+    "1": {
+      "friendly_name": "Slot 1: Unverified",
+      "verified": false,
+      "dry_run_only": true
+    },
+    "2": {
+      "friendly_name": "Slot 2: Unverified",
+      "verified": false,
+      "dry_run_only": true
+    },
+    "3": {
+      "friendly_name": "Slot 3: Unverified",
+      "verified": false,
+      "dry_run_only": true
+    },
+    "4": {
+      "friendly_name": "Slot 4: Unverified",
+      "verified": false,
+      "dry_run_only": true
+    },
+    "5": {
+      "friendly_name": "Slot 5: Unverified",
+      "verified": false,
+      "dry_run_only": true
+    }
+  }
+}

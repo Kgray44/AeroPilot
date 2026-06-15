@@ -1,0 +1,349 @@
+﻿{
+    "generated_local":  "2026-06-15T11:40:36",
+    "ran":  true,
+    "passed":  true,
+    "sandbox_name":  "AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035",
+    "sandbox_guid":  "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+    "sandbox_was_active":  false,
+    "active_scheme_before":  {
+                                 "guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+                                 "name":  "AERO24_MODERATE_AGGRESSIVE_GAMING"
+                             },
+    "active_scheme_after":  {
+                                "guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+                                "name":  "AERO24_MODERATE_AGGRESSIVE_GAMING"
+                            },
+    "writes":  [
+                   {
+                       "command":  [
+                                       "powercfg.exe",
+                                       "/setacvalueindex",
+                                       "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                       "54533251-82be-4824-96c1-47b60b740d00",
+                                       "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                                       "44"
+                                   ],
+                       "target_guid":  "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                       "setting_guid":  "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                       "value":  44
+                   },
+                   {
+                       "command":  [
+                                       "powercfg.exe",
+                                       "/setacvalueindex",
+                                       "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                       "54533251-82be-4824-96c1-47b60b740d00",
+                                       "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                                       "0"
+                                   ],
+                       "target_guid":  "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                       "setting_guid":  "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                       "value":  0
+                   }
+               ],
+    "before_values":  {
+                          "epp_ac":  55,
+                          "cooling_ac":  1
+                      },
+    "test_values":  {
+                        "epp_ac":  44,
+                        "cooling_ac":  0
+                    },
+    "after_values":  {
+                         "epp_ac":  44,
+                         "cooling_ac":  0
+                     },
+    "verified_expected_values":  true,
+    "cleanup":  {
+                    "generated_local":  "2026-06-15T11:40:36",
+                    "sandbox_guid":  "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                    "active_scheme_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+                    "delete_exit_code":  0,
+                    "deleted":  true,
+                    "exists_after":  false,
+                    "warning":  null,
+                    "commands":  [
+                                     {
+                                         "name":  "powercfg_get_active_scheme",
+                                         "command":  [
+                                                         "powercfg.exe",
+                                                         "/getactivescheme"
+                                                     ],
+                                         "exit_code":  0,
+                                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_get_active_scheme_stdout.txt",
+                                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_get_active_scheme_stderr.txt",
+                                         "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                         "stderr":  "",
+                                         "error":  null,
+                                         "started_at":  "2026-06-15T11:40:36",
+                                         "completed_at":  "2026-06-15T11:40:36"
+                                     },
+                                     {
+                                         "name":  "powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "command":  [
+                                                         "powercfg.exe",
+                                                         "/delete",
+                                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767"
+                                                     ],
+                                         "exit_code":  0,
+                                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767_stdout.txt",
+                                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_delete_sandbox_ef24eec5-0039-4bfc-bc34-dd232ec94767_stderr.txt",
+                                         "stdout":  "",
+                                         "stderr":  "",
+                                         "error":  null,
+                                         "started_at":  "2026-06-15T11:40:36",
+                                         "completed_at":  "2026-06-15T11:40:36"
+                                     },
+                                     {
+                                         "name":  "powercfg_list_after_cleanup",
+                                         "command":  [
+                                                         "powercfg.exe",
+                                                         "/list"
+                                                     ],
+                                         "exit_code":  0,
+                                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_list_after_cleanup_stdout.txt",
+                                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_cleanup\\powercfg_list_after_cleanup_stderr.txt",
+                                         "stdout":  "Existing Power Schemes (* Active)\r\n-----------------------------------\r\nPower Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)\r\nPower Scheme GUID: 432a9fa0-652f-4f05-aab5-462628fc58bb  (Gaming - GPU Priority)\r\nPower Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING) *",
+                                         "stderr":  "",
+                                         "error":  null,
+                                         "started_at":  "2026-06-15T11:40:36",
+                                         "completed_at":  "2026-06-15T11:40:36"
+                                     }
+                                 ]
+                },
+    "safety":  {
+                   "write_targeted_active_scheme":  false,
+                   "write_used_scheme_current":  false,
+                   "setactive_executed":  false
+               },
+    "commands":  [
+                     {
+                         "name":  "powercfg_get_active_scheme",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/getactivescheme"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+                         "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "powercfg_duplicate_active_to_sandbox",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/duplicatescheme",
+                                         "692ee1d0-ffc2-4c47-91b3-2a4814f3964e"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_duplicate_active_to_sandbox_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_duplicate_active_to_sandbox_stderr.txt",
+                         "stdout":  "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "powercfg_rename_sandbox",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/changename",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_rename_sandbox_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_rename_sandbox_stderr.txt",
+                         "stdout":  "",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "powercfg_get_active_scheme",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/getactivescheme"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+                         "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_query_epp_before",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/query",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_before_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_before_stderr.txt",
+                         "stdout":  "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 36687f9e-e3a5-4dbf-b1dc-15eb381c6863  (Processor energy performance preference policy)\r\n      GUID Alias: PERFEPP\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x00000037\r\n    Current DC Power Setting Index: 0x00000000",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_query_cooling_before",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/query",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_before_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_before_stderr.txt",
+                         "stdout":  "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)\r\n      GUID Alias: SYSCOOLPOL\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Passive\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Active\r\n    Current AC Power Setting Index: 0x00000001\r\n    Current DC Power Setting Index: 0x00000001",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_write_epp_ac",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/setacvalueindex",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                                         "44"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_epp_ac_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_epp_ac_stderr.txt",
+                         "stdout":  "",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_write_cooling_ac",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/setacvalueindex",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                                         "0"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_cooling_ac_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_write_cooling_ac_stderr.txt",
+                         "stdout":  "",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_query_epp_after",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/query",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_after_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_epp_after_stderr.txt",
+                         "stdout":  "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 36687f9e-e3a5-4dbf-b1dc-15eb381c6863  (Processor energy performance preference policy)\r\n      GUID Alias: PERFEPP\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x0000002c\r\n    Current DC Power Setting Index: 0x00000000",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_query_cooling_after",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/query",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_after_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_query_cooling_after_stderr.txt",
+                         "stdout":  "Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)\r\n      GUID Alias: SYSCOOLPOL\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Passive\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Active\r\n    Current AC Power Setting Index: 0x00000000\r\n    Current DC Power Setting Index: 0x00000001",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_restore_epp_ac_inside_clone",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/setacvalueindex",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                                         "55"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_epp_ac_inside_clone_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_epp_ac_inside_clone_stderr.txt",
+                         "stdout":  "",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "sandbox_restore_cooling_ac_inside_clone",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/setacvalueindex",
+                                         "ef24eec5-0039-4bfc-bc34-dd232ec94767",
+                                         "54533251-82be-4824-96c1-47b60b740d00",
+                                         "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                                         "1"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_cooling_ac_inside_clone_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_restore_cooling_ac_inside_clone_stderr.txt",
+                         "stdout":  "",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:35",
+                         "completed_at":  "2026-06-15T11:40:35"
+                     },
+                     {
+                         "name":  "powercfg_get_active_scheme",
+                         "command":  [
+                                         "powercfg.exe",
+                                         "/getactivescheme"
+                                     ],
+                         "exit_code":  0,
+                         "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stdout.txt",
+                         "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\powercfg_get_active_scheme_stderr.txt",
+                         "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                         "stderr":  "",
+                         "error":  null,
+                         "started_at":  "2026-06-15T11:40:36",
+                         "completed_at":  "2026-06-15T11:40:36"
+                     }
+                 ],
+    "failure":  null,
+    "skip_reason":  null
+}

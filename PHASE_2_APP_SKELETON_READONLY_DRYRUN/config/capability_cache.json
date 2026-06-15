@@ -1,0 +1,17 @@
+{
+  "generated_from": "PHASE_1_EXPLORATION/discovered_capabilities.json",
+  "phase2_status": "preview_only",
+  "capabilities": {
+    "dashboard": "enabled_readonly",
+    "cpu_settings_viewer": "enabled_readonly",
+    "cpu_apply": "disabled",
+    "msi_profile_preview": "enabled_dryrun",
+    "msi_profile_apply": "disabled",
+    "nvidia_smi_telemetry": "enabled_readonly_if_available",
+    "presentmon_capture": "disabled",
+    "librehardwaremonitor_sensors": "future_optional",
+    "game_detection": "enabled_readonly",
+    "game_auto_apply": "disabled",
+    "fan_control": "experimental_readonly_only"
+  }
+}

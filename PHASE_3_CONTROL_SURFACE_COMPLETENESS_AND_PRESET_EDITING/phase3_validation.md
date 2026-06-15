@@ -1,0 +1,271 @@
+﻿# Phase 3 Validation
+
+- Timestamp: 2026-06-15T03:19:54
+- Total checks: 265
+- Failed checks: 0
+
+- PASS - required_path:phase3_report.md
+- PASS - required_path:phase3_report.json
+- PASS - required_path:phase3_validation.md
+- PASS - required_path:raw_outputs
+- PASS - required_path:logs
+- PASS - required_path:screenshots
+- PASS - required_path:tests
+- PASS - required_path:scripts
+- PASS - required_path:scripts\run_app.ps1
+- PASS - required_path:scripts\validate_phase3.ps1
+- PASS - required_path:scripts\collect_control_surface_snapshot.ps1
+- PASS - required_path:scripts\export_control_surface_bundle.ps1
+- PASS - required_path:docs\control_surface_design.md
+- PASS - required_path:docs\coverage_rules.md
+- PASS - required_path:docs\preset_editing_model.md
+- PASS - required_path:docs\backup_restore_requirements.md
+- PASS - required_path:docs\phase4_recommendation.md
+- PASS - required_path:docs\unresolved_controls.md
+- PASS - required_path:docs\known_risks.md
+- PASS - required_path:app\__init__.py
+- PASS - required_path:app\main.py
+- PASS - required_path:app\core\app_paths.py
+- PASS - required_path:app\core\control_surface.py
+- PASS - required_path:app\core\command_runner.py
+- PASS - required_path:app\core\state_snapshot.py
+- PASS - required_path:app\adapters\phase1_data_adapter.py
+- PASS - required_path:app\adapters\powercfg_adapter.py
+- PASS - required_path:app\adapters\nvidia_smi_adapter.py
+- PASS - required_path:app\adapters\msi_afterburner_adapter.py
+- PASS - required_path:app\adapters\presentmon_adapter.py
+- PASS - required_path:app\adapters\process_adapter.py
+- PASS - required_path:app\adapters\librehardwaremonitor_adapter.py
+- PASS - required_path:app\adapters\gigabyte_adapter.py
+- PASS - required_path:app\ui\main_window.py
+- PASS - required_path:app\ui\dashboard_tab.py
+- PASS - required_path:app\ui\cpu_tab.py
+- PASS - required_path:app\ui\gpu_tab.py
+- PASS - required_path:app\ui\telemetry_tab.py
+- PASS - required_path:app\ui\game_automation_tab.py
+- PASS - required_path:app\ui\autotuning_tab.py
+- PASS - required_path:app\ui\fan_experimental_tab.py
+- PASS - required_path:app\ui\logs_tab.py
+- PASS - required_path:app\ui\settings_safety_tab.py
+- PASS - required_path:app\resources\app_styles.qss
+- PASS - required_path:config\app_config.json
+- PASS - required_path:config\tool_paths.json
+- PASS - required_path:config\capability_cache.json
+- PASS - required_path:config\control_surface_manifest.json
+- PASS - required_path:config\ui_coverage_matrix.json
+- PASS - required_path:config\action_catalog.json
+- PASS - required_path:config\restore_requirement_catalog.json
+- PASS - required_path:config\unsupported_or_blocked_controls.json
+- PASS - required_path:presets\README.md
+- PASS - required_path:presets\cpu_presets.json
+- PASS - required_path:presets\gpu_profiles.json
+- PASS - required_path:presets\game_rules.json
+- PASS - required_path:presets\combined_presets.json
+- PASS - required_path:presets\preset_schema.json
+- PASS - required_path:presets\preset_validation_report.json
+- PASS - required_path:restore\README.md
+- PASS - required_path:restore\restore_strategy_preview.json
+- PASS - required_path:restore\no_real_restore_manifest_yet.txt
+- PASS - required_path:requirements.txt
+- PASS - phase1_source:phase1_exploration_report.json
+- PASS - json_parse:phase1_exploration_report.json
+- PASS - phase1_source:discovered_paths.json
+- PASS - json_parse:discovered_paths.json
+- PASS - phase1_source:discovered_capabilities.json
+- PASS - json_parse:discovered_capabilities.json
+- PASS - phase1_source:risk_catalog.json
+- PASS - json_parse:risk_catalog.json
+- PASS - phase1_source:app_probe\process_targets_seed.json
+- PASS - json_parse:process_targets_seed.json
+- PASS - phase1_source:raw_outputs\powercfg_detector_result.json
+- PASS - json_parse:powercfg_detector_result.json
+- PASS - json_parse:phase3_report.json
+- PASS - json_parse:action_catalog.json
+- PASS - json_parse:app_config.json
+- PASS - json_parse:capability_cache.json
+- PASS - json_parse:control_surface_manifest.json
+- PASS - json_parse:restore_requirement_catalog.json
+- PASS - json_parse:tool_paths.json
+- PASS - json_parse:ui_coverage_matrix.json
+- PASS - json_parse:unsupported_or_blocked_controls.json
+- PASS - json_parse:combined_presets.json
+- PASS - json_parse:cpu_presets.json
+- PASS - json_parse:game_rules.json
+- PASS - json_parse:gpu_profiles.json
+- PASS - json_parse:preset_schema.json
+- PASS - json_parse:preset_validation_report.json
+- PASS - json_parse:control_surface_snapshot_latest.json
+- PASS - json_parse:phase3_validation.json
+- PASS - json_parse:restore_strategy_preview.json
+- PASS - python_compile_app
+- PASS - python_import_check
+- PASS - pyside6_offscreen_construct
+- PASS - static_no_disallowed_write:Register-ScheduledTask
+- PASS - static_no_disallowed_write:New-ScheduledTask
+- PASS - static_no_disallowed_write:Start-Service
+- PASS - static_no_disallowed_write:Stop-Service
+- PASS - static_no_disallowed_write:Restart-Service
+- PASS - static_no_disallowed_write:Set-ItemProperty
+- PASS - static_no_disallowed_write:New-ItemProperty
+- PASS - static_no_disallowed_write:Remove-ItemProperty
+- PASS - static_no_disallowed_write:powercfg(\.exe)?\s+/(setacvalueindex|setdcvalueindex|setactive)
+- PASS - static_no_disallowed_write:nvidia-smi.*(\s-pl\s|--power-limit|-lgc|-lmc|--persistence-mode|\s-pm\s)
+- PASS - static_no_disallowed_write:ec\s*write
+- PASS - static_no_disallowed_write:fan\s*apply
+- PASS - static_no_unjustified_shell_true
+- PASS - manifest_has_controls
+- PASS - manifest_control_ids_unique
+- PASS - required_control:cpu.power_plan.active_selection
+- PASS - required_control:cpu.boost.mode
+- PASS - required_control:cpu.boost.policy
+- PASS - required_control:cpu.power.epp
+- PASS - required_control:cpu.state.minimum
+- PASS - required_control:cpu.state.maximum
+- PASS - required_control:cpu.cooling.system_policy
+- PASS - required_control:cpu.frequency.maximum
+- PASS - required_control:cpu.parking.min_cores
+- PASS - required_control:cpu.parking.max_cores
+- PASS - required_control:cpu.idle.disable
+- PASS - required_control:cpu.scheduling.heterogeneous_policy
+- PASS - required_control:cpu.boost.performance_increase_threshold
+- PASS - required_control:cpu.boost.performance_decrease_threshold
+- PASS - required_control:gpu.msi.profile.slot1
+- PASS - required_control:gpu.msi.profile.slot2
+- PASS - required_control:gpu.msi.profile.slot3
+- PASS - required_control:gpu.msi.profile.slot4
+- PASS - required_control:gpu.msi.profile.slot5
+- PASS - required_control:gpu.msi.backup.config_profiles
+- PASS - required_control:gpu.msi.profile.slot_mapping
+- PASS - required_control:gpu.msi.curve_editor.future
+- PASS - required_control:gpu.profile.stock_safe_concept
+- PASS - required_control:gpu.profile.efficient_undervolt_concept
+- PASS - required_control:gpu.profile.balanced_concept
+- PASS - required_control:gpu.profile.aggressive_concept
+- PASS - required_control:gpu.profile.test_concept
+- PASS - required_control:telemetry.nvidia.gpu_name
+- PASS - required_control:telemetry.nvidia.driver_version
+- PASS - required_control:telemetry.nvidia.gpu_utilization
+- PASS - required_control:telemetry.nvidia.memory_utilization
+- PASS - required_control:telemetry.nvidia.vram
+- PASS - required_control:telemetry.nvidia.temperature
+- PASS - required_control:telemetry.nvidia.power_draw
+- PASS - required_control:telemetry.nvidia.power_limit_read
+- PASS - required_control:telemetry.nvidia.graphics_clock
+- PASS - required_control:telemetry.nvidia.memory_clock
+- PASS - required_control:telemetry.nvidia.gpu_processes
+- PASS - required_control:telemetry.nvidia.fallback_query
+- PASS - required_control:telemetry.nvml.future_adapter
+- PASS - required_control:presentmon.candidate.selection
+- PASS - required_control:presentmon.syntax.verification
+- PASS - required_control:presentmon.process_targeting
+- PASS - required_control:presentmon.csv_output
+- PASS - required_control:presentmon.timed_capture
+- PASS - required_control:metrics.fps.average
+- PASS - required_control:metrics.fps.one_percent_low
+- PASS - required_control:metrics.frametime
+- PASS - required_control:capture.session_folder
+- PASS - required_control:lhm.dll.candidate
+- PASS - required_control:lhm.sensor.cpu_temperature
+- PASS - required_control:lhm.sensor.cpu_clock
+- PASS - required_control:lhm.sensor.cpu_package_power
+- PASS - required_control:lhm.sensor.fan_rpm
+- PASS - required_control:lhm.sensor.voltage
+- PASS - required_control:lhm.sensor.motherboard
+- PASS - required_control:process.bf6
+- PASS - required_control:process.steam
+- PASS - required_control:process.ea_app
+- PASS - required_control:process.epic_games
+- PASS - required_control:process.sea_of_thieves
+- PASS - required_control:process.minecraft
+- PASS - required_control:process.msi_afterburner
+- PASS - required_control:process.rtss
+- PASS - required_control:process.presentmon
+- PASS - required_control:process.hwinfo
+- PASS - required_control:process.gigabyte_control_center
+- PASS - required_control:process.nvidia_app
+- PASS - required_control:process.false_positive_handling
+- PASS - required_control:process.command_line_filtering
+- PASS - required_control:automation.auto_apply.future
+- PASS - required_control:automation.restore_on_exit.future
+- PASS - required_control:network.ping_logger.future
+- PASS - required_control:network.target_host.selection
+- PASS - required_control:network.interval.setting
+- PASS - required_control:network.session_logging
+- PASS - required_control:network.ping_spike_detection
+- PASS - required_control:fan.powercfg.cooling_policy
+- PASS - required_control:fan.gigabyte.gcc_surfaces
+- PASS - required_control:fan.gigabyte.powergear_service_status
+- PASS - required_control:fan.official_api.status
+- PASS - required_control:fan.command_line_control.status
+- PASS - required_control:fan.config_file_control.status
+- PASS - required_control:fan.ui_automation.status
+- PASS - required_control:fan.ec_write.research_only
+- PASS - required_control:fan.mode_display.future
+- PASS - required_control:fan.apply_action.blocked
+- PASS - required_control:restore.save_current_state
+- PASS - required_control:restore.power_plan.clone_export
+- PASS - required_control:restore.powercfg.previous_values
+- PASS - required_control:restore.msi.config_backup
+- PASS - required_control:restore.msi.config_restore
+- PASS - required_control:restore.msi.known_safe_slot_future
+- PASS - required_control:restore.app_preset_json
+- PASS - required_control:restore.panic.future_command
+- PASS - required_control:diagnostics.app_bundle
+- PASS - required_control:startup.launch_app.future
+- PASS - required_control:startup.scheduled_task.future
+- PASS - required_control:startup.start_minimized.future
+- PASS - required_control:startup.auto_detect_game.future
+- PASS - required_control:startup.auto_apply_preset.future
+- PASS - required_control:startup.automation.kill_switch
+- PASS - manifest_all_have_ui_assignment
+- PASS - future_write_controls_have_backup_restore
+- PASS - medium_high_dangerous_have_warning
+- PASS - editable_controls_save_only_app_json
+- PASS - risk_catalog_represented:Processor performance boost mode
+- PASS - risk_catalog_represented:Processor performance boost policy
+- PASS - risk_catalog_represented:Processor energy performance preference / EPP
+- PASS - risk_catalog_represented:Minimum processor state
+- PASS - risk_catalog_represented:Maximum processor state
+- PASS - risk_catalog_represented:System cooling policy
+- PASS - risk_catalog_represented:Maximum processor frequency
+- PASS - risk_catalog_represented:Processor performance core parking min cores
+- PASS - risk_catalog_represented:Processor performance core parking max cores
+- PASS - risk_catalog_represented:Processor idle disable
+- PASS - risk_catalog_represented:Heterogeneous policy in effect
+- PASS - risk_catalog_represented:Processor performance increase threshold
+- PASS - risk_catalog_represented:Processor performance decrease threshold
+- PASS - risk_catalog_represented:MSI profile slot launch
+- PASS - risk_catalog_represented:GPU voltage/frequency curve profile editing
+- PASS - risk_catalog_represented:NVIDIA telemetry polling
+- PASS - risk_catalog_represented:PresentMon capture
+- PASS - risk_catalog_represented:Ping/network logging
+- PASS - risk_catalog_represented:Fan mode/control through GCC or OEM paths
+- PASS - risk_catalog_represented:Embedded controller writes
+- PASS - risk_catalog_represented:Startup automation
+- PASS - risk_catalog_represented:Game detection and auto preset switching
+- PASS - risk_catalog_represented:Save current state / restore previous state
+- PASS - capability_represented:MSI Afterburner profile launch templates
+- PASS - capability_represented:MSI Afterburner profile/config backup
+- PASS - capability_represented:Windows CPU power setting viewer
+- PASS - capability_represented:Windows CPU power setting writes later
+- PASS - capability_represented:NVIDIA telemetry through nvidia-smi
+- PASS - capability_represented:NVML Python telemetry later
+- PASS - capability_represented:PresentMon frame-time capture
+- PASS - capability_represented:LibreHardwareMonitor sensors
+- PASS - capability_represented:Gigabyte/GCC discovery
+- PASS - capability_represented:Game and tool process detection
+- PASS - capability_represented:Restore and panic restore framework
+- PASS - cpu_setting_represented:PERFBOOSTMODE
+- PASS - cpu_setting_represented:PERFBOOSTPOL
+- PASS - cpu_setting_represented:PERFEPP
+- PASS - cpu_setting_represented:PROCTHROTTLEMIN
+- PASS - cpu_setting_represented:PROCTHROTTLEMAX
+- PASS - cpu_setting_represented:SYSCOOLPOL
+- PASS - cpu_setting_represented:PROCFREQMAX
+- PASS - cpu_setting_represented:CPMINCORES
+- PASS - cpu_setting_represented:CPMAXCORES
+- PASS - cpu_setting_represented:IDLEDISABLE
+- PASS - cpu_setting_represented:HETEROPOLICY
+- PASS - cpu_setting_represented:PERFINCTHRESHOLD
+- PASS - cpu_setting_represented:PERFDECTHRESHOLD
+- PASS - coverage_matrix_matches_manifest

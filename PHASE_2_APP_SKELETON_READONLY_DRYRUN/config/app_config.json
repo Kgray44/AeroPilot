@@ -1,0 +1,14 @@
+{
+  "app_name": "AERO X16 Control Center",
+  "app_version": "0.2.0-preview",
+  "phase": "PHASE_2_APP_SKELETON_READONLY_DRYRUN",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "apply_actions_enabled": false,
+  "auto_apply_enabled": false,
+  "telemetry_poll_interval_seconds": 2,
+  "phase1_root": "..\\PHASE_1_EXPLORATION",
+  "notes": [
+    "Phase 2 may read Phase 1 data and run read-only telemetry.",
+    "Phase 2 must not apply CPU, GPU, fan, startup, scheduled task, registry, NVIDIA, or MSI profile changes."
+  ]
+}

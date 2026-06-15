@@ -1,0 +1,31 @@
+{
+  "name": "BF6 Emergency Preview",
+  "description": "Preview-only preset for reducing CPU chaos during BF6.",
+  "phase_status": "preview_only",
+  "cpu": {
+    "power_plan_strategy": "use_existing_or_clone_later",
+    "settings": [
+      {
+        "friendly_name": "Boost mode",
+        "guid": "be337238-0d82-4146-a960-4f3749d470c7",
+        "ac_value": 0,
+        "dc_value": null,
+        "risk": "Medium"
+      }
+    ]
+  },
+  "gpu": {
+    "msi_profile_slot": 3,
+    "slot_verified": false,
+    "risk": "Medium"
+  },
+  "telemetry": {
+    "nvidia_smi": true,
+    "presentmon": false,
+    "ping_logging": false
+  },
+  "automation": {
+    "auto_apply": false,
+    "restore_on_exit": true
+  }
+}

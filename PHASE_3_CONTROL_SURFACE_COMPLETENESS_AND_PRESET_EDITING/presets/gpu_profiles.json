@@ -1,0 +1,62 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "msi_afterburner_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+  "slots": [
+    {
+      "slot": 1,
+      "control_id": "gpu.msi.profile.slot1",
+      "friendly_name": "Slot 1 Unverified",
+      "intended_purpose": "Unverified",
+      "verified": false,
+      "last_verified_timestamp": null,
+      "expected_behavior": "Unknown until manually verified.",
+      "risk": "Medium",
+      "notes": "Do not apply from app in Phase 3."
+    },
+    {
+      "slot": 2,
+      "control_id": "gpu.msi.profile.slot2",
+      "friendly_name": "Slot 2 Unverified",
+      "intended_purpose": "Unverified",
+      "verified": false,
+      "last_verified_timestamp": null,
+      "expected_behavior": "Unknown until manually verified.",
+      "risk": "Medium",
+      "notes": "Do not apply from app in Phase 3."
+    },
+    {
+      "slot": 3,
+      "control_id": "gpu.msi.profile.slot3",
+      "friendly_name": "Slot 3 Unverified",
+      "intended_purpose": "Unverified",
+      "verified": false,
+      "last_verified_timestamp": null,
+      "expected_behavior": "Unknown until manually verified.",
+      "risk": "Medium",
+      "notes": "Do not apply from app in Phase 3."
+    },
+    {
+      "slot": 4,
+      "control_id": "gpu.msi.profile.slot4",
+      "friendly_name": "Slot 4 Unverified",
+      "intended_purpose": "Unverified",
+      "verified": false,
+      "last_verified_timestamp": null,
+      "expected_behavior": "Unknown until manually verified.",
+      "risk": "Medium",
+      "notes": "Do not apply from app in Phase 3."
+    },
+    {
+      "slot": 5,
+      "control_id": "gpu.msi.profile.slot5",
+      "friendly_name": "Slot 5 Unverified",
+      "intended_purpose": "Unverified",
+      "verified": false,
+      "last_verified_timestamp": null,
+      "expected_behavior": "Unknown until manually verified.",
+      "risk": "Medium",
+      "notes": "Do not apply from app in Phase 3."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿2026-06-14T20:57:37	INFO	Starting detector nvidia_telemetry
+2026-06-14T20:57:37	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe 
+2026-06-14T20:57:37	WARN	Command failed: nvidia_smi_plain: Cannot validate argument on parameter 'ArgumentList'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again.
+2026-06-14T20:57:37	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --help-query-gpu
+2026-06-14T20:57:37	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,cuda_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T20:57:37	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T20:57:38	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-compute-apps=pid,process_name,used_memory --format=csv
+2026-06-14T20:57:38	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe pmon -c 1
+2026-06-14T20:57:38	INFO	Finished detector nvidia_telemetry
+2026-06-14T21:00:57	INFO	Starting detector nvidia_telemetry
+2026-06-14T21:00:57	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe 
+2026-06-14T21:00:58	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --help-query-gpu
+2026-06-14T21:00:58	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,cuda_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:00:58	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:00:58	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-compute-apps=pid,process_name,used_memory --format=csv
+2026-06-14T21:00:58	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe pmon -c 1
+2026-06-14T21:00:58	INFO	Finished detector nvidia_telemetry
+2026-06-14T21:04:33	INFO	Starting detector nvidia_telemetry
+2026-06-14T21:04:33	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe 
+2026-06-14T21:04:33	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --help-query-gpu
+2026-06-14T21:04:33	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,cuda_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:04:33	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:04:34	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-compute-apps=pid,process_name,used_memory --format=csv
+2026-06-14T21:04:34	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe pmon -c 1
+2026-06-14T21:04:34	INFO	Finished detector nvidia_telemetry
+2026-06-14T21:07:51	INFO	Starting detector nvidia_telemetry
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe 
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --help-query-gpu
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,cuda_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory --format=csv,noheader,nounits
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe --query-compute-apps=pid,process_name,used_memory --format=csv
+2026-06-14T21:07:51	INFO	Running read-only command: C:\WINDOWS\system32\nvidia-smi.exe pmon -c 1
+2026-06-14T21:07:52	INFO	Finished detector nvidia_telemetry

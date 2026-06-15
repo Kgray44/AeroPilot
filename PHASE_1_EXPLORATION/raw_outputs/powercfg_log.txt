@@ -1,0 +1,84 @@
+﻿2026-06-14T20:57:28	INFO	Starting detector powercfg
+2026-06-14T20:57:28	INFO	Running read-only command: powercfg.exe /getactivescheme
+2026-06-14T20:57:28	INFO	Running read-only command: powercfg.exe /list
+2026-06-14T20:57:28	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT
+2026-06-14T20:57:30	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T20:57:31	INFO	Running read-only command: powercfg.exe /qh SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T20:57:34	INFO	Running read-only command: powercfg.exe /aliases
+2026-06-14T20:57:34	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7
+2026-06-14T20:57:34	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 45bcc044-d885-43e2-8605-ee0ec6e96b59
+2026-06-14T20:57:35	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 36687f9e-e3a5-4dbf-b1dc-15eb381c6863
+2026-06-14T20:57:35	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c
+2026-06-14T20:57:35	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec
+2026-06-14T20:57:35	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 94d3a615-a899-4ac5-ae2b-e4d8f634367f
+2026-06-14T20:57:35	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 75b0ae3f-bce0-45a7-8c89-c9611c25e100
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 ea062031-0e34-4ff1-9b6d-eb1059334028
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 5d76a2ca-e8c0-402f-a133-2158492d58ad
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 06cadf0e-64ed-448a-8927-ce7bf90eb35d
+2026-06-14T20:57:36	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6
+2026-06-14T20:57:36	INFO	Finished detector powercfg
+2026-06-14T21:00:53	INFO	Starting detector powercfg
+2026-06-14T21:00:53	INFO	Running read-only command: powercfg.exe /getactivescheme
+2026-06-14T21:00:53	INFO	Running read-only command: powercfg.exe /list
+2026-06-14T21:00:53	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT
+2026-06-14T21:00:54	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:00:54	INFO	Running read-only command: powercfg.exe /qh SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:00:55	INFO	Running read-only command: powercfg.exe /aliases
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 45bcc044-d885-43e2-8605-ee0ec6e96b59
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 36687f9e-e3a5-4dbf-b1dc-15eb381c6863
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 94d3a615-a899-4ac5-ae2b-e4d8f634367f
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 75b0ae3f-bce0-45a7-8c89-c9611c25e100
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 ea062031-0e34-4ff1-9b6d-eb1059334028
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 5d76a2ca-e8c0-402f-a133-2158492d58ad
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5
+2026-06-14T21:00:56	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 06cadf0e-64ed-448a-8927-ce7bf90eb35d
+2026-06-14T21:00:57	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6
+2026-06-14T21:00:57	INFO	Finished detector powercfg
+2026-06-14T21:04:29	INFO	Starting detector powercfg
+2026-06-14T21:04:29	INFO	Running read-only command: powercfg.exe /getactivescheme
+2026-06-14T21:04:29	INFO	Running read-only command: powercfg.exe /list
+2026-06-14T21:04:29	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT
+2026-06-14T21:04:30	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:04:30	INFO	Running read-only command: powercfg.exe /qh SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:04:31	INFO	Running read-only command: powercfg.exe /aliases
+2026-06-14T21:04:31	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7
+2026-06-14T21:04:31	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 45bcc044-d885-43e2-8605-ee0ec6e96b59
+2026-06-14T21:04:31	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 36687f9e-e3a5-4dbf-b1dc-15eb381c6863
+2026-06-14T21:04:31	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 94d3a615-a899-4ac5-ae2b-e4d8f634367f
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 75b0ae3f-bce0-45a7-8c89-c9611c25e100
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 ea062031-0e34-4ff1-9b6d-eb1059334028
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 5d76a2ca-e8c0-402f-a133-2158492d58ad
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 06cadf0e-64ed-448a-8927-ce7bf90eb35d
+2026-06-14T21:04:32	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6
+2026-06-14T21:04:32	INFO	Finished detector powercfg
+2026-06-14T21:07:47	INFO	Starting detector powercfg
+2026-06-14T21:07:47	INFO	Running read-only command: powercfg.exe /getactivescheme
+2026-06-14T21:07:47	INFO	Running read-only command: powercfg.exe /list
+2026-06-14T21:07:47	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT
+2026-06-14T21:07:48	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:07:48	INFO	Running read-only command: powercfg.exe /qh SCHEME_CURRENT SUB_PROCESSOR
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /aliases
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 45bcc044-d885-43e2-8605-ee0ec6e96b59
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 36687f9e-e3a5-4dbf-b1dc-15eb381c6863
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c
+2026-06-14T21:07:49	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 94d3a615-a899-4ac5-ae2b-e4d8f634367f
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 75b0ae3f-bce0-45a7-8c89-c9611c25e100
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 ea062031-0e34-4ff1-9b6d-eb1059334028
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 5d76a2ca-e8c0-402f-a133-2158492d58ad
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 06cadf0e-64ed-448a-8927-ce7bf90eb35d
+2026-06-14T21:07:50	INFO	Running read-only command: powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6
+2026-06-14T21:07:50	INFO	Finished detector powercfg

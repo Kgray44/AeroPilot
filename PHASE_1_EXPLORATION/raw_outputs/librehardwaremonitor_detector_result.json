@@ -1,0 +1,112 @@
+﻿{
+    "detector":  "librehardwaremonitor",
+    "timestamp_local":  "2026-06-14T21:10:00",
+    "search_roots":  [
+                         "C:\\Program Files",
+                         "C:\\Program Files (x86)",
+                         "C:\\Users\\kkids\\Downloads",
+                         "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing",
+                         "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION"
+                     ],
+    "found":  true,
+    "primary_executable_path":  null,
+    "primary_library_path":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+    "executable_paths":  [
+
+                         ],
+    "library_paths":  [
+                          {
+                              "path":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  668672,
+                              "last_write_local":  "2024-09-21T20:43:32",
+                              "file_version":  "0.9.3.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\CapFrameX\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  1201664,
+                              "last_write_local":  "2026-02-19T15:54:44",
+                              "file_version":  "1.0.0.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  719872,
+                              "last_write_local":  "2025-02-27T17:45:32",
+                              "file_version":  "0.9.5.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Include\\LHM\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  719872,
+                              "last_write_local":  "2025-02-27T17:45:32",
+                              "file_version":  "0.9.5.0",
+                              "is_directory":  false
+                          }
+                      ],
+    "related_files":  [
+                          {
+                              "path":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  668672,
+                              "last_write_local":  "2024-09-21T20:43:32",
+                              "file_version":  "0.9.3.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\CapFrameX\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  1201664,
+                              "last_write_local":  "2026-02-19T15:54:44",
+                              "file_version":  "1.0.0.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  719872,
+                              "last_write_local":  "2025-02-27T17:45:32",
+                              "file_version":  "0.9.5.0",
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Include\\LHM\\LibreHardwareMonitorLib.dll",
+                              "name":  "LibreHardwareMonitorLib.dll",
+                              "exists":  true,
+                              "length_bytes":  719872,
+                              "last_write_local":  "2025-02-27T17:45:32",
+                              "file_version":  "0.9.5.0",
+                              "is_directory":  false
+                          }
+                      ],
+    "launched_in_phase1":  false,
+    "can_be_used_as_library_later":  true,
+    "admin_privilege_expectation":  "Unknown on this machine until tested. Many low-level sensors may require admin or driver access.",
+    "likely_sensor_domains_inferred":  [
+                                           "CPU temperatures",
+                                           "CPU clocks",
+                                           "GPU temperatures and clocks when supported",
+                                           "Fan speeds when exposed by motherboard or EC interfaces",
+                                           "Voltages when exposed by motherboard sensors",
+                                           "Battery and storage sensors when exposed"
+                                       ],
+    "missing_optional_tool":  false,
+    "future_integration_plan":  [
+                                    "Treat LibreHardwareMonitor as optional but useful for broader sensors.",
+                                    "Prefer using LibreHardwareMonitorLib.dll from Python only after a controlled proof of concept.",
+                                    "Keep all sensor reads read-only and label fan/voltage fields as hardware-dependent.",
+                                    "Add an admin-required marker if a future probe proves elevated access is needed.",
+                                    "Do not install or launch LibreHardwareMonitor in Phase 1."
+                                ]
+}

@@ -1,0 +1,563 @@
+{
+  "timestamp_local": "2026-06-15T03:19:06",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "active_power_plan": {
+    "source": "live",
+    "raw": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+    "name": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "command": {
+      "command": [
+        "powercfg.exe",
+        "/getactivescheme"
+      ],
+      "cwd": null,
+      "read_only": true,
+      "dry_run": false,
+      "executed": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout": "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+      "stderr": "",
+      "error": null,
+      "started_at": "2026-06-15T03:19:06",
+      "elapsed_seconds": 0.031
+    }
+  },
+  "nvidia_smi": {
+    "ok": true,
+    "source": "live",
+    "data": {
+      "name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "driver_version": "610.47",
+      "utilization.gpu": "8",
+      "utilization.memory": "2",
+      "memory.total": "8151",
+      "memory.used": "903",
+      "memory.free": "6989",
+      "temperature.gpu": "59",
+      "power.draw": "15.81",
+      "power.limit": "[N/A]",
+      "clocks.current.graphics": "1530",
+      "clocks.current.memory": "11001"
+    },
+    "fields": [
+      "name",
+      "driver_version",
+      "utilization.gpu",
+      "utilization.memory",
+      "memory.total",
+      "memory.used",
+      "memory.free",
+      "temperature.gpu",
+      "power.draw",
+      "power.limit",
+      "clocks.current.graphics",
+      "clocks.current.memory"
+    ],
+    "command": {
+      "command": [
+        "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+        "--query-gpu=name,driver_version,utilization.gpu,utilization.memory,memory.total,memory.used,memory.free,temperature.gpu,power.draw,power.limit,clocks.current.graphics,clocks.current.memory",
+        "--format=csv,noheader,nounits"
+      ],
+      "cwd": null,
+      "read_only": true,
+      "dry_run": false,
+      "executed": true,
+      "exit_code": 0,
+      "timed_out": false,
+      "stdout": "NVIDIA GeForce RTX 5070 Laptop GPU, 610.47, 8, 2, 8151, 903, 6989, 59, 15.81, [N/A], 1530, 11001\n",
+      "stderr": "",
+      "error": null,
+      "started_at": "2026-06-15T03:19:06",
+      "elapsed_seconds": 0.078
+    }
+  },
+  "msi_afterburner": {
+    "installed": true,
+    "executable_path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+    "rtss_path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+    "install_folder": "C:\\Program Files (x86)\\MSI Afterburner",
+    "profiles_folder": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles",
+    "profile_files": [
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+        "name": "MSIAfterburner.cfg",
+        "exists": true,
+        "length_bytes": 2307,
+        "last_write_local": "2026-06-14T18:16:47",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+        "name": "Profile2.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-04-20T18:06:24",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+        "name": "Profile3.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-13T21:40:47",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+        "name": "Profile4.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-13T22:50:31",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+        "name": "Profile5.cfg",
+        "exists": true,
+        "length_bytes": 31,
+        "last_write_local": "2026-06-14T17:56:19",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+        "name": "VEN_0000&DEV_0000&SUBSYS_00000000&REV_00&BUS_0&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 60,
+        "last_write_local": "2026-04-21T20:10:42",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+        "name": "VEN_1002&DEV_1114&SUBSYS_60031458&REV_C2&BUS_101&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 109,
+        "last_write_local": "2026-06-14T21:01:18",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+        "name": "VEN_10DE&DEV_2D18&SUBSYS_60031458&REV_A1&BUS_100&DEV_0&FN_0.cfg",
+        "exists": true,
+        "length_bytes": 26122,
+        "last_write_local": "2026-06-14T21:01:18",
+        "file_version": null,
+        "is_directory": false
+      }
+    ],
+    "config_files": [
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+        "name": "MSIAfterburner.cfg",
+        "exists": true,
+        "length_bytes": 7962,
+        "last_write_local": "2025-09-09T19:14:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+        "name": "RTCore.cfg",
+        "exists": true,
+        "length_bytes": 7739,
+        "last_write_local": "2017-10-07T05:39:00",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+        "name": "MSIAfterburner.dat",
+        "exists": true,
+        "length_bytes": 36387,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+        "name": "MSIAfterburner.oem",
+        "exists": true,
+        "length_bytes": 92967,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+        "name": "MSIAfterburner.oem1",
+        "exists": true,
+        "length_bytes": 96146,
+        "last_write_local": "2025-09-28T19:38:14",
+        "file_version": null,
+        "is_directory": false
+      },
+      {
+        "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+        "name": "MSIAfterburner.oem2",
+        "exists": true,
+        "length_bytes": 11112,
+        "last_write_local": "2025-09-14T02:37:18",
+        "file_version": null,
+        "is_directory": false
+      }
+    ],
+    "appears_running_phase1": true
+  },
+  "process_targets": {
+    "matched_targets": [
+      {
+        "id": "steam",
+        "friendly": "Steam",
+        "category": "Launcher",
+        "process_names": [
+          "steam",
+          "steamwebhelper"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "steam",
+            "Id": 29356,
+            "Path": "C:\\Program Files (x86)\\Steam\\steam.exe"
+          },
+          {
+            "ProcessName": "steamservice",
+            "Id": 9032,
+            "Path": null
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "msi_afterburner",
+        "friendly": "MSI Afterburner",
+        "category": "Tool",
+        "process_names": [
+          "MSIAfterburner"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "MSIAfterburner",
+            "Id": 10260,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "presentmon",
+        "friendly": "PresentMon",
+        "category": "Tool",
+        "process_names": [
+          "PresentMon"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "PresentMon_x64",
+            "Id": 10672,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "gigabyte_control_center",
+        "friendly": "GIGABYTE Control Center",
+        "category": "OEM control",
+        "process_names": [
+          "GCC",
+          "ControlCenter",
+          "GIGABYTE",
+          "GService",
+          "GigabyteUpdateService"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "GCC",
+            "Id": 10692,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "nvidia_app",
+        "friendly": "NVIDIA App / NVIDIA services",
+        "category": "GPU tool",
+        "process_names": [
+          "NVIDIA App",
+          "NVIDIA Overlay",
+          "NVIDIA Share",
+          "NVIDIA Web Helper",
+          "nvcontainer",
+          "NVIDIA GeForce Experience"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "NVIDIA Overlay",
+            "Id": 34328,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+          },
+          {
+            "ProcessName": "nvcontainer",
+            "Id": 8940,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+          }
+        ],
+        "automation_enabled": false
+      }
+    ],
+    "all_targets": [
+      {
+        "id": "battlefield_6",
+        "friendly": "Battlefield 6 / BF6",
+        "category": "Game",
+        "process_names": [
+          "BF6",
+          "Battlefield6",
+          "Battlefield 6",
+          "bf6game"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "steam",
+        "friendly": "Steam",
+        "category": "Launcher",
+        "process_names": [
+          "steam",
+          "steamwebhelper"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "steam",
+            "Id": 29356,
+            "Path": "C:\\Program Files (x86)\\Steam\\steam.exe"
+          },
+          {
+            "ProcessName": "steamservice",
+            "Id": 9032,
+            "Path": null
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          },
+          {
+            "ProcessName": "steamwebhelper",
+            "Id": 34132,
+            "Path": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win64\\steamwebhelper.exe"
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "ea_app",
+        "friendly": "EA App",
+        "category": "Launcher",
+        "process_names": [
+          "EADesktop",
+          "EALauncher",
+          "EABackgroundService",
+          "EACefSubProcess",
+          "Origin"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "epic_games",
+        "friendly": "Epic Games Launcher",
+        "category": "Launcher",
+        "process_names": [
+          "EpicGamesLauncher",
+          "EpicWebHelper"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "sea_of_thieves",
+        "friendly": "Sea of Thieves",
+        "category": "Game",
+        "process_names": [
+          "SoTGame",
+          "SeaOfThieves"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "minecraft",
+        "friendly": "Minecraft",
+        "category": "Game",
+        "process_names": [
+          "Minecraft",
+          "Minecraft.Windows",
+          "javaw",
+          "java"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "msi_afterburner",
+        "friendly": "MSI Afterburner",
+        "category": "Tool",
+        "process_names": [
+          "MSIAfterburner"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "MSIAfterburner",
+            "Id": 10260,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "rtss",
+        "friendly": "RivaTuner Statistics Server",
+        "category": "Tool",
+        "process_names": [
+          "RTSS",
+          "RTSSHooksLoader64",
+          "RTSSHooksLoader"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "presentmon",
+        "friendly": "PresentMon",
+        "category": "Tool",
+        "process_names": [
+          "PresentMon"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "PresentMon_x64",
+            "Id": 10672,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "hwinfo",
+        "friendly": "HWiNFO",
+        "category": "Tool",
+        "process_names": [
+          "HWiNFO64",
+          "HWiNFO32",
+          "HWiNFO"
+        ],
+        "running_now": false,
+        "matched_processes": [],
+        "automation_enabled": false
+      },
+      {
+        "id": "gigabyte_control_center",
+        "friendly": "GIGABYTE Control Center",
+        "category": "OEM control",
+        "process_names": [
+          "GCC",
+          "ControlCenter",
+          "GIGABYTE",
+          "GService",
+          "GigabyteUpdateService"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "GCC",
+            "Id": 10692,
+            "Path": null
+          }
+        ],
+        "automation_enabled": false
+      },
+      {
+        "id": "nvidia_app",
+        "friendly": "NVIDIA App / NVIDIA services",
+        "category": "GPU tool",
+        "process_names": [
+          "NVIDIA App",
+          "NVIDIA Overlay",
+          "NVIDIA Share",
+          "NVIDIA Web Helper",
+          "nvcontainer",
+          "NVIDIA GeForce Experience"
+        ],
+        "running_now": true,
+        "matched_processes": [
+          {
+            "ProcessName": "NVIDIA Overlay",
+            "Id": 34328,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe"
+          },
+          {
+            "ProcessName": "nvcontainer",
+            "Id": 8940,
+            "Path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+          }
+        ],
+        "automation_enabled": false
+      }
+    ]
+  },
+  "tool_availability": {
+    "active_power_plan": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "active_power_plan_guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "msi_afterburner_detected": true,
+    "nvidia_smi_detected": true,
+    "presentmon_detected": true,
+    "librehardwaremonitor_detected": true,
+    "gigabyte_detected": true,
+    "risk_item_count": 23,
+    "readable_cpu_settings": 6,
+    "process_count_phase1": 279
+  },
+  "control_surface": {
+    "manifest_controls": 102,
+    "coverage_rows": 102,
+    "actions": 16,
+    "restore_requirements": 44
+  }
+}

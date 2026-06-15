@@ -1,0 +1,402 @@
+﻿{
+    "generated_local":  "2026-06-14T21:10:07",
+    "app_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION",
+    "raw_outputs":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs",
+    "msi_afterburner":  {
+                            "installed":  true,
+                            "executable_paths":  {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+                                                     "name":  "MSIAfterburner.exe",
+                                                     "exists":  true,
+                                                     "length_bytes":  828296,
+                                                     "last_write_local":  "2025-09-28T19:38:12",
+                                                     "file_version":  "4.6.6.16757",
+                                                     "is_directory":  false
+                                                 },
+                            "rtss_paths":  {
+                                               "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+                                               "name":  "RTSS.exe",
+                                               "exists":  true,
+                                               "length_bytes":  530824,
+                                               "last_write_local":  "2025-09-28T19:35:00",
+                                               "file_version":  "7.3.5.28314",
+                                               "is_directory":  false
+                                           },
+                            "install_folder":  "C:\\Program Files (x86)\\MSI Afterburner",
+                            "config_files":  [
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+                                                     "name":  "MSIAfterburner.cfg",
+                                                     "exists":  true,
+                                                     "length_bytes":  7962,
+                                                     "last_write_local":  "2025-09-09T19:14:14",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 },
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+                                                     "name":  "RTCore.cfg",
+                                                     "exists":  true,
+                                                     "length_bytes":  7739,
+                                                     "last_write_local":  "2017-10-07T05:39:00",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 },
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+                                                     "name":  "MSIAfterburner.dat",
+                                                     "exists":  true,
+                                                     "length_bytes":  36387,
+                                                     "last_write_local":  "2025-09-28T19:38:14",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 },
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+                                                     "name":  "MSIAfterburner.oem",
+                                                     "exists":  true,
+                                                     "length_bytes":  92967,
+                                                     "last_write_local":  "2025-09-28T19:38:14",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 },
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+                                                     "name":  "MSIAfterburner.oem1",
+                                                     "exists":  true,
+                                                     "length_bytes":  96146,
+                                                     "last_write_local":  "2025-09-28T19:38:14",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 },
+                                                 {
+                                                     "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+                                                     "name":  "MSIAfterburner.oem2",
+                                                     "exists":  true,
+                                                     "length_bytes":  11112,
+                                                     "last_write_local":  "2025-09-14T02:37:18",
+                                                     "file_version":  null,
+                                                     "is_directory":  false
+                                                 }
+                                             ],
+                            "profile_files":  [
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+                                                      "name":  "MSIAfterburner.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  2307,
+                                                      "last_write_local":  "2026-06-14T18:16:47",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+                                                      "name":  "Profile2.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-04-20T18:06:24",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+                                                      "name":  "Profile3.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-13T21:40:47",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+                                                      "name":  "Profile4.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-13T22:50:31",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+                                                      "name":  "Profile5.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-14T17:56:19",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                                                      "name":  "VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  60,
+                                                      "last_write_local":  "2026-04-21T20:10:42",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                                                      "name":  "VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  109,
+                                                      "last_write_local":  "2026-06-14T21:01:18",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  },
+                                                  {
+                                                      "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                                                      "name":  "VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                                                      "exists":  true,
+                                                      "length_bytes":  26122,
+                                                      "last_write_local":  "2026-06-14T21:01:18",
+                                                      "file_version":  null,
+                                                      "is_directory":  false
+                                                  }
+                                              ],
+                            "profiles_folder":  {
+                                                    "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles",
+                                                    "name":  "Profiles",
+                                                    "exists":  true,
+                                                    "length_bytes":  null,
+                                                    "last_write_local":  "2026-06-14T17:16:12",
+                                                    "file_version":  null,
+                                                    "is_directory":  true
+                                                }
+                        },
+    "powercfg":  {
+                     "executable_path":  "C:\\WINDOWS\\system32\\powercfg.exe",
+                     "active_scheme_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+                     "active_scheme_name":  "AERO24_MODERATE_AGGRESSIVE_GAMING",
+                     "sub_processor_guid":  "54533251-82be-4824-96c1-47b60b740d00"
+                 },
+    "nvidia":  {
+                   "nvidia_smi_available":  true,
+                   "nvidia_smi_path":  "C:\\WINDOWS\\system32\\nvidia-smi.exe",
+                   "candidate_paths":  "C:\\WINDOWS\\system32\\nvidia-smi.exe"
+               },
+    "presentmon":  {
+                       "found":  true,
+                       "primary_executable":  "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+                       "executable_paths":  [
+                                                {
+                                                    "path":  "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+                                                    "name":  "PresentMon-x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  401680,
+                                                    "last_write_local":  "2026-05-21T22:05:48",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\ThirdParty\\PresentMon\\Win64\\PresentMon-1.8.0-x64.exe",
+                                                    "name":  "PresentMon-1.8.0-x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  329656,
+                                                    "last_write_local":  "2026-05-07T19:42:57",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files\\NVIDIA Corporation\\FrameView\\bin\\PresentMon_x64.exe",
+                                                    "name":  "PresentMon_x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  1106544,
+                                                    "last_write_local":  "2026-04-02T06:28:38",
+                                                    "file_version":  "1.8.12325.0",
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK\\bin\\PresentMon_x64.exe",
+                                                    "name":  "PresentMon_x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  1107568,
+                                                    "last_write_local":  "2026-04-24T03:15:49",
+                                                    "file_version":  "1.7.12119.0",
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files (x86)\\CapFrameX\\PresentMon\\PresentMon-2.4.1-x64.exe",
+                                                    "name":  "PresentMon-2.4.1-x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  927304,
+                                                    "last_write_local":  "2026-01-16T18:28:26",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-1.10.0-x64.exe",
+                                                    "name":  "PresentMon-1.10.0-x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  388096,
+                                                    "last_write_local":  "2024-04-08T23:30:44",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-2.3.1-x64-DLSS4.exe",
+                                                    "name":  "PresentMon-2.3.1-x64-DLSS4.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  434688,
+                                                    "last_write_local":  "2025-06-25T10:25:56",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMon-2.3.1-x64.exe",
+                                                    "name":  "PresentMon-2.3.1-x64.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  421312,
+                                                    "last_write_local":  "2025-06-12T16:00:52",
+                                                    "file_version":  null,
+                                                    "is_directory":  false
+                                                },
+                                                {
+                                                    "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\PresentMonDataProvider\\PresentMonDataProvider.exe",
+                                                    "name":  "PresentMonDataProvider.exe",
+                                                    "exists":  true,
+                                                    "length_bytes":  65024,
+                                                    "last_write_local":  "2025-06-27T01:53:14",
+                                                    "file_version":  "1.6.1.0",
+                                                    "is_directory":  false
+                                                }
+                                            ]
+                   },
+    "librehardwaremonitor":  {
+                                 "found":  true,
+                                 "primary_executable":  null,
+                                 "primary_library":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+                                 "executable_paths":  {
+
+                                                      },
+                                 "library_paths":  [
+                                                       {
+                                                           "path":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+                                                           "name":  "LibreHardwareMonitorLib.dll",
+                                                           "exists":  true,
+                                                           "length_bytes":  668672,
+                                                           "last_write_local":  "2024-09-21T20:43:32",
+                                                           "file_version":  "0.9.3.0",
+                                                           "is_directory":  false
+                                                       },
+                                                       {
+                                                           "path":  "C:\\Program Files (x86)\\CapFrameX\\LibreHardwareMonitorLib.dll",
+                                                           "name":  "LibreHardwareMonitorLib.dll",
+                                                           "exists":  true,
+                                                           "length_bytes":  1201664,
+                                                           "last_write_local":  "2026-02-19T15:54:44",
+                                                           "file_version":  "1.0.0.0",
+                                                           "is_directory":  false
+                                                       },
+                                                       {
+                                                           "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll",
+                                                           "name":  "LibreHardwareMonitorLib.dll",
+                                                           "exists":  true,
+                                                           "length_bytes":  719872,
+                                                           "last_write_local":  "2025-02-27T17:45:32",
+                                                           "file_version":  "0.9.5.0",
+                                                           "is_directory":  false
+                                                       },
+                                                       {
+                                                           "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Include\\LHM\\LibreHardwareMonitorLib.dll",
+                                                           "name":  "LibreHardwareMonitorLib.dll",
+                                                           "exists":  true,
+                                                           "length_bytes":  719872,
+                                                           "last_write_local":  "2025-02-27T17:45:32",
+                                                           "file_version":  "0.9.5.0",
+                                                           "is_directory":  false
+                                                       }
+                                                   ]
+                             },
+    "gigabyte_gcc":  {
+                         "installed_entries":  {
+                                                   "display_name":  "GIGABYTE Storage Library",
+                                                   "display_version":  "25.11.26.01",
+                                                   "publisher":  "GIGABYTE",
+                                                   "install_location":  null,
+                                                   "uninstall_string":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\MBStorage\\uninst.exe",
+                                                   "registry_path":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MBStorage"
+                                               },
+                         "running_processes":  [
+                                                   {
+                                                       "process_name":  "Gbt.GpuPowerGear.Proxy",
+                                                       "id":  12616,
+                                                       "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Proxy.exe",
+                                                       "cpu_seconds":  0.28125,
+                                                       "matched":  [
+                                                                       "(?i)Gbt\\.",
+                                                                       "(?i)GpuPowerGear"
+                                                                   ]
+                                                   },
+                                                   {
+                                                       "process_name":  "Gbt.GpuPowerGear.Service",
+                                                       "id":  12860,
+                                                       "path":  null,
+                                                       "cpu_seconds":  null,
+                                                       "matched":  [
+                                                                       "(?i)Gbt\\.",
+                                                                       "(?i)GpuPowerGear"
+                                                                   ]
+                                                   },
+                                                   {
+                                                       "process_name":  "GCC",
+                                                       "id":  10692,
+                                                       "path":  null,
+                                                       "cpu_seconds":  null,
+                                                       "matched":  [
+                                                                       "(?i)\\bGCC\\b"
+                                                                   ]
+                                                   }
+                                               ],
+                         "services":  {
+                                          "name":  "Gbt.GpuPowerGear.Service",
+                                          "display_name":  "GIGABYTE PowerGear Service",
+                                          "state":  "Running",
+                                          "start_mode":  "Manual",
+                                          "path_name":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Service.exe",
+                                          "process_id":  12860
+                                      },
+                         "folders":  [
+                                         {
+                                             "path":  "C:\\Program Files\\GIGABYTE",
+                                             "name":  "GIGABYTE",
+                                             "exists":  true,
+                                             "length_bytes":  null,
+                                             "last_write_local":  "2026-06-12T23:40:29",
+                                             "file_version":  null,
+                                             "is_directory":  true
+                                         },
+                                         {
+                                             "path":  "C:\\ProgramData\\GIGABYTE",
+                                             "name":  "GIGABYTE",
+                                             "exists":  true,
+                                             "length_bytes":  null,
+                                             "last_write_local":  "2026-06-13T00:09:32",
+                                             "file_version":  null,
+                                             "is_directory":  true
+                                         },
+                                         {
+                                             "path":  "C:\\Users\\kkids\\AppData\\Local\\gigabyte-gimate-coder-updater",
+                                             "name":  "gigabyte-gimate-coder-updater",
+                                             "exists":  true,
+                                             "length_bytes":  null,
+                                             "last_write_local":  "2026-06-12T23:34:21",
+                                             "file_version":  null,
+                                             "is_directory":  true
+                                         },
+                                         {
+                                             "path":  "C:\\Users\\kkids\\AppData\\Local\\gigabyte-gimate-creator-updater",
+                                             "name":  "gigabyte-gimate-creator-updater",
+                                             "exists":  true,
+                                             "length_bytes":  null,
+                                             "last_write_local":  "2026-06-12T23:36:37",
+                                             "file_version":  null,
+                                             "is_directory":  true
+                                         }
+                                     ]
+                     },
+    "process_targets":  {
+                            "seed_list_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json",
+                            "all_processes_csv":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\process_targets_all_running_processes.csv"
+                        }
+}

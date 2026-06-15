@@ -1,0 +1,523 @@
+﻿{
+    "timestamp_local":  "2026-06-15T02:50:14",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN",
+    "total_checks":  103,
+    "failed_checks":  0,
+    "results":  [
+                    {
+                        "name":  "required_path:raw_outputs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\raw_outputs"
+                    },
+                    {
+                        "name":  "required_path:screenshots",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\screenshots"
+                    },
+                    {
+                        "name":  "required_path:logs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\logs"
+                    },
+                    {
+                        "name":  "required_path:tests",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\tests"
+                    },
+                    {
+                        "name":  "required_path:scripts",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\scripts"
+                    },
+                    {
+                        "name":  "required_path:docs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs"
+                    },
+                    {
+                        "name":  "required_path:app",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app"
+                    },
+                    {
+                        "name":  "required_path:app\\core",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters"
+                    },
+                    {
+                        "name":  "required_path:app\\ui",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui"
+                    },
+                    {
+                        "name":  "required_path:app\\resources",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\resources"
+                    },
+                    {
+                        "name":  "required_path:config",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config"
+                    },
+                    {
+                        "name":  "required_path:presets",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets"
+                    },
+                    {
+                        "name":  "required_path:restore",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\restore"
+                    },
+                    {
+                        "name":  "required_path:phase2_report.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\phase2_report.md"
+                    },
+                    {
+                        "name":  "required_path:phase2_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\phase2_report.json"
+                    },
+                    {
+                        "name":  "required_path:phase2_validation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\phase2_validation.md"
+                    },
+                    {
+                        "name":  "required_path:requirements.txt",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\requirements.txt"
+                    },
+                    {
+                        "name":  "required_path:scripts\\run_app.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\scripts\\run_app.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\validate_phase2.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\scripts\\validate_phase2.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\collect_readonly_snapshot.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\scripts\\collect_readonly_snapshot.ps1"
+                    },
+                    {
+                        "name":  "required_path:docs\\app_architecture_cleaned.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs\\app_architecture_cleaned.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\safety_model.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs\\safety_model.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase3_recommendation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs\\phase3_recommendation.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\presentmon_candidate_notes.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs\\presentmon_candidate_notes.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\msi_profile_slot_mapping_notes.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\docs\\msi_profile_slot_mapping_notes.md"
+                    },
+                    {
+                        "name":  "required_path:app\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\main.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\main.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\app_paths.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\app_paths.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\config_loader.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\config_loader.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\risk_model.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\risk_model.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\preset_schema.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\preset_schema.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\state_snapshot.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\state_snapshot.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\command_runner.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\command_runner.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\dryrun.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\dryrun.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\logging_setup.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\core\\logging_setup.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\phase1_data_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\phase1_data_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\powercfg_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\powercfg_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\nvidia_smi_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\nvidia_smi_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\msi_afterburner_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\msi_afterburner_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\presentmon_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\presentmon_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\process_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\process_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\librehardwaremonitor_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\librehardwaremonitor_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\gigabyte_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\adapters\\gigabyte_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\main_window.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\main_window.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\dashboard_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\dashboard_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\cpu_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\cpu_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\gpu_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\gpu_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\telemetry_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\game_automation_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\game_automation_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\autotuning_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\autotuning_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\fan_experimental_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\fan_experimental_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\logs_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\logs_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\settings_safety_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\ui\\settings_safety_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\resources\\app_styles.qss",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\app\\resources\\app_styles.qss"
+                    },
+                    {
+                        "name":  "required_path:config\\app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "required_path:config\\tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "required_path:config\\capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\README.md"
+                    },
+                    {
+                        "name":  "required_path:presets\\preset_schema.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\preset_schema.example.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\cpu_presets.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\cpu_presets.example.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\gpu_profiles.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\gpu_profiles.example.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\game_rules.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\game_rules.example.json"
+                    },
+                    {
+                        "name":  "required_path:restore\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\restore\\README.md"
+                    },
+                    {
+                        "name":  "required_path:restore\\no_restore_manifests_yet.txt",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\restore\\no_restore_manifests_yet.txt"
+                    },
+                    {
+                        "name":  "phase1_source:phase1_exploration_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\phase1_exploration_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase1_exploration_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\phase1_exploration_report.json"
+                    },
+                    {
+                        "name":  "phase1_source:discovered_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:discovered_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_paths.json"
+                    },
+                    {
+                        "name":  "phase1_source:discovered_capabilities.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_capabilities.json"
+                    },
+                    {
+                        "name":  "json_parse:discovered_capabilities.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_capabilities.json"
+                    },
+                    {
+                        "name":  "phase1_source:risk_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\risk_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:risk_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\risk_catalog.json"
+                    },
+                    {
+                        "name":  "phase1_source:app_probe\\process_targets_seed.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json"
+                    },
+                    {
+                        "name":  "json_parse:process_targets_seed.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json"
+                    },
+                    {
+                        "name":  "json_parse:phase2_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\phase2_report.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\cpu_presets.example.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\game_rules.example.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\gpu_profiles.example.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.example.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\presets\\preset_schema.example.json"
+                    },
+                    {
+                        "name":  "json_parse:phase2_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\raw_outputs\\phase2_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:readonly_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN\\raw_outputs\\readonly_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "python_compile_app",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "python_import_check",
+                        "passed":  true,
+                        "details":  "phase2 import check ok"
+                    },
+                    {
+                        "name":  "pyside6_available",
+                        "passed":  true,
+                        "details":  "exit=0"
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Register-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:New-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Start-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Stop-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Restart-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Set-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:New-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:Remove-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:powercfg\\s+/(setacvalueindex|setdcvalueindex|setactive)",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:nvidia-smi.*(\\s-pl\\s|--power-limit|-lgc|-lmc|--persistence-mode|\\s-pm\\s)",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_hard_blocked:shell\\s*=\\s*True",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_msi_profile_commands_are_dryrun_only",
+                        "passed":  true,
+                        "details":  ""
+                    }
+                ]
+}

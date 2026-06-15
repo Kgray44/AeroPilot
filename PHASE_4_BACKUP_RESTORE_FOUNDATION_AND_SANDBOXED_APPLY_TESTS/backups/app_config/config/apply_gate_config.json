@@ -1,0 +1,18 @@
+﻿{
+    "generated_local":  "2026-06-15T11:40:01",
+    "backups_exist":  true,
+    "active_power_plan_exported":  false,
+    "current_values_snapshot_exists":  true,
+    "restore_manifest_exists":  true,
+    "sandbox_powercfg_write_test_passed":  false,
+    "msi_configs_backed_up":  true,
+    "msi_slot_mapping_verified":  false,
+    "nvidia_write_blocked":  true,
+    "fan_write_blocked":  true,
+    "ec_write_blocked":  true,
+    "active_plan_write_enabled":  false,
+    "msi_profile_apply_enabled":  false,
+    "fan_write_enabled":  false,
+    "ec_write_enabled":  false,
+    "automation_apply_enabled":  false
+}

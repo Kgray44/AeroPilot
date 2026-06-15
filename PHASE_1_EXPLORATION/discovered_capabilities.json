@@ -1,0 +1,104 @@
+﻿{
+    "generated_local":  "2026-06-14T21:10:07",
+    "capabilities":  [
+                         {
+                             "name":  "MSI Afterburner profile launch templates",
+                             "category":  "GPU profile loading",
+                             "reachability":  "Likely reachable by launching MSI Afterburner with profile arguments",
+                             "phase1_status":  "Dry-run templates only. Not executed.",
+                             "risk_level":  "Medium",
+                             "control_owner":  "MSI Afterburner",
+                             "notes":  "Future app can map friendly preset names to MSI profile slots after manual verification."
+                         },
+                         {
+                             "name":  "MSI Afterburner profile/config backup",
+                             "category":  "GPU voltage/frequency curve profile",
+                             "reachability":  "Discoverable",
+                             "phase1_status":  "File metadata read only.",
+                             "risk_level":  "Low",
+                             "control_owner":  "App can back up files later",
+                             "notes":  "Future writes require backup and restore manifest first."
+                         },
+                         {
+                             "name":  "Windows CPU power setting viewer",
+                             "category":  "CPU power behavior",
+                             "reachability":  "Reachable through powercfg",
+                             "phase1_status":  "Read-only query complete where supported.",
+                             "risk_level":  "Read-only",
+                             "control_owner":  "In-house via powercfg reads",
+                             "notes":  "Values are captured for active scheme only in Phase 1."
+                         },
+                         {
+                             "name":  "Windows CPU power setting writes later",
+                             "category":  "CPU power behavior",
+                             "reachability":  "Likely possible for readable settings, not tested",
+                             "phase1_status":  "Not executed.",
+                             "risk_level":  "Medium",
+                             "control_owner":  "In-house via powercfg with admin/confirmation",
+                             "notes":  "Future app should export or clone plans before writes."
+                         },
+                         {
+                             "name":  "NVIDIA telemetry through nvidia-smi",
+                             "category":  "GPU power/clock telemetry",
+                             "reachability":  "Reachable",
+                             "phase1_status":  "Read-only telemetry queries only.",
+                             "risk_level":  "Read-only",
+                             "control_owner":  "In-house subprocess polling",
+                             "notes":  "Good candidate for MVP telemetry if available."
+                         },
+                         {
+                             "name":  "NVML Python telemetry later",
+                             "category":  "GPU power/clock telemetry",
+                             "reachability":  "Planned optional integration",
+                             "phase1_status":  "Not tested in Phase 1.",
+                             "risk_level":  "Read-only",
+                             "control_owner":  "Optional Python library",
+                             "notes":  "Use later if nvidia-smi polling is too slow or awkward."
+                         },
+                         {
+                             "name":  "PresentMon frame-time capture",
+                             "category":  "FPS/frame capture",
+                             "reachability":  "Executable found",
+                             "phase1_status":  "Help/version attempted only if found.",
+                             "risk_level":  "Low",
+                             "control_owner":  "Optional subprocess tool",
+                             "notes":  "Strongly recommended for benchmark sessions."
+                         },
+                         {
+                             "name":  "LibreHardwareMonitor sensors",
+                             "category":  "CPU power behavior",
+                             "reachability":  "Files found",
+                             "phase1_status":  "File/library discovery only. Not launched.",
+                             "risk_level":  "Read-only",
+                             "control_owner":  "Optional library/tool",
+                             "notes":  "Useful for temperatures, fans, voltages, and motherboard sensors if supported."
+                         },
+                         {
+                             "name":  "Gigabyte/GCC discovery",
+                             "category":  "Fan control",
+                             "reachability":  "Some OEM surfaces discovered",
+                             "phase1_status":  "Read-only process/service/file metadata.",
+                             "risk_level":  "Unknown",
+                             "control_owner":  "Unknown/OEM",
+                             "notes":  "Fan control remains unproven and should stay experimental."
+                         },
+                         {
+                             "name":  "Game and tool process detection",
+                             "category":  "Game detection",
+                             "reachability":  "Reachable through Get-Process",
+                             "phase1_status":  "Read-only enumeration only.",
+                             "risk_level":  "Safe",
+                             "control_owner":  "In-house",
+                             "notes":  "Future app can use editable seed list and per-game overrides."
+                         },
+                         {
+                             "name":  "Restore and panic restore framework",
+                             "category":  "Restore/backup",
+                             "reachability":  "Planned; file backups and power plan exports are feasible later",
+                             "phase1_status":  "Architecture only. No restore point or backup created outside app folder.",
+                             "risk_level":  "Safe",
+                             "control_owner":  "In-house",
+                             "notes":  "Must precede any apply phase."
+                         }
+                     ]
+}

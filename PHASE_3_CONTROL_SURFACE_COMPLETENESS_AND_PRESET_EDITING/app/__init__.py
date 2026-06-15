@@ -1,0 +1,5 @@
+"""AERO X16 Control Center Phase 3 app package."""
+
+APP_NAME = "AERO X16 Control Center"
+APP_PHASE = "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING"
+APP_VERSION = "0.3.0-preview"

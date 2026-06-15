@@ -1,0 +1,140 @@
+﻿{
+    "generated_local":  "2026-06-14T21:10:07",
+    "description":  "Editable seed list for future game/tool detection. Phase 1 did not modify running processes.",
+    "targets":  [
+                    {
+                        "id":  "battlefield_6",
+                        "friendly":  "Battlefield 6 / BF6",
+                        "category":  "Game",
+                        "process_names":  [
+                                              "BF6",
+                                              "Battlefield6",
+                                              "Battlefield 6",
+                                              "bf6game"
+                                          ],
+                        "match_notes":  "Names are seed guesses and need confirmation from an active BF6 session."
+                    },
+                    {
+                        "id":  "steam",
+                        "friendly":  "Steam",
+                        "category":  "Launcher",
+                        "process_names":  [
+                                              "steam",
+                                              "steamwebhelper"
+                                          ],
+                        "match_notes":  "Steam client and web helper."
+                    },
+                    {
+                        "id":  "ea_app",
+                        "friendly":  "EA App",
+                        "category":  "Launcher",
+                        "process_names":  [
+                                              "EADesktop",
+                                              "EALauncher",
+                                              "EABackgroundService",
+                                              "EACefSubProcess",
+                                              "Origin"
+                                          ],
+                        "match_notes":  "EA App background and launcher processes."
+                    },
+                    {
+                        "id":  "epic_games",
+                        "friendly":  "Epic Games Launcher",
+                        "category":  "Launcher",
+                        "process_names":  [
+                                              "EpicGamesLauncher",
+                                              "EpicWebHelper"
+                                          ],
+                        "match_notes":  "Epic launcher and helpers."
+                    },
+                    {
+                        "id":  "sea_of_thieves",
+                        "friendly":  "Sea of Thieves",
+                        "category":  "Game",
+                        "process_names":  [
+                                              "SoTGame",
+                                              "SeaOfThieves"
+                                          ],
+                        "match_notes":  "Common Sea of Thieves executable names."
+                    },
+                    {
+                        "id":  "minecraft",
+                        "friendly":  "Minecraft",
+                        "category":  "Game",
+                        "process_names":  [
+                                              "Minecraft",
+                                              "Minecraft.Windows",
+                                              "javaw",
+                                              "java"
+                                          ],
+                        "match_notes":  "java/javaw are broad and require command-line filtering later."
+                    },
+                    {
+                        "id":  "msi_afterburner",
+                        "friendly":  "MSI Afterburner",
+                        "category":  "Tool",
+                        "process_names":  [
+                                              "MSIAfterburner"
+                                          ],
+                        "match_notes":  "GPU profile tool."
+                    },
+                    {
+                        "id":  "rtss",
+                        "friendly":  "RivaTuner Statistics Server",
+                        "category":  "Tool",
+                        "process_names":  [
+                                              "RTSS",
+                                              "RTSSHooksLoader64",
+                                              "RTSSHooksLoader"
+                                          ],
+                        "match_notes":  "OSD/frame limiter support tool."
+                    },
+                    {
+                        "id":  "presentmon",
+                        "friendly":  "PresentMon",
+                        "category":  "Tool",
+                        "process_names":  [
+                                              "PresentMon"
+                                          ],
+                        "match_notes":  "Future frame-time capture tool."
+                    },
+                    {
+                        "id":  "hwinfo",
+                        "friendly":  "HWiNFO",
+                        "category":  "Tool",
+                        "process_names":  [
+                                              "HWiNFO64",
+                                              "HWiNFO32",
+                                              "HWiNFO"
+                                          ],
+                        "match_notes":  "Optional sensor tool."
+                    },
+                    {
+                        "id":  "gigabyte_control_center",
+                        "friendly":  "GIGABYTE Control Center",
+                        "category":  "OEM control",
+                        "process_names":  [
+                                              "GCC",
+                                              "ControlCenter",
+                                              "GIGABYTE",
+                                              "GService",
+                                              "GigabyteUpdateService"
+                                          ],
+                        "match_notes":  "Names vary by GCC version."
+                    },
+                    {
+                        "id":  "nvidia_app",
+                        "friendly":  "NVIDIA App / NVIDIA services",
+                        "category":  "GPU tool",
+                        "process_names":  [
+                                              "NVIDIA App",
+                                              "NVIDIA Overlay",
+                                              "NVIDIA Share",
+                                              "NVIDIA Web Helper",
+                                              "nvcontainer",
+                                              "NVIDIA GeForce Experience"
+                                          ],
+                        "match_notes":  "NVIDIA App components and service containers."
+                    }
+                ]
+}

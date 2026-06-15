@@ -1,0 +1,42 @@
+# Known Risks
+
+- `cpu.power_plan.active_selection` [Medium]: Changing active plan affects all power settings tied to that plan.
+- `cpu.boost.mode` [Medium]: Changes CPU boost behavior. Can affect heat, fan noise, battery life, and stability.
+- `cpu.boost.policy` [Medium]: Advanced boost policy. Treat as experimental until values are verified on this laptop.
+- `cpu.state.minimum` [Medium]: Raising this can increase idle power and heat. Use conservative defaults.
+- `cpu.state.maximum` [Medium]: Lowering this can cap CPU performance. Changing it affects all workloads on the selected power plan.
+- `cpu.frequency.maximum` [High]: Frequency caps can sharply limit performance or create confusing benchmark results.
+- `cpu.parking.min_cores` [High]: Core parking changes can affect latency, heat, and scheduler behavior. Advanced users only.
+- `cpu.parking.max_cores` [High]: Core parking changes can affect latency, heat, and scheduler behavior. Advanced users only.
+- `cpu.idle.disable` [Dangerous / Experimental]: Can greatly increase heat and power use. Keep read-only until a restore path is proven.
+- `cpu.scheduling.heterogeneous_policy` [Unknown]: Hybrid scheduling behavior is platform-specific. Treat as advanced and verify before writes.
+- `cpu.boost.performance_increase_threshold` [High]: Advanced boost response tuning. Can cause erratic performance or heat behavior if misused.
+- `cpu.boost.performance_decrease_threshold` [High]: Advanced boost response tuning. Can cause erratic performance or heat behavior if misused.
+- `gpu.msi.profile.slot1` [Medium]: Applies an external MSI Afterburner profile slot. Verify slot mapping first.
+- `gpu.msi.profile.slot2` [Medium]: Applies an external MSI Afterburner profile slot. Verify slot mapping first.
+- `gpu.msi.profile.slot3` [Medium]: Applies an external MSI Afterburner profile slot. Verify slot mapping first.
+- `gpu.msi.profile.slot4` [Medium]: Applies an external MSI Afterburner profile slot. Verify slot mapping first.
+- `gpu.msi.profile.slot5` [Medium]: Applies an external MSI Afterburner profile slot. Verify slot mapping first.
+- `gpu.msi.backup.config_profiles` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.msi.profile.slot_mapping` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.msi.curve_editor.future` [High]: Advanced GPU curve control. Changes can crash games or reset the driver.
+- `gpu.profile.stock_safe_concept` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.profile.efficient_undervolt_concept` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.profile.balanced_concept` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.profile.aggressive_concept` [High]: Review before future apply. Phase 3 stores app-side desired state only.
+- `gpu.profile.test_concept` [Medium]: Review before future apply. Phase 3 stores app-side desired state only.
+- `fan.gigabyte.gcc_surfaces` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.gigabyte.powergear_service_status` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.official_api.status` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.command_line_control.status` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.config_file_control.status` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.ui_automation.status` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.ec_write.research_only` [Dangerous / Experimental]: Dangerous low-level hardware access. Research only.
+- `fan.mode_display.future` [High]: Fan control is experimental until an official reversible path is proven.
+- `fan.apply_action.blocked` [High]: Fan control is experimental until an official reversible path is proven.
+- `startup.launch_app.future` [Medium]: Automation can change system behavior on login or game launch.
+- `startup.scheduled_task.future` [Medium]: Automation can change system behavior on login or game launch.
+- `startup.start_minimized.future` [Medium]: Automation can change system behavior on login or game launch.
+- `startup.auto_detect_game.future` [Medium]: Automation can change system behavior on login or game launch.
+- `startup.auto_apply_preset.future` [Medium]: Automation can change system behavior on login or game launch.
+- `startup.automation.kill_switch` [Medium]: Automation can change system behavior on login or game launch.

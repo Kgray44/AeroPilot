@@ -1,0 +1,340 @@
+﻿{
+    "detector":  "msi_afterburner",
+    "timestamp_local":  "2026-06-14T21:07:46",
+    "installed":  true,
+    "executable_paths":  [
+                             {
+                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+                                 "name":  "MSIAfterburner.exe",
+                                 "exists":  true,
+                                 "length_bytes":  828296,
+                                 "last_write_local":  "2025-09-28T19:38:12",
+                                 "file_version":  "4.6.6.16757",
+                                 "is_directory":  false
+                             }
+                         ],
+    "rtss_executable_paths":  [
+                                  {
+                                      "path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+                                      "name":  "RTSS.exe",
+                                      "exists":  true,
+                                      "length_bytes":  530824,
+                                      "last_write_local":  "2025-09-28T19:35:00",
+                                      "file_version":  "7.3.5.28314",
+                                      "is_directory":  false
+                                  }
+                              ],
+    "install_folder":  "C:\\Program Files (x86)\\MSI Afterburner",
+    "uninstall_entries":  [
+                              {
+                                  "display_name":  "MSI Afterburner 4.6.6",
+                                  "display_version":  "4.6.6",
+                                  "publisher":  "MSI Co., LTD",
+                                  "install_location":  null,
+                                  "uninstall_string":  "\"C:\\Program Files (x86)\\MSI Afterburner\\uninstall.exe\"",
+                                  "registry_path":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\Software\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Afterburner"
+                              },
+                              {
+                                  "display_name":  "RivaTuner Statistics Server 7.3.7",
+                                  "display_version":  "7.3.7",
+                                  "publisher":  "Unwinder",
+                                  "install_location":  null,
+                                  "uninstall_string":  "\"C:\\Program Files (x86)\\RivaTuner Statistics Server\\uninstall.exe\"",
+                                  "registry_path":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\Software\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RTSS"
+                              }
+                          ],
+    "shortcuts":  [
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\MSI Afterburner.lnk",
+                          "name":  "MSI Afterburner.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:47:55"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\ReadMe.lnk",
+                          "name":  "ReadMe.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Doc\\ReadMe.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:47:55"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\Uninstall.lnk",
+                          "name":  "Uninstall.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Uninstall.exe",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:48:10"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\SDK\\MSI Afterburner localization reference.lnk",
+                          "name":  "MSI Afterburner localization reference.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\SDK\\Doc\\Localization reference.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:47:55"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\SDK\\MSI Afterburner skin format reference.lnk",
+                          "name":  "MSI Afterburner skin format reference.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\SDK\\Doc\\USF skin format reference.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:47:55"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\MSI Afterburner\\SDK\\Samples.lnk",
+                          "name":  "Samples.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\MSI Afterburner\\SDK\\Samples",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:47:55"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\Desktop Overlay Host.lnk",
+                          "name":  "Desktop Overlay Host.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\DesktopOverlayHost.exe",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\ReadMe.lnk",
+                          "name":  "ReadMe.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Doc\\ReadMe.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\RivaTuner Statistics Server.lnk",
+                          "name":  "RivaTuner Statistics Server.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\Uninstall.lnk",
+                          "name":  "Uninstall.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Uninstall.exe",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\SDK\\RivaTuner Statistics Server localization reference.lnk",
+                          "name":  "RivaTuner Statistics Server localization reference.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Doc\\Localization reference.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\SDK\\RivaTuner Statistics Server skin format reference.lnk",
+                          "name":  "RivaTuner Statistics Server skin format reference.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Doc\\USF skin format reference.pdf",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      },
+                      {
+                          "path":  "C:\\Users\\kkids\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\RivaTuner Statistics Server\\SDK\\Samples.lnk",
+                          "name":  "Samples.lnk",
+                          "target_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\SDK\\Samples",
+                          "arguments":  "",
+                          "last_write_local":  "2026-04-20T17:11:20"
+                      }
+                  ],
+    "profiles_folder":  {
+                            "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles",
+                            "name":  "Profiles",
+                            "exists":  true,
+                            "length_bytes":  null,
+                            "last_write_local":  "2026-06-14T17:16:12",
+                            "file_version":  null,
+                            "is_directory":  true
+                        },
+    "profiles_folder_exists":  true,
+    "msi_afterburner_cfg":  {
+                                "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+                                "name":  "MSIAfterburner.cfg",
+                                "exists":  true,
+                                "length_bytes":  7962,
+                                "last_write_local":  "2025-09-09T19:14:14",
+                                "file_version":  null,
+                                "is_directory":  false
+                            },
+    "config_files":  [
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+                             "name":  "MSIAfterburner.cfg",
+                             "exists":  true,
+                             "length_bytes":  7962,
+                             "last_write_local":  "2025-09-09T19:14:14",
+                             "file_version":  null,
+                             "is_directory":  false
+                         },
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+                             "name":  "RTCore.cfg",
+                             "exists":  true,
+                             "length_bytes":  7739,
+                             "last_write_local":  "2017-10-07T05:39:00",
+                             "file_version":  null,
+                             "is_directory":  false
+                         },
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+                             "name":  "MSIAfterburner.dat",
+                             "exists":  true,
+                             "length_bytes":  36387,
+                             "last_write_local":  "2025-09-28T19:38:14",
+                             "file_version":  null,
+                             "is_directory":  false
+                         },
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+                             "name":  "MSIAfterburner.oem",
+                             "exists":  true,
+                             "length_bytes":  92967,
+                             "last_write_local":  "2025-09-28T19:38:14",
+                             "file_version":  null,
+                             "is_directory":  false
+                         },
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+                             "name":  "MSIAfterburner.oem1",
+                             "exists":  true,
+                             "length_bytes":  96146,
+                             "last_write_local":  "2025-09-28T19:38:14",
+                             "file_version":  null,
+                             "is_directory":  false
+                         },
+                         {
+                             "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+                             "name":  "MSIAfterburner.oem2",
+                             "exists":  true,
+                             "length_bytes":  11112,
+                             "last_write_local":  "2025-09-14T02:37:18",
+                             "file_version":  null,
+                             "is_directory":  false
+                         }
+                     ],
+    "profile_files":  [
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+                              "name":  "MSIAfterburner.cfg",
+                              "exists":  true,
+                              "length_bytes":  2307,
+                              "last_write_local":  "2026-06-14T18:16:47",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+                              "name":  "Profile2.cfg",
+                              "exists":  true,
+                              "length_bytes":  31,
+                              "last_write_local":  "2026-04-20T18:06:24",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+                              "name":  "Profile3.cfg",
+                              "exists":  true,
+                              "length_bytes":  31,
+                              "last_write_local":  "2026-06-13T21:40:47",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+                              "name":  "Profile4.cfg",
+                              "exists":  true,
+                              "length_bytes":  31,
+                              "last_write_local":  "2026-06-13T22:50:31",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+                              "name":  "Profile5.cfg",
+                              "exists":  true,
+                              "length_bytes":  31,
+                              "last_write_local":  "2026-06-14T17:56:19",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                              "name":  "VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                              "exists":  true,
+                              "length_bytes":  60,
+                              "last_write_local":  "2026-04-21T20:10:42",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                              "name":  "VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                              "exists":  true,
+                              "length_bytes":  109,
+                              "last_write_local":  "2026-06-14T21:01:18",
+                              "file_version":  null,
+                              "is_directory":  false
+                          },
+                          {
+                              "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                              "name":  "VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                              "exists":  true,
+                              "length_bytes":  26122,
+                              "last_write_local":  "2026-06-14T21:01:18",
+                              "file_version":  null,
+                              "is_directory":  false
+                          }
+                      ],
+    "appears_running":  true,
+    "process_matches":  [
+                            {
+                                "process_name":  "MSIAfterburner",
+                                "id":  10260,
+                                "path":  null,
+                                "cpu_seconds":  915.96875,
+                                "matched":  [
+                                                "(?i)^MSIAfterburner$",
+                                                "(?i)Afterburner"
+                                            ]
+                            }
+                        ],
+    "future_profile_commands":  [
+                                    {
+                                        "profile_slot":  1,
+                                        "command":  "\"C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe\" -Profile1",
+                                        "phase1_state":  "Template only. Not executed in Phase 1.",
+                                        "risk_label":  "Medium"
+                                    },
+                                    {
+                                        "profile_slot":  2,
+                                        "command":  "\"C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe\" -Profile2",
+                                        "phase1_state":  "Template only. Not executed in Phase 1.",
+                                        "risk_label":  "Medium"
+                                    },
+                                    {
+                                        "profile_slot":  3,
+                                        "command":  "\"C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe\" -Profile3",
+                                        "phase1_state":  "Template only. Not executed in Phase 1.",
+                                        "risk_label":  "Medium"
+                                    },
+                                    {
+                                        "profile_slot":  4,
+                                        "command":  "\"C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe\" -Profile4",
+                                        "phase1_state":  "Template only. Not executed in Phase 1.",
+                                        "risk_label":  "Medium"
+                                    },
+                                    {
+                                        "profile_slot":  5,
+                                        "command":  "\"C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe\" -Profile5",
+                                        "phase1_state":  "Template only. Not executed in Phase 1.",
+                                        "risk_label":  "Medium"
+                                    }
+                                ],
+    "conclusion":  "MSI Afterburner profile commands are likely launchable later, but Phase 1 did not run them.",
+    "manual_verification_needed":  [
+                                       "Confirm profile slots match friendly preset names before any apply phase.",
+                                       "Confirm MSI Afterburner command-line profile loading behavior manually before GUI integration.",
+                                       "Back up MSIAfterburner.cfg and Profiles before any future write or profile launch test."
+                                   ]
+}
+

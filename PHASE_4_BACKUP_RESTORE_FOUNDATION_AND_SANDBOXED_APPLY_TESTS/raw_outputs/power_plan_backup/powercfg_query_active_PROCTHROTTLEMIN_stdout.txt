@@ -1,0 +1,12 @@
+﻿Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)
+  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)
+    GUID Alias: SUB_PROCESSOR
+    Power Setting GUID: 893dee8e-2bef-41e0-89c6-b55d0929964c  (Minimum processor state)
+      GUID Alias: PROCTHROTTLEMIN
+      Minimum Possible Setting: 0x00000000
+      Maximum Possible Setting: 0x00000064
+      Possible Settings increment: 0x00000001
+      Possible Settings units: %
+    Current AC Power Setting Index: 0x00000005
+    Current DC Power Setting Index: 0x00000064
+

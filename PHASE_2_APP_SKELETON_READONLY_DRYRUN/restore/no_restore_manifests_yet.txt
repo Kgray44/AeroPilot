@@ -1,0 +1,1 @@
+No restore manifests exist yet because Phase 2 is read-only and dry-run only.

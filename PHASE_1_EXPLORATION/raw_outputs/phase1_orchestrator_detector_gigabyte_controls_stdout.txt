@@ -1,0 +1,956 @@
+﻿{
+    "detector":  "gigabyte_controls",
+    "timestamp_local":  "2026-06-14T21:10:06",
+    "installed_entries":  [
+                              {
+                                  "display_name":  "GIGABYTE Storage Library",
+                                  "display_version":  "25.11.26.01",
+                                  "publisher":  "GIGABYTE",
+                                  "install_location":  null,
+                                  "uninstall_string":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\MBStorage\\uninst.exe",
+                                  "registry_path":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MBStorage"
+                              }
+                          ],
+    "running_processes":  [
+                              {
+                                  "process_name":  "Gbt.GpuPowerGear.Proxy",
+                                  "id":  12616,
+                                  "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Proxy.exe",
+                                  "cpu_seconds":  0.28125,
+                                  "matched":  [
+                                                  "(?i)Gbt\\.",
+                                                  "(?i)GpuPowerGear"
+                                              ]
+                              },
+                              {
+                                  "process_name":  "Gbt.GpuPowerGear.Service",
+                                  "id":  12860,
+                                  "path":  null,
+                                  "cpu_seconds":  null,
+                                  "matched":  [
+                                                  "(?i)Gbt\\.",
+                                                  "(?i)GpuPowerGear"
+                                              ]
+                              },
+                              {
+                                  "process_name":  "GCC",
+                                  "id":  10692,
+                                  "path":  null,
+                                  "cpu_seconds":  null,
+                                  "matched":  [
+                                                  "(?i)\\bGCC\\b"
+                                              ]
+                              }
+                          ],
+    "services":  [
+                     {
+                         "name":  "Gbt.GpuPowerGear.Service",
+                         "display_name":  "GIGABYTE PowerGear Service",
+                         "state":  "Running",
+                         "start_mode":  "Manual",
+                         "path_name":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Service.exe",
+                         "process_id":  12860
+                     }
+                 ],
+    "folders":  [
+                    {
+                        "path":  "C:\\Program Files\\GIGABYTE",
+                        "name":  "GIGABYTE",
+                        "exists":  true,
+                        "length_bytes":  null,
+                        "last_write_local":  "2026-06-12T23:40:29",
+                        "file_version":  null,
+                        "is_directory":  true
+                    },
+                    {
+                        "path":  "C:\\ProgramData\\GIGABYTE",
+                        "name":  "GIGABYTE",
+                        "exists":  true,
+                        "length_bytes":  null,
+                        "last_write_local":  "2026-06-13T00:09:32",
+                        "file_version":  null,
+                        "is_directory":  true
+                    },
+                    {
+                        "path":  "C:\\Users\\kkids\\AppData\\Local\\gigabyte-gimate-coder-updater",
+                        "name":  "gigabyte-gimate-coder-updater",
+                        "exists":  true,
+                        "length_bytes":  null,
+                        "last_write_local":  "2026-06-12T23:34:21",
+                        "file_version":  null,
+                        "is_directory":  true
+                    },
+                    {
+                        "path":  "C:\\Users\\kkids\\AppData\\Local\\gigabyte-gimate-creator-updater",
+                        "name":  "gigabyte-gimate-creator-updater",
+                        "exists":  true,
+                        "length_bytes":  null,
+                        "last_write_local":  "2026-06-12T23:36:37",
+                        "file_version":  null,
+                        "is_directory":  true
+                    }
+                ],
+    "obvious_config_files":  [
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\AI_PowerGear_III.deps.json",
+                                     "name":  "AI_PowerGear_III.deps.json",
+                                     "exists":  true,
+                                     "length_bytes":  6524,
+                                     "last_write_local":  "2025-11-12T07:57:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\AI_PowerGear_III.runtimeconfig.json",
+                                     "name":  "AI_PowerGear_III.runtimeconfig.json",
+                                     "exists":  true,
+                                     "length_bytes":  515,
+                                     "last_write_local":  "2025-11-06T06:36:08",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\appsettings.Development.json",
+                                     "name":  "appsettings.Development.json",
+                                     "exists":  true,
+                                     "length_bytes":  137,
+                                     "last_write_local":  "2025-09-11T02:44:56",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\appsettings.json",
+                                     "name":  "appsettings.json",
+                                     "exists":  true,
+                                     "length_bytes":  137,
+                                     "last_write_local":  "2025-09-11T02:44:56",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Proxy.deps.json",
+                                     "name":  "Gbt.GpuPowerGear.Proxy.deps.json",
+                                     "exists":  true,
+                                     "length_bytes":  35932,
+                                     "last_write_local":  "2025-11-25T08:08:24",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Proxy.runtimeconfig.json",
+                                     "name":  "Gbt.GpuPowerGear.Proxy.runtimeconfig.json",
+                                     "exists":  true,
+                                     "length_bytes":  397,
+                                     "last_write_local":  "2025-10-22T08:41:08",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Service.deps.json",
+                                     "name":  "Gbt.GpuPowerGear.Service.deps.json",
+                                     "exists":  true,
+                                     "length_bytes":  38883,
+                                     "last_write_local":  "2026-01-13T01:37:16",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.Service.runtimeconfig.json",
+                                     "name":  "Gbt.GpuPowerGear.Service.runtimeconfig.json",
+                                     "exists":  true,
+                                     "length_bytes":  515,
+                                     "last_write_local":  "2025-10-22T08:41:08",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.UI.deps.json",
+                                     "name":  "Gbt.GpuPowerGear.UI.deps.json",
+                                     "exists":  true,
+                                     "length_bytes":  1847,
+                                     "last_write_local":  "2026-01-13T01:37:16",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_NbSrv\\PgSvc\\Gbt.GpuPowerGear.UI.runtimeconfig.json",
+                                     "name":  "Gbt.GpuPowerGear.UI.runtimeconfig.json",
+                                     "exists":  true,
+                                     "length_bytes":  515,
+                                     "last_write_local":  "2025-10-22T08:41:08",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECoder\\vk_swiftshader_icd.json",
+                                     "name":  "vk_swiftshader_icd.json",
+                                     "exists":  true,
+                                     "length_bytes":  106,
+                                     "last_write_local":  "2026-03-03T04:01:46",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECoder\\resources\\app.asar.unpacked\\resources\\backend\\_internal\\Functions\\model_info.json",
+                                     "name":  "model_info.json",
+                                     "exists":  true,
+                                     "length_bytes":  3927,
+                                     "last_write_local":  "2026-03-03T04:01:46",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECreator\\vk_swiftshader_icd.json",
+                                     "name":  "vk_swiftshader_icd.json",
+                                     "exists":  true,
+                                     "length_bytes":  106,
+                                     "last_write_local":  "2026-02-04T05:15:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECreator\\resources\\app.asar.unpacked\\resources\\backend\\_internal\\diffusers-0.37.0.dev0.dist-info\\direct_url.json",
+                                     "name":  "direct_url.json",
+                                     "exists":  true,
+                                     "length_bytes":  136,
+                                     "last_write_local":  "2026-02-04T05:15:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECreator\\resources\\app.asar.unpacked\\resources\\backend\\_internal\\Functions\\Mapping\\Adapters.json",
+                                     "name":  "Adapters.json",
+                                     "exists":  true,
+                                     "length_bytes":  1367,
+                                     "last_write_local":  "2026-02-04T05:15:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECreator\\resources\\app.asar.unpacked\\resources\\backend\\_internal\\Functions\\Mapping\\Models.json",
+                                     "name":  "Models.json",
+                                     "exists":  true,
+                                     "length_bytes":  1708,
+                                     "last_write_local":  "2026-02-04T05:15:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATECreator\\resources\\app.asar.unpacked\\resources\\backend\\_internal\\torch\\_dynamo\\graph_break_registry.json",
+                                     "name":  "graph_break_registry.json",
+                                     "exists":  true,
+                                     "length_bytes":  159263,
+                                     "last_write_local":  "2026-02-04T05:15:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\version_control_amd.json",
+                                     "name":  "version_control_amd.json",
+                                     "exists":  true,
+                                     "length_bytes":  26536,
+                                     "last_write_local":  "2026-06-13T00:07:12",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\gpilot-v3.6\\adapter_config.json",
+                                     "name":  "adapter_config.json",
+                                     "exists":  true,
+                                     "length_bytes":  768,
+                                     "last_write_local":  "2025-02-03T04:34:42",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\llama-3.2-3B-Instruct\\config.json",
+                                     "name":  "config.json",
+                                     "exists":  true,
+                                     "length_bytes":  1464,
+                                     "last_write_local":  "2025-02-03T04:34:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\llama-3.2-3B-Instruct\\generation_config.json",
+                                     "name":  "generation_config.json",
+                                     "exists":  true,
+                                     "length_bytes":  196,
+                                     "last_write_local":  "2025-02-03T04:34:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\llama-3.2-3B-Instruct\\special_tokens_map.json",
+                                     "name":  "special_tokens_map.json",
+                                     "exists":  true,
+                                     "length_bytes":  312,
+                                     "last_write_local":  "2025-02-03T04:34:46",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\llama-3.2-3B-Instruct\\tokenizer.json",
+                                     "name":  "tokenizer.json",
+                                     "exists":  true,
+                                     "length_bytes":  9085657,
+                                     "last_write_local":  "2025-02-03T04:34:46",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\model\\llama-3.2-3B-Instruct\\tokenizer_config.json",
+                                     "name":  "tokenizer_config.json",
+                                     "exists":  true,
+                                     "length_bytes":  56590,
+                                     "last_write_local":  "2025-02-03T04:34:46",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\all_output_map.json",
+                                     "name":  "all_output_map.json",
+                                     "exists":  true,
+                                     "length_bytes":  129843,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\nb_output_info.json",
+                                     "name":  "nb_output_info.json",
+                                     "exists":  true,
+                                     "length_bytes":  1084,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_ELITE_16_BWH.json",
+                                     "name":  "AORUS_ELITE_16_BWH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128590,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_MASTER_16_BXH.json",
+                                     "name":  "AORUS_MASTER_16_BXH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128146,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_MASTER_16_BYH.json",
+                                     "name":  "AORUS_MASTER_16_BYH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128640,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_MASTER_16_BZH.json",
+                                     "name":  "AORUS_MASTER_16_BZH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128630,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_MASTER_18_BYH.json",
+                                     "name":  "AORUS_MASTER_18_BYH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128690,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\AORUS_MASTER_18_BZH.json",
+                                     "name":  "AORUS_MASTER_18_BZH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128680,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_AERO_X16_1TH.json",
+                                     "name":  "GIGABYTE_AERO_X16_1TH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128070,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_AERO_X16_1VH.json",
+                                     "name":  "GIGABYTE_AERO_X16_1VH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128663,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_AERO_X16_1WH.json",
+                                     "name":  "GIGABYTE_AERO_X16_1WH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128092,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_AERO_X16_2WH.json",
+                                     "name":  "GIGABYTE_AERO_X16_2WH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128664,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_GAMING_A16_CMH.json",
+                                     "name":  "GIGABYTE_GAMING_A16_CMH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128103,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_GAMING_A16_CTH.json",
+                                     "name":  "GIGABYTE_GAMING_A16_CTH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128052,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_GAMING_A16_CVH.json",
+                                     "name":  "GIGABYTE_GAMING_A16_CVH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128654,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\data\\data_v6-3-1\\gigabyte_nbs\\GIGABYTE_GAMING_A16_CWH.json",
+                                     "name":  "GIGABYTE_GAMING_A16_CWH.json",
+                                     "exists":  true,
+                                     "length_bytes":  128654,
+                                     "last_write_local":  "2025-12-19T00:47:44",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\config.json",
+                                     "name":  "config.json",
+                                     "exists":  true,
+                                     "length_bytes":  877,
+                                     "last_write_local":  "2025-05-07T05:26:10",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\config_sentence_transformers.json",
+                                     "name":  "config_sentence_transformers.json",
+                                     "exists":  true,
+                                     "length_bytes":  199,
+                                     "last_write_local":  "2025-05-07T05:26:10",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\modules.json",
+                                     "name":  "modules.json",
+                                     "exists":  true,
+                                     "length_bytes":  461,
+                                     "last_write_local":  "2025-05-07T05:26:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\sentence_bert_config.json",
+                                     "name":  "sentence_bert_config.json",
+                                     "exists":  true,
+                                     "length_bytes":  53,
+                                     "last_write_local":  "2025-05-07T05:26:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\special_tokens_map.json",
+                                     "name":  "special_tokens_map.json",
+                                     "exists":  true,
+                                     "length_bytes":  695,
+                                     "last_write_local":  "2025-05-07T05:26:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\tokenizer.json",
+                                     "name":  "tokenizer.json",
+                                     "exists":  true,
+                                     "length_bytes":  13632172,
+                                     "last_write_local":  "2025-05-07T05:26:16",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\tokenizer_config.json",
+                                     "name":  "tokenizer_config.json",
+                                     "exists":  true,
+                                     "length_bytes":  1465,
+                                     "last_write_local":  "2025-05-07T05:26:16",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\1_Pooling\\config.json",
+                                     "name":  "config.json",
+                                     "exists":  true,
+                                     "length_bytes":  296,
+                                     "last_write_local":  "2025-05-07T05:26:10",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Hwctl\\retrieval\\model\\exp-186\\best_sbert_model\\2_Dense\\config.json",
+                                     "name":  "config.json",
+                                     "exists":  true,
+                                     "length_bytes":  114,
+                                     "last_write_local":  "2025-05-07T05:26:10",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\hk2s.json",
+                                     "name":  "hk2s.json",
+                                     "exists":  true,
+                                     "length_bytes":  677,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\hk2t.json",
+                                     "name":  "hk2t.json",
+                                     "exists":  true,
+                                     "length_bytes":  473,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\jp2t.json",
+                                     "name":  "jp2t.json",
+                                     "exists":  true,
+                                     "length_bytes":  565,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\s2hk.json",
+                                     "name":  "s2hk.json",
+                                     "exists":  true,
+                                     "length_bytes":  534,
+                                     "last_write_local":  "2025-01-17T00:59:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\s2t.json",
+                                     "name":  "s2t.json",
+                                     "exists":  true,
+                                     "length_bytes":  428,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\s2tw.json",
+                                     "name":  "s2tw.json",
+                                     "exists":  true,
+                                     "length_bytes":  532,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\s2twp.json",
+                                     "name":  "s2twp.json",
+                                     "exists":  true,
+                                     "length_bytes":  631,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\t2hk.json",
+                                     "name":  "t2hk.json",
+                                     "exists":  true,
+                                     "length_bytes":  320,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\t2jp.json",
+                                     "name":  "t2jp.json",
+                                     "exists":  true,
+                                     "length_bytes":  334,
+                                     "last_write_local":  "2025-01-17T00:59:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\t2s.json",
+                                     "name":  "t2s.json",
+                                     "exists":  true,
+                                     "length_bytes":  428,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\t2tw.json",
+                                     "name":  "t2tw.json",
+                                     "exists":  true,
+                                     "length_bytes":  318,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\tw2s.json",
+                                     "name":  "tw2s.json",
+                                     "exists":  true,
+                                     "length_bytes":  675,
+                                     "last_write_local":  "2025-01-17T00:59:15",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\tw2sp.json",
+                                     "name":  "tw2sp.json",
+                                     "exists":  true,
+                                     "length_bytes":  764,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\opencc\\clib\\share\\opencc\\tw2t.json",
+                                     "name":  "tw2t.json",
+                                     "exists":  true,
+                                     "length_bytes":  471,
+                                     "last_write_local":  "2025-01-17T00:59:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\openvino\\libs\\cache.json",
+                                     "name":  "cache.json",
+                                     "exists":  true,
+                                     "length_bytes":  8840377,
+                                     "last_write_local":  "2025-01-17T00:58:57",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Install_info.xml",
+                                     "name":  "Install_info.xml",
+                                     "exists":  true,
+                                     "length_bytes":  3164,
+                                     "last_write_local":  "2026-01-07T00:46:58",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\rgbcfg.xml",
+                                     "name":  "rgbcfg.xml",
+                                     "exists":  true,
+                                     "length_bytes":  136794,
+                                     "last_write_local":  "2024-11-14T03:31:10",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\sp.xml",
+                                     "name":  "sp.xml",
+                                     "exists":  true,
+                                     "length_bytes":  25373,
+                                     "last_write_local":  "2024-06-26T04:19:04",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\usdata1.xml",
+                                     "name":  "usdata1.xml",
+                                     "exists":  true,
+                                     "length_bytes":  433,
+                                     "last_write_local":  "2024-06-26T04:19:04",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\COMMDLL\\AI.xml",
+                                     "name":  "AI.xml",
+                                     "exists":  true,
+                                     "length_bytes":  2862,
+                                     "last_write_local":  "2025-08-04T23:27:56",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\COMMDLL\\GiMATE Service.xml",
+                                     "name":  "GiMATE Service.xml",
+                                     "exists":  true,
+                                     "length_bytes":  1520,
+                                     "last_write_local":  "2025-08-05T00:01:56",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\COMMDLL\\GimateServiceHelper.xml",
+                                     "name":  "GimateServiceHelper.xml",
+                                     "exists":  true,
+                                     "length_bytes":  2874,
+                                     "last_write_local":  "2025-08-05T00:01:54",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\GBT_WINUI_Bridg_UC\\GiMATE AI.xml",
+                                     "name":  "GiMATE AI.xml",
+                                     "exists":  true,
+                                     "length_bytes":  2874,
+                                     "last_write_local":  "2025-11-13T22:57:04",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\MBStorage\\RGBSSDSupported.xml",
+                                     "name":  "RGBSSDSupported.xml",
+                                     "exists":  true,
+                                     "length_bytes":  2457,
+                                     "last_write_local":  "2024-12-17T00:58:52",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\MBStorage\\ExtSoftware\\Install_info.xml",
+                                     "name":  "Install_info.xml",
+                                     "exists":  true,
+                                     "length_bytes":  1913,
+                                     "last_write_local":  "2025-06-08T21:30:32",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\GiMATE AI.xml",
+                                     "name":  "GiMATE AI.xml",
+                                     "exists":  true,
+                                     "length_bytes":  2928,
+                                     "last_write_local":  "2025-12-02T21:01:40",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Peeping\\weight\\anti_spoof.xml",
+                                     "name":  "anti_spoof.xml",
+                                     "exists":  true,
+                                     "length_bytes":  179485,
+                                     "last_write_local":  "2025-02-03T04:34:51",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Peeping\\weight\\face-detection-adas-0001.xml",
+                                     "name":  "face-detection-adas-0001.xml",
+                                     "exists":  true,
+                                     "length_bytes":  323098,
+                                     "last_write_local":  "2025-02-03T04:34:51",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\GiMATE_ai\\_internal\\Peeping\\weight\\landmarks-regression-retail-0009.xml",
+                                     "name":  "landmarks-regression-retail-0009.xml",
+                                     "exists":  true,
+                                     "length_bytes":  58811,
+                                     "last_write_local":  "2025-02-03T04:34:51",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Device.ini",
+                                     "name":  "Device.ini",
+                                     "exists":  true,
+                                     "length_bytes":  6735,
+                                     "last_write_local":  "2024-09-09T22:14:14",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\ver2.ini",
+                                     "name":  "ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  762,
+                                     "last_write_local":  "2026-06-13T15:56:42",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\AI.AI.AMD_ver2.ini",
+                                     "name":  "AI.AI.AMD_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  302,
+                                     "last_write_local":  "2026-06-13T15:56:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\AI.Creator_ver2.ini",
+                                     "name":  "AI.Creator_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  304,
+                                     "last_write_local":  "2026-06-13T15:56:47",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\AI.GiMATECoder_ver2.ini",
+                                     "name":  "AI.GiMATECoder_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  317,
+                                     "last_write_local":  "2026-06-13T15:56:47",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\GBT_RGB_Sync_Control.RGB_Sync_UI_ver2.ini",
+                                     "name":  "GBT_RGB_Sync_Control.RGB_Sync_UI_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  721,
+                                     "last_write_local":  "2026-06-13T15:56:43",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\GCC.MainWindow_ver2.ini",
+                                     "name":  "GCC.MainWindow_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  298,
+                                     "last_write_local":  "2026-06-13T15:56:42",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\MB.CPNT.Internal.Storage.StorageGroupPanel_ver2.ini",
+                                     "name":  "MB.CPNT.Internal.Storage.StorageGroupPanel_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  393,
+                                     "last_write_local":  "2026-06-13T15:56:48",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\Download\\ucNotebook.NB_Controler_ver2.ini",
+                                     "name":  "ucNotebook.NB_Controler_ver2.ini",
+                                     "exists":  true,
+                                     "length_bytes":  2999,
+                                     "last_write_local":  "2026-06-13T15:56:43",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\Lib\\MBStorage\\SONiXDDRLightControlSDK.ini",
+                                     "name":  "SONiXDDRLightControlSDK.ini",
+                                     "exists":  true,
+                                     "length_bytes":  6856,
+                                     "last_write_local":  "2024-11-11T04:01:02",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\GCC.exe.config",
+                                     "name":  "GCC.exe.config",
+                                     "exists":  true,
+                                     "length_bytes":  547,
+                                     "last_write_local":  "2022-07-12T22:01:32",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 },
+                                 {
+                                     "path":  "C:\\Program Files\\GIGABYTE\\Control Center\\GimateServiceHelper.exe.config",
+                                     "name":  "GimateServiceHelper.exe.config",
+                                     "exists":  true,
+                                     "length_bytes":  647,
+                                     "last_write_local":  "2025-08-18T07:36:08",
+                                     "file_version":  null,
+                                     "is_directory":  false
+                                 }
+                             ],
+    "command_line_help_policy":  [
+                                     {
+                                         "surface":  "GIGABYTE/GCC GUI executables",
+                                         "phase1_decision":  "Skipped",
+                                         "reason":  "Launching unknown OEM control executables for --help may open UI, initialize services, or alter config state. Treat as unsafe until manually isolated."
+                                     },
+                                     {
+                                         "surface":  "Windows services",
+                                         "phase1_decision":  "Read status only",
+                                         "reason":  "Start/stop/control commands are state changes and are out of scope for Phase 1."
+                                     }
+                                 ],
+    "fan_control_feasibility":  [
+                                    {
+                                        "method":  "Official API",
+                                        "likelihood":  "Unknown",
+                                        "phase1_status":  "No official API was confirmed by read-only discovery.",
+                                        "risk":  "Unknown"
+                                    },
+                                    {
+                                        "method":  "Command-line control",
+                                        "likelihood":  "Unknown",
+                                        "phase1_status":  "No safe command-line control surface was confirmed. Help probes were skipped for GUI/OEM executables.",
+                                        "risk":  "High"
+                                    },
+                                    {
+                                        "method":  "Config-file control",
+                                        "likelihood":  "Unknown",
+                                        "phase1_status":  "Config-like files may exist, but Phase 1 did not read semantics or edit files.",
+                                        "risk":  "High"
+                                    },
+                                    {
+                                        "method":  "UI automation",
+                                        "likelihood":  "Possible but fragile",
+                                        "phase1_status":  "Future option only; requires manual confirmation and a rollback/panic plan.",
+                                        "risk":  "High"
+                                    },
+                                    {
+                                        "method":  "Embedded controller writes",
+                                        "likelihood":  "Possible on some laptops but not proven here",
+                                        "phase1_status":  "Read-only research only for now. No EC access was attempted.",
+                                        "risk":  "Dangerous / Experimental"
+                                    }
+                                ],
+    "conclusion":  "Gigabyte/GCC surfaces are present or partially present, but direct fan control is not proven safe.",
+    "future_notes":  [
+                         "Keep fan control behind an Experimental tab until an official or reversible interface is proven.",
+                         "Never write EC registers from the main app without a dedicated research phase.",
+                         "If UI automation is used later, require visible confirmation and a panic restore path."
+                     ]
+}
+

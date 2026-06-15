@@ -1,0 +1,20 @@
+﻿2026-06-14T20:57:39	INFO	Starting detector presentmon
+2026-06-14T20:58:29	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --help
+2026-06-14T20:58:29	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe -h
+2026-06-14T20:58:29	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --version
+2026-06-14T20:58:29	INFO	Finished detector presentmon
+2026-06-14T21:00:59	INFO	Starting detector presentmon
+2026-06-14T21:01:59	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --help
+2026-06-14T21:01:59	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe -h
+2026-06-14T21:01:59	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --version
+2026-06-14T21:01:59	INFO	Finished detector presentmon
+2026-06-14T21:04:34	INFO	Starting detector presentmon
+2026-06-14T21:05:17	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --help
+2026-06-14T21:05:17	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe -h
+2026-06-14T21:05:17	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --version
+2026-06-14T21:05:17	INFO	Finished detector presentmon
+2026-06-14T21:07:52	INFO	Starting detector presentmon
+2026-06-14T21:08:35	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --help
+2026-06-14T21:08:35	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe -h
+2026-06-14T21:08:35	INFO	Running read-only command: C:\Program Files\AMD\CNext\CNext\PresentMon-x64.exe --version
+2026-06-14T21:08:35	INFO	Finished detector presentmon

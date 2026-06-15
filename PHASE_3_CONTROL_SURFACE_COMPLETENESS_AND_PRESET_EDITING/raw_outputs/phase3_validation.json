@@ -1,0 +1,1333 @@
+﻿{
+    "timestamp_local":  "2026-06-15T03:19:54",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+    "total_checks":  265,
+    "failed_checks":  0,
+    "results":  [
+                    {
+                        "name":  "required_path:phase3_report.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_report.md"
+                    },
+                    {
+                        "name":  "required_path:phase3_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_report.json"
+                    },
+                    {
+                        "name":  "required_path:phase3_validation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_validation.md"
+                    },
+                    {
+                        "name":  "required_path:raw_outputs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\raw_outputs"
+                    },
+                    {
+                        "name":  "required_path:logs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\logs"
+                    },
+                    {
+                        "name":  "required_path:screenshots",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\screenshots"
+                    },
+                    {
+                        "name":  "required_path:tests",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\tests"
+                    },
+                    {
+                        "name":  "required_path:scripts",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\scripts"
+                    },
+                    {
+                        "name":  "required_path:scripts\\run_app.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\scripts\\run_app.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\validate_phase3.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\scripts\\validate_phase3.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\collect_control_surface_snapshot.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\scripts\\collect_control_surface_snapshot.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\export_control_surface_bundle.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\scripts\\export_control_surface_bundle.ps1"
+                    },
+                    {
+                        "name":  "required_path:docs\\control_surface_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\control_surface_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\coverage_rules.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\coverage_rules.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\preset_editing_model.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\preset_editing_model.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\backup_restore_requirements.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\backup_restore_requirements.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase4_recommendation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\phase4_recommendation.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\unresolved_controls.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\unresolved_controls.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\known_risks.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\docs\\known_risks.md"
+                    },
+                    {
+                        "name":  "required_path:app\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\main.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\main.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\app_paths.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\core\\app_paths.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\control_surface.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\core\\control_surface.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\command_runner.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\core\\command_runner.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\state_snapshot.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\core\\state_snapshot.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\phase1_data_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\phase1_data_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\powercfg_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\powercfg_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\nvidia_smi_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\nvidia_smi_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\msi_afterburner_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\msi_afterburner_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\presentmon_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\presentmon_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\process_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\process_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\librehardwaremonitor_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\librehardwaremonitor_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\adapters\\gigabyte_adapter.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\adapters\\gigabyte_adapter.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\main_window.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\main_window.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\dashboard_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\dashboard_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\cpu_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\cpu_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\gpu_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\gpu_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\telemetry_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\game_automation_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\game_automation_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\autotuning_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\autotuning_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\fan_experimental_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\fan_experimental_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\logs_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\logs_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\settings_safety_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\ui\\settings_safety_tab.py"
+                    },
+                    {
+                        "name":  "required_path:app\\resources\\app_styles.qss",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\app\\resources\\app_styles.qss"
+                    },
+                    {
+                        "name":  "required_path:config\\app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "required_path:config\\tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "required_path:config\\capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "required_path:config\\control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "required_path:config\\ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "required_path:config\\action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "required_path:config\\restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "required_path:config\\unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\README.md"
+                    },
+                    {
+                        "name":  "required_path:presets\\cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "required_path:restore\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\restore\\README.md"
+                    },
+                    {
+                        "name":  "required_path:restore\\restore_strategy_preview.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\restore\\restore_strategy_preview.json"
+                    },
+                    {
+                        "name":  "required_path:restore\\no_real_restore_manifest_yet.txt",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\restore\\no_real_restore_manifest_yet.txt"
+                    },
+                    {
+                        "name":  "required_path:requirements.txt",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\requirements.txt"
+                    },
+                    {
+                        "name":  "phase1_source:phase1_exploration_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\phase1_exploration_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase1_exploration_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\phase1_exploration_report.json"
+                    },
+                    {
+                        "name":  "phase1_source:discovered_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:discovered_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_paths.json"
+                    },
+                    {
+                        "name":  "phase1_source:discovered_capabilities.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_capabilities.json"
+                    },
+                    {
+                        "name":  "json_parse:discovered_capabilities.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\discovered_capabilities.json"
+                    },
+                    {
+                        "name":  "phase1_source:risk_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\risk_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:risk_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\risk_catalog.json"
+                    },
+                    {
+                        "name":  "phase1_source:app_probe\\process_targets_seed.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json"
+                    },
+                    {
+                        "name":  "json_parse:process_targets_seed.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\app_probe\\process_targets_seed.json"
+                    },
+                    {
+                        "name":  "phase1_source:raw_outputs\\powercfg_detector_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_detector_result.json"
+                    },
+                    {
+                        "name":  "json_parse:powercfg_detector_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_detector_result.json"
+                    },
+                    {
+                        "name":  "json_parse:phase3_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_report.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\raw_outputs\\control_surface_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase3_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\raw_outputs\\phase3_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_strategy_preview.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\restore\\restore_strategy_preview.json"
+                    },
+                    {
+                        "name":  "python_compile_app",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "python_import_check",
+                        "passed":  true,
+                        "details":  "phase3 import check ok"
+                    },
+                    {
+                        "name":  "pyside6_offscreen_construct",
+                        "passed":  true,
+                        "details":  "AERO X16 Control Center\n9"
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Register-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:New-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Start-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Stop-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Restart-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Set-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:New-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:Remove-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:powercfg(\\.exe)?\\s+/(setacvalueindex|setdcvalueindex|setactive)",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:nvidia-smi.*(\\s-pl\\s|--power-limit|-lgc|-lmc|--persistence-mode|\\s-pm\\s)",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:ec\\s*write",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_disallowed_write:fan\\s*apply",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_unjustified_shell_true",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "manifest_has_controls",
+                        "passed":  true,
+                        "details":  "count=102"
+                    },
+                    {
+                        "name":  "manifest_control_ids_unique",
+                        "passed":  true,
+                        "details":  "unique=102; total=102"
+                    },
+                    {
+                        "name":  "required_control:cpu.power_plan.active_selection",
+                        "passed":  true,
+                        "details":  "cpu.power_plan.active_selection"
+                    },
+                    {
+                        "name":  "required_control:cpu.boost.mode",
+                        "passed":  true,
+                        "details":  "cpu.boost.mode"
+                    },
+                    {
+                        "name":  "required_control:cpu.boost.policy",
+                        "passed":  true,
+                        "details":  "cpu.boost.policy"
+                    },
+                    {
+                        "name":  "required_control:cpu.power.epp",
+                        "passed":  true,
+                        "details":  "cpu.power.epp"
+                    },
+                    {
+                        "name":  "required_control:cpu.state.minimum",
+                        "passed":  true,
+                        "details":  "cpu.state.minimum"
+                    },
+                    {
+                        "name":  "required_control:cpu.state.maximum",
+                        "passed":  true,
+                        "details":  "cpu.state.maximum"
+                    },
+                    {
+                        "name":  "required_control:cpu.cooling.system_policy",
+                        "passed":  true,
+                        "details":  "cpu.cooling.system_policy"
+                    },
+                    {
+                        "name":  "required_control:cpu.frequency.maximum",
+                        "passed":  true,
+                        "details":  "cpu.frequency.maximum"
+                    },
+                    {
+                        "name":  "required_control:cpu.parking.min_cores",
+                        "passed":  true,
+                        "details":  "cpu.parking.min_cores"
+                    },
+                    {
+                        "name":  "required_control:cpu.parking.max_cores",
+                        "passed":  true,
+                        "details":  "cpu.parking.max_cores"
+                    },
+                    {
+                        "name":  "required_control:cpu.idle.disable",
+                        "passed":  true,
+                        "details":  "cpu.idle.disable"
+                    },
+                    {
+                        "name":  "required_control:cpu.scheduling.heterogeneous_policy",
+                        "passed":  true,
+                        "details":  "cpu.scheduling.heterogeneous_policy"
+                    },
+                    {
+                        "name":  "required_control:cpu.boost.performance_increase_threshold",
+                        "passed":  true,
+                        "details":  "cpu.boost.performance_increase_threshold"
+                    },
+                    {
+                        "name":  "required_control:cpu.boost.performance_decrease_threshold",
+                        "passed":  true,
+                        "details":  "cpu.boost.performance_decrease_threshold"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot1",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot1"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot2",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot2"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot3",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot3"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot4",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot4"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot5",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot5"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.backup.config_profiles",
+                        "passed":  true,
+                        "details":  "gpu.msi.backup.config_profiles"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.profile.slot_mapping",
+                        "passed":  true,
+                        "details":  "gpu.msi.profile.slot_mapping"
+                    },
+                    {
+                        "name":  "required_control:gpu.msi.curve_editor.future",
+                        "passed":  true,
+                        "details":  "gpu.msi.curve_editor.future"
+                    },
+                    {
+                        "name":  "required_control:gpu.profile.stock_safe_concept",
+                        "passed":  true,
+                        "details":  "gpu.profile.stock_safe_concept"
+                    },
+                    {
+                        "name":  "required_control:gpu.profile.efficient_undervolt_concept",
+                        "passed":  true,
+                        "details":  "gpu.profile.efficient_undervolt_concept"
+                    },
+                    {
+                        "name":  "required_control:gpu.profile.balanced_concept",
+                        "passed":  true,
+                        "details":  "gpu.profile.balanced_concept"
+                    },
+                    {
+                        "name":  "required_control:gpu.profile.aggressive_concept",
+                        "passed":  true,
+                        "details":  "gpu.profile.aggressive_concept"
+                    },
+                    {
+                        "name":  "required_control:gpu.profile.test_concept",
+                        "passed":  true,
+                        "details":  "gpu.profile.test_concept"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.gpu_name",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.gpu_name"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.driver_version",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.driver_version"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.gpu_utilization",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.gpu_utilization"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.memory_utilization",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.memory_utilization"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.vram",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.vram"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.temperature",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.temperature"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.power_draw",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.power_draw"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.power_limit_read",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.power_limit_read"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.graphics_clock",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.graphics_clock"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.memory_clock",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.memory_clock"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.gpu_processes",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.gpu_processes"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvidia.fallback_query",
+                        "passed":  true,
+                        "details":  "telemetry.nvidia.fallback_query"
+                    },
+                    {
+                        "name":  "required_control:telemetry.nvml.future_adapter",
+                        "passed":  true,
+                        "details":  "telemetry.nvml.future_adapter"
+                    },
+                    {
+                        "name":  "required_control:presentmon.candidate.selection",
+                        "passed":  true,
+                        "details":  "presentmon.candidate.selection"
+                    },
+                    {
+                        "name":  "required_control:presentmon.syntax.verification",
+                        "passed":  true,
+                        "details":  "presentmon.syntax.verification"
+                    },
+                    {
+                        "name":  "required_control:presentmon.process_targeting",
+                        "passed":  true,
+                        "details":  "presentmon.process_targeting"
+                    },
+                    {
+                        "name":  "required_control:presentmon.csv_output",
+                        "passed":  true,
+                        "details":  "presentmon.csv_output"
+                    },
+                    {
+                        "name":  "required_control:presentmon.timed_capture",
+                        "passed":  true,
+                        "details":  "presentmon.timed_capture"
+                    },
+                    {
+                        "name":  "required_control:metrics.fps.average",
+                        "passed":  true,
+                        "details":  "metrics.fps.average"
+                    },
+                    {
+                        "name":  "required_control:metrics.fps.one_percent_low",
+                        "passed":  true,
+                        "details":  "metrics.fps.one_percent_low"
+                    },
+                    {
+                        "name":  "required_control:metrics.frametime",
+                        "passed":  true,
+                        "details":  "metrics.frametime"
+                    },
+                    {
+                        "name":  "required_control:capture.session_folder",
+                        "passed":  true,
+                        "details":  "capture.session_folder"
+                    },
+                    {
+                        "name":  "required_control:lhm.dll.candidate",
+                        "passed":  true,
+                        "details":  "lhm.dll.candidate"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.cpu_temperature",
+                        "passed":  true,
+                        "details":  "lhm.sensor.cpu_temperature"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.cpu_clock",
+                        "passed":  true,
+                        "details":  "lhm.sensor.cpu_clock"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.cpu_package_power",
+                        "passed":  true,
+                        "details":  "lhm.sensor.cpu_package_power"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.fan_rpm",
+                        "passed":  true,
+                        "details":  "lhm.sensor.fan_rpm"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.voltage",
+                        "passed":  true,
+                        "details":  "lhm.sensor.voltage"
+                    },
+                    {
+                        "name":  "required_control:lhm.sensor.motherboard",
+                        "passed":  true,
+                        "details":  "lhm.sensor.motherboard"
+                    },
+                    {
+                        "name":  "required_control:process.bf6",
+                        "passed":  true,
+                        "details":  "process.bf6"
+                    },
+                    {
+                        "name":  "required_control:process.steam",
+                        "passed":  true,
+                        "details":  "process.steam"
+                    },
+                    {
+                        "name":  "required_control:process.ea_app",
+                        "passed":  true,
+                        "details":  "process.ea_app"
+                    },
+                    {
+                        "name":  "required_control:process.epic_games",
+                        "passed":  true,
+                        "details":  "process.epic_games"
+                    },
+                    {
+                        "name":  "required_control:process.sea_of_thieves",
+                        "passed":  true,
+                        "details":  "process.sea_of_thieves"
+                    },
+                    {
+                        "name":  "required_control:process.minecraft",
+                        "passed":  true,
+                        "details":  "process.minecraft"
+                    },
+                    {
+                        "name":  "required_control:process.msi_afterburner",
+                        "passed":  true,
+                        "details":  "process.msi_afterburner"
+                    },
+                    {
+                        "name":  "required_control:process.rtss",
+                        "passed":  true,
+                        "details":  "process.rtss"
+                    },
+                    {
+                        "name":  "required_control:process.presentmon",
+                        "passed":  true,
+                        "details":  "process.presentmon"
+                    },
+                    {
+                        "name":  "required_control:process.hwinfo",
+                        "passed":  true,
+                        "details":  "process.hwinfo"
+                    },
+                    {
+                        "name":  "required_control:process.gigabyte_control_center",
+                        "passed":  true,
+                        "details":  "process.gigabyte_control_center"
+                    },
+                    {
+                        "name":  "required_control:process.nvidia_app",
+                        "passed":  true,
+                        "details":  "process.nvidia_app"
+                    },
+                    {
+                        "name":  "required_control:process.false_positive_handling",
+                        "passed":  true,
+                        "details":  "process.false_positive_handling"
+                    },
+                    {
+                        "name":  "required_control:process.command_line_filtering",
+                        "passed":  true,
+                        "details":  "process.command_line_filtering"
+                    },
+                    {
+                        "name":  "required_control:automation.auto_apply.future",
+                        "passed":  true,
+                        "details":  "automation.auto_apply.future"
+                    },
+                    {
+                        "name":  "required_control:automation.restore_on_exit.future",
+                        "passed":  true,
+                        "details":  "automation.restore_on_exit.future"
+                    },
+                    {
+                        "name":  "required_control:network.ping_logger.future",
+                        "passed":  true,
+                        "details":  "network.ping_logger.future"
+                    },
+                    {
+                        "name":  "required_control:network.target_host.selection",
+                        "passed":  true,
+                        "details":  "network.target_host.selection"
+                    },
+                    {
+                        "name":  "required_control:network.interval.setting",
+                        "passed":  true,
+                        "details":  "network.interval.setting"
+                    },
+                    {
+                        "name":  "required_control:network.session_logging",
+                        "passed":  true,
+                        "details":  "network.session_logging"
+                    },
+                    {
+                        "name":  "required_control:network.ping_spike_detection",
+                        "passed":  true,
+                        "details":  "network.ping_spike_detection"
+                    },
+                    {
+                        "name":  "required_control:fan.powercfg.cooling_policy",
+                        "passed":  true,
+                        "details":  "fan.powercfg.cooling_policy"
+                    },
+                    {
+                        "name":  "required_control:fan.gigabyte.gcc_surfaces",
+                        "passed":  true,
+                        "details":  "fan.gigabyte.gcc_surfaces"
+                    },
+                    {
+                        "name":  "required_control:fan.gigabyte.powergear_service_status",
+                        "passed":  true,
+                        "details":  "fan.gigabyte.powergear_service_status"
+                    },
+                    {
+                        "name":  "required_control:fan.official_api.status",
+                        "passed":  true,
+                        "details":  "fan.official_api.status"
+                    },
+                    {
+                        "name":  "required_control:fan.command_line_control.status",
+                        "passed":  true,
+                        "details":  "fan.command_line_control.status"
+                    },
+                    {
+                        "name":  "required_control:fan.config_file_control.status",
+                        "passed":  true,
+                        "details":  "fan.config_file_control.status"
+                    },
+                    {
+                        "name":  "required_control:fan.ui_automation.status",
+                        "passed":  true,
+                        "details":  "fan.ui_automation.status"
+                    },
+                    {
+                        "name":  "required_control:fan.ec_write.research_only",
+                        "passed":  true,
+                        "details":  "fan.ec_write.research_only"
+                    },
+                    {
+                        "name":  "required_control:fan.mode_display.future",
+                        "passed":  true,
+                        "details":  "fan.mode_display.future"
+                    },
+                    {
+                        "name":  "required_control:fan.apply_action.blocked",
+                        "passed":  true,
+                        "details":  "fan.apply_action.blocked"
+                    },
+                    {
+                        "name":  "required_control:restore.save_current_state",
+                        "passed":  true,
+                        "details":  "restore.save_current_state"
+                    },
+                    {
+                        "name":  "required_control:restore.power_plan.clone_export",
+                        "passed":  true,
+                        "details":  "restore.power_plan.clone_export"
+                    },
+                    {
+                        "name":  "required_control:restore.powercfg.previous_values",
+                        "passed":  true,
+                        "details":  "restore.powercfg.previous_values"
+                    },
+                    {
+                        "name":  "required_control:restore.msi.config_backup",
+                        "passed":  true,
+                        "details":  "restore.msi.config_backup"
+                    },
+                    {
+                        "name":  "required_control:restore.msi.config_restore",
+                        "passed":  true,
+                        "details":  "restore.msi.config_restore"
+                    },
+                    {
+                        "name":  "required_control:restore.msi.known_safe_slot_future",
+                        "passed":  true,
+                        "details":  "restore.msi.known_safe_slot_future"
+                    },
+                    {
+                        "name":  "required_control:restore.app_preset_json",
+                        "passed":  true,
+                        "details":  "restore.app_preset_json"
+                    },
+                    {
+                        "name":  "required_control:restore.panic.future_command",
+                        "passed":  true,
+                        "details":  "restore.panic.future_command"
+                    },
+                    {
+                        "name":  "required_control:diagnostics.app_bundle",
+                        "passed":  true,
+                        "details":  "diagnostics.app_bundle"
+                    },
+                    {
+                        "name":  "required_control:startup.launch_app.future",
+                        "passed":  true,
+                        "details":  "startup.launch_app.future"
+                    },
+                    {
+                        "name":  "required_control:startup.scheduled_task.future",
+                        "passed":  true,
+                        "details":  "startup.scheduled_task.future"
+                    },
+                    {
+                        "name":  "required_control:startup.start_minimized.future",
+                        "passed":  true,
+                        "details":  "startup.start_minimized.future"
+                    },
+                    {
+                        "name":  "required_control:startup.auto_detect_game.future",
+                        "passed":  true,
+                        "details":  "startup.auto_detect_game.future"
+                    },
+                    {
+                        "name":  "required_control:startup.auto_apply_preset.future",
+                        "passed":  true,
+                        "details":  "startup.auto_apply_preset.future"
+                    },
+                    {
+                        "name":  "required_control:startup.automation.kill_switch",
+                        "passed":  true,
+                        "details":  "startup.automation.kill_switch"
+                    },
+                    {
+                        "name":  "manifest_all_have_ui_assignment",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "future_write_controls_have_backup_restore",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "medium_high_dangerous_have_warning",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "editable_controls_save_only_app_json",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance boost mode",
+                        "passed":  true,
+                        "details":  "Processor performance boost mode"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance boost policy",
+                        "passed":  true,
+                        "details":  "Processor performance boost policy"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor energy performance preference / EPP",
+                        "passed":  true,
+                        "details":  "Processor energy performance preference / EPP"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Minimum processor state",
+                        "passed":  true,
+                        "details":  "Minimum processor state"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Maximum processor state",
+                        "passed":  true,
+                        "details":  "Maximum processor state"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:System cooling policy",
+                        "passed":  true,
+                        "details":  "System cooling policy"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Maximum processor frequency",
+                        "passed":  true,
+                        "details":  "Maximum processor frequency"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance core parking min cores",
+                        "passed":  true,
+                        "details":  "Processor performance core parking min cores"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance core parking max cores",
+                        "passed":  true,
+                        "details":  "Processor performance core parking max cores"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor idle disable",
+                        "passed":  true,
+                        "details":  "Processor idle disable"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Heterogeneous policy in effect",
+                        "passed":  true,
+                        "details":  "Heterogeneous policy in effect"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance increase threshold",
+                        "passed":  true,
+                        "details":  "Processor performance increase threshold"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Processor performance decrease threshold",
+                        "passed":  true,
+                        "details":  "Processor performance decrease threshold"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:MSI profile slot launch",
+                        "passed":  true,
+                        "details":  "MSI profile slot launch"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:GPU voltage/frequency curve profile editing",
+                        "passed":  true,
+                        "details":  "GPU voltage/frequency curve profile editing"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:NVIDIA telemetry polling",
+                        "passed":  true,
+                        "details":  "NVIDIA telemetry polling"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:PresentMon capture",
+                        "passed":  true,
+                        "details":  "PresentMon capture"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Ping/network logging",
+                        "passed":  true,
+                        "details":  "Ping/network logging"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Fan mode/control through GCC or OEM paths",
+                        "passed":  true,
+                        "details":  "Fan mode/control through GCC or OEM paths"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Embedded controller writes",
+                        "passed":  true,
+                        "details":  "Embedded controller writes"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Startup automation",
+                        "passed":  true,
+                        "details":  "Startup automation"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Game detection and auto preset switching",
+                        "passed":  true,
+                        "details":  "Game detection and auto preset switching"
+                    },
+                    {
+                        "name":  "risk_catalog_represented:Save current state / restore previous state",
+                        "passed":  true,
+                        "details":  "Save current state / restore previous state"
+                    },
+                    {
+                        "name":  "capability_represented:MSI Afterburner profile launch templates",
+                        "passed":  true,
+                        "details":  "MSI Afterburner profile launch templates"
+                    },
+                    {
+                        "name":  "capability_represented:MSI Afterburner profile/config backup",
+                        "passed":  true,
+                        "details":  "MSI Afterburner profile/config backup"
+                    },
+                    {
+                        "name":  "capability_represented:Windows CPU power setting viewer",
+                        "passed":  true,
+                        "details":  "Windows CPU power setting viewer"
+                    },
+                    {
+                        "name":  "capability_represented:Windows CPU power setting writes later",
+                        "passed":  true,
+                        "details":  "Windows CPU power setting writes later"
+                    },
+                    {
+                        "name":  "capability_represented:NVIDIA telemetry through nvidia-smi",
+                        "passed":  true,
+                        "details":  "NVIDIA telemetry through nvidia-smi"
+                    },
+                    {
+                        "name":  "capability_represented:NVML Python telemetry later",
+                        "passed":  true,
+                        "details":  "NVML Python telemetry later"
+                    },
+                    {
+                        "name":  "capability_represented:PresentMon frame-time capture",
+                        "passed":  true,
+                        "details":  "PresentMon frame-time capture"
+                    },
+                    {
+                        "name":  "capability_represented:LibreHardwareMonitor sensors",
+                        "passed":  true,
+                        "details":  "LibreHardwareMonitor sensors"
+                    },
+                    {
+                        "name":  "capability_represented:Gigabyte/GCC discovery",
+                        "passed":  true,
+                        "details":  "Gigabyte/GCC discovery"
+                    },
+                    {
+                        "name":  "capability_represented:Game and tool process detection",
+                        "passed":  true,
+                        "details":  "Game and tool process detection"
+                    },
+                    {
+                        "name":  "capability_represented:Restore and panic restore framework",
+                        "passed":  true,
+                        "details":  "Restore and panic restore framework"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PERFBOOSTMODE",
+                        "passed":  true,
+                        "details":  "be337238-0d82-4146-a960-4f3749d470c7"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PERFBOOSTPOL",
+                        "passed":  true,
+                        "details":  "45bcc044-d885-43e2-8605-ee0ec6e96b59"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PERFEPP",
+                        "passed":  true,
+                        "details":  "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PROCTHROTTLEMIN",
+                        "passed":  true,
+                        "details":  "893dee8e-2bef-41e0-89c6-b55d0929964c"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PROCTHROTTLEMAX",
+                        "passed":  true,
+                        "details":  "bc5038f7-23e0-4960-96da-33abaf5935ec"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:SYSCOOLPOL",
+                        "passed":  true,
+                        "details":  "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PROCFREQMAX",
+                        "passed":  true,
+                        "details":  "75b0ae3f-bce0-45a7-8c89-c9611c25e100"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:CPMINCORES",
+                        "passed":  true,
+                        "details":  "0cc5b647-c1df-4637-891a-dec35c318583"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:CPMAXCORES",
+                        "passed":  true,
+                        "details":  "ea062031-0e34-4ff1-9b6d-eb1059334028"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:IDLEDISABLE",
+                        "passed":  true,
+                        "details":  "5d76a2ca-e8c0-402f-a133-2158492d58ad"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:HETEROPOLICY",
+                        "passed":  true,
+                        "details":  "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PERFINCTHRESHOLD",
+                        "passed":  true,
+                        "details":  "06cadf0e-64ed-448a-8927-ce7bf90eb35d"
+                    },
+                    {
+                        "name":  "cpu_setting_represented:PERFDECTHRESHOLD",
+                        "passed":  true,
+                        "details":  "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6"
+                    },
+                    {
+                        "name":  "coverage_matrix_matches_manifest",
+                        "passed":  true,
+                        "details":  ""
+                    }
+                ]
+}

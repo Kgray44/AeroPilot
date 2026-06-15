@@ -1,0 +1,65 @@
+﻿{
+    "generated_local":  "2026-06-15T11:40:56",
+    "preview_only":  true,
+    "restore_entries":  [
+                            {
+                                "restore_id":  "power_plan.active_export",
+                                "can_restore":  false,
+                                "source_backup_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\power_plans\\active_power_plan_20260615-114052.pow",
+                                "destination_path":  "Windows power plan store",
+                                "restore_proven":  false,
+                                "preview_only":  true,
+                                "needs_admin":  "maybe",
+                                "preview_command":  "powercfg [preview-only] /import \u003cbackup.pow\u003e",
+                                "blocked_reason":  "No usable .pow export is available. The non-admin export attempt was blocked or produced an empty file.",
+                                "risk_level":  "Medium",
+                                "required_user_confirmation":  "Explicit future apply-phase confirmation",
+                                "verification_steps":  [
+                                                           "Import plan",
+                                                           "confirm GUID",
+                                                           "compare settings",
+                                                           "only then set active if explicitly approved"
+                                                       ]
+                            },
+                            {
+                                "restore_id":  "msi_afterburner.files",
+                                "can_restore":  true,
+                                "source_backup_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files",
+                                "destination_path":  "C:\\Program Files (x86)\\MSI Afterburner",
+                                "restore_proven":  false,
+                                "preview_only":  true,
+                                "needs_admin":  "yes_for_program_files",
+                                "preview_command":  "Copy backed-up MSI files to original paths",
+                                "risk_level":  "High",
+                                "required_user_confirmation":  "Explicit future restore confirmation",
+                                "verification_steps":  [
+                                                           "Close MSI Afterburner",
+                                                           "copy files",
+                                                           "verify hashes",
+                                                           "restart MSI manually"
+                                                       ]
+                            },
+                            {
+                                "restore_id":  "app_config.json_files",
+                                "can_restore":  true,
+                                "source_backup_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config",
+                                "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+                                "restore_proven":  false,
+                                "preview_only":  true,
+                                "needs_admin":  "no",
+                                "preview_command":  "Copy app JSON backups into Phase 4 config/presets",
+                                "risk_level":  "Safe",
+                                "required_user_confirmation":  "Explicit future app-config restore confirmation",
+                                "verification_steps":  [
+                                                           "Parse JSON",
+                                                           "restart app",
+                                                           "verify expected preset state"
+                                                       ]
+                            }
+                        ],
+    "generated_scripts":  [
+                              "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_power_plan_preview.ps1",
+                              "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_msi_afterburner_files_preview.ps1",
+                              "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_app_config_preview.ps1"
+                          ]
+}

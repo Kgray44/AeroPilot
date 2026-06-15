@@ -1,0 +1,280 @@
+﻿"process_name","id","path","cpu_seconds","start_time"
+"3DMark","8204","C:\Program Files (x86)\Steam\steamapps\common\3DMark\bin\x64\3DMark.exe","35.53125","2026-06-14T12:40:26"
+"3DMark","31536","C:\Program Files (x86)\Steam\steamapps\common\3DMark\bin\x64\3DMark.exe","189.453125","2026-06-14T12:39:15"
+"3DMark","31884","C:\Program Files (x86)\Steam\steamapps\common\3DMark\bin\x64\3DMark.exe","2190.578125","2026-06-14T12:40:26"
+"AggregatorHost","31196",,,
+"aihost","12116",,"47.515625","2026-06-13T15:56:04"
+"AIXHost","11872","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.AIX_cw5n1h2txyewy\AIXHost.exe","1.21875","2026-06-13T15:56:04"
+"amdacphpdsvc","5164",,,
+"amdfendrsr","3772",,,
+"amdpmfservice","2256",,,
+"AmdPpkgSvc","5132",,,
+"AnyDesk","9944",,"1.203125","2026-06-14T19:08:03"
+"atieclxx","4076",,,
+"atiesrxx","3744",,,
+"AUEPDU","25332",,,
+"AUEPMaster","11528","C:\Program Files\AMD\Performance Profile Client\AUEPMaster.exe","342.046875","2026-06-13T15:57:44"
+"CefSharp.BrowserSubprocess","14416","C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe","3.71875","2026-06-13T15:57:16"
+"CefSharp.BrowserSubprocess","22572","C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe","2107.640625","2026-06-13T15:57:16"
+"CefSharp.BrowserSubprocess","23308","C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe","2.28125","2026-06-13T15:57:19"
+"CefSharp.BrowserSubprocess","23408","C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe","0.8125","2026-06-13T15:57:19"
+"CefSharp.BrowserSubprocess","23416","C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe","7228.953125","2026-06-13T15:57:19"
+"ChatGPT","10616","C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe","90.96875","2026-06-14T18:09:04"
+"ChatGPT","15232","C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe","0.046875","2026-06-14T18:09:05"
+"ChatGPT","30364","C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe","1213.3125","2026-06-14T18:09:07"
+"ChatGPT","32508","C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe","499.4375","2026-06-14T18:09:05"
+"ChatGPT","33168","C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.133.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe","19.59375","2026-06-14T18:09:05"
+"ClickToDo","23952","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\ClickToDo.exe","35.328125","2026-06-14T18:01:44"
+"cmd","21572","C:\WINDOWS\system32\cmd.exe","0.015625","2026-06-14T19:08:03"
+"cncmd","10596","C:\Program Files\AMD\CNext\CNext\cncmd.exe","0.421875","2026-06-13T15:56:03"
+"Codex","5088","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","0.078125","2026-06-14T18:23:57"
+"Codex","8096","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","0.296875","2026-06-14T18:24:01"
+"codex","9852","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\resources\codex.exe","503","2026-06-14T18:24:01"
+"Codex","10208","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","3.90625","2026-06-14T18:23:58"
+"Codex","20612","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","161.765625","2026-06-14T18:23:57"
+"Codex","22028","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","0.03125","2026-06-14T18:23:57"
+"Codex","27268","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","0.765625","2026-06-14T18:23:58"
+"Codex","28648","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","718.234375","2026-06-14T18:24:01"
+"Codex","29136","C:\Program Files\WindowsApps\OpenAI.Codex_26.609.4994.0_x64__2p2nqsd0c76g0\app\Codex.exe","1121.609375","2026-06-14T18:23:58"
+"conhost","6608",,,
+"conhost","21776",,"0.609375","2026-06-14T19:07:06"
+"conhost","22232","C:\WINDOWS\system32\conhost.exe","0.0625","2026-06-14T19:08:03"
+"conhost","27020","C:\WINDOWS\system32\conhost.exe","0.015625","2026-06-14T21:10:06"
+"conhost","29184","C:\WINDOWS\system32\conhost.exe","2.28125","2026-06-14T18:24:01"
+"CortexLauncherService","4976",,,
+"CrossDeviceResume","11864","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe","1.0625","2026-06-13T15:56:04"
+"csrss","1304",,,
+"csrss","1532",,,
+"ctfmon","13204",,"66.546875","2026-06-13T15:56:06"
+"DAX3API","4968",,,
+"DAX3API","8460",,,
+"Discord","4848","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","191.90625","2026-06-13T23:44:07"
+"Discord","16464","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","352.1875","2026-06-13T23:44:07"
+"Discord","21436","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","0.109375","2026-06-13T23:44:07"
+"Discord","26488","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","24.75","2026-06-13T23:44:07"
+"Discord","31496","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","8.203125","2026-06-13T23:44:11"
+"Discord","31616","C:\Users\kkids\AppData\Local\Discord\app-1.0.9241\Discord.exe","2999.046875","2026-06-13T23:44:10"
+"DiscordSystemHelper","32064",,"1.015625","2026-06-13T23:44:17"
+"DiscordSystemHelper","32260",,"60.484375","2026-06-13T23:44:17"
+"dispatcher","6392",,,
+"dllhost","6488","C:\WINDOWS\system32\DllHost.exe","0.1875","2026-06-13T20:48:35"
+"dllhost","26412","C:\WINDOWS\system32\DllHost.exe","0.328125","2026-06-13T20:48:35"
+"dwm","2060",,,
+"explorer","9480","C:\WINDOWS\Explorer.EXE","967.71875","2026-06-13T15:56:04"
+"extension-host","20236","C:\Users\kkids\.codex\plugins\cache\openai-bundled\chrome\latest\extension-host\windows\x64\extension-host.exe","1.125","2026-06-14T19:08:04"
+"FMSISvc","34108",,,
+"FNPLicensingService64","5172",,,
+"fontdrvhost","1308",,,
+"fontdrvhost","1760",,,
+"FvContainer","31780","C:\Program Files\NVIDIA Corporation\FrameViewSDK\FvContainer\FvContainer.exe","103.859375","2026-06-14T17:33:19"
+"FvContainer.System","12240",,,
+"GameInputRedistService","4956",,,
+"GameInputRedistService","7044","C:\Program Files\Microsoft GameInput\x64\GameInputRedistService.exe","0.125","2026-06-13T15:56:01"
+"GameInputSvc","3440",,,
+"GameInputSvc","24240",,,
+"GameManagerService3","5068",,,
+"gamingservices","5488",,,
+"gamingservicesnet","6924",,,
+"Gbt.GpuPowerGear.Proxy","12616","C:\Program Files\GIGABYTE\Control Center\Lib\GBT_NbSrv\PgSvc\Gbt.GpuPowerGear.Proxy.exe","0.28125","2026-06-13T15:56:30"
+"Gbt.GpuPowerGear.Service","12860",,,
+"GCC","10692",,,
+"GiMATE_ai","18128","C:\Program Files\GIGABYTE\GiMATE_ai\GiMATE_ai.exe","199.171875","2026-06-13T15:56:08"
+"GiMATE_ai","20656","C:\Program Files\GIGABYTE\GiMATE_ai\GiMATE_ai.exe","338.84375","2026-06-13T15:56:27"
+"GiMATE_llm","12892","C:\Program Files\GIGABYTE\GiMATE_ai\GiMATE_llm.exe","43.15625","2026-06-13T15:56:29"
+"GimateServiceHelper","10768",,"0.375","2026-06-13T15:56:03"
+"HidHideWatchdog","5188",,,
+"HWiNFO64","27084",,"6434.96875","2026-06-13T21:42:40"
+"Idle","0",,,
+"javaw","28524","C:\Program Files (x86)\Steam\steamapps\common\3DMark\bin\x64\jre\bin\javaw.exe","155.640625","2026-06-14T12:39:20"
+"logi_lamparray_service","5140",,,
+"LsaIso","1616",,,
+"lsass","1624",,,
+"Memory Compression","3976",,,
+"MicrosoftStartFeedProvider","18624","C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.302.5.0_x64__8wekyb3d8bbwe\MicrosoftStartFeedProvider\MicrosoftStartFeedProvider.exe","2.140625","2026-06-13T15:56:09"
+"MoUsoCoreWorker","13752",,,
+"MpDefenderCoreService","5100",,,
+"mscopilot_proxy","24644","C:\Program Files (x86)\Microsoft\Copilot\Application\mscopilot_proxy.exe","0.328125","2026-06-13T20:48:35"
+"msedge","7136","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","10.171875","2026-06-14T19:08:02"
+"msedge","11232","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","0.203125","2026-06-14T19:08:01"
+"msedge","11908","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","0.171875","2026-06-14T19:08:02"
+"msedge","12076","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","0.28125","2026-06-14T19:08:02"
+"msedge","14460","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","13.640625","2026-06-14T19:08:01"
+"msedge","16328","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","1.015625","2026-06-14T19:08:02"
+"msedge","18484","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","2.875","2026-06-14T19:08:03"
+"msedge","34472","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","1.34375","2026-06-14T19:08:02"
+"msedge","34636","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe","0.875","2026-06-14T19:08:02"
+"msedgewebview2","14668","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","43.703125","2026-06-13T16:24:08"
+"msedgewebview2","15080","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","16.046875","2026-06-13T16:24:08"
+"msedgewebview2","15528","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","4.734375","2026-06-13T16:24:08"
+"msedgewebview2","15928","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","18.84375","2026-06-13T15:56:06"
+"msedgewebview2","16036","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","0.8125","2026-06-13T16:24:08"
+"msedgewebview2","16344","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","9.40625","2026-06-13T16:24:08"
+"msedgewebview2","16360","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","0.578125","2026-06-13T15:56:06"
+"msedgewebview2","16672","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","0.953125","2026-06-13T16:24:08"
+"msedgewebview2","17184","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","7.765625","2026-06-13T15:56:07"
+"msedgewebview2","17224","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","4.671875","2026-06-13T15:56:07"
+"msedgewebview2","17332","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","28.609375","2026-06-13T15:56:07"
+"msedgewebview2","17344","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.62\msedgewebview2.exe","1.015625","2026-06-13T15:56:07"
+"MSIAfterburner","10260",,"918.078125","2026-06-13T21:29:32"
+"MsMpEng","4864",,,
+"mWinDetector","27304","C:\Program Files\MSIDisplayKit\mWinDetector.exe","0.65625","2026-06-14T17:13:23"
+"NgcIso","4648",,,
+"NisSrv","18460",,,
+"node_repl","4468","C:\Users\kkids\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_repl.exe","0.03125","2026-06-14T19:59:20"
+"node_repl","11220","C:\Users\kkids\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_repl.exe","0.015625","2026-06-14T18:24:18"
+"node_repl","31480","C:\Users\kkids\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_repl.exe","0.015625","2026-06-14T20:48:25"
+"node_repl","34352","C:\Users\kkids\AppData\Local\OpenAI\Codex\runtimes\cua_node\789504f803e82e2b\bin\node_repl.exe","0.015625","2026-06-14T20:48:25"
+"nvcontainer","4984",,,
+"nvcontainer","8908",,,
+"nvcontainer","8924","C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe","130.5","2026-06-13T15:56:02"
+"nvcontainer","8940","C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe","191.671875","2026-06-13T15:56:02"
+"NVDisplay.Container","3612",,,
+"NVDisplay.Container","6356",,,
+"nvfvsdksvc_x64","3988",,,
+"NVIDIA Overlay","6908","C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe","15.4375","2026-06-14T02:56:50"
+"NVIDIA Overlay","10568","C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe","2.734375","2026-06-14T02:56:50"
+"NVIDIA Overlay","14456","C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe","182.234375","2026-06-14T02:56:50"
+"NVIDIA Overlay","26588","C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe","162","2026-06-14T02:56:51"
+"NVIDIA Overlay","33728","C:\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe","238.84375","2026-06-14T02:56:49"
+"nvrla","15636","C:\Program Files\NVIDIA Corporation\FrameViewSDK\bin\nvrla.exe","0.421875","2026-06-14T17:33:19"
+"nvsphelper64","12108",,"287.59375","2026-06-13T15:56:04"
+"OCCT","24280",,"1814.140625","2026-06-14T17:25:34"
+"OneDrive.Sync.Service","29120","C:\Users\kkids\AppData\Local\Microsoft\OneDrive\26.088.0510.0004\OneDrive.Sync.Service.exe","50.78125","2026-06-13T22:16:40"
+"OSDwindow","15012","C:\Program Files\GIGABYTE\Control Center\Lib\GBT_NbSrv\OSDwindow.exe","4.53125","2026-06-13T15:56:28"
+"plasticd","5212",,,
+"powershell","14592",,"4.6875","2026-06-14T19:07:06"
+"powershell","15520","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe","0.703125","2026-06-14T21:10:06"
+"powershell","16496","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe","1","2026-06-14T21:07:44"
+"powershell","19860","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe","2.828125","2026-06-14T18:24:33"
+"powershell","26492","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe","0.375","2026-06-14T21:07:44"
+"PresentMon_x64","10672",,,
+"Raycast","20020","C:\Program Files\WindowsApps\Raycast.Raycast_0.63.0.0_x64__qypenmj9wpt2a\Raycast\Raycast.exe","0","2026-06-13T15:56:19"
+"Razer Central","10696","C:\Program Files (x86)\Razer\Razer Services\Razer Central\Razer Central.exe","147.0625","2026-06-13T15:57:14"
+"razer_elevation_service","23500",,,
+"RazerAppEngine","1112","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","24.9375","2026-06-13T15:58:02"
+"RazerAppEngine","1752","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","10.40625","2026-06-14T01:24:30"
+"RazerAppEngine","2288","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","23.890625","2026-06-13T15:58:02"
+"RazerAppEngine","4452","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","597.09375","2026-06-13T15:58:01"
+"RazerAppEngine","23628","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","15.359375","2026-06-13T15:58:03"
+"RazerAppEngine","24708","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","17.09375","2026-06-13T15:58:04"
+"RazerAppEngine","24720","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","5.53125","2026-06-13T15:58:04"
+"RazerAppEngine","25024","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","34.453125","2026-06-13T15:58:04"
+"RazerAppEngine","25040","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","17.734375","2026-06-13T15:58:04"
+"RazerAppEngine","25164","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","32.6875","2026-06-13T15:58:09"
+"RazerAppEngine","25436","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\RazerAppEngine.exe","26.65625","2026-06-13T15:58:05"
+"RazerCentralService","5008",,,
+"RazerCortex","21760",,"4089.625","2026-06-13T15:57:08"
+"Registry","280",,,
+"remotesolverdispatcherservice","5180",,,
+"RtkAudUService64","2488","C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7d0859287b5acd75\RtkAudUService64.exe","15.21875","2026-06-13T15:56:36"
+"RtkAudUService64","5040",,,
+"RtkAudUService64","24968","C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_7d0859287b5acd75\RtkAudUService64.exe","2.5625","2026-06-13T16:09:21"
+"RtkBtManServ","5204",,,
+"RuntimeBroker","4292","C:\Windows\System32\RuntimeBroker.exe","1.46875","2026-06-13T15:57:06"
+"RuntimeBroker","13876","C:\Windows\System32\RuntimeBroker.exe","31.765625","2026-06-13T15:56:05"
+"RzEngineMon","9356","C:\Program Files\Razer\RazerAppEngine\app-4.0.683\CommonDLL\RzEngineMon.exe","0.375","2026-06-13T15:58:03"
+"RZTHXHelper","23732","C:\Windows\System32\RZTHXHelper.exe","3.3125","2026-06-13T15:57:37"
+"RZTHXService","5052",,,
+"RzUpdateEngineService","5000",,,
+"SearchFilterHost","29512",,,
+"SearchHost","10756","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe","59.8125","2026-06-13T15:56:05"
+"SearchIndexer","33000",,,
+"SearchProtocolHost","7628",,,
+"Secure System","236",,,
+"SecurityHealthService","23636",,,
+"services","1596",,,
+"ShellExperienceHost","11388","C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe","4.140625","2026-06-13T15:57:06"
+"ShellHost","11212","C:\Windows\System32\ShellHost.exe","0.875","2026-06-13T15:56:04"
+"sihost","10272","C:\WINDOWS\System32\sihost.exe","13.515625","2026-06-13T15:56:03"
+"smss","848",,,
+"spoolsv","15200",,,
+"StartMenuExperienceHost","10636","C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe","37.65625","2026-06-13T15:56:05"
+"steam","2868","C:\Program Files (x86)\Steam\steam.exe","1769.578125","2026-06-13T15:56:36"
+"steamservice","10140",,,
+"steamwebhelper","5332","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","34.171875","2026-06-13T15:56:38"
+"steamwebhelper","5916","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","5.640625","2026-06-13T15:56:38"
+"steamwebhelper","11316","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","0.125","2026-06-13T15:56:38"
+"steamwebhelper","12572","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","557.234375","2026-06-13T15:56:38"
+"steamwebhelper","13324","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","166.984375","2026-06-13T15:56:38"
+"steamwebhelper","18016","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","190.203125","2026-06-13T15:56:40"
+"steamwebhelper","22216","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","3.75","2026-06-14T12:25:33"
+"steamwebhelper","25480","C:\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe","0.4375","2026-06-14T12:34:53"
+"svchost","1744",,,
+"svchost","1884",,,
+"svchost","2140",,,
+"svchost","2156",,,
+"svchost","2168",,,
+"svchost","2196",,,
+"svchost","2212",,,
+"svchost","2220",,,
+"svchost","2444",,,
+"svchost","2544",,,
+"svchost","2552",,,
+"svchost","2624",,,
+"svchost","2752",,,
+"svchost","3024",,,
+"svchost","3056",,,
+"svchost","3096",,,
+"svchost","3188",,,
+"svchost","3516",,,
+"svchost","3536",,,
+"svchost","3960",,,
+"svchost","4056",,,
+"svchost","4172",,,
+"svchost","4436",,,
+"svchost","4524",,,
+"svchost","4604",,,
+"svchost","6200",,,
+"svchost","6352",,,
+"svchost","9464",,,
+"svchost","9932",,,
+"svchost","10056",,,
+"svchost","10304","C:\WINDOWS\system32\svchost.exe","0.390625","2026-06-13T15:56:03"
+"svchost","10316","C:\WINDOWS\system32\svchost.exe","11.4375","2026-06-13T15:56:03"
+"svchost","10360",,,
+"svchost","10392","C:\WINDOWS\system32\svchost.exe","0.09375","2026-06-13T15:56:03"
+"svchost","12220","C:\WINDOWS\system32\svchost.exe","2.015625","2026-06-13T15:56:04"
+"svchost","12440",,,
+"svchost","14104","C:\WINDOWS\system32\svchost.exe","3.9375","2026-06-13T15:56:05"
+"svchost","14584",,,
+"svchost","15444",,,
+"svchost","18200","C:\WINDOWS\system32\svchost.exe","2.953125","2026-06-13T15:56:08"
+"svchost","18380",,,
+"svchost","23988",,,
+"svchost","24268",,,
+"svchost","25136",,,
+"svchost","25244",,,
+"SWVisualize.Queue.Server","5156",,,
+"System","4",,,
+"tailscaled","6168",,,
+"tailscaled","8996",,,
+"taskhostw","9972",,"2.203125","2026-06-13T19:31:04"
+"taskhostw","10588","C:\WINDOWS\System32\taskhostw.exe","7.71875","2026-06-13T15:56:03"
+"tmHInstall","5148",,,
+"unsecapp","4180",,,
+"unsecapp","21176","C:\WINDOWS\system32\wbem\unsecapp.exe","0.90625","2026-06-13T15:56:30"
+"VSHelper","6404","C:\WINDOWS\system32\VSHelper.exe","18.609375","2026-06-13T15:56:01"
+"VSSrv","4540",,,
+"wallpaperservice32","5080",,,
+"WidgetBoard","13688","C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.11701.50.0_x64__cw5n1h2txyewy\WidgetBoard.exe","33.125","2026-06-13T15:56:05"
+"WidgetService","15284","C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe","2.421875","2026-06-13T15:56:06"
+"wininit","1524",,,
+"winlogon","1980",,,
+"WmiApSrv","24388",,,
+"WmiPrvSE","3644",,,
+"WmiPrvSE","11764",,,
+"WmiPrvSE","25748",,,
+"WorkloadsSessionHost","1992",,,
+"WorkloadsSessionHost","8412",,,
+"WorkloadsSessionHost","16308",,,
+"WorkloadsSessionHost","16420",,,
+"WorkloadsSessionHost","16568",,,
+"WorkloadsSessionHost","17364",,,
+"WorkloadsSessionHost","18368",,,
+"WorkloadsSessionHost","19180",,,
+"WorkloadsSessionManager","9876",,,
+"WUDFCompanionHost","1592",,,
+"WUDFCompanionHost","4588",,,
+"WUDFCompanionHost","5108",,,
+"WUDFHost","1816",,,
+"WUDFHost","1972",,,

@@ -1,0 +1,53 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "generated_local": "2026-06-15T03:18:02",
+  "status": "complete",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "system_changes_applied": false,
+  "phase2_source": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_2_APP_SKELETON_READONLY_DRYRUN",
+  "control_count": 102,
+  "category_counts": {
+    "CPU power behavior": 9,
+    "CPU boost behavior": 4,
+    "CPU frequency limits": 3,
+    "Fan control": 11,
+    "CPU scheduling/core parking": 4,
+    "GPU profile loading": 11,
+    "GPU voltage/frequency curve profile": 2,
+    "GPU power/clock telemetry": 13,
+    "FPS/frame capture": 9,
+    "Game detection": 16,
+    "Ping/network logging": 5,
+    "Restore/backup": 9,
+    "Startup automation": 6
+  },
+  "risk_counts": {
+    "Medium": 22,
+    "Low": 28,
+    "High": 15,
+    "Dangerous / Experimental": 2,
+    "Unknown": 1,
+    "Read-only": 20,
+    "Safe": 14
+  },
+  "editable_in_phase3": 31,
+  "read_only": 31,
+  "dry_run_preview_only": 13,
+  "blocked_or_future": 53,
+  "app_launch_status": {
+    "pyside6_available": true,
+    "offscreen_smoke_test": {
+      "passed": true,
+      "window_title": "AERO X16 Control Center",
+      "tab_count": 9
+    }
+  },
+  "validation": {
+    "script": "scripts/validate_phase3.ps1",
+    "total_checks": 265,
+    "failed_checks": 0,
+    "result": "pass"
+  },
+  "latest_snapshot_file": "raw_outputs/control_surface_snapshot_latest.json",
+  "phase4_recommendation": "Backup/restore foundation and first explicitly-approved apply tests. Build restore manifests, export/clone active power plan, back up MSI Afterburner configs/profiles, manually verify MSI profile slot mapping, and add one or two guarded CPU setting apply tests with immediate restore. No fan control or EC writes yet."
+}

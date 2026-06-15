@@ -1,0 +1,19 @@
+{
+  "phase_status": "preview_only",
+  "automation_enabled_default": false,
+  "rules": [
+    {
+      "target_id": "battlefield_6",
+      "friendly_name": "Battlefield 6 / BF6",
+      "process_names": [
+        "BF6",
+        "Battlefield6",
+        "Battlefield 6",
+        "bf6game"
+      ],
+      "auto_apply": false,
+      "restore_on_exit": true,
+      "preview_preset": "BF6 Emergency Preview"
+    }
+  ]
+}

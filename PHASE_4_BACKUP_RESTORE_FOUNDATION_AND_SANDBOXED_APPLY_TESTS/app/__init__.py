@@ -1,0 +1,5 @@
+"""AeroTune Phase 4 app package."""
+
+APP_NAME = "AeroTune"
+APP_PHASE = "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS"
+APP_VERSION = "0.4.0-preview"

@@ -1,0 +1,36 @@
+﻿Sun Jun 14 21:07:51 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.47                 KMD Version: 610.47        CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 5070 ...  WDDM  |   00000000:64:00.0  On |                  N/A |
+| N/A   57C    P2             14W /   85W |    1349MiB /   8151MiB |      5%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            8204    C+G   ...mon\3DMark\bin\x64\3DMark.exe      N/A      |
+|    0   N/A  N/A            8924    C+G   ...n\NvContainer\nvcontainer.exe      N/A      |
+|    0   N/A  N/A            9480    C+G   C:\Windows\explorer.exe               N/A      |
+|    0   N/A  N/A           10636    C+G   ...y\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A           10756    C+G   ..._cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A           11388    C+G   ...xyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A           13688    C+G   ...cw5n1h2txyewy\WidgetBoard.exe      N/A      |
+|    0   N/A  N/A           14456    C+G   ...IA App\CEF\NVIDIA Overlay.exe      N/A      |
+|    0   N/A  N/A           14668    C+G   ....0.4022.62\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A           16328    C+G   ...t\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A           16464    C+G   ...cord\app-1.0.9241\Discord.exe      N/A      |
+|    0   N/A  N/A           23952    C+G   ...I_cw5n1h2txyewy\ClickToDo.exe      N/A      |
+|    0   N/A  N/A           28524    C+G   ...ark\bin\x64\jre\bin\javaw.exe      N/A      |
+|    0   N/A  N/A           29136    C+G   ...__2p2nqsd0c76g0\app\Codex.exe      N/A      |
+|    0   N/A  N/A           32508    C+G   ...2p2nqsd0c76g0\app\ChatGPT.exe      N/A      |
+|    0   N/A  N/A           33728    C+G   ...IA App\CEF\NVIDIA Overlay.exe      N/A      |
++-----------------------------------------------------------------------------------------+
+

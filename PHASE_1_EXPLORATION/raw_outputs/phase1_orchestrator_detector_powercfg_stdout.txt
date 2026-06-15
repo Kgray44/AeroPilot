@@ -1,0 +1,528 @@
+﻿{
+    "detector":  "powercfg",
+    "timestamp_local":  "2026-06-14T21:07:50",
+    "active_scheme_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_scheme_name":  "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "sub_processor_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+    "read_only_commands":  [
+                               {
+                                   "name":  "powercfg_get_active_scheme",
+                                   "command_line":  "powercfg.exe /getactivescheme",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_get_active_scheme_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_get_active_scheme_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "powercfg_list_schemes",
+                                   "command_line":  "powercfg.exe /list",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_list_schemes_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_list_schemes_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "powercfg_query_current_full",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_current_full_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_current_full_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "powercfg_query_current_processor",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT SUB_PROCESSOR",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_current_processor_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_current_processor_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "powercfg_query_hidden_current_processor",
+                                   "command_line":  "powercfg.exe /qh SCHEME_CURRENT SUB_PROCESSOR",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_hidden_current_processor_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_query_hidden_current_processor_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "powercfg_aliases",
+                                   "command_line":  "powercfg.exe /aliases",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_aliases_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_powercfg_aliases_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_perfboostmode",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 be337238-0d82-4146-a960-4f3749d470c7",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfboostmode_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfboostmode_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_perfboostpol",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 45bcc044-d885-43e2-8605-ee0ec6e96b59",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfboostpol_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfboostpol_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_perfepp",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfepp_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfepp_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_procthrottlemin",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procthrottlemin_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procthrottlemin_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_procthrottlemax",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procthrottlemax_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procthrottlemax_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_syscoolpol",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_syscoolpol_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_syscoolpol_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_procfreqmax",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procfreqmax_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_procfreqmax_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_cpmincores",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_cpmincores_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_cpmincores_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_cpmaxcores",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 ea062031-0e34-4ff1-9b6d-eb1059334028",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_cpmaxcores_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_cpmaxcores_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_idledisable",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 5d76a2ca-e8c0-402f-a133-2158492d58ad",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_idledisable_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_idledisable_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_heteropolicy",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_heteropolicy_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_heteropolicy_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_perfincthreshold",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfincthreshold_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfincthreshold_stderr.txt",
+                                   "error":  null
+                               },
+                               {
+                                   "name":  "setting_perfdecthreshold",
+                                   "command_line":  "powercfg.exe /query SCHEME_CURRENT 54533251-82be-4824-96c1-47b60b740d00 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+                                   "exit_code":  0,
+                                   "timed_out":  false,
+                                   "succeeded":  true,
+                                   "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfdecthreshold_stdout.txt",
+                                   "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_1_EXPLORATION\\raw_outputs\\powercfg_setting_perfdecthreshold_stderr.txt",
+                                   "error":  null
+                               }
+                           ],
+    "processor_settings":  [
+                               {
+                                   "friendly_name":  "Processor performance boost mode",
+                                   "alias":  "PERFBOOSTMODE",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "be337238-0d82-4146-a960-4f3749d470c7",
+                                   "category":  "CPU boost behavior",
+                                   "current_ac_hex":  "0x00000000",
+                                   "current_ac_value":  0,
+                                   "current_dc_hex":  "0x00000002",
+                                   "current_dc_value":  2,
+                                   "possible_values":  [
+                                                           {
+                                                               "index":  "000",
+                                                               "name":  "Disabled"
+                                                           },
+                                                           {
+                                                               "index":  "001",
+                                                               "name":  "Enabled"
+                                                           },
+                                                           {
+                                                               "index":  "002",
+                                                               "name":  "Aggressive"
+                                                           },
+                                                           {
+                                                               "index":  "003",
+                                                               "name":  "Efficient Enabled"
+                                                           },
+                                                           {
+                                                               "index":  "004",
+                                                               "name":  "Efficient Aggressive"
+                                                           },
+                                                           {
+                                                               "index":  "005",
+                                                               "name":  "Aggressive At Guaranteed"
+                                                           },
+                                                           {
+                                                               "index":  "006",
+                                                               "name":  "Efficient Aggressive At Guaranteed"
+                                                           }
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  2,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "Medium",
+                                   "suggested_future_gui_label":  "Boost mode",
+                                   "suggested_future_tooltip_warning":  "Changes CPU boost behavior. Can affect heat, fan noise, battery life, and stability.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "Processor performance boost policy",
+                                   "alias":  "PERFBOOSTPOL",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+                                   "category":  "CPU boost behavior",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "Medium",
+                                   "suggested_future_gui_label":  "Boost policy",
+                                   "suggested_future_tooltip_warning":  "Advanced boost policy. Treat as experimental until values are verified on this laptop.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Processor energy performance preference / EPP",
+                                   "alias":  "PERFEPP",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                                   "category":  "CPU power behavior",
+                                   "current_ac_hex":  "0x00000037",
+                                   "current_ac_value":  55,
+                                   "current_dc_hex":  "0x00000000",
+                                   "current_dc_value":  0,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  0,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "Low",
+                                   "suggested_future_gui_label":  "Energy preference",
+                                   "suggested_future_tooltip_warning":  "Lower values favor performance. Higher values favor efficiency. Can change heat and battery use.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "Minimum processor state",
+                                   "alias":  "PROCTHROTTLEMIN",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "893dee8e-2bef-41e0-89c6-b55d0929964c",
+                                   "category":  "CPU frequency limits",
+                                   "current_ac_hex":  "0x00000005",
+                                   "current_ac_value":  5,
+                                   "current_dc_hex":  "0x00000064",
+                                   "current_dc_value":  100,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  2,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "Medium",
+                                   "suggested_future_gui_label":  "Minimum CPU state",
+                                   "suggested_future_tooltip_warning":  "Raising this can increase idle power and heat. Use conservative defaults.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "Maximum processor state",
+                                   "alias":  "PROCTHROTTLEMAX",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "bc5038f7-23e0-4960-96da-33abaf5935ec",
+                                   "category":  "CPU frequency limits",
+                                   "current_ac_hex":  "0x00000063",
+                                   "current_ac_value":  99,
+                                   "current_dc_hex":  "0x00000064",
+                                   "current_dc_value":  100,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  2,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "Medium",
+                                   "suggested_future_gui_label":  "Maximum CPU state",
+                                   "suggested_future_tooltip_warning":  "Lowering this can cap CPU performance. Changing it affects all workloads on the selected power plan.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "System cooling policy",
+                                   "alias":  "SYSCOOLPOL",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                                   "category":  "Fan control",
+                                   "current_ac_hex":  "0x00000001",
+                                   "current_ac_value":  1,
+                                   "current_dc_hex":  "0x00000001",
+                                   "current_dc_value":  1,
+                                   "possible_values":  [
+                                                           {
+                                                               "index":  "000",
+                                                               "name":  "Passive"
+                                                           },
+                                                           {
+                                                               "index":  "001",
+                                                               "name":  "Active"
+                                                           }
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  0,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "Low",
+                                   "suggested_future_gui_label":  "Cooling policy",
+                                   "suggested_future_tooltip_warning":  "Controls passive versus active cooling behavior where supported. May not override OEM fan firmware.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "Maximum processor frequency",
+                                   "alias":  "PROCFREQMAX",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+                                   "category":  "CPU frequency limits",
+                                   "current_ac_hex":  "0x00000cb2",
+                                   "current_ac_value":  3250,
+                                   "current_dc_hex":  "0x00000000",
+                                   "current_dc_value":  0,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Likely visible",
+                                   "registry_attributes":  0,
+                                   "powercfg_can_read":  true,
+                                   "powercfg_can_likely_write_later":  true,
+                                   "risk_level":  "High",
+                                   "suggested_future_gui_label":  "CPU frequency cap",
+                                   "suggested_future_tooltip_warning":  "Frequency caps can sharply limit performance or create confusing benchmark results.",
+                                   "notes":  "Read successfully through powercfg in Phase 1."
+                               },
+                               {
+                                   "friendly_name":  "Processor performance core parking min cores",
+                                   "alias":  "CPMINCORES",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "0cc5b647-c1df-4637-891a-dec35c318583",
+                                   "category":  "CPU scheduling/core parking",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "High",
+                                   "suggested_future_gui_label":  "Core parking minimum",
+                                   "suggested_future_tooltip_warning":  "Core parking changes can affect latency, heat, and scheduler behavior. Advanced users only.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Processor performance core parking max cores",
+                                   "alias":  "CPMAXCORES",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "ea062031-0e34-4ff1-9b6d-eb1059334028",
+                                   "category":  "CPU scheduling/core parking",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "High",
+                                   "suggested_future_gui_label":  "Core parking maximum",
+                                   "suggested_future_tooltip_warning":  "Core parking changes can affect latency, heat, and scheduler behavior. Advanced users only.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Processor idle disable",
+                                   "alias":  "IDLEDISABLE",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+                                   "category":  "CPU scheduling/core parking",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "Dangerous / Experimental",
+                                   "suggested_future_gui_label":  "Disable CPU idle states",
+                                   "suggested_future_tooltip_warning":  "Can greatly increase heat and power use. Keep read-only until a restore path is proven.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Heterogeneous policy in effect",
+                                   "alias":  "HETEROPOLICY",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+                                   "category":  "CPU scheduling/core parking",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "Unknown",
+                                   "suggested_future_gui_label":  "Hybrid CPU policy",
+                                   "suggested_future_tooltip_warning":  "Hybrid scheduling behavior is platform-specific. Treat as advanced and verify before writes.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Processor performance increase threshold",
+                                   "alias":  "PERFINCTHRESHOLD",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+                                   "category":  "CPU boost behavior",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "High",
+                                   "suggested_future_gui_label":  "Performance increase threshold",
+                                   "suggested_future_tooltip_warning":  "Advanced boost response tuning. Can cause erratic performance or heat behavior if misused.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               },
+                               {
+                                   "friendly_name":  "Processor performance decrease threshold",
+                                   "alias":  "PERFDECTHRESHOLD",
+                                   "subgroup_guid":  "54533251-82be-4824-96c1-47b60b740d00",
+                                   "setting_guid":  "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+                                   "category":  "CPU boost behavior",
+                                   "current_ac_hex":  null,
+                                   "current_ac_value":  null,
+                                   "current_dc_hex":  null,
+                                   "current_dc_value":  null,
+                                   "possible_values":  [
+
+                                                       ],
+                                   "visible_in_windows_ui":  "Hidden by Attributes bit 0",
+                                   "registry_attributes":  1,
+                                   "powercfg_can_read":  false,
+                                   "powercfg_can_likely_write_later":  false,
+                                   "risk_level":  "High",
+                                   "suggested_future_gui_label":  "Performance decrease threshold",
+                                   "suggested_future_tooltip_warning":  "Advanced boost response tuning. Can cause erratic performance or heat behavior if misused.",
+                                   "notes":  "Not readable through direct powercfg query in Phase 1; may be unsupported, hidden, OEM-blocked, or absent."
+                               }
+                           ],
+    "future_safety_notes":  [
+                                "Phase 1 only queried powercfg values and read visibility attributes.",
+                                "Future writes should clone or export the active plan first, then require explicit confirmation.",
+                                "Admin privileges may be required for some powercfg writes and hidden-setting visibility changes.",
+                                "Hidden setting visibility was detected by reading Attributes only; Phase 1 did not modify Attributes."
+                            ]
+}
+

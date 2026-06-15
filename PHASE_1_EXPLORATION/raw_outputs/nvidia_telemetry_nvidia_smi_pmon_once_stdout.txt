@@ -1,0 +1,19 @@
+﻿# gpu         pid   type     sm    mem    enc    dec    jpg    ofa    command 
+# Idx           #    C/G      %      %      %      %      %      %    name 
+    0       8204   C+G      -      -      -      -      -      -    3DMark.exe     
+    0       8924   C+G      -      -      -      -      -      -    nvcontainer.exe
+    0       9480   C+G      -      -      -      -      -      -    explorer.exe   
+    0      10636   C+G      -      -      -      -      -      -    StartMenuExperi
+    0      10756   C+G      -      -      -      -      -      -    SearchHost.exe 
+    0      11388   C+G      -      -      -      -      -      -    ShellExperience
+    0      13688   C+G      -      -      -      -      -      -    WidgetBoard.exe
+    0      14456   C+G      -      -      -      -      -      -    NVIDIA Overlay.
+    0      14668   C+G      -      -      -      -      -      -    msedgewebview2.
+    0      16328   C+G      -      -      -      -      -      -    msedge.exe     
+    0      16464   C+G      -      -      -      -      -      -    Discord.exe    
+    0      23952   C+G      -      -      -      -      -      -    ClickToDo.exe  
+    0      28524   C+G      -      -      -      -      -      -    javaw.exe      
+    0      29136   C+G      2      0      -      -      -      -    Codex.exe      
+    0      32508   C+G      -      -      -      -      -      -    ChatGPT.exe    
+    0      33728   C+G      -      -      -      -      -      -    NVIDIA Overlay.
+
