@@ -1,0 +1,43 @@
+{
+  "phase": "PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT",
+  "app_name": "AeroTune",
+  "source_phase": "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+  "phase_root": "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT",
+  "summary": "Phase 5 adds the guarded CPU apply foundation, AC/DC CPU editor redesign, read-only power plan management previews, command-line process matching, PresentMon lifecycle cleanup, and improved LibreHardwareMonitor headline parsing.",
+  "active_power_plan": {
+    "guid": "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "name": "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "export_succeeded": false,
+    "export_failure": "Unable to perform operation. An unexpected error (0x522) has occurred: A required privilege is not held by the client."
+  },
+  "gates": {
+    "active_power_plan_exported": false,
+    "current_values_snapshot_exists": true,
+    "restore_manifest_exists": true,
+    "sandbox_powercfg_write_test_passed": true,
+    "cpu_guarded_apply_enabled": false,
+    "active_plan_write_enabled": false,
+    "msi_profile_apply_enabled": false,
+    "fan_write_enabled": false,
+    "ec_write_enabled": false,
+    "automation_apply_enabled": false
+  },
+  "ui_changes": [
+    "CPU Presets page has a global AC/DC selector.",
+    "CPU setting cards show current-vs-desired status for the selected side only.",
+    "Settings/Safety includes read-only power plan listing and preview-only create/set controls.",
+    "Sensors page shows selected LibreHardwareMonitor CPU headline source.",
+    "Dashboard shows Phase 5 backup/export/apply gate status."
+  ],
+  "sensor_changes": {
+    "librehardwaremonitor_headline_fixed": true,
+    "presentmon_lifecycle_cleanup_added": true
+  },
+  "validation": {
+    "status": "passed",
+    "script": "scripts\\validate_phase5.ps1",
+    "timestamp_local": "2026-06-15T18:09:17",
+    "total_checks": 122,
+    "failed_checks": 0
+  }
+}

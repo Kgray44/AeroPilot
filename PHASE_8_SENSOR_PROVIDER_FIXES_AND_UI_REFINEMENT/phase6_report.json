@@ -1,0 +1,31 @@
+{
+  "phase": "PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS",
+  "app_name": "AeroTune",
+  "summary": "Redesigned the Sensors tab into a read-only telemetry command center with normalization, diagnostics, cards, raw explorer, and favorites.",
+  "sensor_probe": {
+    "lhm_sensor_count": 139,
+    "normalized_raw_sensor_count": 149,
+    "cpu_temperature_selected": false,
+    "cpu_temperature_status": "unavailable",
+    "cpu_temperature_reason": "Live LHM reported Core (Tctl/Tdie) as 0 C, which is invalid and rejected.",
+    "gpu_telemetry_available": true,
+    "presentmon_auto_start_enabled": false
+  },
+  "safety": {
+    "msi_profile_launch_enabled": false,
+    "nvidia_write_enabled": false,
+    "fan_write_enabled": false,
+    "ec_write_enabled": false,
+    "service_control_enabled": false,
+    "startup_entry_write_enabled": false,
+    "scheduled_task_write_enabled": false,
+    "registry_write_enabled": false,
+    "game_automation_apply_enabled": false,
+    "automatic_tuning_apply_enabled": false
+  },
+  "validation": {
+    "status": "passed",
+    "total_checks": 145,
+    "failed_checks": 0
+  }
+}

@@ -1,0 +1,68 @@
+﻿{
+    "generated_local":  "2026-06-15T17:58:36",
+    "phase":  "PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT",
+    "source_phase":  "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+    "active_power_plan_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_power_plan_name":  "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "active_power_plan_export":  {
+                                     "elevated":  false,
+                                     "export_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\backups\\power_plans\\active_power_plan_phase5_20260615-175835.pow",
+                                     "export_succeeded":  false,
+                                     "export_file_length":  0,
+                                     "failure_reason":  "Unable to perform operation.  An unexpected error (0x522) has occurred:  A required privilege is not held by the client.",
+                                     "active_command":  {
+                                                            "command":  [
+                                                                            "powercfg.exe",
+                                                                            "/getactivescheme"
+                                                                        ],
+                                                            "exit_code":  0,
+                                                            "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_get_active_scheme_stdout.txt",
+                                                            "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_get_active_scheme_stderr.txt"
+                                                        },
+                                     "export_command":  {
+                                                            "command":  [
+                                                                            "powercfg.exe",
+                                                                            "/export",
+                                                                            "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\backups\\power_plans\\active_power_plan_phase5_20260615-175835.pow",
+                                                                            "692ee1d0-ffc2-4c47-91b3-2a4814f3964e"
+                                                                        ],
+                                                            "exit_code":  -1,
+                                                            "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_export_active_plan_stdout.txt",
+                                                            "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\raw_outputs\\power_plan_backup_phase5\\phase5_powercfg_export_active_plan_stderr.txt"
+                                                        },
+                                     "active_plan_modified":  false
+                                 },
+    "active_power_plan_query_snapshot_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\backups\\snapshots\\active_power_plan_snapshot_phase5_20260615-175835.json",
+    "cpu_readable_values_snapshot_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\backups\\snapshots\\cpu_readable_values_phase5_20260615-175835.json",
+    "app_config_backup_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_5_GUARDED_CPU_APPLY_FOUNDATION_AND_UI_REFINEMENT\\backups\\app_config",
+    "phase4_backup_manifest_present":  true,
+    "phase4_restore_manifest_present":  true,
+    "phase4_sandbox_passed":  true,
+    "msi_backup_continued_from_phase4":  true,
+    "gates":  {
+                  "generated_local":  "2026-06-15T11:40:56",
+                  "backups_exist":  true,
+                  "active_power_plan_exported":  false,
+                  "current_values_snapshot_exists":  true,
+                  "restore_manifest_exists":  true,
+                  "sandbox_powercfg_write_test_passed":  true,
+                  "cpu_guarded_apply_enabled":  false,
+                  "cpu_apply_requires_confirmation":  true,
+                  "cpu_apply_low_medium_risk_only":  true,
+                  "cpu_restore_available":  false,
+                  "msi_configs_backed_up":  true,
+                  "msi_slot_mapping_verified":  false,
+                  "nvidia_write_blocked":  true,
+                  "fan_write_blocked":  true,
+                  "ec_write_blocked":  true,
+                  "active_plan_write_enabled":  false,
+                  "msi_profile_apply_enabled":  false,
+                  "fan_write_enabled":  false,
+                  "ec_write_enabled":  false,
+                  "automation_apply_enabled":  false
+              },
+    "phase5_cpu_apply_gates_satisfied":  false,
+    "failures_or_blockers":  [
+                                 "Active power plan export is not valid: Unable to perform operation.  An unexpected error (0x522) has occurred:  A required privilege is not held by the client."
+                             ]
+}

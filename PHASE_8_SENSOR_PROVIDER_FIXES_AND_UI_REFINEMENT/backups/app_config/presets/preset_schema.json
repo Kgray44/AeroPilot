@@ -1,0 +1,54 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "schemas": {
+    "cpu_presets": {
+      "required_top_level": [
+        "phase",
+        "safety_mode",
+        "presets"
+      ],
+      "preset_required": [
+        "name",
+        "phase_status",
+        "settings"
+      ]
+    },
+    "gpu_profiles": {
+      "required_top_level": [
+        "phase",
+        "safety_mode",
+        "slots"
+      ],
+      "slot_required": [
+        "slot",
+        "friendly_name",
+        "verified",
+        "risk"
+      ]
+    },
+    "game_rules": {
+      "required_top_level": [
+        "phase",
+        "safety_mode",
+        "rules"
+      ],
+      "rule_required": [
+        "target_id",
+        "process_names",
+        "auto_apply_enabled_later"
+      ]
+    },
+    "combined_presets": {
+      "required_top_level": [
+        "phase",
+        "safety_mode",
+        "combined_presets"
+      ],
+      "preset_required": [
+        "name",
+        "phase_status",
+        "automation"
+      ]
+    }
+  }
+}

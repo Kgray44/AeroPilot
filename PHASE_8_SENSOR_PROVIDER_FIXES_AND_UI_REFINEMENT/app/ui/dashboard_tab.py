@@ -1,0 +1,213 @@
+from __future__ import annotations
+
+import os
+import time
+from collections import Counter
+
+from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLabel, QMessageBox, QPushButton, QPlainTextEdit, QWidget
+
+from app import APP_VERSION
+from app.core.config_loader import load_json, save_json_inside_phase8
+from app.core.state_snapshot import collect_snapshot
+from app.ui.common import horizontal_cards, make_badge, make_card, make_metric, make_page_header, make_scroll_page
+
+
+class DashboardTab(QWidget):
+    def __init__(self, window) -> None:
+        super().__init__()
+        self.window = window
+        self.labels: dict[str, QLabel] = {}
+        self.last_snapshot: dict | None = None
+
+        layout, _body = make_scroll_page(self)
+        layout.addWidget(
+            make_page_header(
+                "AeroTune",
+                "Read-only telemetry, backup status, provider diagnostics, and guarded CPU apply previews for the AERO X16 optimization workflow.",
+                [("READ-ONLY / DRY-RUN", "safe"), ("Phase 8 Sensor Provider Fixes", "neutral")],
+            )
+        )
+
+        self.metric_row = QHBoxLayout()
+        self.metric_row.setSpacing(12)
+        metric_panel = QWidget()
+        metric_panel.setLayout(self.metric_row)
+        layout.addWidget(metric_panel)
+
+        status_card, status_layout = make_card("System status", "Current availability and guardrail state.")
+        self.status_grid = QGridLayout()
+        self.status_grid.setHorizontalSpacing(24)
+        self.status_grid.setVerticalSpacing(10)
+        status_layout.addLayout(self.status_grid)
+        layout.addWidget(status_card)
+
+        phase_card, phase_layout = make_card("Backup and apply gates", "Phase 5 keeps real apply blocked unless backup/export and restore gates are proven.")
+        self.phase_grid = QGridLayout()
+        self.phase_grid.setHorizontalSpacing(24)
+        self.phase_grid.setVerticalSpacing(10)
+        phase_layout.addLayout(self.phase_grid)
+        layout.addWidget(phase_card)
+
+        sensor_card, sensor_layout = make_card("Telemetry readiness", "Phase 8 sensor normalization status, provider health, and latest read-only sensor state.")
+        self.sensor_grid = QGridLayout()
+        self.sensor_grid.setHorizontalSpacing(24)
+        self.sensor_grid.setVerticalSpacing(10)
+        sensor_layout.addLayout(self.sensor_grid)
+        layout.addWidget(sensor_card)
+
+        snapshot_card, snapshot_layout = make_card("Read-only snapshot", "Live/fallback telemetry in a compact diagnostic view.")
+        self.telemetry = QPlainTextEdit()
+        self.telemetry.setReadOnly(True)
+        self.telemetry.setMinimumHeight(220)
+        snapshot_layout.addWidget(self.telemetry)
+        layout.addWidget(snapshot_card)
+
+        buttons = QHBoxLayout()
+        for text, callback in [
+            ("Refresh Snapshot", self.refresh_snapshot),
+            ("Export Dashboard Snapshot", self.export_snapshot),
+            ("Open Phase 1 Report", lambda: self.open_path(self.window.paths.phase1_root / "phase1_exploration_report.md")),
+            ("Open Logs Folder", lambda: self.open_path(self.window.paths.logs_dir)),
+        ]:
+            button = QPushButton(text)
+            button.clicked.connect(callback)
+            buttons.addWidget(button)
+        buttons.addStretch(1)
+        layout.addLayout(buttons)
+        layout.addStretch(1)
+        self.refresh_snapshot()
+
+    def _set_grid_rows(self, grid: QGridLayout, rows: list[tuple[str, str]]) -> None:
+        while grid.count():
+            item = grid.takeAt(0)
+            widget = item.widget()
+            if widget:
+                widget.deleteLater()
+        for row, (label, value) in enumerate(rows):
+            key = QLabel(label)
+            key.setObjectName("form_label")
+            val = QLabel(value)
+            val.setWordWrap(True)
+            val.setTextInteractionFlags(val.textInteractionFlags() | Qt.TextInteractionFlag.TextSelectableByMouse)
+            grid.addWidget(key, row, 0)
+            grid.addWidget(val, row, 1)
+
+    def _refresh_metrics(self, metrics: list[QWidget]) -> None:
+        while self.metric_row.count():
+            item = self.metric_row.takeAt(0)
+            widget = item.widget()
+            if widget:
+                widget.deleteLater()
+        for metric in metrics:
+            self.metric_row.addWidget(metric)
+        self.metric_row.addStretch(1)
+
+    def refresh_snapshot(self) -> None:
+        surface = self.window.control_surface
+        controls = surface.controls
+        summary = self.window.phase1.summary()
+        status_counts = Counter(row.get("status") for row in controls)
+        snapshot = collect_snapshot(self.window.paths)
+        self.last_snapshot = snapshot
+
+        phase4 = snapshot.get("phase4", {})
+        backup = load_json(self.window.paths.phase4_root / "backups" / "backup_manifest_latest.json", phase4.get("backup_manifest", {}))
+        restore = load_json(self.window.paths.phase4_root / "restore" / "restore_manifest_latest.json", phase4.get("restore_manifest", {}))
+        sandbox = load_json(self.window.paths.phase4_root / "sandbox" / "sandbox_powercfg_test_result.json", phase4.get("sandbox_result", {}))
+        gates = load_json(self.window.paths.config_dir / "apply_gate_config.json", phase4.get("apply_gates", {}))
+        matched = snapshot.get("process_targets", {}).get("matched_targets", [])
+        sensor_model = self.window.latest_sensor_model
+        sensor_headline = sensor_model.get("headline", {})
+        cpu_provider = sensor_headline.get("cpu_provider_health", "unknown")
+        cpu_power_valid = sensor_headline.get("cpu_power_w") is not None
+        cpu_clock_valid = sensor_headline.get("cpu_clock_mhz") is not None
+        cpu_voltage_valid = sensor_headline.get("cpu_voltage_v") is not None
+        lhm_count = len((self.window.latest_lhm_snapshot or {}).get("sensors", []) or [])
+        cpu_temp_selected = bool(sensor_headline.get("cpu_temp_c") is not None)
+        gpu_available = bool(sensor_headline.get("gpu_temp_c") is not None or sensor_headline.get("gpu_util_percent") is not None)
+        presentmon_available = bool(self.window.presentmon.candidates())
+
+        backup_ready = bool(backup) and bool(restore) and bool(gates.get("current_values_snapshot_exists")) and bool(gates.get("sandbox_powercfg_write_test_passed")) and bool(gates.get("active_power_plan_exported"))
+        sandbox_passed = bool(sandbox.get("passed", False))
+        power_exported = bool(gates.get("active_power_plan_exported", False))
+
+        self._refresh_metrics(
+            [
+                make_metric("Controls mapped", str(len(controls))),
+                make_metric("Readable CPU settings", str(summary.get("readable_cpu_settings"))),
+                make_metric("Running targets", str(len(matched))),
+                make_metric("Sandbox apply test", "Passed" if sandbox_passed else "Not passed", "safe" if sandbox_passed else "warn"),
+                make_metric("Power plan export", "Valid" if power_exported else "Blocked", "safe" if power_exported else "warn"),
+                make_metric("CPU apply gate", "Enabled" if gates.get("cpu_guarded_apply_enabled") else "Blocked", "safe" if gates.get("cpu_guarded_apply_enabled") else "warn"),
+                make_metric("Phase 5 ready", "No" if not backup_ready else "Yes", "warn" if not backup_ready else "safe"),
+                make_metric("Sensor normalizer", "OK" if sensor_model.get("ok") else "Waiting", "safe" if sensor_model.get("ok") else "warn"),
+                make_metric("CPU temp selected", "Yes" if cpu_temp_selected else "No", "safe" if cpu_temp_selected else "warn"),
+                make_metric("CPU provider", str(cpu_provider).title(), "warn" if cpu_provider == "partial" else "safe" if cpu_provider == "ok" else "neutral"),
+            ]
+        )
+
+        self._set_grid_rows(
+            self.status_grid,
+            [
+                ("App", f"AeroTune {APP_VERSION}"),
+                ("Safety mode", "READ-ONLY / DRY-RUN"),
+                ("Active power plan", str(snapshot.get("active_power_plan", {}).get("name") or summary.get("active_power_plan"))),
+                ("MSI Afterburner", str(summary.get("msi_afterburner_detected"))),
+                ("nvidia-smi", str(summary.get("nvidia_smi_detected"))),
+                ("PresentMon", str(summary.get("presentmon_detected"))),
+                ("LibreHardwareMonitor", str(summary.get("librehardwaremonitor_detected"))),
+                ("Gigabyte/GCC", str(summary.get("gigabyte_detected"))),
+                ("Dry-run preview controls", str(sum(1 for row in controls if row.get("coverage", {}).get("has_dryrun_preview")))),
+                ("Blocked/future controls", str(status_counts.get("blocked", 0) + status_counts.get("future", 0) + status_counts.get("blocked_or_unavailable", 0))),
+            ],
+        )
+
+        before = sandbox.get("active_scheme_before", {}).get("guid")
+        after = sandbox.get("active_scheme_after", {}).get("guid")
+        self._set_grid_rows(
+            self.phase_grid,
+            [
+                ("Backup manifest", "present" if backup else "missing"),
+                ("Restore manifest", "present" if restore else "missing"),
+                ("Last backup timestamp", str(backup.get("generated_local", "not generated"))),
+                ("Power plan export", "usable" if power_exported else "blocked or missing"),
+                ("CPU guarded apply", str(gates.get("cpu_guarded_apply_enabled", False))),
+                ("Sandbox apply test", "passed" if sandbox_passed else "not run or failed"),
+                ("Active plan before/after", "match" if before and before == after else "not verified"),
+                ("MSI backup", str(gates.get("msi_configs_backed_up", False))),
+                ("Active-plan writes", str(gates.get("active_plan_write_enabled", False))),
+                ("MSI profile apply", str(gates.get("msi_profile_apply_enabled", False))),
+            ],
+        )
+
+        self._set_grid_rows(
+            self.sensor_grid,
+            [
+                ("LHM sensor count", str(lhm_count)),
+                ("CPU temp selected", "yes" if cpu_temp_selected else "no"),
+                ("GPU telemetry available", "yes" if gpu_available else "no"),
+                ("PresentMon available", "yes" if presentmon_available else "no"),
+                ("Sensor normalizer status", "ok" if sensor_model.get("ok") else "waiting or unavailable"),
+                ("CPU provider health", str(cpu_provider)),
+                ("CPU load", "valid" if sensor_headline.get("cpu_load_percent") is not None else "unavailable"),
+                ("CPU power", "valid" if cpu_power_valid else "unavailable/stale-zero"),
+                ("CPU clock", "valid" if cpu_clock_valid else "unavailable/stale-zero"),
+                ("CPU voltage", "valid" if cpu_voltage_valid else "unavailable"),
+                ("Last sensor refresh timestamp", str(sensor_model.get("generated_local", "not read"))),
+            ],
+        )
+
+        self.telemetry.setPlainText(str({"nvidia_smi": snapshot.get("nvidia_smi"), "process_targets": snapshot.get("process_targets"), "phase4": phase4}))
+
+    def export_snapshot(self) -> None:
+        snapshot = self.last_snapshot or collect_snapshot(self.window.paths)
+        target = self.window.paths.raw_outputs_dir / f"dashboard_snapshot_{time.strftime('%Y%m%d-%H%M%S')}.json"
+        save_json_inside_phase8(target, snapshot, self.window.paths)
+        QMessageBox.information(self, "Snapshot exported", str(target))
+
+    def open_path(self, path) -> None:
+        try:
+            os.startfile(path)
+        except Exception as exc:
+            QMessageBox.warning(self, "Open failed", str(exc))

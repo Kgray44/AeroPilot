@@ -1,0 +1,11 @@
+﻿{
+    "ok":  false,
+    "generated_local":  "2026-06-15T12:08:18",
+    "dll_path":  "C:\\Program Files (x86)\\CapFrameX\\LibreHardwareMonitorLib.dll",
+    "sensors":  [
+
+                ],
+    "sensor_count":  0,
+    "error":  "Exception calling \"Open\" with \"0\" argument(s): \"Object reference not set to an instance of an object.\"",
+    "read_only":  true
+}

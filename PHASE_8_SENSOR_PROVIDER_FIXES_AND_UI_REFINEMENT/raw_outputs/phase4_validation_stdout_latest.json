@@ -1,0 +1,808 @@
+﻿{
+    "timestamp_local":  "2026-06-15T11:43:35",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+    "total_checks":  160,
+    "failed_checks":  0,
+    "results":  [
+                    {
+                        "name":  "required_path:phase4_report.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\phase4_report.md"
+                    },
+                    {
+                        "name":  "required_path:phase4_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\phase4_report.json"
+                    },
+                    {
+                        "name":  "required_path:phase4_validation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\phase4_validation.md"
+                    },
+                    {
+                        "name":  "required_path:raw_outputs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs"
+                    },
+                    {
+                        "name":  "required_path:logs",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\logs"
+                    },
+                    {
+                        "name":  "required_path:screenshots",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\screenshots"
+                    },
+                    {
+                        "name":  "required_path:tests",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\tests"
+                    },
+                    {
+                        "name":  "required_path:scripts\\run_app.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\run_app.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\validate_phase4.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\validate_phase4.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\collect_phase4_snapshot.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\collect_phase4_snapshot.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\create_backup_manifest.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\create_backup_manifest.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\export_active_power_plan.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\export_active_power_plan.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\backup_msi_afterburner_configs.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\backup_msi_afterburner_configs.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\sandbox_powercfg_apply_test.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\sandbox_powercfg_apply_test.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\cleanup_sandbox_power_plan.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\cleanup_sandbox_power_plan.ps1"
+                    },
+                    {
+                        "name":  "required_path:scripts\\generate_restore_scripts.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\generate_restore_scripts.ps1"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase4_safety_boundary.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\phase4_safety_boundary.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\backup_manifest_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\backup_manifest_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\restore_manifest_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\restore_manifest_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\sandbox_apply_test_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\sandbox_apply_test_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\msi_backup_restore_notes.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\msi_backup_restore_notes.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\power_plan_backup_restore_notes.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\power_plan_backup_restore_notes.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase5_recommendation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\phase5_recommendation.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\blocked_actions.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\docs\\blocked_actions.md"
+                    },
+                    {
+                        "name":  "required_path:app\\__init__.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\app\\__init__.py"
+                    },
+                    {
+                        "name":  "required_path:app\\main.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\app\\main.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\app_paths.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\app\\core\\app_paths.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\control_surface.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\app\\core\\control_surface.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\state_snapshot.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\app\\core\\state_snapshot.py"
+                    },
+                    {
+                        "name":  "required_path:config\\app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "required_path:config\\tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "required_path:config\\capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "required_path:config\\control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "required_path:config\\action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "required_path:config\\restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "required_path:config\\apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "required_path:config\\backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "required_path:config\\sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "required_path:presets\\preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "required_path:backups\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\README.md"
+                    },
+                    {
+                        "name":  "required_path:backups\\backup_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\backup_manifest_latest.json"
+                    },
+                    {
+                        "name":  "required_path:restore\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\README.md"
+                    },
+                    {
+                        "name":  "required_path:restore\\restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "required_path:restore\\restore_plan_latest.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_plan_latest.md"
+                    },
+                    {
+                        "name":  "required_path:restore\\generated_scripts\\restore_power_plan_preview.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_power_plan_preview.ps1"
+                    },
+                    {
+                        "name":  "required_path:restore\\generated_scripts\\restore_msi_afterburner_files_preview.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_msi_afterburner_files_preview.ps1"
+                    },
+                    {
+                        "name":  "required_path:restore\\generated_scripts\\restore_app_config_preview.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\generated_scripts\\restore_app_config_preview.ps1"
+                    },
+                    {
+                        "name":  "required_path:sandbox\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\sandbox\\README.md"
+                    },
+                    {
+                        "name":  "required_path:sandbox\\sandbox_powercfg_test_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\sandbox\\sandbox_powercfg_test_result.json"
+                    },
+                    {
+                        "name":  "required_path:sandbox\\sandbox_powercfg_test_log.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\sandbox\\sandbox_powercfg_test_log.md"
+                    },
+                    {
+                        "name":  "required_path:requirements.txt",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\requirements.txt"
+                    },
+                    {
+                        "name":  "phase3_source:config\\control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "phase3_source:config\\action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "phase3_source:config\\restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "phase3_source:phase3_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase3_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING\\phase3_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\phase4_report.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\backup_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\app_config\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:msi_backup_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\msi_backup_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\active_power_plan_snapshot_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\active_power_plan_snapshot_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\active_power_plan_snapshot_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\cpu_readable_values_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\cpu_readable_values_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\cpu_readable_values_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:nvidia_smi_telemetry_phase1_snapshot.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\nvidia_smi_telemetry_phase1_snapshot.json"
+                    },
+                    {
+                        "name":  "json_parse:process_snapshot_phase1.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\process_snapshot_phase1.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\phase4_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\phase4_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\phase4_validation_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:create_backup_manifest_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\backup_manifest\\create_backup_manifest_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_msi_afterburner_configs_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\msi_backup\\backup_msi_afterburner_configs_result.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\export_active_power_plan_result.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\sandbox_powercfg\\sandbox_powercfg_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_test_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\sandbox\\sandbox_powercfg_test_result.json"
+                    },
+                    {
+                        "name":  "python_compile_app",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "python_import_check",
+                        "passed":  true,
+                        "details":  "phase4 import check ok"
+                    },
+                    {
+                        "name":  "pyside6_offscreen_construct",
+                        "passed":  true,
+                        "details":  "AERO X16 Control Center\n9"
+                    },
+                    {
+                        "name":  "backup_manifest_exists",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\backup_manifest_latest.json"
+                    },
+                    {
+                        "name":  "active_power_plan_export_usable_or_explicitly_blocked",
+                        "passed":  true,
+                        "details":  "usable=False length=0 reason=Unable to perform operation.  An unexpected error (0x522) has occurred:  A required privilege is not held by the client."
+                    },
+                    {
+                        "name":  "cpu_settings_snapshot_exists",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\snapshots\\cpu_readable_values_20260615-114052.json"
+                    },
+                    {
+                        "name":  "msi_backup_manifest_exists",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "app_config_backup_exists",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "msi_copied_files_exist",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "restore_manifest_exists",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "restore_manifest_preview_only",
+                        "passed":  true,
+                        "details":  "preview_only=True"
+                    },
+                    {
+                        "name":  "sandbox_result_exists",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\sandbox\\sandbox_powercfg_test_result.json"
+                    },
+                    {
+                        "name":  "sandbox_passed_or_skipped_with_reason",
+                        "passed":  true,
+                        "details":  "ran=True passed=True skip="
+                    },
+                    {
+                        "name":  "sandbox_active_guid_unchanged",
+                        "passed":  true,
+                        "details":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e -\u003e 692ee1d0-ffc2-4c47-91b3-2a4814f3964e"
+                    },
+                    {
+                        "name":  "sandbox_not_set_active",
+                        "passed":  true,
+                        "details":  "sandbox_was_active=False"
+                    },
+                    {
+                        "name":  "sandbox_deleted_or_warning",
+                        "passed":  true,
+                        "details":  "deleted=True warning="
+                    },
+                    {
+                        "name":  "no_write_command_targeted_active_scheme",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "no_write_command_used_scheme_current",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "no_setactive_executed",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "gate_false:active_plan_write_enabled",
+                        "passed":  true,
+                        "details":  "active_plan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:msi_profile_apply_enabled",
+                        "passed":  true,
+                        "details":  "msi_profile_apply_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:fan_write_enabled",
+                        "passed":  true,
+                        "details":  "fan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:ec_write_enabled",
+                        "passed":  true,
+                        "details":  "ec_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:automation_apply_enabled",
+                        "passed":  true,
+                        "details":  "automation_apply_enabled=False"
+                    },
+                    {
+                        "name":  "gate_backups_exist_reflects_files",
+                        "passed":  true,
+                        "details":  "gate=True"
+                    },
+                    {
+                        "name":  "gate_power_export_reflects_usable_export",
+                        "passed":  true,
+                        "details":  "gate=False usable=False length=0"
+                    },
+                    {
+                        "name":  "gate_sandbox_reflects_result",
+                        "passed":  true,
+                        "details":  "gate=True result=True"
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:MSIAfterburner\\.exe.*-Profile[1-5]",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:nvidia-smi.*(\\s-pl\\s|--power-limit|-lgc|-lmc|--persistence-mode|\\s-pm\\s)",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Set-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:New-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Remove-ItemProperty",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Register-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:New-ScheduledTask",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Start-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Stop-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:Restart-Service",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:fan\\s*apply",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:ec\\s*write",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_blocked_pattern:shell\\s*=\\s*True",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_powercfg_writes_sandbox_only",
+                        "passed":  true,
+                        "details":  ""
+                    }
+                ]
+}

@@ -1,0 +1,293 @@
+﻿{
+    "generated_local":  "2026-06-15T11:40:54",
+    "msi_afterburner_executable_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+    "rtss_executable_path":  "C:\\Program Files (x86)\\RivaTuner Statistics Server\\RTSS.exe",
+    "install_folder":  "C:\\Program Files (x86)\\MSI Afterburner",
+    "profiles_folder":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles",
+    "copied_files":  [
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46FBD9572AB9_MSIAfterburner.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.cfg",
+                                                 "name":  "MSIAfterburner.cfg",
+                                                 "length_bytes":  7962,
+                                                 "last_write_local":  "2025-09-09T19:14:14",
+                                                 "sha256":  "8FDE2DD6F907F95B040ACED82726E539AC13E15A6629F853E5C261578B08967B"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46FBD9572AB9_MSIAfterburner.cfg",
+                                                      "name":  "46FBD9572AB9_MSIAfterburner.cfg",
+                                                      "length_bytes":  7962,
+                                                      "last_write_local":  "2025-09-09T19:14:14",
+                                                      "sha256":  "8FDE2DD6F907F95B040ACED82726E539AC13E15A6629F853E5C261578B08967B"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\40D41C4E4C1D_RTCore.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\RTCore.cfg",
+                                                 "name":  "RTCore.cfg",
+                                                 "length_bytes":  7739,
+                                                 "last_write_local":  "2017-10-07T05:39:00",
+                                                 "sha256":  "6667C31698EC40A87FD70961BE88C52221D1FB6EBE8EE2B231BD1041657936CE"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\40D41C4E4C1D_RTCore.cfg",
+                                                      "name":  "40D41C4E4C1D_RTCore.cfg",
+                                                      "length_bytes":  7739,
+                                                      "last_write_local":  "2017-10-07T05:39:00",
+                                                      "sha256":  "6667C31698EC40A87FD70961BE88C52221D1FB6EBE8EE2B231BD1041657936CE"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F39B9F982853_MSIAfterburner.dat",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.dat",
+                                                 "name":  "MSIAfterburner.dat",
+                                                 "length_bytes":  36387,
+                                                 "last_write_local":  "2025-09-28T19:38:14",
+                                                 "sha256":  "B9244C51CB94E04415632B4CF95C24A716C5E7A29B467FB9C16F9FD1EF5EB3B0"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F39B9F982853_MSIAfterburner.dat",
+                                                      "name":  "F39B9F982853_MSIAfterburner.dat",
+                                                      "length_bytes":  36387,
+                                                      "last_write_local":  "2025-09-28T19:38:14",
+                                                      "sha256":  "B9244C51CB94E04415632B4CF95C24A716C5E7A29B467FB9C16F9FD1EF5EB3B0"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\10B7F8B68237_MSIAfterburner.oem",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem",
+                                                 "name":  "MSIAfterburner.oem",
+                                                 "length_bytes":  92967,
+                                                 "last_write_local":  "2025-09-28T19:38:14",
+                                                 "sha256":  "20F5A29BB21567C6AAB8DE452F77FBB82A855B0651D0DC3961A9F51623DBAFEE"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\10B7F8B68237_MSIAfterburner.oem",
+                                                      "name":  "10B7F8B68237_MSIAfterburner.oem",
+                                                      "length_bytes":  92967,
+                                                      "last_write_local":  "2025-09-28T19:38:14",
+                                                      "sha256":  "20F5A29BB21567C6AAB8DE452F77FBB82A855B0651D0DC3961A9F51623DBAFEE"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\A5E5CBA9D2A8_MSIAfterburner.oem1",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem1",
+                                                 "name":  "MSIAfterburner.oem1",
+                                                 "length_bytes":  96146,
+                                                 "last_write_local":  "2025-09-28T19:38:14",
+                                                 "sha256":  "35C02EE1E8FB244469E489718BEB413A8D602A39BDFD7801D46AE75FA1D730B4"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\A5E5CBA9D2A8_MSIAfterburner.oem1",
+                                                      "name":  "A5E5CBA9D2A8_MSIAfterburner.oem1",
+                                                      "length_bytes":  96146,
+                                                      "last_write_local":  "2025-09-28T19:38:14",
+                                                      "sha256":  "35C02EE1E8FB244469E489718BEB413A8D602A39BDFD7801D46AE75FA1D730B4"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "config_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\EB95CA5B61BC_MSIAfterburner.oem2",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.oem2",
+                                                 "name":  "MSIAfterburner.oem2",
+                                                 "length_bytes":  11112,
+                                                 "last_write_local":  "2025-09-14T02:37:18",
+                                                 "sha256":  "8D4ED36B88A2716609738951F4980D4486EA513A787271B1DBC0FC3AACACD3B4"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\EB95CA5B61BC_MSIAfterburner.oem2",
+                                                      "name":  "EB95CA5B61BC_MSIAfterburner.oem2",
+                                                      "length_bytes":  11112,
+                                                      "last_write_local":  "2025-09-14T02:37:18",
+                                                      "sha256":  "8D4ED36B88A2716609738951F4980D4486EA513A787271B1DBC0FC3AACACD3B4"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\80C2E8756D81_MSIAfterburner.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\MSIAfterburner.cfg",
+                                                 "name":  "MSIAfterburner.cfg",
+                                                 "length_bytes":  2307,
+                                                 "last_write_local":  "2026-06-14T18:16:47",
+                                                 "sha256":  "B4570296921A264FE05FDC31B0A8F6FD9D1722F556E4C241C8E1DA2EBAE02232"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\80C2E8756D81_MSIAfterburner.cfg",
+                                                      "name":  "80C2E8756D81_MSIAfterburner.cfg",
+                                                      "length_bytes":  2307,
+                                                      "last_write_local":  "2026-06-14T18:16:47",
+                                                      "sha256":  "B4570296921A264FE05FDC31B0A8F6FD9D1722F556E4C241C8E1DA2EBAE02232"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\0E567F09DA4D_Profile2.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile2.cfg",
+                                                 "name":  "Profile2.cfg",
+                                                 "length_bytes":  31,
+                                                 "last_write_local":  "2026-04-20T18:06:24",
+                                                 "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\0E567F09DA4D_Profile2.cfg",
+                                                      "name":  "0E567F09DA4D_Profile2.cfg",
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-04-20T18:06:24",
+                                                      "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\354EBFE45EC9_Profile3.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile3.cfg",
+                                                 "name":  "Profile3.cfg",
+                                                 "length_bytes":  31,
+                                                 "last_write_local":  "2026-06-13T21:40:47",
+                                                 "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\354EBFE45EC9_Profile3.cfg",
+                                                      "name":  "354EBFE45EC9_Profile3.cfg",
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-13T21:40:47",
+                                                      "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\534138F73FEB_Profile4.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile4.cfg",
+                                                 "name":  "Profile4.cfg",
+                                                 "length_bytes":  31,
+                                                 "last_write_local":  "2026-06-13T22:50:31",
+                                                 "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\534138F73FEB_Profile4.cfg",
+                                                      "name":  "534138F73FEB_Profile4.cfg",
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-13T22:50:31",
+                                                      "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46766608D01A_Profile5.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\Profile5.cfg",
+                                                 "name":  "Profile5.cfg",
+                                                 "length_bytes":  31,
+                                                 "last_write_local":  "2026-06-14T17:56:19",
+                                                 "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\46766608D01A_Profile5.cfg",
+                                                      "name":  "46766608D01A_Profile5.cfg",
+                                                      "length_bytes":  31,
+                                                      "last_write_local":  "2026-06-14T17:56:19",
+                                                      "sha256":  "CADE1B0DA7D80656613E78583DAFAF9AEB0CEE9F09B18CCFEB383A97BB99373B"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                                                 "name":  "VEN_0000\u0026DEV_0000\u0026SUBSYS_00000000\u0026REV_00\u0026BUS_0\u0026DEV_0\u0026FN_0.cfg",
+                                                 "length_bytes":  60,
+                                                 "last_write_local":  "2026-04-21T20:10:42",
+                                                 "sha256":  "397DC9EDCA4A53681D8A231E9D4F7692BC4ABD2EA0E0265D08CA90F58AA36AED"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+                                                      "name":  "F4DA3B7ABB0B_VEN_0000_DEV_0000_SUBSYS_00000000_REV_00_BUS_0_DEV_0_FN_0.cfg",
+                                                      "length_bytes":  60,
+                                                      "last_write_local":  "2026-04-21T20:10:42",
+                                                      "sha256":  "397DC9EDCA4A53681D8A231E9D4F7692BC4ABD2EA0E0265D08CA90F58AA36AED"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                                                 "name":  "VEN_1002\u0026DEV_1114\u0026SUBSYS_60031458\u0026REV_C2\u0026BUS_101\u0026DEV_0\u0026FN_0.cfg",
+                                                 "length_bytes":  109,
+                                                 "last_write_local":  "2026-06-14T21:01:18",
+                                                 "sha256":  "5271527F2AC30E403DD8F3A1964E8BCA5C0F72606631D1BD42F29FFE7B7CA80A"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+                                                      "name":  "AD2637E9677E_VEN_1002_DEV_1114_SUBSYS_60031458_REV_C2_BUS_101_DEV_0_FN_0.cfg",
+                                                      "length_bytes":  109,
+                                                      "last_write_local":  "2026-06-14T21:01:18",
+                                                      "sha256":  "5271527F2AC30E403DD8F3A1964E8BCA5C0F72606631D1BD42F29FFE7B7CA80A"
+                                                  },
+                             "copied":  true
+                         },
+                         {
+                             "collection":  "profile_files",
+                             "source_path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                             "destination_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+                             "source_hash":  {
+                                                 "path":  "C:\\Program Files (x86)\\MSI Afterburner\\Profiles\\VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                                                 "name":  "VEN_10DE\u0026DEV_2D18\u0026SUBSYS_60031458\u0026REV_A1\u0026BUS_100\u0026DEV_0\u0026FN_0.cfg",
+                                                 "length_bytes":  26122,
+                                                 "last_write_local":  "2026-06-14T21:01:18",
+                                                 "sha256":  "9402F8ED8E67C7AE1F761E536AA72FB9756E7E245A0C2897F7AAA4D27C73A0E1"
+                                             },
+                             "destination_hash":  {
+                                                      "path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\backups\\msi_afterburner\\files\\BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+                                                      "name":  "BE628400530A_VEN_10DE_DEV_2D18_SUBSYS_60031458_REV_A1_BUS_100_DEV_0_FN_0.cfg",
+                                                      "length_bytes":  26122,
+                                                      "last_write_local":  "2026-06-14T21:01:18",
+                                                      "sha256":  "9402F8ED8E67C7AE1F761E536AA72FB9756E7E245A0C2897F7AAA4D27C73A0E1"
+                                                  },
+                             "copied":  true
+                         }
+                     ],
+    "skipped_items":  [
+
+                      ],
+    "original_files_modified":  false
+}

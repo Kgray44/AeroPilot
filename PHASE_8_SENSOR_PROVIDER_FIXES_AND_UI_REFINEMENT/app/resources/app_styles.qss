@@ -1,0 +1,475 @@
+QWidget {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  font-size: 10.5pt;
+  color: #152033;
+}
+QMainWindow {
+  background: #eef3f7;
+}
+QWidget#page_body {
+  background: #eef3f7;
+}
+QWidget#page_header {
+  background: transparent;
+}
+QLabel#page_title {
+  font-size: 26pt;
+  font-weight: 700;
+  color: #0d1b2f;
+}
+QLabel#page_subtitle {
+  color: #5b6678;
+  font-size: 11pt;
+}
+QTabWidget::pane {
+  border: 0;
+  background: #eef3f7;
+}
+QTabBar::tab {
+  background: transparent;
+  color: #556174;
+  padding: 12px 16px;
+  margin: 4px 6px;
+  border-radius: 8px;
+  min-width: 118px;
+  text-align: left;
+}
+QTabBar::tab:selected {
+  background: #ffffff;
+  color: #0d1b2f;
+  font-weight: 650;
+  border: 1px solid #dbe3ee;
+}
+QTabBar::tab:hover {
+  background: #f8fbff;
+}
+QWidget#card, QWidget#metric_neutral, QWidget#metric_safe, QWidget#metric_warn, QWidget#metric_danger {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+}
+QLabel#card_title {
+  font-size: 13pt;
+  font-weight: 650;
+  color: #132238;
+}
+QLabel#card_subtitle, QLabel#form_help {
+  color: #647083;
+}
+QLabel#metric_value {
+  font-size: 20pt;
+  font-weight: 750;
+  color: #10233d;
+}
+QLabel#metric_label {
+  color: #647083;
+}
+QLabel#form_label {
+  font-weight: 600;
+  color: #1d2b42;
+}
+QLineEdit, QComboBox, QSpinBox, QTextEdit, QPlainTextEdit, QListWidget {
+  background: #ffffff;
+  border: 1px solid #ccd7e5;
+  border-radius: 6px;
+  padding: 7px 9px;
+  selection-background-color: #cfe4ff;
+}
+QComboBox {
+  min-height: 28px;
+}
+QCheckBox {
+  spacing: 8px;
+}
+QPushButton {
+  padding: 8px 13px;
+  border: 1px solid #b9c6d8;
+  background: #ffffff;
+  border-radius: 7px;
+  font-weight: 600;
+}
+QPushButton:hover {
+  background: #edf6ff;
+  border-color: #8fb9e8;
+}
+QPushButton:disabled {
+  color: #8a929c;
+  background: #f1f3f5;
+}
+QTableWidget {
+  background: #ffffff;
+  gridline-color: #e1e7ef;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+  selection-background-color: #d8ebff;
+}
+QHeaderView::section {
+  background: #f4f7fb;
+  border: 0;
+  border-bottom: 1px solid #d5dce5;
+  padding: 7px;
+  font-weight: 650;
+}
+QSplitter::handle {
+  background: #dce4ee;
+}
+QLabel#badge_safe {
+  background: #e8f6ec;
+  color: #175c2c;
+  border: 1px solid #9bd3aa;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 650;
+}
+QLabel#badge_strong {
+  background: #eaf1ff;
+  color: #123f83;
+  border: 1px solid #a9c4f7;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 650;
+}
+QLabel#badge_neutral {
+  background: #f4f7fb;
+  color: #455468;
+  border: 1px solid #d5deea;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 650;
+}
+QLabel#badge_warn {
+  background: #fff6de;
+  color: #7a4a00;
+  border: 1px solid #f2d488;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 650;
+}
+QLabel#badge_danger {
+  background: #fff0f0;
+  color: #8b1d1d;
+  border: 1px solid #efb3b3;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 650;
+}
+QLabel#panel_heading {
+  font-weight: 650;
+}
+QWidget#sensor_overview_cards {
+  background: transparent;
+}
+QWidget#telemetry_metric_card, QWidget#telemetry_bar_card {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+}
+QWidget#telemetry_metric_card[tone="safe"], QWidget#telemetry_bar_card[tone="safe"] {
+  border-color: #acd8ba;
+  background: #fbfffc;
+}
+QWidget#telemetry_metric_card[tone="warn"], QWidget#telemetry_bar_card[tone="warn"] {
+  border-color: #f1d28b;
+  background: #fffdf7;
+}
+QWidget#telemetry_metric_card[tone="danger"], QWidget#telemetry_bar_card[tone="danger"] {
+  border-color: #efb3b3;
+  background: #fff8f8;
+}
+QWidget#telemetry_metric_card[tone="unavailable"], QWidget#telemetry_bar_card[tone="unavailable"] {
+  background: #f5f7fa;
+  border-color: #d8e0e9;
+}
+QLabel#telemetry_metric_title {
+  color: #607086;
+  font-size: 9.5pt;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+QLabel#telemetry_metric_value {
+  color: #0c1d32;
+  font-size: 21pt;
+  font-weight: 800;
+}
+QLabel#telemetry_metric_unit {
+  color: #59687b;
+  font-size: 9.5pt;
+}
+QLabel#telemetry_metric_subtitle {
+  color: #657386;
+  font-size: 9.5pt;
+}
+QProgressBar#telemetry_metric_progress {
+  min-height: 5px;
+  max-height: 5px;
+  border: 0;
+  border-radius: 3px;
+  background: #e7edf5;
+}
+QProgressBar#telemetry_metric_progress::chunk {
+  border-radius: 3px;
+  background: #2d74c4;
+}
+QFrame#mini_history_chart {
+  background: #fbfdff;
+  border: 1px solid #dfe7f1;
+  border-radius: 8px;
+}
+QLabel#sensor_refresh_status, QLabel#sensor_cpu_diagnostics_summary {
+  color: #4f5f73;
+  font-weight: 600;
+}
+QWidget#sensor_favorites_panel {
+  background: transparent;
+}
+QWidget#sensor_top_control_bar {
+  background: transparent;
+}
+QWidget#sensor_status_pills, QWidget#sensor_hero_strip, QWidget#sensor_hardware_panels, QWidget#sensor_favorites_section {
+  background: transparent;
+}
+QWidget#sensor_mode_switch {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 8px;
+  padding: 7px;
+}
+QPushButton#sensor_mode_button {
+  background: #f6f9fc;
+  border: 1px solid #d9e3ef;
+  color: #35465f;
+  padding: 7px 12px;
+  border-radius: 7px;
+}
+QPushButton#sensor_mode_button:hover {
+  background: #eaf4ff;
+  border-color: #9fc5ed;
+}
+QWidget#section_header {
+  background: transparent;
+}
+QLabel#sensor_section_title {
+  color: #0d1b2f;
+  font-size: 16pt;
+  font-weight: 750;
+}
+QLabel#sensor_section_subtitle {
+  color: #647083;
+  font-size: 10.5pt;
+}
+QFrame#hero_metric_card {
+  background: #ffffff;
+  border: 1px solid #d9e3ef;
+  border-radius: 10px;
+}
+QFrame#hero_metric_card[tone="safe"] {
+  border-color: #a9d6b7;
+  background: #fcfffd;
+}
+QFrame#hero_metric_card[tone="warn"] {
+  border-color: #f0cf7f;
+  background: #fffdf6;
+}
+QFrame#hero_metric_card[tone="danger"] {
+  border-color: #eda9a9;
+  background: #fff7f7;
+}
+QFrame#hero_metric_card[tone="unavailable"] {
+  background: #f7f9fc;
+  border-color: #d8e0e9;
+}
+QLabel#hero_metric_title {
+  color: #52647b;
+  font-size: 10pt;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+QLabel#hero_metric_value {
+  color: #07192f;
+  font-size: 27pt;
+  font-weight: 850;
+}
+QLabel#hero_metric_unit {
+  color: #506178;
+  font-size: 13pt;
+  font-weight: 750;
+  padding-top: 15px;
+}
+QLabel#hero_metric_subtitle {
+  color: #627186;
+  font-size: 10pt;
+}
+QLabel#source_badge {
+  background: #eef5ff;
+  color: #24558f;
+  border: 1px solid #c5d9f1;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 8.5pt;
+  font-weight: 700;
+}
+QProgressBar#hero_metric_progress {
+  min-height: 5px;
+  max-height: 5px;
+  border: 0;
+  border-radius: 3px;
+  background: #e7edf5;
+}
+QProgressBar#hero_metric_progress::chunk {
+  border-radius: 3px;
+  background: #2d74c4;
+}
+QFrame#hero_mini_history_chart {
+  background: #fbfdff;
+  border: 1px solid #e0e8f2;
+  border-radius: 8px;
+}
+QFrame#metric_chip {
+  background: #f4f8fc;
+  border: 1px solid #dce6f0;
+  border-radius: 7px;
+}
+QLabel#metric_chip_label {
+  color: #66768b;
+  font-size: 9pt;
+  font-weight: 650;
+}
+QLabel#metric_chip_value {
+  color: #132238;
+  font-size: 9.5pt;
+  font-weight: 800;
+}
+QFrame#status_pill {
+  background: #f5f8fc;
+  border: 1px solid #d8e2ed;
+  border-radius: 7px;
+}
+QFrame#status_pill[tone="safe"] {
+  background: #edf8f1;
+  border-color: #acd7ba;
+}
+QFrame#status_pill[tone="warn"] {
+  background: #fff7e5;
+  border-color: #ecd08c;
+}
+QFrame#status_pill[tone="danger"] {
+  background: #fff0f0;
+  border-color: #ecaaaa;
+}
+QFrame#status_pill[tone="unavailable"] {
+  background: #f0f3f7;
+  border-color: #d6dee8;
+}
+QLabel#status_pill_label {
+  color: #617187;
+  font-size: 8.7pt;
+  font-weight: 700;
+}
+QLabel#status_pill_value {
+  color: #132238;
+  font-size: 8.9pt;
+  font-weight: 800;
+}
+QFrame#hardware_panel {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 10px;
+}
+QFrame#hardware_panel[tone="safe"] {
+  border-color: #b3dbc0;
+}
+QFrame#hardware_panel[tone="warn"] {
+  border-color: #ecd08c;
+}
+QFrame#hardware_panel[tone="danger"] {
+  border-color: #ecaaaa;
+}
+QFrame#hardware_panel[tone="unavailable"] {
+  background: #f8fafc;
+  border-color: #d8e0e9;
+}
+QLabel#hardware_panel_title {
+  color: #102036;
+  font-size: 15pt;
+  font-weight: 780;
+}
+QLabel#hardware_panel_subtitle, QLabel#hardware_panel_empty {
+  color: #617187;
+  font-size: 9.7pt;
+}
+QLabel#hardware_panel_details_title {
+  color: #465770;
+  font-size: 9.5pt;
+  font-weight: 750;
+}
+QLabel#hardware_detail_name {
+  color: #34445d;
+  font-weight: 650;
+}
+QLabel#hardware_detail_value {
+  color: #0f2138;
+  font-weight: 800;
+}
+QFrame#hardware_panel_chart {
+  background: #fbfdff;
+  border: 1px solid #e2e9f2;
+  border-radius: 8px;
+}
+QWidget#favorite_sensor_card {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 9px;
+}
+QLabel#sensor_empty_state {
+  color: #67778b;
+  background: #f8fafc;
+  border: 1px dashed #cbd7e5;
+  border-radius: 8px;
+  padding: 14px;
+}
+QWidget#sensor_raw_explorer_section, QWidget#sensor_cpu_diagnostics_panel {
+  background: transparent;
+}
+QWidget#sensor_raw_filter_panel {
+  background: #f8fbff;
+  border: 1px solid #dce6f0;
+  border-radius: 8px;
+  padding: 6px;
+}
+QWidget#sensor_provider_status_section {
+  background: #ffffff;
+  border: 1px solid #dce4ee;
+  border-radius: 10px;
+}
+QWidget#sensor_quick_filter_chips {
+  background: transparent;
+}
+QPushButton#sensor_quick_filter_button {
+  background: #f3f8fe;
+  border: 1px solid #d8e5f3;
+  color: #2d496b;
+  padding: 6px 10px;
+  border-radius: 7px;
+  font-weight: 700;
+}
+QPushButton#sensor_quick_filter_button:hover {
+  background: #e7f3ff;
+  border-color: #9fc5ed;
+}
+QLabel#sensor_raw_count_label {
+  color: #4f5f73;
+  font-weight: 700;
+}
+QTableWidget#sensor_all_raw_explorer_table, QTableWidget#sensor_cpu_accepted_candidates_table, QTableWidget#sensor_cpu_rejected_candidates_table, QTableWidget#sensor_cpu_raw_table {
+  background: #ffffff;
+  alternate-background-color: #f8fbff;
+  gridline-color: #e5ebf2;
+}
+QLabel#diagnostics_warning_card {
+  background: #fff7e5;
+  border: 1px solid #ecd08c;
+  border-radius: 8px;
+  color: #7a4a00;
+  font-weight: 700;
+  padding: 10px 12px;
+}

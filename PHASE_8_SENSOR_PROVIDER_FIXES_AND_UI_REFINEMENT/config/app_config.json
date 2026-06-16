@@ -1,0 +1,27 @@
+{
+  "phase": "PHASE_6_SENSOR_COMMAND_CENTER_AND_TELEMETRY_VISUALS",
+  "app_name": "AeroTune",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "apply_actions_enabled": false,
+  "automation_enabled": false,
+  "polling": {
+    "enabled": false,
+    "interval_seconds": 5,
+    "log_telemetry_snapshots": false,
+    "max_log_file_mb": 10
+  },
+  "presentmon": {
+    "preferred_candidate": "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+    "candidate_selection_note": "Editable app-side preference only."
+  },
+  "network": {
+    "target_host": "1.1.1.1",
+    "interval_seconds": 1,
+    "enabled": false
+  },
+  "kill_switches": {
+    "disable_all_apply_actions": true,
+    "disable_automation": true,
+    "disable_startup_behavior": true
+  }
+}
