@@ -47,6 +47,10 @@ def main() -> int:
     assert "Subcategory" in headers
 
     find_required(sensor_tab, "sensor_cpu_diagnostics_panel")
+    guidance = find_required(sensor_tab, "sensor_cpu_temp_guidance_block")
+    guidance_text = guidance.property("guidanceText") or guidance.toolTip() or ""
+    assert "Start HWiNFO64 Sensors" in guidance_text
+    assert "shared memory" in guidance_text
     export_button = find_required(sensor_tab, "sensor_export_cpu_diagnostics_button")
     assert isinstance(export_button, QPushButton)
     assert "CPU CPU" not in window.cpu_label.text()

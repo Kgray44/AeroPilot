@@ -24,3 +24,9 @@ Current live behavior on this laptop:
 - Windows performance counters are available and can supply CPU clock/frequency fallback when LHM reports 0 MHz.
 - HWiNFO is probed read-only. If HWiNFO is not running, the UI reports that exact state. If it is running but shared memory is unavailable, the UI reports that shared memory support is unavailable/not configured.
 - WMI/CIM and ACPI thermal readings are low-confidence diagnostic fallbacks and are not labeled CPU die/package temperature unless the source is clearly CPU-like.
+
+When CPU temperature selection fails, the diagnostics export includes:
+- `fallback_explanation`, listing LHM rejection, HWiNFO state, Windows counter limitation, WMI/CIM status, and ACPI status.
+- `next_recommended_action`: `Start HWiNFO64 Sensors with shared memory enabled.`
+
+HWiNFO not running is not treated as an AeroTune failure. It is shown as the recommended next manual provider path for Ryzen AI CPU temperature support.

@@ -149,6 +149,13 @@ def test_cpu_diagnostics_export_model_contains_provider_pipeline_sections() -> N
     assert "unavailable_reasons_by_metric" in diagnostics
     assert diagnostics["provider_statuses"]["hwinfo"]["status"] in ("unavailable", "not_configured", "not_running")
     assert diagnostics["unavailable_reasons_by_metric"]["cpu_temperature_c"]
+    assert diagnostics["next_recommended_action"] == "Start HWiNFO64 Sensors with shared memory enabled."
+    explanation = "\n".join(diagnostics["fallback_explanation"])
+    assert "LHM rejected Core (Tctl/Tdie) because it reported 0 C" in explanation
+    assert "HWiNFO" in explanation and ("not running" in explanation or "shared memory" in explanation)
+    assert "Windows counters are available for CPU load/frequency" in explanation
+    assert "WMI/CIM thermal unavailable" in explanation
+    assert "ACPI thermal unavailable" in explanation
 
 
 def main() -> int:

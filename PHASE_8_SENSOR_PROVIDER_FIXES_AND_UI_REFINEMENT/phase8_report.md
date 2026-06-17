@@ -19,6 +19,7 @@ This phase is telemetry, diagnostics, and UI only. It does not enable MSI Afterb
 - Improved GPU classification for GpuNvidia and GpuAmd hardware types.
 - Added validity, validity reason, provider, and subcategory columns to All Sensors.
 - Added CPU provider diagnostics export with provider_statuses, all_provider_sensors, accepted/rejected candidates, selected_headline_metrics, fallback_chain_used, and unavailable_reasons_by_metric.
+- Added a CPU temperature fallback guidance block explaining why LHM was rejected, what HWiNFO state was observed, why Windows counters cannot provide CPU die temperature, and whether WMI/CIM or ACPI thermal fallback was unavailable.
 - Updated Dashboard and Settings/Safety to show Phase 8 sensor/provider status.
 - Updated root/direct launch behavior to use Phase 8 assets.
 
@@ -74,6 +75,10 @@ Result:
 - Safety scans: passed
 
 The latest live provider probe showed 165 raw sensors visible after combining providers. CPU telemetry was partial: LHM load and voltage were valid, temperature was unavailable because Core (Tctl/Tdie) reported 0 C, CPU power was stale-zero/unavailable, and Windows counters supplied a valid lower-ranked CPU clock/frequency fallback.
+
+When CPU temperature remains unavailable, the Sensors page now shows the recommended next action:
+
+`Start HWiNFO64 Sensors with shared memory enabled.`
 
 ## Known Issues
 

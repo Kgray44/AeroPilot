@@ -405,10 +405,12 @@ class SensorPresentation:
         elif provider_statuses:
             lhm_status = provider_statuses.get("librehardwaremonitor", {})
             hwinfo_status = provider_statuses.get("hwinfo", {})
+            lhm_display = str(lhm_status.get("status", "unknown")).replace("_", " ")
+            hwinfo_display = str(hwinfo_status.get("status", "unknown")).replace("_", " ")
             cpu["provider_summary"] = (
                 "CPU telemetry is partial. "
-                f"LHM is {lhm_status.get('status', 'unknown')}; "
-                f"HWiNFO is {hwinfo_status.get('status', 'unknown')}. "
+                f"LHM is {lhm_display}; "
+                f"HWiNFO is {hwinfo_display}. "
                 "Invalid/stale provider values are marked unavailable instead of displayed as real metrics."
             )
         else:
@@ -420,7 +422,8 @@ class SensorPresentation:
                 else provider.get("summary", "CPU provider status unavailable.")
             )
         cpu["provider_recommendation"] = (
-            "Try alternate provider: HWiNFO shared memory if available. Try multi-sample "
+            cpu.get("next_recommended_action")
+            or "Try alternate provider: HWiNFO shared memory if available. Try multi-sample "
             "LHM refresh before declaring unavailable."
         )
         cpu["metric_health"] = self._metric_health(cpu_rows)

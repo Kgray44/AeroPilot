@@ -163,6 +163,9 @@ class SensorNormalizer:
                 "unavailable_reasons_by_metric": unavailable_reasons,
             }
         )
+        guidance = self._cpu_temperature_guidance(cpu_diag, diagnostics["provider_statuses"])
+        cpu_diag["fallback_explanation"] = guidance["fallback_explanation"]
+        cpu_diag["next_recommended_action"] = guidance["next_recommended_action"]
         diagnostics["cpu_temperature"] = cpu_diag
 
         return {
@@ -1111,6 +1114,66 @@ class SensorNormalizer:
                     row_reasons.append(f"{row.get('provider') or row.get('source')}: {row.get('name')} - {reason}")
             reasons[key] = row_reasons or ["No provider returned a valid supported sensor for this metric."]
         return reasons
+
+    def _cpu_temperature_guidance(self, cpu_diag: dict[str, Any], provider_statuses: dict[str, dict[str, Any]]) -> dict[str, Any]:
+        if cpu_diag.get("selected"):
+            return {"fallback_explanation": [], "next_recommended_action": ""}
+
+        lines: list[str] = []
+        rejected = cpu_diag.get("rejected_candidates", []) or []
+        invalid_cpu_temp = next(
+            (
+                row
+                for row in rejected
+                if row.get("validity") == "invalid_value"
+                and self._non_cpu_row_is_cpu_like(" ".join([str(row.get("hardware", "")), str(row.get("name", ""))]).lower())
+            ),
+            None,
+        )
+        if invalid_cpu_temp:
+            value = self._number(invalid_cpu_temp.get("value"))
+            value_text = f"{value:g}" if value is not None else "an invalid value"
+            lines.append(f"LHM rejected {invalid_cpu_temp.get('name') or 'the CPU temperature candidate'} because it reported {value_text} C.")
+        else:
+            lines.append("LHM did not provide a valid CPU die/package temperature candidate.")
+
+        hwinfo = provider_statuses.get("hwinfo", {}) or {}
+        hwinfo_status = str(hwinfo.get("status") or "not_probed")
+        hwinfo_reason = str(hwinfo.get("reason") or "")
+        if hwinfo_status == "not_running":
+            lines.append("HWiNFO was not running.")
+        elif hwinfo_status in ("not_configured", "unavailable") and "shared memory" in hwinfo_reason.lower():
+            lines.append("HWiNFO shared memory was unavailable. Start HWiNFO64 Sensors and enable shared memory.")
+        elif hwinfo_status in ("ok", "partial"):
+            lines.append("HWiNFO was probed, but it did not provide a valid CPU temperature candidate in this refresh.")
+        else:
+            lines.append(f"HWiNFO was not running or shared memory was unavailable ({hwinfo_status}).")
+
+        windows = provider_statuses.get("windows_counters", {}) or {}
+        windows_status = str(windows.get("status") or "not_probed")
+        if windows_status in ("ok", "partial"):
+            lines.append("Windows counters are available for CPU load/frequency but do not provide CPU die temperature.")
+        else:
+            lines.append("Windows counters do not provide CPU die temperature.")
+
+        wmi = provider_statuses.get("wmi_cim_thermal", {}) or {}
+        wmi_status = str(wmi.get("status") or "not_probed")
+        if wmi_status in ("ok", "partial"):
+            lines.append("WMI/CIM thermal is available only as low-confidence thermal data and was not selected as CPU die temperature.")
+        else:
+            lines.append("WMI/CIM thermal unavailable.")
+
+        acpi = provider_statuses.get("acpi_thermal", {}) or {}
+        acpi_status = str(acpi.get("status") or "not_probed")
+        if acpi_status in ("ok", "partial"):
+            lines.append("ACPI thermal is available only as low-confidence thermal-zone data and was not selected as CPU die temperature.")
+        else:
+            lines.append("ACPI thermal unavailable.")
+
+        return {
+            "fallback_explanation": lines,
+            "next_recommended_action": "Start HWiNFO64 Sensors with shared memory enabled.",
+        }
 
     def _mark_selected(self, row: dict[str, Any], key: str, headline: bool = False) -> None:
         selected = set(row.get("selected_for") or [])

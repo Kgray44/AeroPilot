@@ -473,3 +473,24 @@ QLabel#diagnostics_warning_card {
   font-weight: 700;
   padding: 10px 12px;
 }
+QWidget#sensor_cpu_temp_guidance_block {
+  background: #f6fbff;
+  border: 1px solid #b9d8f4;
+  border-radius: 10px;
+}
+QLabel#sensor_cpu_temp_guidance_text {
+  color: #29445f;
+  font-weight: 650;
+  padding: 4px 2px;
+}
+QPushButton#sensor_hwinfo_guidance_button {
+  background: #e8f3ff;
+  border: 1px solid #9fc5ed;
+  border-radius: 8px;
+  color: #17476f;
+  font-weight: 800;
+  padding: 8px 12px;
+}
+QPushButton#sensor_hwinfo_guidance_button:hover {
+  background: #d9ecff;
+}

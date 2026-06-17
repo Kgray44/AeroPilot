@@ -60,6 +60,7 @@
   "ui_changes": [
     "CPU hero can use CPU load as primary when temperature is unavailable",
     "provider status section added",
+    "CPU temperature fallback guidance block added with HWiNFO next action",
     "raw explorer includes validity, validity reason, provider, and subcategory",
     "CPU diagnostics export includes provider statuses, provider sensors, candidate lists, selected metrics, fallback chains, and unavailable reasons",
     "Dashboard and Settings show Phase 8 provider status"
@@ -82,6 +83,14 @@
     "cpu_power_status": "stale_zero_unavailable",
     "cpu_clock_status": "windows_counter_fallback_valid",
     "cpu_voltage_valid": true,
+    "next_recommended_action": "Start HWiNFO64 Sensors with shared memory enabled.",
+    "cpu_temperature_guidance": [
+      "LHM rejected Core (Tctl/Tdie) because it reported 0 C.",
+      "HWiNFO was not running or shared memory was unavailable.",
+      "Windows counters are available for CPU load/frequency but do not provide CPU die temperature.",
+      "WMI/CIM thermal unavailable.",
+      "ACPI thermal unavailable."
+    ],
     "vram_total_source": "nvidia-smi",
     "provider_status_summary": {
       "librehardwaremonitor": "partial",

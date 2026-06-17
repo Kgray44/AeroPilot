@@ -1,7 +1,7 @@
 ﻿# Phase 8 Validation
 
-- Timestamp: 2026-06-16T20:26:27
-- Total checks: 171
+- Timestamp: 2026-06-16T21:15:53
+- Total checks: 173
 - Failed checks: 0
 
 - PASS - required_path:phase8_report.md
@@ -157,6 +157,8 @@
 - PASS - windows_counter_provider_present
 - PASS - wmi_acpi_provider_present
 - PASS - cpu_diagnostics_exports_provider_sections
+- PASS - cpu_diagnostics_exports_next_recommended_action
+- PASS - sensors_tab_has_cpu_temp_guidance_block
 - PASS - sensor_validity_states_present
 - PASS - cpu_zero_power_clock_marked_stale
 - PASS - cpu_card_can_use_load_primary

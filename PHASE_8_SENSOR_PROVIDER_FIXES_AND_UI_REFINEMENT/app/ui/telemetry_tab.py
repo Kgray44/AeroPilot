@@ -277,6 +277,23 @@ class TelemetryTab(QWidget):
         summary_layout.addWidget(self.cpu_warning)
         diag_layout.addWidget(self.cpu_diag_summary_card)
 
+        self.cpu_temp_guidance_block, guidance_layout = make_card(
+            "CPU Temperature Fallback Guidance",
+            "Recommended read-only provider path when CPU die/package temperature is unavailable.",
+        )
+        self.cpu_temp_guidance_block.setObjectName("sensor_cpu_temp_guidance_block")
+        default_guidance = "Start HWiNFO64 Sensors and enable shared memory, then refresh."
+        self.cpu_temp_guidance_block.setProperty("guidanceText", default_guidance)
+        self.cpu_temp_guidance_text = QLabel(default_guidance)
+        self.cpu_temp_guidance_text.setObjectName("sensor_cpu_temp_guidance_text")
+        self.cpu_temp_guidance_text.setWordWrap(True)
+        guidance_layout.addWidget(self.cpu_temp_guidance_text)
+        self.cpu_temp_guidance_button = QPushButton(default_guidance)
+        self.cpu_temp_guidance_button.setObjectName("sensor_hwinfo_guidance_button")
+        self.cpu_temp_guidance_button.clicked.connect(self.show_hwinfo_guidance)
+        guidance_layout.addWidget(self.cpu_temp_guidance_button)
+        diag_layout.addWidget(self.cpu_temp_guidance_block)
+
         self.cpu_accepted_card, accepted_layout = make_card("Accepted CPU Temperature Candidates", "Valid CPU-like temperature readings and ranking reasons.")
         self.cpu_accepted_card.setObjectName("sensor_cpu_accepted_candidates_panel")
         self.cpu_accepted_card.setMinimumHeight(200)
@@ -580,6 +597,17 @@ class TelemetryTab(QWidget):
         warning = cpu.get("warning") or ""
         self.cpu_warning.setText(warning)
         self.cpu_warning.setVisible(bool(warning))
+        guidance_lines = cpu.get("fallback_explanation", []) or []
+        next_action = cpu.get("next_recommended_action") or "Start HWiNFO64 Sensors with shared memory enabled."
+        if selected:
+            guidance_text = f"CPU temperature is selected. Next HWiNFO action is not required.\n{next_action}"
+            self.cpu_temp_guidance_block.setVisible(False)
+        else:
+            guidance_text = "\n".join([*(f"- {line}" for line in guidance_lines), f"- {next_action}"])
+            self.cpu_temp_guidance_block.setVisible(True)
+        self.cpu_temp_guidance_text.setText(guidance_text)
+        self.cpu_temp_guidance_block.setProperty("guidanceText", guidance_text)
+        self.cpu_temp_guidance_block.setToolTip(guidance_text)
         fill_table(
             self.cpu_accepted_table,
             ["Name", "Hardware", "Value", "Score", "Reason"],
@@ -608,6 +636,17 @@ class TelemetryTab(QWidget):
                 ]
                 for row in cpu.get("raw_cpu_sensors", [])
             ],
+        )
+
+    def show_hwinfo_guidance(self) -> None:
+        QMessageBox.information(
+            self,
+            "HWiNFO CPU temperature provider",
+            "Recommended next action:\n"
+            "1. Start HWiNFO64 in Sensors-only mode.\n"
+            "2. Enable Shared Memory Support in HWiNFO settings.\n"
+            "3. Return to AeroTune and click Refresh All.\n\n"
+            "This app will only read telemetry. It will not change HWiNFO, CPU tuning, fans, services, or startup entries.",
         )
 
     def pin_selected_sensor(self) -> None:

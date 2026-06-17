@@ -1,7 +1,7 @@
 ﻿{
-    "timestamp_local":  "2026-06-16T20:26:27",
+    "timestamp_local":  "2026-06-16T21:15:53",
     "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT",
-    "total_checks":  171,
+    "total_checks":  173,
     "failed_checks":  0,
     "results":  [
                     {
@@ -766,6 +766,16 @@
                     },
                     {
                         "name":  "cpu_diagnostics_exports_provider_sections",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_diagnostics_exports_next_recommended_action",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_cpu_temp_guidance_block",
                         "passed":  true,
                         "details":  ""
                     },

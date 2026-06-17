@@ -132,6 +132,8 @@ Add-Check 'hwinfo_shared_memory_probe_present' ($cpuTelemetryText -match 'OpenFi
 Add-Check 'windows_counter_provider_present' ($cpuTelemetryText -match 'Get-Counter' -and $cpuTelemetryText -match 'Processor Utility') ''
 Add-Check 'wmi_acpi_provider_present' ($cpuTelemetryText -match 'Win32_TemperatureProbe' -and $cpuTelemetryText -match 'MSAcpi_ThermalZoneTemperature') ''
 Add-Check 'cpu_diagnostics_exports_provider_sections' ($normalizerText -match 'provider_statuses' -and $normalizerText -match 'all_provider_sensors' -and $normalizerText -match 'fallback_chain_used' -and $normalizerText -match 'unavailable_reasons_by_metric') ''
+Add-Check 'cpu_diagnostics_exports_next_recommended_action' ($normalizerText -match 'next_recommended_action' -and $normalizerText -match 'Start HWiNFO64 Sensors with shared memory enabled') ''
+Add-Check 'sensors_tab_has_cpu_temp_guidance_block' ($sensorText -match 'sensor_cpu_temp_guidance_block' -and $sensorText -match 'Start HWiNFO64 Sensors and enable shared memory, then refresh') ''
 Add-Check 'sensor_validity_states_present' ($normalizerText -match 'stale_zero' -and $normalizerText -match 'invalid_value' -and $normalizerText -match 'can_use_for_headline') ''
 Add-Check 'cpu_zero_power_clock_marked_stale' ($normalizerText -match 'CPU power reported 0 W' -and $normalizerText -match 'CPU clock reported 0 MHz') ''
 Add-Check 'cpu_card_can_use_load_primary' ($presentationText -match 'CPU load' -and $presentationText -match 'Temp.*unavailable' -and $presentationText -match 'VID') ''
