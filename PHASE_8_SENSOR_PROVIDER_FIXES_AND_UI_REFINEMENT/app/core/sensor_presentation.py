@@ -397,13 +397,28 @@ class SensorPresentation:
         cpu["valid_cpu_sensors"] = [row for row in cpu_rows if row.get("validity") == "valid"]
         cpu["stale_zero_cpu_sensors"] = [row for row in cpu_rows if row.get("validity") == "stale_zero"]
         cpu["invalid_cpu_sensors"] = [row for row in cpu_rows if row.get("validity") == "invalid_value"]
-        cpu["provider_summary"] = (
-            "CPU telemetry is partial. LibreHardwareMonitor exposes CPU load and voltage, "
-            "but CPU temperature returned 0 C, and CPU power/clock returned 0 values. "
-            "These are marked unavailable/stale instead of shown as real metrics."
-            if provider.get("status") == "partial"
-            else provider.get("summary", "CPU provider status unavailable.")
-        )
+        selected_metrics = cpu.get("selected_headline_metrics", {}) or {}
+        selected_temp = selected_metrics.get("cpu_temperature_c") or {}
+        provider_statuses = cpu.get("provider_statuses", {}) or {}
+        if selected_temp.get("provider"):
+            cpu["provider_summary"] = f"CPU temperature selected from {selected_temp.get('provider')}."
+        elif provider_statuses:
+            lhm_status = provider_statuses.get("librehardwaremonitor", {})
+            hwinfo_status = provider_statuses.get("hwinfo", {})
+            cpu["provider_summary"] = (
+                "CPU telemetry is partial. "
+                f"LHM is {lhm_status.get('status', 'unknown')}; "
+                f"HWiNFO is {hwinfo_status.get('status', 'unknown')}. "
+                "Invalid/stale provider values are marked unavailable instead of displayed as real metrics."
+            )
+        else:
+            cpu["provider_summary"] = (
+                "CPU telemetry is partial. LibreHardwareMonitor exposes CPU load and voltage, "
+                "but CPU temperature returned 0 C, and CPU power/clock returned 0 values. "
+                "These are marked unavailable/stale instead of shown as real metrics."
+                if provider.get("status") == "partial"
+                else provider.get("summary", "CPU provider status unavailable.")
+            )
         cpu["provider_recommendation"] = (
             "Try alternate provider: HWiNFO shared memory if available. Try multi-sample "
             "LHM refresh before declaring unavailable."

@@ -24,6 +24,7 @@ from app.core.control_surface import ControlSurface
 from app.core.risk_model import RiskModel
 from app.core.sensor_history import SensorHistory
 from app.core.sensor_normalizer import SensorNormalizer
+from app.core.telemetry_provider_registry import TelemetryProviderRegistry
 from app.ui.autotuning_tab import AutoTuningTab
 from app.ui.cpu_tab import CpuTab
 from app.ui.dashboard_tab import DashboardTab
@@ -65,6 +66,13 @@ class MainWindow(QMainWindow):
         self.latest_lhm_snapshot: dict = {"ok": False, "error": "not read yet", "sensors": []}
         self.latest_nvidia_snapshot: dict = {"ok": False, "error": "not read yet"}
         self.latest_presentmon_snapshot: dict = {"ok": False, "error": "not read yet"}
+        self.telemetry_registry = self._build_telemetry_registry()
+        self.latest_provider_snapshots: dict = {
+            "librehardwaremonitor": self.latest_lhm_snapshot,
+            "nvidia_smi": self.latest_nvidia_snapshot,
+            "presentmon": self.latest_presentmon_snapshot,
+        }
+        self.latest_provider_statuses: dict = {}
         self.latest_sensor_model: dict = self.sensor_normalizer.normalize(
             self.latest_lhm_snapshot,
             self.latest_nvidia_snapshot,
@@ -170,13 +178,22 @@ class MainWindow(QMainWindow):
         lhm_snapshot: dict | None = None,
         nvidia_snapshot: dict | None = None,
         presentmon_snapshot: dict | None = None,
+        provider_snapshots: dict | None = None,
+        provider_statuses: dict | None = None,
         record_history: bool = False,
     ) -> dict:
+        if provider_snapshots is None:
+            provider_snapshots = dict(self.latest_provider_snapshots or {})
+            provider_snapshots["librehardwaremonitor"] = lhm_snapshot or self.latest_lhm_snapshot
+            provider_snapshots["nvidia_smi"] = nvidia_snapshot or self.latest_nvidia_snapshot
+            provider_snapshots["presentmon"] = presentmon_snapshot or self.latest_presentmon_snapshot
         model = self.sensor_normalizer.normalize(
             lhm_snapshot or self.latest_lhm_snapshot,
             nvidia_snapshot or self.latest_nvidia_snapshot,
             presentmon_snapshot or self.latest_presentmon_snapshot,
             self.sensor_favorites,
+            provider_snapshots=provider_snapshots,
+            provider_statuses=provider_statuses or self.latest_provider_statuses,
         )
         self.latest_sensor_model = model
         if record_history:
@@ -189,3 +206,23 @@ class MainWindow(QMainWindow):
         except Exception:
             pass
         super().closeEvent(event)
+
+    def _build_telemetry_registry(self) -> TelemetryProviderRegistry:
+        registry = TelemetryProviderRegistry()
+        registry.register_static_provider("librehardwaremonitor", "LibreHardwareMonitor", self.lhm.sensor_snapshot, enabled=True)
+        registry.register_static_provider("hwinfo", "HWiNFO shared memory", self.cpu_telemetry.hwinfo_snapshot, enabled=True)
+        registry.register_static_provider("windows_counters", "Windows performance counters", self.cpu_telemetry.windows_counter_snapshot, enabled=True)
+        registry.register_static_provider("wmi_cim_thermal", "WMI/CIM thermal data", self.cpu_telemetry.wmi_cim_thermal_snapshot, enabled=True)
+        registry.register_static_provider("acpi_thermal", "ACPI thermal zones", self.cpu_telemetry.acpi_thermal_snapshot, enabled=True)
+        registry.register_static_provider("nvidia_smi", "nvidia-smi", self.nvidia.telemetry_snapshot, enabled=True)
+        registry.register_static_provider("presentmon", "PresentMon", self.presentmon.latest_reading, enabled=True)
+        return registry
+
+    def refresh_provider_snapshots(self) -> dict:
+        result = self.telemetry_registry.refresh()
+        self.latest_provider_snapshots = result.get("snapshots", {})
+        self.latest_provider_statuses = result.get("provider_statuses", {})
+        self.latest_lhm_snapshot = self.latest_provider_snapshots.get("librehardwaremonitor", self.latest_lhm_snapshot)
+        self.latest_nvidia_snapshot = self.latest_provider_snapshots.get("nvidia_smi", self.latest_nvidia_snapshot)
+        self.latest_presentmon_snapshot = self.latest_provider_snapshots.get("presentmon", self.latest_presentmon_snapshot)
+        return result

@@ -1,7 +1,7 @@
 ﻿{
-    "timestamp_local":  "2026-06-15T21:33:41",
+    "timestamp_local":  "2026-06-16T20:26:27",
     "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT",
-    "total_checks":  161,
+    "total_checks":  171,
     "failed_checks":  0,
     "results":  [
                     {
@@ -60,6 +60,11 @@
                         "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\app\\core\\sensor_presentation.py"
                     },
                     {
+                        "name":  "required_path:app\\core\\telemetry_provider_registry.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\app\\core\\telemetry_provider_registry.py"
+                    },
+                    {
                         "name":  "required_path:app\\adapters\\cpu_telemetry_adapter.py",
                         "passed":  true,
                         "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\app\\adapters\\cpu_telemetry_adapter.py"
@@ -103,6 +108,11 @@
                         "name":  "required_path:tests\\phase8_sensor_validity_check.py",
                         "passed":  true,
                         "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\tests\\phase8_sensor_validity_check.py"
+                    },
+                    {
+                        "name":  "required_path:tests\\phase8_provider_pipeline_check.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\tests\\phase8_provider_pipeline_check.py"
                     },
                     {
                         "name":  "required_path:tests\\phase8_ui_contract_check.py",
@@ -390,6 +400,11 @@
                         "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\presets\\preset_validation_report.json"
                     },
                     {
+                        "name":  "json_parse:cpu_diagnostics_20260616-200659.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\raw_outputs\\cpu_diagnostics_20260616-200659.json"
+                    },
+                    {
                         "name":  "json_parse:export_active_power_plan_phase5_result.json",
                         "passed":  true,
                         "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AeroPilot_GITHUB_UPLOAD\\PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT\\raw_outputs\\export_active_power_plan_phase5_result.json"
@@ -595,6 +610,11 @@
                         "details":  "phase8 sensor validity contract ok\r\n"
                     },
                     {
+                        "name":  "phase8_provider_pipeline_contract",
+                        "passed":  true,
+                        "details":  "phase8 provider pipeline contract ok\r\n"
+                    },
+                    {
                         "name":  "lhm_headline_phase8_contract",
                         "passed":  true,
                         "details":  "lhm headline contract ok\r\n"
@@ -716,6 +736,36 @@
                     },
                     {
                         "name":  "sensors_tab_has_cpu_diagnostics_export",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "telemetry_provider_registry_present",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "refresh_attempts_registered_providers",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "hwinfo_shared_memory_probe_present",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "windows_counter_provider_present",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "wmi_acpi_provider_present",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_diagnostics_exports_provider_sections",
                         "passed":  true,
                         "details":  ""
                     },

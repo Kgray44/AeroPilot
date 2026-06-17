@@ -33,6 +33,7 @@ foreach ($relative in @(
     'docs\phase9_recommendation.md',
     'app\core\sensor_normalizer.py',
     'app\core\sensor_presentation.py',
+    'app\core\telemetry_provider_registry.py',
     'app\adapters\cpu_telemetry_adapter.py',
     'app\adapters\librehardwaremonitor_adapter.py',
     'app\ui\telemetry_tab.py',
@@ -42,6 +43,7 @@ foreach ($relative in @(
     'scripts\capture_page_photos.py',
     'scripts\validate_phase8.ps1',
     'tests\phase8_sensor_validity_check.py',
+    'tests\phase8_provider_pipeline_check.py',
     'tests\phase8_ui_contract_check.py',
     'page_photos\README.md'
 )) {
@@ -69,6 +71,9 @@ Add-Check 'python_compile_app_and_tests' ($LASTEXITCODE -eq 0) ($compile | Out-S
 
 $phase8Sensor = & python (Join-Path $root 'tests\phase8_sensor_validity_check.py') 2>&1
 Add-Check 'phase8_sensor_validity_contract' ($LASTEXITCODE -eq 0) ($phase8Sensor | Out-String)
+
+$providerPipeline = & python (Join-Path $root 'tests\phase8_provider_pipeline_check.py') 2>&1
+Add-Check 'phase8_provider_pipeline_contract' ($LASTEXITCODE -eq 0) ($providerPipeline | Out-String)
 
 $lhm = & python (Join-Path $root 'tests\lhm_headline_check.py') 2>&1
 Add-Check 'lhm_headline_phase8_contract' ($LASTEXITCODE -eq 0) ($lhm | Out-String)
@@ -115,10 +120,18 @@ $normalizerText = Get-Content -LiteralPath (Join-Path $root 'app\core\sensor_nor
 $presentationText = Get-Content -LiteralPath (Join-Path $root 'app\core\sensor_presentation.py') -Raw
 $mainWindowText = Get-Content -LiteralPath (Join-Path $root 'app\ui\main_window.py') -Raw
 $presentmonText = Get-Content -LiteralPath (Join-Path $root 'app\adapters\presentmon_adapter.py') -Raw
+$registryText = Get-Content -LiteralPath (Join-Path $root 'app\core\telemetry_provider_registry.py') -Raw
+$cpuTelemetryText = Get-Content -LiteralPath (Join-Path $root 'app\adapters\cpu_telemetry_adapter.py') -Raw
 
 Add-Check 'sensors_tab_has_provider_status_section' ($sensorText -match 'sensor_provider_status_section') ''
 Add-Check 'sensors_tab_has_validity_raw_columns' ($sensorText -match 'Validity reason' -and $sensorText -match 'Subcategory' -and $sensorText -match 'Provider') ''
 Add-Check 'sensors_tab_has_cpu_diagnostics_export' ($sensorText -match 'sensor_export_cpu_diagnostics_button') ''
+Add-Check 'telemetry_provider_registry_present' ($registryText -match 'class TelemetryProviderRegistry' -and $registryText -match 'ProviderStatus') ''
+Add-Check 'refresh_attempts_registered_providers' ($mainWindowText -match 'register_static_provider\("hwinfo"' -and $mainWindowText -match 'register_static_provider\("windows_counters"' -and $mainWindowText -match 'refresh_provider_snapshots') ''
+Add-Check 'hwinfo_shared_memory_probe_present' ($cpuTelemetryText -match 'OpenFileMappingW' -and $cpuTelemetryText -match 'HWiNFO_SENS_SM') ''
+Add-Check 'windows_counter_provider_present' ($cpuTelemetryText -match 'Get-Counter' -and $cpuTelemetryText -match 'Processor Utility') ''
+Add-Check 'wmi_acpi_provider_present' ($cpuTelemetryText -match 'Win32_TemperatureProbe' -and $cpuTelemetryText -match 'MSAcpi_ThermalZoneTemperature') ''
+Add-Check 'cpu_diagnostics_exports_provider_sections' ($normalizerText -match 'provider_statuses' -and $normalizerText -match 'all_provider_sensors' -and $normalizerText -match 'fallback_chain_used' -and $normalizerText -match 'unavailable_reasons_by_metric') ''
 Add-Check 'sensor_validity_states_present' ($normalizerText -match 'stale_zero' -and $normalizerText -match 'invalid_value' -and $normalizerText -match 'can_use_for_headline') ''
 Add-Check 'cpu_zero_power_clock_marked_stale' ($normalizerText -match 'CPU power reported 0 W' -and $normalizerText -match 'CPU clock reported 0 MHz') ''
 Add-Check 'cpu_card_can_use_load_primary' ($presentationText -match 'CPU load' -and $presentationText -match 'Temp.*unavailable' -and $presentationText -match 'VID') ''

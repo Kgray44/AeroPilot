@@ -3,6 +3,8 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Any
 
+from app.core.telemetry_provider_registry import ProviderStatus, TelemetryProviderRegistry
+
 
 class SensorNormalizer:
     """Convert raw telemetry into a safe, source-aware display model.
@@ -35,6 +37,17 @@ class SensorNormalizer:
 
     CPU_TERMS = ("cpu", "processor", "package", "core", "tctl", "tdie", "p-core", "e-core", "ia cores", "gt cores")
     VALIDITY_ORDER = ("valid", "unavailable", "stale_zero", "invalid_value", "unsupported", "hidden_by_firmware", "no_provider", "idle_no_capture", "not_started", "read_error")
+    PROVIDER_NAMES = {
+        "librehardwaremonitor": "LibreHardwareMonitor",
+        "lhm": "LibreHardwareMonitor",
+        "hwinfo": "HWiNFO shared memory",
+        "windows_counters": "Windows performance counters",
+        "wmi_cim_thermal": "WMI/CIM thermal data",
+        "acpi_thermal": "ACPI thermal zones",
+        "acpi_thermal_zone": "ACPI thermal zones",
+        "nvidia_smi": "nvidia-smi",
+        "presentmon": "PresentMon",
+    }
 
     def normalize(
         self,
@@ -42,25 +55,36 @@ class SensorNormalizer:
         nvidia_snapshot: dict[str, Any] | None = None,
         presentmon_snapshot: dict[str, Any] | None = None,
         favorites: dict[str, Any] | None = None,
+        provider_snapshots: dict[str, dict[str, Any]] | None = None,
+        provider_statuses: dict[str, Any] | list[Any] | None = None,
     ) -> dict[str, Any]:
         favorite_keys = self._favorite_keys(favorites or {})
-        sources = {
-            "lhm": self._source_status("lhm", lhm_snapshot),
-            "nvidia_smi": self._source_status("nvidia_smi", nvidia_snapshot),
-            "presentmon": self._source_status("presentmon", presentmon_snapshot),
-        }
+        provider_snapshots = provider_snapshots or self._legacy_provider_snapshots(lhm_snapshot, nvidia_snapshot, presentmon_snapshot)
+        provider_status_map = self._provider_status_map(provider_snapshots, provider_statuses)
+        lhm_snapshot = provider_snapshots.get("librehardwaremonitor") or provider_snapshots.get("lhm") or lhm_snapshot
+        nvidia_snapshot = provider_snapshots.get("nvidia_smi") or nvidia_snapshot
+        presentmon_snapshot = provider_snapshots.get("presentmon") or presentmon_snapshot
+        sources = self._source_statuses(provider_snapshots, provider_status_map, lhm_snapshot, nvidia_snapshot, presentmon_snapshot)
         raw_sensors: list[dict[str, Any]] = []
-        raw_sensors.extend(self._normalize_lhm_sensors(lhm_snapshot or {}, favorite_keys))
-        raw_sensors.extend(self._normalize_nvidia_sensors(nvidia_snapshot or {}, favorite_keys))
-        raw_sensors.extend(self._normalize_presentmon_sensors(presentmon_snapshot or {}, favorite_keys))
+        for provider_id, snapshot in provider_snapshots.items():
+            normalized_id = self._normalize_provider_id(provider_id)
+            if normalized_id in ("librehardwaremonitor", "lhm"):
+                raw_sensors.extend(self._normalize_lhm_sensors(snapshot or {}, favorite_keys))
+            elif normalized_id == "nvidia_smi":
+                raw_sensors.extend(self._normalize_nvidia_sensors(snapshot or {}, favorite_keys))
+            elif normalized_id == "presentmon":
+                raw_sensors.extend(self._normalize_presentmon_sensors(snapshot or {}, favorite_keys))
+            else:
+                raw_sensors.extend(self._normalize_generic_provider_sensors(normalized_id, snapshot or {}, favorite_keys))
 
         context = self._context(raw_sensors)
         for row in raw_sensors:
             self._apply_validity(row, context)
+        provider_status_map = self._update_provider_statuses_from_rows(provider_status_map, provider_snapshots, raw_sensors)
+        sources = self._source_statuses(provider_snapshots, provider_status_map, lhm_snapshot, nvidia_snapshot, presentmon_snapshot)
         diagnostics: dict[str, Any] = {}
 
         cpu_temp, cpu_diag = self._best_cpu_temperature_sensor(raw_sensors)
-        diagnostics["cpu_temperature"] = cpu_diag
         if cpu_temp:
             self._mark_selected(cpu_temp, "cpu_temp", headline=True)
 
@@ -78,6 +102,24 @@ class SensorNormalizer:
         vram_total = self._best_by_key(raw_sensors, "gpu_vram_total_mb")
         fps = self._best_by_key(raw_sensors, "fps")
         frame_time = self._best_by_key(raw_sensors, "frame_time_ms")
+
+        selected_map = {
+            "cpu_temperature_c": cpu_temp,
+            "cpu_load_percent": cpu_load,
+            "cpu_power_w": cpu_power,
+            "cpu_clock_mhz": cpu_clock,
+            "cpu_voltage_v": cpu_voltage,
+            "gpu_temperature_c": gpu_temp,
+            "gpu_load_percent": gpu_util,
+            "gpu_power_w": gpu_power,
+            "gpu_clock_mhz": gpu_clock,
+            "vram_used_mb": vram_used,
+            "fan_rpm": fan,
+            "fps": fps,
+        }
+        selected_metrics = self._selected_metric_diagnostics(selected_map)
+        fallback_chain = self._fallback_chain(raw_sensors, selected_map.keys())
+        unavailable_reasons = self._unavailable_reasons(raw_sensors, selected_map)
 
         headline = self._build_headline(
             cpu_temp,
@@ -99,11 +141,29 @@ class SensorNormalizer:
             sources,
             raw_sensors,
         )
+        headline["selected_headline_metrics"] = selected_metrics
         groups = self._groups(raw_sensors)
         cards = self._build_cards(headline)
         diagnostics["source_status"] = sources
+        diagnostics["provider_statuses"] = {key: value.to_dict() if isinstance(value, ProviderStatus) else dict(value) for key, value in provider_status_map.items()}
         diagnostics["raw_sensor_count"] = len(raw_sensors)
         diagnostics["cpu_provider"] = self._cpu_provider_diagnostics(raw_sensors, headline)
+        diagnostics["all_provider_sensors"] = [self._diagnostic_row(row) for row in raw_sensors]
+        diagnostics["accepted_candidates"] = selected_metrics
+        diagnostics["rejected_candidates"] = [self._diagnostic_row(row) for row in raw_sensors if row.get("validity") != "valid"]
+        diagnostics["selected_headline_metrics"] = selected_metrics
+        diagnostics["fallback_chain_used"] = fallback_chain
+        diagnostics["unavailable_reasons_by_metric"] = unavailable_reasons
+        cpu_diag.update(
+            {
+                "provider_statuses": diagnostics["provider_statuses"],
+                "all_provider_sensors": diagnostics["all_provider_sensors"],
+                "selected_headline_metrics": selected_metrics,
+                "fallback_chain_used": fallback_chain,
+                "unavailable_reasons_by_metric": unavailable_reasons,
+            }
+        )
+        diagnostics["cpu_temperature"] = cpu_diag
 
         return {
             "ok": any(source.get("ok") for source in sources.values()) or bool(raw_sensors),
@@ -144,6 +204,159 @@ class SensorNormalizer:
             "generated_local": snapshot.get("generated_local"),
             "sensor_count": snapshot.get("sensor_count"),
         }
+
+    def _legacy_provider_snapshots(
+        self,
+        lhm_snapshot: dict[str, Any] | None,
+        nvidia_snapshot: dict[str, Any] | None,
+        presentmon_snapshot: dict[str, Any] | None,
+    ) -> dict[str, dict[str, Any]]:
+        return {
+            "librehardwaremonitor": lhm_snapshot or {},
+            "nvidia_smi": nvidia_snapshot or {},
+            "presentmon": presentmon_snapshot or {},
+        }
+
+    def _normalize_provider_id(self, provider_id: Any) -> str:
+        text = str(provider_id or "").strip().lower().replace("-", "_")
+        if text in ("lhm", "libre_hardware_monitor", "librehardwaremonitor"):
+            return "librehardwaremonitor"
+        if text in ("nvidia", "nvidia_smi", "nvidia_smi.exe"):
+            return "nvidia_smi"
+        if text in ("acpi", "acpi_thermal_zone"):
+            return "acpi_thermal"
+        return text
+
+    def _provider_name(self, provider_id: str, snapshot: dict[str, Any] | None = None) -> str:
+        if snapshot and snapshot.get("provider_name"):
+            return str(snapshot.get("provider_name"))
+        return self.PROVIDER_NAMES.get(self._normalize_provider_id(provider_id), provider_id)
+
+    def _provider_status_map(
+        self,
+        snapshots: dict[str, dict[str, Any]],
+        supplied_statuses: dict[str, Any] | list[Any] | None,
+    ) -> dict[str, ProviderStatus]:
+        result: dict[str, ProviderStatus] = {}
+        if isinstance(supplied_statuses, dict):
+            items = supplied_statuses.items()
+        elif isinstance(supplied_statuses, list):
+            items = [(getattr(item, "provider_id", None) or (item.get("provider_id") if isinstance(item, dict) else None), item) for item in supplied_statuses]
+        else:
+            items = []
+        for provider_id, status in items:
+            if not provider_id:
+                continue
+            normalized_id = self._normalize_provider_id(provider_id)
+            result[normalized_id] = self._coerce_provider_status(normalized_id, status)
+        for provider_id, snapshot in snapshots.items():
+            normalized_id = self._normalize_provider_id(provider_id)
+            if normalized_id not in result:
+                result[normalized_id] = TelemetryProviderRegistry.status_from_snapshot(
+                    normalized_id,
+                    self._provider_name(normalized_id, snapshot),
+                    True,
+                    bool(snapshot),
+                    snapshot.get("generated_local") if isinstance(snapshot, dict) else None,
+                    snapshot,
+                )
+        for provider_id in ("librehardwaremonitor", "hwinfo", "windows_counters", "wmi_cim_thermal", "acpi_thermal", "nvidia_smi", "presentmon"):
+            if provider_id not in result:
+                result[provider_id] = ProviderStatus(
+                    provider_id=provider_id,
+                    provider_name=self._provider_name(provider_id),
+                    enabled=True,
+                    attempted=False,
+                    available=False,
+                    status="not_probed",
+                    reason="Provider was not attempted in this refresh cycle.",
+                )
+        return result
+
+    def _coerce_provider_status(self, provider_id: str, status: Any) -> ProviderStatus:
+        if isinstance(status, ProviderStatus):
+            return status
+        if isinstance(status, dict):
+            data = dict(status)
+            data.setdefault("provider_id", provider_id)
+            data.setdefault("provider_name", self._provider_name(provider_id))
+            data.setdefault("enabled", True)
+            data.setdefault("attempted", False)
+            data.setdefault("available", False)
+            data.setdefault("status", "not_probed")
+            data.setdefault("reason", "")
+            data.setdefault("last_probe_time", None)
+            data.setdefault("sensor_count", 0)
+            data.setdefault("valid_sensor_count", 0)
+            data.setdefault("rejected_sensor_count", 0)
+            return ProviderStatus(**{key: data[key] for key in ProviderStatus.__dataclass_fields__})
+        return ProviderStatus(
+            provider_id=provider_id,
+            provider_name=self._provider_name(provider_id),
+            enabled=True,
+            attempted=False,
+            available=False,
+            status="not_probed",
+        )
+
+    def _source_statuses(
+        self,
+        snapshots: dict[str, dict[str, Any]],
+        statuses: dict[str, ProviderStatus],
+        lhm_snapshot: dict[str, Any] | None,
+        nvidia_snapshot: dict[str, Any] | None,
+        presentmon_snapshot: dict[str, Any] | None,
+    ) -> dict[str, Any]:
+        sources = {
+            "lhm": self._source_status("lhm", lhm_snapshot),
+            "nvidia_smi": self._source_status("nvidia_smi", nvidia_snapshot),
+            "presentmon": self._source_status("presentmon", presentmon_snapshot),
+        }
+        for provider_id, status in statuses.items():
+            sources[provider_id] = {
+                "ok": status.available and status.status in ("ok", "partial", "diagnostic_only", "available"),
+                "source": provider_id,
+                "status": status.status,
+                "error": status.reason,
+                "generated_local": status.last_probe_time,
+                "sensor_count": status.sensor_count,
+            }
+        return sources
+
+    def _update_provider_statuses_from_rows(
+        self,
+        statuses: dict[str, ProviderStatus],
+        snapshots: dict[str, dict[str, Any]],
+        rows: list[dict[str, Any]],
+    ) -> dict[str, ProviderStatus]:
+        by_provider: dict[str, list[dict[str, Any]]] = {}
+        for row in rows:
+            provider_id = self._normalize_provider_id(row.get("source") or row.get("provider_id"))
+            by_provider.setdefault(provider_id, []).append(row)
+        for provider_id, provider_rows in by_provider.items():
+            status = statuses.get(provider_id)
+            snapshot = snapshots.get(provider_id, {})
+            valid_count = len([row for row in provider_rows if row.get("validity") == "valid"])
+            rejected_count = len([row for row in provider_rows if row.get("validity") != "valid"])
+            if status is None:
+                status = TelemetryProviderRegistry.status_from_snapshot(provider_id, self._provider_name(provider_id, snapshot), True, True, None, snapshot)
+            status.sensor_count = len(provider_rows)
+            status.valid_sensor_count = valid_count
+            status.rejected_sensor_count = rejected_count
+            status.available = bool(snapshot.get("ok")) or bool(provider_rows)
+            if status.status in ("not_probed", "unavailable", "failed", "ok", "partial") or not status.status:
+                if valid_count and rejected_count:
+                    status.status = "partial"
+                elif valid_count:
+                    status.status = "ok"
+                elif provider_rows:
+                    status.status = "no_supported_sensors_found"
+                elif snapshot.get("error"):
+                    status.status = str(snapshot.get("status") or "unavailable")
+            if not status.reason:
+                status.reason = str(snapshot.get("error") or snapshot.get("reason") or snapshot.get("notes") or "")
+            statuses[provider_id] = status
+        return statuses
 
     def _normalize_lhm_sensors(self, snapshot: dict[str, Any], favorite_keys: set[tuple[str, str, str, str]]) -> list[dict[str, Any]]:
         rows = []
@@ -189,6 +402,72 @@ class SensorNormalizer:
                 }
             )
         return rows
+
+    def _normalize_generic_provider_sensors(
+        self,
+        provider_id: str,
+        snapshot: dict[str, Any],
+        favorite_keys: set[tuple[str, str, str, str]],
+    ) -> list[dict[str, Any]]:
+        rows = []
+        provider_name = self._provider_name(provider_id, snapshot)
+        for index, row in enumerate(snapshot.get("sensors", []) or []):
+            source = str(row.get("source") or provider_id)
+            hardware = str(row.get("hardware") or provider_name)
+            hardware_type = str(row.get("hardware_type") or "")
+            sensor_type = str(row.get("sensor_type") or "")
+            name = str(row.get("name") or "")
+            value = self._number(row.get("value"))
+            category = self._category(hardware_type, sensor_type, hardware, name)
+            subcategory = self._subcategory(category, hardware_type, sensor_type, hardware, name)
+            unit = str(row.get("unit") or self._unit_for(sensor_type, name, hardware, category, subcategory))
+            normalized_key = str(row.get("normalized_key") or self._normalized_key(category, subcategory, sensor_type, name, hardware))
+            key = self._favorite_key(source, hardware, sensor_type, name)
+            confidence = str(row.get("confidence") or self._provider_confidence(provider_id))
+            rows.append(
+                {
+                    "source": source,
+                    "provider_id": provider_id,
+                    "provider": str(row.get("provider") or provider_name),
+                    "hardware": hardware,
+                    "hardware_type": hardware_type,
+                    "sensor_type": sensor_type,
+                    "name": name,
+                    "value": value,
+                    "unit": unit,
+                    "min": self._number(row.get("min")),
+                    "max": self._number(row.get("max")),
+                    "sample_values": row.get("sample_values") or [],
+                    "sample_nonzero_count": row.get("sample_nonzero_count"),
+                    "stale_zero": bool(row.get("stale_zero")),
+                    "category": category,
+                    "subcategory": subcategory,
+                    "normalized_key": normalized_key,
+                    "display_name": self._display_name(hardware, name),
+                    "display_value": self._display_value(value, unit),
+                    "score": int(row.get("score") or self._score_for_provider(provider_id)),
+                    "confidence": confidence,
+                    "selected_for": [],
+                    "selected_for_headline": False,
+                    "favorite": key in favorite_keys,
+                    "notes": str(row.get("notes") or f"{provider_name} sensor"),
+                    "raw_index": index,
+                }
+            )
+        return rows
+
+    def _provider_confidence(self, provider_id: str) -> str:
+        provider_id = self._normalize_provider_id(provider_id)
+        if provider_id == "hwinfo":
+            return "high"
+        if provider_id == "windows_counters":
+            return "fallback"
+        if provider_id in ("wmi_cim_thermal", "acpi_thermal"):
+            return "low"
+        return "provider"
+
+    def _score_for_provider(self, provider_id: str) -> int:
+        return max(0, 100 - (self._source_priority({"source": provider_id}) * 5))
 
     def _normalize_nvidia_sensors(self, snapshot: dict[str, Any], favorite_keys: set[tuple[str, str, str, str]]) -> list[dict[str, Any]]:
         if not snapshot.get("ok"):
@@ -406,7 +685,7 @@ class SensorNormalizer:
                 rejected.append({"name": row.get("name"), "hardware": row.get("hardware"), "value": value, "reason": "not CPU-like", "validity": "valid"})
                 continue
             rank, reason = self._cpu_temp_rank(row)
-            base = 0 if cpu_hw else 200
+            base = self._source_priority(row) * 10 + (0 if cpu_hw else 200)
             score = base + rank
             accepted.append({"row": row, "score": score, "rank": rank, "value": value, "reason": reason if rank < 100 else "CPU fallback candidate"})
 
@@ -458,7 +737,7 @@ class SensorNormalizer:
                 continue
             text = self._sensor_text(row)
             rank = next((index for index, keyword in enumerate(keywords) if keyword in text), 100)
-            source_priority = self._source_priority(row) if category == "gpu" else 0
+            source_priority = self._source_priority(row)
             candidates.append((source_priority, rank, -value, row))
         if not candidates:
             return None
@@ -471,10 +750,10 @@ class SensorNormalizer:
         candidates = [row for row in sensors if row.get("normalized_key") == key and row.get("can_use_for_headline")]
         if not candidates:
             return None
-        if key.startswith("gpu_"):
-            candidates.sort(key=lambda row: (self._source_priority(row), -(self._number(row.get("value")) or 0)))
-            return candidates[0]
-        return candidates[0]
+        candidates.sort(key=lambda row: (self._source_priority(row), -(self._number(row.get("value")) or 0)))
+        row = candidates[0]
+        self._mark_selected(row, key)
+        return row
 
     def _build_headline(
         self,
@@ -763,15 +1042,75 @@ class SensorNormalizer:
         return "unavailable"
 
     def _source_priority(self, row: dict[str, Any]) -> int:
-        source = str(row.get("source") or "").lower()
+        source = self._normalize_provider_id(row.get("source") or row.get("provider_id"))
+        category = str(row.get("category") or "")
+        key = str(row.get("normalized_key") or "")
         text = self._sensor_text(row)
-        if source == "nvidia-smi":
+        if source == "nvidia_smi" and (category == "gpu" or key.startswith("gpu_")):
             return 0
+        if source == "presentmon":
+            return 0
+        if source == "hwinfo":
+            return 0 if category in ("cpu", "fans") or key.startswith("cpu_") else 8
+        if source == "librehardwaremonitor":
+            return 4
+        if source == "windows_counters":
+            return 6
+        if source in ("wmi_cim_thermal", "acpi_thermal"):
+            return 12
         if "nvidia" in text or "rtx" in text or "geforce" in text:
-            return 1
-        if row.get("subcategory") == "dgpu":
             return 2
-        return 3
+        if row.get("subcategory") == "dgpu":
+            return 3
+        return 10
+
+    def _selected_metric_diagnostics(self, selected_map: dict[str, dict[str, Any] | None]) -> dict[str, Any]:
+        return {key: self._diagnostic_row(row) for key, row in selected_map.items() if row}
+
+    def _fallback_chain(self, sensors: list[dict[str, Any]], metric_keys: Any) -> dict[str, list[dict[str, Any]]]:
+        result: dict[str, list[dict[str, Any]]] = {}
+        aliases = {
+            "gpu_load_percent": "gpu_core_load_percent",
+            "gpu_clock_mhz": "gpu_core_clock_mhz",
+            "gpu_temperature_c": "gpu_core_temp_c",
+            "gpu_power_w": "gpu_package_power_w",
+            "vram_used_mb": "gpu_vram_used_mb",
+        }
+        for key in metric_keys:
+            normalized_keys = {key, aliases.get(key, key)}
+            if key == "fan_rpm":
+                normalized_keys.add("fan_rpm")
+            rows = [
+                row
+                for row in sensors
+                if row.get("normalized_key") in normalized_keys
+                or (key == "fps" and row.get("normalized_key") == "fps")
+            ]
+            rows.sort(key=lambda row: (0 if row.get("validity") == "valid" else 1, self._source_priority(row), -(self._number(row.get("value")) or -1)))
+            result[key] = [self._diagnostic_row(row) for row in rows[:12]]
+        return result
+
+    def _unavailable_reasons(self, sensors: list[dict[str, Any]], selected_map: dict[str, dict[str, Any] | None]) -> dict[str, list[str]]:
+        reasons: dict[str, list[str]] = {}
+        aliases = {
+            "gpu_load_percent": "gpu_core_load_percent",
+            "gpu_clock_mhz": "gpu_core_clock_mhz",
+            "gpu_temperature_c": "gpu_core_temp_c",
+            "gpu_power_w": "gpu_package_power_w",
+            "vram_used_mb": "gpu_vram_used_mb",
+        }
+        for key, selected in selected_map.items():
+            if selected:
+                continue
+            normalized_keys = {key, aliases.get(key, key)}
+            rows = [row for row in sensors if row.get("normalized_key") in normalized_keys]
+            row_reasons = []
+            for row in rows:
+                reason = row.get("validity_reason") or row.get("display_status") or row.get("notes")
+                if reason:
+                    row_reasons.append(f"{row.get('provider') or row.get('source')}: {row.get('name')} - {reason}")
+            reasons[key] = row_reasons or ["No provider returned a valid supported sensor for this metric."]
+        return reasons
 
     def _mark_selected(self, row: dict[str, Any], key: str, headline: bool = False) -> None:
         selected = set(row.get("selected_for") or [])

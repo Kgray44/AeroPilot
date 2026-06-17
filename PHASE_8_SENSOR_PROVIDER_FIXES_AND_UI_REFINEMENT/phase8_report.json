@@ -3,7 +3,7 @@
   "app_name": "AeroTune",
   "version": "0.8.0-preview",
   "source_phase": "PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT",
-  "summary": "Sensor provider fixes and UI refinement with no tuning/write expansion.",
+  "summary": "Sensor provider registry, ranked telemetry fallback, and UI refinement with no tuning/write expansion.",
   "safety_boundary": {
     "telemetry_only": true,
     "msi_profile_apply_enabled": false,
@@ -21,8 +21,36 @@
     "load": "valid when numeric and non-negative",
     "temperature": "0 C is invalid_value and unavailable for headline/card use",
     "power": "0 W with nonzero CPU load is stale_zero/unavailable",
-    "clock": "0 MHz with nonzero CPU load is stale_zero/unavailable",
+    "clock": "0 MHz with nonzero CPU load is stale_zero/unavailable; Windows counters may supply a lower-ranked valid fallback",
     "voltage": "valid when in reasonable CPU voltage range"
+  },
+  "provider_registry": {
+    "enabled_provider_ids": [
+      "librehardwaremonitor",
+      "hwinfo",
+      "windows_counters",
+      "wmi_cim_thermal",
+      "acpi_thermal",
+      "nvidia_smi",
+      "presentmon"
+    ],
+    "provider_status_fields": [
+      "provider_id",
+      "provider_name",
+      "enabled",
+      "attempted",
+      "available",
+      "status",
+      "reason",
+      "last_probe_time",
+      "sensor_count",
+      "valid_sensor_count",
+      "rejected_sensor_count"
+    ],
+    "ranked_metric_selection": true,
+    "hwinfosm_probe": "detects process and shared-memory mapping; full parser remains guarded",
+    "windows_counter_fallback": "CPU load and CPU frequency/performance counters",
+    "wmi_acpi_fallback": "low-confidence thermal diagnostic only"
   },
   "gpu_classification": {
     "gpunvidia_supported": true,
@@ -33,12 +61,12 @@
     "CPU hero can use CPU load as primary when temperature is unavailable",
     "provider status section added",
     "raw explorer includes validity, validity reason, provider, and subcategory",
-    "CPU diagnostics export button added",
+    "CPU diagnostics export includes provider statuses, provider sensors, candidate lists, selected metrics, fallback chains, and unavailable reasons",
     "Dashboard and Settings show Phase 8 provider status"
   ],
   "validation": {
     "status": "passed",
-    "total_checks": 161,
+    "total_checks": 171,
     "failed_checks": 0
   },
   "screenshots": {
@@ -47,13 +75,22 @@
     "actual_count": 14
   },
   "latest_live_snapshot": {
-    "raw_sensor_count": 144,
+    "raw_sensor_count": 165,
     "cpu_load_valid": true,
     "cpu_temp_valid": false,
     "cpu_temp_unavailable_reason": "Core (Tctl/Tdie) reported 0 C and was rejected as invalid.",
     "cpu_power_status": "stale_zero_unavailable",
-    "cpu_clock_status": "stale_zero_unavailable",
+    "cpu_clock_status": "windows_counter_fallback_valid",
     "cpu_voltage_valid": true,
-    "vram_total_source": "nvidia-smi"
+    "vram_total_source": "nvidia-smi",
+    "provider_status_summary": {
+      "librehardwaremonitor": "partial",
+      "hwinfo": "not_running",
+      "windows_counters": "ok",
+      "wmi_cim_thermal": "unavailable",
+      "acpi_thermal": "unavailable",
+      "nvidia_smi": "partial",
+      "presentmon": "not_started"
+    }
   }
 }

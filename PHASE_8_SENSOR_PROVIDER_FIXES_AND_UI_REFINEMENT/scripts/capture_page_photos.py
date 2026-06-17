@@ -67,11 +67,14 @@ def main() -> int:
         if hasattr(widget, "refresh_all"):
             try:
                 widget.refresh_all()
-                for _ in range(120):
+                for _ in range(420):
                     app.processEvents()
                     time.sleep(0.05)
                     if not getattr(widget, "refresh_busy", False):
                         break
+                for _ in range(12):
+                    app.processEvents()
+                    time.sleep(0.05)
             except Exception:
                 pass
 

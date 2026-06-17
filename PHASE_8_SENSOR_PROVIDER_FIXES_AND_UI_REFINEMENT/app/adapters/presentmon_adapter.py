@@ -147,12 +147,14 @@ class PresentMonAdapter:
             return {
                 "ok": False,
                 "running": self.is_running(),
-                "error": self._last_error or "No PresentMon CSV has been produced yet.",
+                "status": "not_started" if not self.is_running() else "idle_no_capture",
+                "error": self._last_error,
+                "reason": "PresentMon capture has not been started." if not self.is_running() else "PresentMon capture is running but no CSV has been produced yet.",
                 "output_file": str(self._output_file) if self._output_file else None,
             }
         rows = self._read_recent_rows(self._output_file)
         if not rows:
-            return {"ok": False, "running": self.is_running(), "error": "PresentMon CSV exists but has no data rows yet.", "empty_csv": True, "output_file": str(self._output_file)}
+            return {"ok": False, "running": self.is_running(), "status": "idle_no_capture", "reason": "PresentMon CSV exists but has no data rows yet.", "empty_csv": True, "output_file": str(self._output_file)}
         frame_ms_values = [self._frame_ms(row) for row in rows]
         frame_ms_values = [value for value in frame_ms_values if value and value > 0]
         latest = rows[-1]

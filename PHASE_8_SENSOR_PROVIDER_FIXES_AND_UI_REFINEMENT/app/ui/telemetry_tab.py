@@ -345,16 +345,17 @@ class TelemetryTab(QWidget):
     def _refresh_worker(self) -> None:
         payload: dict[str, Any] = {"started_local": time.strftime("%Y-%m-%d %H:%M:%S")}
         try:
-            payload["nvidia"] = self.window.nvidia.telemetry_snapshot()
+            provider_result = self.window.refresh_provider_snapshots()
+            payload["provider_snapshots"] = provider_result.get("snapshots", {})
+            payload["provider_statuses"] = provider_result.get("provider_statuses", {})
+            payload["nvidia"] = payload["provider_snapshots"].get("nvidia_smi", {})
+            payload["presentmon"] = payload["provider_snapshots"].get("presentmon", {})
+            payload["lhm"] = payload["provider_snapshots"].get("librehardwaremonitor", {})
         except Exception as exc:
+            payload["provider_snapshots"] = {}
+            payload["provider_statuses"] = {}
             payload["nvidia"] = {"ok": False, "error": str(exc)}
-        try:
-            payload["presentmon"] = self.window.presentmon.latest_reading()
-        except Exception as exc:
             payload["presentmon"] = {"ok": False, "error": str(exc)}
-        try:
-            payload["lhm"] = self.window.lhm.sensor_snapshot()
-        except Exception as exc:
             payload["lhm"] = {"ok": False, "source": "librehardwaremonitor", "error": str(exc), "sensors": []}
         payload["finished_local"] = time.strftime("%Y-%m-%d %H:%M:%S")
         self.refresh_signals.ready.emit(payload)
@@ -368,6 +369,8 @@ class TelemetryTab(QWidget):
             lhm_snapshot=self.window.latest_lhm_snapshot,
             nvidia_snapshot=self.window.latest_nvidia_snapshot,
             presentmon_snapshot=self.window.latest_presentmon_snapshot,
+            provider_snapshots=payload.get("provider_snapshots"),
+            provider_statuses=payload.get("provider_statuses"),
             record_history=True,
         )
         self.current_model = model
@@ -710,23 +713,63 @@ class TelemetryTab(QWidget):
             providers = self.window.cpu_telemetry.provider_status(model)
         except Exception as exc:
             providers = {"librehardwaremonitor": {"status": "unavailable", "summary": str(exc)}}
+        metric_health = self._provider_metric_health(model.get("raw_sensors", []) or [], "lhm")
         rows = [
             ("LibreHardwareMonitor", providers.get("librehardwaremonitor", {})),
-            ("Windows counters", providers.get("windows_counters", {})),
-            ("ACPI thermal", providers.get("acpi_thermal_zone", {})),
             ("HWiNFO", providers.get("hwinfo", {})),
+            ("Windows counters", providers.get("windows_counters", {})),
+            ("WMI/CIM thermal", providers.get("wmi_cim_thermal", {})),
+            ("ACPI thermal", providers.get("acpi_thermal_zone", {})),
         ]
         for index, (name, row) in enumerate(rows):
             status = str(row.get("status") or "unknown")
             text = status
-            if row.get("cpu_load_valid"):
-                text += " | load yes"
-            if row.get("cpu_temp_valid"):
-                text += " | temp yes"
-            elif name == "LibreHardwareMonitor":
-                text += " | temp no"
+            if name == "LibreHardwareMonitor":
+                text = " | ".join(
+                    [
+                        status,
+                        f"load {metric_health.get('load', 'unknown')}",
+                        f"temp {metric_health.get('temperature', 'unknown')}",
+                        f"power {metric_health.get('power', 'unknown')}",
+                        f"clock {metric_health.get('clock', 'unknown')}",
+                    ]
+                )
+            elif row.get("reason"):
+                text += f" | {row.get('reason')}"
+            elif row.get("error"):
+                text += f" | {row.get('error')}"
             tone = "safe" if status in ("available", "ok", "detected") else ("warn" if status in ("partial", "diagnostic_only") else "unavailable")
             self.provider_grid.addWidget(StatusPill(name, text, tone), index // 2, index % 2)
+
+    def _provider_metric_health(self, rows: list[dict[str, Any]], source_prefix: str) -> dict[str, str]:
+        result: dict[str, str] = {}
+        mapping = {
+            "load": "Load",
+            "temperature": "Temperature",
+            "power": "Power",
+            "clock": "Clock",
+            "voltage": "Voltage",
+        }
+        source_prefix = source_prefix.lower()
+        provider_rows = [
+            row
+            for row in rows
+            if str(row.get("category")) == "cpu"
+            and str(row.get("source", "")).lower().startswith(source_prefix)
+        ]
+        for key, sensor_type in mapping.items():
+            matches = [row for row in provider_rows if str(row.get("sensor_type", "")).lower() == sensor_type.lower()]
+            if any(row.get("validity") == "valid" for row in matches):
+                result[key] = "valid"
+            elif any(row.get("validity") == "stale_zero" for row in matches):
+                result[key] = "stale_zero"
+            elif any(row.get("validity") == "invalid_value" for row in matches):
+                result[key] = "invalid_value"
+            elif matches:
+                result[key] = str(matches[0].get("validity") or "unavailable")
+            else:
+                result[key] = "unavailable"
+        return result
 
     def toggle_polling(self) -> None:
         if self.timer.isActive():
