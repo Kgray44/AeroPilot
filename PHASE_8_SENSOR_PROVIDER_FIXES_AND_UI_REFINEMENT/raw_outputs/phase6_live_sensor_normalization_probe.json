@@ -1,0 +1,87 @@
+{
+  "lhm_ok": true,
+  "lhm_error": "",
+  "lhm_sensor_count": 139,
+  "nvidia_ok": true,
+  "presentmon_ok": false,
+  "raw_sensor_count": 149,
+  "headline": {
+    "ok": true,
+    "cpu_temp_c": null,
+    "cpu_temp_name": null,
+    "cpu_temp_hardware": null,
+    "cpu_temp_display": "CPU temp unavailable",
+    "cpu_load_percent": 31.020000457763672,
+    "cpu_load_display": "Load 31%",
+    "cpu_power_w": 0.0,
+    "cpu_power_display": "CPU power 0.0 W",
+    "cpu_clock_mhz": 0.0,
+    "cpu_clock_display": "0 MHz",
+    "gpu_temp_c": 60.0,
+    "gpu_temp_display": "60 C",
+    "gpu_util_percent": 16.0,
+    "gpu_power_w": 16.33,
+    "gpu_clock_mhz": 1575.0,
+    "vram_used_mb": 1544.0,
+    "vram_total_mb": 8151.0,
+    "fps": null,
+    "fps_display": "FPS idle",
+    "frame_time_ms": null,
+    "frame_time_display": "Frame time idle",
+    "ram_load_percent": 58.34798812866211,
+    "fan_rpm": null,
+    "fan_display": "Fan unavailable",
+    "sensor_count": 149,
+    "sensors_display": "149 readings",
+    "sensor_read_status": "ok",
+    "status_display": "CPU temp unavailable | Load 31% | Fan unavailable | 149 readings",
+    "gpu_status_display": "GPU 60 C | 16% | 16 W",
+    "vram_status_display": "VRAM 1544 / 8151 MB",
+    "fps_status_display": "FPS idle"
+  },
+  "cpu_temperature_diagnostics": {
+    "selected": null,
+    "total_temperature_sensors": 6,
+    "cpu_hardware_temperature_sensors": 1,
+    "accepted_candidates": [],
+    "rejected_candidates": [
+      {
+        "name": "Core (Tctl/Tdie)",
+        "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+        "value": 0.0,
+        "reason": "invalid temperature outside 1-125 C"
+      },
+      {
+        "name": "GPU VR SoC",
+        "hardware": "AMD Radeon(TM) Graphics",
+        "value": 60.0,
+        "reason": "not CPU-like"
+      },
+      {
+        "name": "GPU Core",
+        "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "value": 59.0,
+        "reason": "not CPU-like"
+      },
+      {
+        "name": "GPU Hot Spot",
+        "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "value": 59.65625,
+        "reason": "not CPU-like"
+      },
+      {
+        "name": "GPU Memory Junction",
+        "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "value": 255.0,
+        "reason": "invalid temperature outside 1-125 C"
+      },
+      {
+        "name": "GPU Temperature",
+        "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+        "value": 60.0,
+        "reason": "not CPU-like"
+      }
+    ],
+    "failure_reason": "No valid CPU temperature candidate found."
+  }
+}

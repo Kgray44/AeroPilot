@@ -1,0 +1,384 @@
+﻿{
+    "generated_local":  "2026-06-15T11:40:53",
+    "active_power_plan_guid":  "692ee1d0-ffc2-4c47-91b3-2a4814f3964e",
+    "active_power_plan_name":  "AERO24_MODERATE_AGGRESSIVE_GAMING",
+    "cpu_settings":  [
+                         {
+                             "control_id":  "cpu.boost.mode",
+                             "friendly_name":  "Processor performance boost mode",
+                             "alias":  "PERFBOOSTMODE",
+                             "setting_guid":  "be337238-0d82-4146-a960-4f3749d470c7",
+                             "readable":  true,
+                             "ac_value":  0,
+                             "dc_value":  2,
+                             "ac_hex":  "0x00000000",
+                             "dc_hex":  "0x00000002",
+                             "command":  {
+                                             "name":  "powercfg_query_active_PERFBOOSTMODE",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "be337238-0d82-4146-a960-4f3749d470c7"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFBOOSTMODE_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFBOOSTMODE_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: be337238-0d82-4146-a960-4f3749d470c7  (Processor performance boost mode)\r\n      GUID Alias: PERFBOOSTMODE\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Disabled\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Enabled\r\n      Possible Setting Index: 002\r\n      Possible Setting Friendly Name: Aggressive\r\n      Possible Setting Index: 003\r\n      Possible Setting Friendly Name: Efficient Enabled\r\n      Possible Setting Index: 004\r\n      Possible Setting Friendly Name: Efficient Aggressive\r\n      Possible Setting Index: 005\r\n      Possible Setting Friendly Name: Aggressive At Guaranteed\r\n      Possible Setting Index: 006\r\n      Possible Setting Friendly Name: Efficient Aggressive At Guaranteed\r\n    Current AC Power Setting Index: 0x00000000\r\n    Current DC Power Setting Index: 0x00000002",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.boost.policy",
+                             "friendly_name":  "Processor performance boost policy",
+                             "alias":  "PERFBOOSTPOL",
+                             "setting_guid":  "45bcc044-d885-43e2-8605-ee0ec6e96b59",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_PERFBOOSTPOL",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "45bcc044-d885-43e2-8605-ee0ec6e96b59"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFBOOSTPOL_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFBOOSTPOL_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.power.epp",
+                             "friendly_name":  "Processor energy performance preference / EPP",
+                             "alias":  "PERFEPP",
+                             "setting_guid":  "36687f9e-e3a5-4dbf-b1dc-15eb381c6863",
+                             "readable":  true,
+                             "ac_value":  55,
+                             "dc_value":  0,
+                             "ac_hex":  "0x00000037",
+                             "dc_hex":  "0x00000000",
+                             "command":  {
+                                             "name":  "powercfg_query_active_PERFEPP",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "36687f9e-e3a5-4dbf-b1dc-15eb381c6863"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFEPP_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFEPP_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 36687f9e-e3a5-4dbf-b1dc-15eb381c6863  (Processor energy performance preference policy)\r\n      GUID Alias: PERFEPP\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x00000037\r\n    Current DC Power Setting Index: 0x00000000",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.state.minimum",
+                             "friendly_name":  "Minimum processor state",
+                             "alias":  "PROCTHROTTLEMIN",
+                             "setting_guid":  "893dee8e-2bef-41e0-89c6-b55d0929964c",
+                             "readable":  true,
+                             "ac_value":  5,
+                             "dc_value":  100,
+                             "ac_hex":  "0x00000005",
+                             "dc_hex":  "0x00000064",
+                             "command":  {
+                                             "name":  "powercfg_query_active_PROCTHROTTLEMIN",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "893dee8e-2bef-41e0-89c6-b55d0929964c"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCTHROTTLEMIN_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCTHROTTLEMIN_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 893dee8e-2bef-41e0-89c6-b55d0929964c  (Minimum processor state)\r\n      GUID Alias: PROCTHROTTLEMIN\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x00000005\r\n    Current DC Power Setting Index: 0x00000064",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.state.maximum",
+                             "friendly_name":  "Maximum processor state",
+                             "alias":  "PROCTHROTTLEMAX",
+                             "setting_guid":  "bc5038f7-23e0-4960-96da-33abaf5935ec",
+                             "readable":  true,
+                             "ac_value":  99,
+                             "dc_value":  100,
+                             "ac_hex":  "0x00000063",
+                             "dc_hex":  "0x00000064",
+                             "command":  {
+                                             "name":  "powercfg_query_active_PROCTHROTTLEMAX",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "bc5038f7-23e0-4960-96da-33abaf5935ec"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCTHROTTLEMAX_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCTHROTTLEMAX_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: bc5038f7-23e0-4960-96da-33abaf5935ec  (Maximum processor state)\r\n      GUID Alias: PROCTHROTTLEMAX\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0x00000064\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: %\r\n    Current AC Power Setting Index: 0x00000063\r\n    Current DC Power Setting Index: 0x00000064",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.cooling.system_policy",
+                             "friendly_name":  "System cooling policy",
+                             "alias":  "SYSCOOLPOL",
+                             "setting_guid":  "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+                             "readable":  true,
+                             "ac_value":  1,
+                             "dc_value":  1,
+                             "ac_hex":  "0x00000001",
+                             "dc_hex":  "0x00000001",
+                             "command":  {
+                                             "name":  "powercfg_query_active_SYSCOOLPOL",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "94d3a615-a899-4ac5-ae2b-e4d8f634367f"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_SYSCOOLPOL_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_SYSCOOLPOL_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)\r\n      GUID Alias: SYSCOOLPOL\r\n      Possible Setting Index: 000\r\n      Possible Setting Friendly Name: Passive\r\n      Possible Setting Index: 001\r\n      Possible Setting Friendly Name: Active\r\n    Current AC Power Setting Index: 0x00000001\r\n    Current DC Power Setting Index: 0x00000001",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.frequency.maximum",
+                             "friendly_name":  "Maximum processor frequency",
+                             "alias":  "PROCFREQMAX",
+                             "setting_guid":  "75b0ae3f-bce0-45a7-8c89-c9611c25e100",
+                             "readable":  true,
+                             "ac_value":  3250,
+                             "dc_value":  0,
+                             "ac_hex":  "0x00000cb2",
+                             "dc_hex":  "0x00000000",
+                             "command":  {
+                                             "name":  "powercfg_query_active_PROCFREQMAX",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "75b0ae3f-bce0-45a7-8c89-c9611c25e100"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCFREQMAX_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PROCFREQMAX_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)\r\n  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)\r\n    GUID Alias: SUB_PROCESSOR\r\n    Power Setting GUID: 75b0ae3f-bce0-45a7-8c89-c9611c25e100  (Maximum processor frequency)\r\n      GUID Alias: PROCFREQMAX\r\n      Minimum Possible Setting: 0x00000000\r\n      Maximum Possible Setting: 0xffffffff\r\n      Possible Settings increment: 0x00000001\r\n      Possible Settings units: MHz\r\n    Current AC Power Setting Index: 0x00000cb2\r\n    Current DC Power Setting Index: 0x00000000",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.parking.min_cores",
+                             "friendly_name":  "Processor performance core parking min cores",
+                             "alias":  "CPMINCORES",
+                             "setting_guid":  "0cc5b647-c1df-4637-891a-dec35c318583",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_CPMINCORES",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "0cc5b647-c1df-4637-891a-dec35c318583"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_CPMINCORES_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_CPMINCORES_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.parking.max_cores",
+                             "friendly_name":  "Processor performance core parking max cores",
+                             "alias":  "CPMAXCORES",
+                             "setting_guid":  "ea062031-0e34-4ff1-9b6d-eb1059334028",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_CPMAXCORES",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "ea062031-0e34-4ff1-9b6d-eb1059334028"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_CPMAXCORES_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_CPMAXCORES_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.idle.disable",
+                             "friendly_name":  "Processor idle disable",
+                             "alias":  "IDLEDISABLE",
+                             "setting_guid":  "5d76a2ca-e8c0-402f-a133-2158492d58ad",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_IDLEDISABLE",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "5d76a2ca-e8c0-402f-a133-2158492d58ad"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_IDLEDISABLE_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_IDLEDISABLE_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.scheduling.heterogeneous_policy",
+                             "friendly_name":  "Heterogeneous policy in effect",
+                             "alias":  "HETEROPOLICY",
+                             "setting_guid":  "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_HETEROPOLICY",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_HETEROPOLICY_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_HETEROPOLICY_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.boost.performance_increase_threshold",
+                             "friendly_name":  "Processor performance increase threshold",
+                             "alias":  "PERFINCTHRESHOLD",
+                             "setting_guid":  "06cadf0e-64ed-448a-8927-ce7bf90eb35d",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_PERFINCTHRESHOLD",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "06cadf0e-64ed-448a-8927-ce7bf90eb35d"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFINCTHRESHOLD_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFINCTHRESHOLD_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         },
+                         {
+                             "control_id":  "cpu.boost.performance_decrease_threshold",
+                             "friendly_name":  "Processor performance decrease threshold",
+                             "alias":  "PERFDECTHRESHOLD",
+                             "setting_guid":  "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6",
+                             "readable":  false,
+                             "ac_value":  null,
+                             "dc_value":  null,
+                             "ac_hex":  null,
+                             "dc_hex":  null,
+                             "command":  {
+                                             "name":  "powercfg_query_active_PERFDECTHRESHOLD",
+                                             "command":  [
+                                                             "powercfg.exe",
+                                                             "/query",
+                                                             "SCHEME_CURRENT",
+                                                             "SUB_PROCESSOR",
+                                                             "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6"
+                                                         ],
+                                             "exit_code":  0,
+                                             "stdout_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFDECTHRESHOLD_stdout.txt",
+                                             "stderr_path":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\raw_outputs\\power_plan_backup\\powercfg_query_active_PERFDECTHRESHOLD_stderr.txt",
+                                             "stdout":  "Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING)",
+                                             "stderr":  "",
+                                             "error":  null,
+                                             "started_at":  "2026-06-15T11:40:53",
+                                             "completed_at":  "2026-06-15T11:40:53"
+                                         }
+                         }
+                     ]
+}

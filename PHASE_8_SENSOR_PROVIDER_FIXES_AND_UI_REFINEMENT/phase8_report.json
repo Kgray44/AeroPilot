@@ -1,0 +1,105 @@
+{
+  "phase": "PHASE_8_SENSOR_PROVIDER_FIXES_AND_UI_REFINEMENT",
+  "app_name": "AeroTune",
+  "version": "0.8.0-preview",
+  "source_phase": "PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT",
+  "summary": "Sensor provider registry, ranked telemetry fallback, and UI refinement with no tuning/write expansion.",
+  "safety_boundary": {
+    "telemetry_only": true,
+    "msi_profile_apply_enabled": false,
+    "nvidia_write_enabled": false,
+    "fan_write_enabled": false,
+    "ec_write_enabled": false,
+    "service_control_enabled": false,
+    "startup_entries_enabled": false,
+    "scheduled_tasks_enabled": false,
+    "registry_writes_enabled": false,
+    "automatic_game_apply_enabled": false,
+    "automatic_cpu_gpu_tuning_apply_enabled": false
+  },
+  "cpu_metric_behavior": {
+    "load": "valid when numeric and non-negative",
+    "temperature": "0 C is invalid_value and unavailable for headline/card use",
+    "power": "0 W with nonzero CPU load is stale_zero/unavailable",
+    "clock": "0 MHz with nonzero CPU load is stale_zero/unavailable; Windows counters may supply a lower-ranked valid fallback",
+    "voltage": "valid when in reasonable CPU voltage range"
+  },
+  "provider_registry": {
+    "enabled_provider_ids": [
+      "librehardwaremonitor",
+      "hwinfo",
+      "windows_counters",
+      "wmi_cim_thermal",
+      "acpi_thermal",
+      "nvidia_smi",
+      "presentmon"
+    ],
+    "provider_status_fields": [
+      "provider_id",
+      "provider_name",
+      "enabled",
+      "attempted",
+      "available",
+      "status",
+      "reason",
+      "last_probe_time",
+      "sensor_count",
+      "valid_sensor_count",
+      "rejected_sensor_count"
+    ],
+    "ranked_metric_selection": true,
+    "hwinfosm_probe": "detects process and shared-memory mapping; full parser remains guarded",
+    "windows_counter_fallback": "CPU load and CPU frequency/performance counters",
+    "wmi_acpi_fallback": "low-confidence thermal diagnostic only"
+  },
+  "gpu_classification": {
+    "gpunvidia_supported": true,
+    "gpuamd_supported": true,
+    "invalid_255c_memory_junction": true
+  },
+  "ui_changes": [
+    "CPU hero can use CPU load as primary when temperature is unavailable",
+    "provider status section added",
+    "CPU temperature fallback guidance block added with HWiNFO next action",
+    "raw explorer includes validity, validity reason, provider, and subcategory",
+    "CPU diagnostics export includes provider statuses, provider sensors, candidate lists, selected metrics, fallback chains, and unavailable reasons",
+    "Dashboard and Settings show Phase 8 provider status"
+  ],
+  "validation": {
+    "status": "passed",
+    "total_checks": 171,
+    "failed_checks": 0
+  },
+  "screenshots": {
+    "status": "captured",
+    "expected_count": 14,
+    "actual_count": 14
+  },
+  "latest_live_snapshot": {
+    "raw_sensor_count": 165,
+    "cpu_load_valid": true,
+    "cpu_temp_valid": false,
+    "cpu_temp_unavailable_reason": "Core (Tctl/Tdie) reported 0 C and was rejected as invalid.",
+    "cpu_power_status": "stale_zero_unavailable",
+    "cpu_clock_status": "windows_counter_fallback_valid",
+    "cpu_voltage_valid": true,
+    "next_recommended_action": "Start HWiNFO64 Sensors with shared memory enabled.",
+    "cpu_temperature_guidance": [
+      "LHM rejected Core (Tctl/Tdie) because it reported 0 C.",
+      "HWiNFO was not running or shared memory was unavailable.",
+      "Windows counters are available for CPU load/frequency but do not provide CPU die temperature.",
+      "WMI/CIM thermal unavailable.",
+      "ACPI thermal unavailable."
+    ],
+    "vram_total_source": "nvidia-smi",
+    "provider_status_summary": {
+      "librehardwaremonitor": "partial",
+      "hwinfo": "not_running",
+      "windows_counters": "ok",
+      "wmi_cim_thermal": "unavailable",
+      "acpi_thermal": "unavailable",
+      "nvidia_smi": "partial",
+      "presentmon": "not_started"
+    }
+  }
+}

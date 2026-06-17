@@ -1,0 +1,299 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "auto_apply_forced_false": true,
+  "rules": [
+    {
+      "target_id": "battlefield_6",
+      "control_id": "process.bf6",
+      "enabled": true,
+      "friendly_name": "Battlefield 6 / BF6",
+      "category": "Game",
+      "process_names": [
+        "BF6",
+        "Battlefield6",
+        "Battlefield 6",
+        "bf6game"
+      ],
+      "command_line_contains": [],
+      "launcher_association": null,
+      "cpu_preset_to_use_later": "Gaming Balanced",
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": true,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Names are seed guesses and need confirmation from an active BF6 session."
+    },
+    {
+      "target_id": "steam",
+      "control_id": "process.steam",
+      "enabled": true,
+      "friendly_name": "Steam",
+      "category": "Launcher",
+      "process_names": [
+        "steam",
+        "steamwebhelper"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Steam client and web helper."
+    },
+    {
+      "target_id": "ea_app",
+      "control_id": "process.ea_app",
+      "enabled": true,
+      "friendly_name": "EA App",
+      "category": "Launcher",
+      "process_names": [
+        "EADesktop",
+        "EALauncher",
+        "EABackgroundService",
+        "EACefSubProcess",
+        "Origin"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "EA App background and launcher processes."
+    },
+    {
+      "target_id": "epic_games",
+      "control_id": "process.epic_games",
+      "enabled": true,
+      "friendly_name": "Epic Games Launcher",
+      "category": "Launcher",
+      "process_names": [
+        "EpicGamesLauncher",
+        "EpicWebHelper"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Epic launcher and helpers."
+    },
+    {
+      "target_id": "sea_of_thieves",
+      "control_id": "process.sea_of_thieves",
+      "enabled": true,
+      "friendly_name": "Sea of Thieves",
+      "category": "Game",
+      "process_names": [
+        "SoTGame",
+        "SeaOfThieves"
+      ],
+      "command_line_contains": [],
+      "launcher_association": null,
+      "cpu_preset_to_use_later": "Gaming Balanced",
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": true,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Common Sea of Thieves executable names."
+    },
+    {
+      "target_id": "minecraft",
+      "control_id": "process.minecraft",
+      "enabled": true,
+      "friendly_name": "Minecraft",
+      "category": "Game",
+      "process_names": [
+        "Minecraft",
+        "Minecraft.Windows",
+        "javaw",
+        "java"
+      ],
+      "command_line_contains": [
+        "minecraft"
+      ],
+      "launcher_association": null,
+      "cpu_preset_to_use_later": "Gaming Balanced",
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": true,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "java/javaw are broad and require command-line filtering later."
+    },
+    {
+      "target_id": "msi_afterburner",
+      "control_id": "process.msi_afterburner",
+      "enabled": true,
+      "friendly_name": "MSI Afterburner",
+      "category": "Tool",
+      "process_names": [
+        "MSIAfterburner"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "GPU profile tool."
+    },
+    {
+      "target_id": "rtss",
+      "control_id": "process.rtss",
+      "enabled": true,
+      "friendly_name": "RivaTuner Statistics Server",
+      "category": "Tool",
+      "process_names": [
+        "RTSS",
+        "RTSSHooksLoader64",
+        "RTSSHooksLoader"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "OSD/frame limiter support tool."
+    },
+    {
+      "target_id": "presentmon",
+      "control_id": "process.presentmon",
+      "enabled": true,
+      "friendly_name": "PresentMon",
+      "category": "Tool",
+      "process_names": [
+        "PresentMon"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Future frame-time capture tool."
+    },
+    {
+      "target_id": "hwinfo",
+      "control_id": "process.hwinfo",
+      "enabled": true,
+      "friendly_name": "HWiNFO",
+      "category": "Tool",
+      "process_names": [
+        "HWiNFO64",
+        "HWiNFO32",
+        "HWiNFO"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Optional sensor tool."
+    },
+    {
+      "target_id": "gigabyte_control_center",
+      "control_id": "process.gigabyte_control_center",
+      "enabled": true,
+      "friendly_name": "GIGABYTE Control Center",
+      "category": "OEM control",
+      "process_names": [
+        "GCC",
+        "ControlCenter",
+        "GIGABYTE",
+        "GService",
+        "GigabyteUpdateService"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "Names vary by GCC version."
+    },
+    {
+      "target_id": "nvidia_app",
+      "control_id": "process.nvidia_app",
+      "enabled": true,
+      "friendly_name": "NVIDIA App / NVIDIA services",
+      "category": "GPU tool",
+      "process_names": [
+        "NVIDIA App",
+        "NVIDIA Overlay",
+        "NVIDIA Share",
+        "NVIDIA Web Helper",
+        "nvcontainer",
+        "NVIDIA GeForce Experience"
+      ],
+      "command_line_contains": [],
+      "launcher_association": "launcher_only_not_game",
+      "cpu_preset_to_use_later": null,
+      "gpu_profile_slot_to_use_later": null,
+      "telemetry_options_later": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping": false
+      },
+      "restore_on_exit_later": false,
+      "auto_apply_enabled_later": false,
+      "phase3_note": "NVIDIA App components and service containers."
+    }
+  ]
+}

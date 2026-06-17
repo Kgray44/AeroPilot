@@ -1,0 +1,11 @@
+﻿{
+    "phase":  "PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS",
+    "required_before_phase5":  [
+                                   "active power plan export",
+                                   "CPU values snapshot",
+                                   "MSI config/profile copy",
+                                   "app JSON backup",
+                                   "restore manifest"
+                               ],
+    "original_msi_files_must_not_be_modified":  true
+}

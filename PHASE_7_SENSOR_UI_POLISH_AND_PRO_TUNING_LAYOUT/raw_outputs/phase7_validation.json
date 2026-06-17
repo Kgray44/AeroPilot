@@ -1,0 +1,798 @@
+﻿{
+    "timestamp_local":  "2026-06-15T20:47:32",
+    "phase_root":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT",
+    "total_checks":  158,
+    "failed_checks":  0,
+    "results":  [
+                    {
+                        "name":  "required_path:phase7_report.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase7_report.md"
+                    },
+                    {
+                        "name":  "required_path:phase7_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase7_report.json"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase7_safety_boundary.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\phase7_safety_boundary.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\sensors_ui_polish_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\sensors_ui_polish_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\hero_metric_cards_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\hero_metric_cards_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\hardware_panels_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\hardware_panels_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\all_sensors_explorer_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\all_sensors_explorer_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\cpu_diagnostics_ui_design.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\cpu_diagnostics_ui_design.md"
+                    },
+                    {
+                        "name":  "required_path:docs\\phase8_recommendation.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\docs\\phase8_recommendation.md"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\sensor_presentation.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\app\\core\\sensor_presentation.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\sensor_normalizer.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\app\\core\\sensor_normalizer.py"
+                    },
+                    {
+                        "name":  "required_path:app\\core\\sensor_history.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\app\\core\\sensor_history.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_widgets.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\app\\ui\\telemetry_widgets.py"
+                    },
+                    {
+                        "name":  "required_path:app\\ui\\telemetry_tab.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\app\\ui\\telemetry_tab.py"
+                    },
+                    {
+                        "name":  "required_path:config\\sensor_favorites.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\sensor_favorites.json"
+                    },
+                    {
+                        "name":  "required_path:scripts\\capture_page_photos.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\scripts\\capture_page_photos.py"
+                    },
+                    {
+                        "name":  "required_path:scripts\\validate_phase7.ps1",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\scripts\\validate_phase7.ps1"
+                    },
+                    {
+                        "name":  "required_path:tests\\phase7_sensor_presentation_check.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\tests\\phase7_sensor_presentation_check.py"
+                    },
+                    {
+                        "name":  "required_path:tests\\phase7_ui_contract_check.py",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\tests\\phase7_ui_contract_check.py"
+                    },
+                    {
+                        "name":  "required_path:page_photos\\README.md",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\README.md"
+                    },
+                    {
+                        "name":  "json_parse:phase4_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase4_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase5_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase5_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase6_report.json"
+                    },
+                    {
+                        "name":  "json_parse:phase7_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\phase7_report.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\backup_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\app_config\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:msi_backup_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\msi_afterburner\\msi_backup_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\active_power_plan_snapshot_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\active_power_plan_snapshot_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\active_power_plan_snapshot_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_phase5_20260615-175813.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\active_power_plan_snapshot_phase5_20260615-175813.json"
+                    },
+                    {
+                        "name":  "json_parse:active_power_plan_snapshot_phase5_20260615-175835.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\active_power_plan_snapshot_phase5_20260615-175835.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113604.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\cpu_readable_values_20260615-113604.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-113957.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\cpu_readable_values_20260615-113957.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_20260615-114052.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\cpu_readable_values_20260615-114052.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_phase5_20260615-175813.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\cpu_readable_values_phase5_20260615-175813.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_readable_values_phase5_20260615-175835.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\cpu_readable_values_phase5_20260615-175835.json"
+                    },
+                    {
+                        "name":  "json_parse:nvidia_smi_telemetry_phase1_snapshot.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\nvidia_smi_telemetry_phase1_snapshot.json"
+                    },
+                    {
+                        "name":  "json_parse:process_snapshot_phase1.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\backups\\snapshots\\process_snapshot_phase1.json"
+                    },
+                    {
+                        "name":  "json_parse:action_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\action_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:apply_gate_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\apply_gate_config.json"
+                    },
+                    {
+                        "name":  "json_parse:app_config.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\app_config.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\backup_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:capability_cache.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\capability_cache.json"
+                    },
+                    {
+                        "name":  "json_parse:control_surface_manifest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\control_surface_manifest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_requirement_catalog.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\restore_requirement_catalog.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_test_policy.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\sandbox_test_policy.json"
+                    },
+                    {
+                        "name":  "json_parse:sensor_favorites.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\sensor_favorites.json"
+                    },
+                    {
+                        "name":  "json_parse:tool_paths.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\tool_paths.json"
+                    },
+                    {
+                        "name":  "json_parse:ui_coverage_matrix.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\ui_coverage_matrix.json"
+                    },
+                    {
+                        "name":  "json_parse:unsupported_or_blocked_controls.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\config\\unsupported_or_blocked_controls.json"
+                    },
+                    {
+                        "name":  "json_parse:combined_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\combined_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:cpu_presets.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\cpu_presets.json"
+                    },
+                    {
+                        "name":  "json_parse:game_rules.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\game_rules.json"
+                    },
+                    {
+                        "name":  "json_parse:gpu_profiles.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\gpu_profiles.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_schema.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\preset_schema.json"
+                    },
+                    {
+                        "name":  "json_parse:preset_validation_report.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\presets\\preset_validation_report.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_phase5_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\export_active_power_plan_phase5_result.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_adapter_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\librehardwaremonitor_adapter_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_read_capframex_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\librehardwaremonitor_read_capframex_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:librehardwaremonitor_read_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\librehardwaremonitor_read_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_snapshot_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase4_snapshot_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase4_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase4_validation_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase4_validation_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:phase5_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase5_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_live_sensor_normalization_probe.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase6_live_sensor_normalization_probe.json"
+                    },
+                    {
+                        "name":  "json_parse:phase6_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase6_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:phase7_validation.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\phase7_validation.json"
+                    },
+                    {
+                        "name":  "json_parse:create_backup_manifest_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\backup_manifest\\create_backup_manifest_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:backup_msi_afterburner_configs_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\msi_backup\\backup_msi_afterburner_configs_result.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\power_plan_backup\\export_active_power_plan_result.json"
+                    },
+                    {
+                        "name":  "json_parse:export_active_power_plan_phase5_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\power_plan_backup_phase5\\export_active_power_plan_phase5_result.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_stdout_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\raw_outputs\\sandbox_powercfg\\sandbox_powercfg_stdout_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:restore_manifest_latest.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\restore\\restore_manifest_latest.json"
+                    },
+                    {
+                        "name":  "json_parse:sandbox_powercfg_test_result.json",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\sandbox\\sandbox_powercfg_test_result.json"
+                    },
+                    {
+                        "name":  "powershell_parse:backup_msi_afterburner_configs.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:cleanup_sandbox_power_plan.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:collect_phase4_snapshot.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:create_backup_manifest.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:create_phase5_backup_manifest.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:export_active_power_plan.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:export_active_power_plan_phase5.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:generate_phase5_restore_scripts.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:generate_restore_scripts.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:Phase4Common.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:Phase5Common.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:read_librehardwaremonitor_sensors.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:run_app.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:sandbox_powercfg_apply_test.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase4.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase5.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase6.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "powershell_parse:validate_phase7.ps1",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "python_compile_app_and_tests",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "phase6_sensor_normalizer_contract",
+                        "passed":  true,
+                        "details":  "phase6 sensor normalizer contract ok\r\n"
+                    },
+                    {
+                        "name":  "lhm_headline_contract",
+                        "passed":  true,
+                        "details":  "lhm headline contract ok\r\n"
+                    },
+                    {
+                        "name":  "phase7_sensor_presentation_contract",
+                        "passed":  true,
+                        "details":  "phase7 sensor presentation contract ok\r\n"
+                    },
+                    {
+                        "name":  "phase7_ui_contract_offscreen",
+                        "passed":  true,
+                        "details":  "phase7 ui contract ok\r\n"
+                    },
+                    {
+                        "name":  "screenshot_exists:01_dashboard.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\01_dashboard.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:02_cpu_presets_ac.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\02_cpu_presets_ac.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:03_cpu_presets_dc.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\03_cpu_presets_dc.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:04_gpu_profiles.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\04_gpu_profiles.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:05_sensors_overview_polished.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\05_sensors_overview_polished.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:06_sensors_hardware_panels.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\06_sensors_hardware_panels.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:07_sensors_all_raw_explorer.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\07_sensors_all_raw_explorer.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:08_sensors_cpu_diagnostics.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\08_sensors_cpu_diagnostics.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:09_game_automation.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\09_game_automation.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:10_auto_tuning.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\10_auto_tuning.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:11_fan_experimental.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\11_fan_experimental.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:12_logs.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\12_logs.png"
+                    },
+                    {
+                        "name":  "screenshot_exists:13_settings.png",
+                        "passed":  true,
+                        "details":  "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_7_SENSOR_UI_POLISH_AND_PRO_TUNING_LAYOUT\\page_photos\\13_settings.png"
+                    },
+                    {
+                        "name":  "page_photos_count_13",
+                        "passed":  true,
+                        "details":  "count=13"
+                    },
+                    {
+                        "name":  "gate_false:active_plan_write_enabled",
+                        "passed":  true,
+                        "details":  "active_plan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:msi_profile_apply_enabled",
+                        "passed":  true,
+                        "details":  "msi_profile_apply_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:fan_write_enabled",
+                        "passed":  true,
+                        "details":  "fan_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:ec_write_enabled",
+                        "passed":  true,
+                        "details":  "ec_write_enabled=False"
+                    },
+                    {
+                        "name":  "gate_false:automation_apply_enabled",
+                        "passed":  true,
+                        "details":  "automation_apply_enabled=False"
+                    },
+                    {
+                        "name":  "sensors_tab_has_hero_metric_cards",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_status_pills",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_hardware_panels",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_raw_explorer",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "sensors_tab_has_cpu_diagnostics",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "top_overview_not_count_status_hero_cards",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "hero_metric_dedupes_value_subtitle",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "grouped_overview_not_table_first",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_diagnostics_accepted_not_tiny",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "status_bar_uses_normalized_display",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "presentmon_not_started_in_main_window",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:CPU Package",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:Core Max",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:P-Core Max",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "cpu_temp_priority_present:Tctl/Tdie",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_msi_profile_execution",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_nvidia_write_commands",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_registry_writes",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_scheduled_tasks",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_service_control",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_fan_or_ec_writes",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_shell_true",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_scheme_current_powercfg_write",
+                        "passed":  true,
+                        "details":  ""
+                    },
+                    {
+                        "name":  "static_no_automatic_game_apply",
+                        "passed":  true,
+                        "details":  ""
+                    }
+                ]
+}

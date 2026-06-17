@@ -1,0 +1,101 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "safety_mode": "READ-ONLY / DRY-RUN",
+  "combined_presets": [
+    {
+      "name": "Quiet School Mode",
+      "description": "Quiet School Mode combined preview.",
+      "phase_status": "preview_only",
+      "cpu_preset": "Quiet School Mode",
+      "gpu_profile_slot": null,
+      "gpu_slot_verified": false,
+      "telemetry": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping_logging": false
+      },
+      "automation": {
+        "auto_apply": false,
+        "restore_on_exit": true
+      }
+    },
+    {
+      "name": "Gaming Balanced",
+      "description": "Gaming Balanced combined preview.",
+      "phase_status": "preview_only",
+      "cpu_preset": "Gaming Balanced",
+      "gpu_profile_slot": 3,
+      "gpu_slot_verified": false,
+      "telemetry": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping_logging": false
+      },
+      "automation": {
+        "auto_apply": false,
+        "restore_on_exit": true
+      }
+    },
+    {
+      "name": "BF6 Emergency Preview",
+      "description": "BF6 Emergency Preview combined preview.",
+      "phase_status": "preview_only",
+      "cpu_preset": "Gaming Balanced",
+      "gpu_profile_slot": 3,
+      "gpu_slot_verified": false,
+      "telemetry": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping_logging": false
+      },
+      "automation": {
+        "auto_apply": false,
+        "restore_on_exit": true
+      }
+    },
+    {
+      "name": "Benchmark Preview",
+      "description": "Benchmark Preview combined preview.",
+      "phase_status": "preview_only",
+      "cpu_preset": "Gaming Balanced",
+      "gpu_profile_slot": 3,
+      "gpu_slot_verified": false,
+      "telemetry": {
+        "nvidia_smi": true,
+        "presentmon": false,
+        "ping_logging": false
+      },
+      "automation": {
+        "auto_apply": false,
+        "restore_on_exit": true
+      }
+    }
+  ],
+  "experiment_plans": [
+    {
+      "experiment_name": "BF6 Emergency Comparison Preview",
+      "target_game_process": "battlefield_6",
+      "cpu_preset_candidates": [
+        "Gaming Balanced",
+        "BF6 Emergency"
+      ],
+      "gpu_profile_candidates": [
+        3
+      ],
+      "metrics_to_capture": [
+        "average_fps",
+        "one_percent_low",
+        "frametime_stability",
+        "gpu_utilization",
+        "gpu_temperature",
+        "ping_average",
+        "ping_spikes"
+      ],
+      "duration_seconds": 180,
+      "success_criteria": "Higher stable frame-time with no ping spikes and no crash flags.",
+      "failure_criteria": "Driver reset, crash, severe thermal behavior, or worse frame-time stability.",
+      "restore_behavior": "Restore previous state after each test in a future apply phase.",
+      "phase3_status": "definition_only"
+    }
+  ]
+}

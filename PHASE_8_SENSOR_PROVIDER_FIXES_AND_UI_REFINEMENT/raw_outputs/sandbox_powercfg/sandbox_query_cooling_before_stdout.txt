@@ -1,0 +1,12 @@
+﻿Power Scheme GUID: ef24eec5-0039-4bfc-bc34-dd232ec94767  (AERO_X16_CC_SANDBOX_DO_NOT_USE_20260615_114035)
+  Subgroup GUID: 54533251-82be-4824-96c1-47b60b740d00  (Processor power management)
+    GUID Alias: SUB_PROCESSOR
+    Power Setting GUID: 94d3a615-a899-4ac5-ae2b-e4d8f634367f  (System cooling policy)
+      GUID Alias: SYSCOOLPOL
+      Possible Setting Index: 000
+      Possible Setting Friendly Name: Passive
+      Possible Setting Index: 001
+      Possible Setting Friendly Name: Active
+    Current AC Power Setting Index: 0x00000001
+    Current DC Power Setting Index: 0x00000001
+

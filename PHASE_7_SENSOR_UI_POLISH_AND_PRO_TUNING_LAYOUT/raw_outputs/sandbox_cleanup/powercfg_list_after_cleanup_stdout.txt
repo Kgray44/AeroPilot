@@ -1,0 +1,6 @@
+﻿
+Existing Power Schemes (* Active)
+-----------------------------------
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
+Power Scheme GUID: 432a9fa0-652f-4f05-aab5-462628fc58bb  (Gaming - GPU Priority)
+Power Scheme GUID: 692ee1d0-ffc2-4c47-91b3-2a4814f3964e  (AERO24_MODERATE_AGGRESSIVE_GAMING) *

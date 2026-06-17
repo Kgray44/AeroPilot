@@ -1,0 +1,1285 @@
+{
+  "ok": true,
+  "generated_local": "2026-06-15T12:08:58",
+  "dll_path": "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll",
+  "sensors": [
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #1",
+      "sensor_type": "Load",
+      "value": 31.389999389648438,
+      "min": 31.389999389648438,
+      "max": 60
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #2",
+      "sensor_type": "Load",
+      "value": 32.119998931884766,
+      "min": 20,
+      "max": 32.119998931884766
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #3",
+      "sensor_type": "Load",
+      "value": 32.119998931884766,
+      "min": 20,
+      "max": 32.119998931884766
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #4",
+      "sensor_type": "Load",
+      "value": 24.09000015258789,
+      "min": 20,
+      "max": 24.09000015258789
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #5",
+      "sensor_type": "Load",
+      "value": 15.329999923706055,
+      "min": 15.329999923706055,
+      "max": 40
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #6",
+      "sensor_type": "Load",
+      "value": 46.720001220703125,
+      "min": 20,
+      "max": 46.720001220703125
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #7",
+      "sensor_type": "Load",
+      "value": 17.520000457763672,
+      "min": 17.520000457763672,
+      "max": 20
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #8",
+      "sensor_type": "Load",
+      "value": 18.979999542236328,
+      "min": 18.979999542236328,
+      "max": 20
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #9",
+      "sensor_type": "Load",
+      "value": 32.119998931884766,
+      "min": 20,
+      "max": 32.119998931884766
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #10",
+      "sensor_type": "Load",
+      "value": 56.93000030517578,
+      "min": 40,
+      "max": 56.93000030517578
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #11",
+      "sensor_type": "Load",
+      "value": 22.6299991607666,
+      "min": 0,
+      "max": 22.6299991607666
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #12",
+      "sensor_type": "Load",
+      "value": 18.25,
+      "min": 0,
+      "max": 18.25
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #13",
+      "sensor_type": "Load",
+      "value": 33.58000183105469,
+      "min": 33.58000183105469,
+      "max": 40
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #14",
+      "sensor_type": "Load",
+      "value": 59.119998931884766,
+      "min": 40,
+      "max": 59.119998931884766
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #15",
+      "sensor_type": "Load",
+      "value": 13.869999885559082,
+      "min": 13.869999885559082,
+      "max": 20
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core #16",
+      "sensor_type": "Load",
+      "value": 25.549999237060547,
+      "min": 20,
+      "max": 25.549999237060547
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Total",
+      "sensor_type": "Load",
+      "value": 30.020000457763672,
+      "min": 25,
+      "max": 30.020000457763672
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "CPU Core Max",
+      "sensor_type": "Load",
+      "value": 59.119998931884766,
+      "min": 59.119998931884766,
+      "max": 60
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Package",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Cores (Average)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Cores (Average Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #1 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #1 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #1 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #2 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #2 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #2 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #3 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #3 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #3 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #4 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #4 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #4 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #5 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #5 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #5 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #6 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #6 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #6 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #7 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #7 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #7 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #8 (Effective)",
+      "sensor_type": "Clock",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #8 (SMU)",
+      "sensor_type": "Power",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core #8 VID",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core (Tctl/Tdie)",
+      "sensor_type": "Temperature",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "Core (SVI2 TFN)",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+      "hardware_type": "Cpu",
+      "name": "SoC (SVI2 TFN)",
+      "sensor_type": "Voltage",
+      "value": 1.5499999523162842,
+      "min": 1.5499999523162842,
+      "max": 1.5499999523162842
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Memory Used",
+      "sensor_type": "Data",
+      "value": 17.682960510253906,
+      "min": 17.682960510253906,
+      "max": 17.682960510253906
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Memory Available",
+      "sensor_type": "Data",
+      "value": 13.436046600341797,
+      "min": 13.436046600341797,
+      "max": 13.436046600341797
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Memory",
+      "sensor_type": "Load",
+      "value": 56.823665618896484,
+      "min": 56.823665618896484,
+      "max": 56.823665618896484
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Virtual Memory Used",
+      "sensor_type": "Data",
+      "value": 31.528282165527344,
+      "min": 31.528282165527344,
+      "max": 31.528282165527344
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Virtual Memory Available",
+      "sensor_type": "Data",
+      "value": 30.709732055664062,
+      "min": 30.709732055664062,
+      "max": 30.709732055664062
+    },
+    {
+      "hardware": "Generic Memory",
+      "hardware_type": "Memory",
+      "name": "Virtual Memory",
+      "sensor_type": "Load",
+      "value": 50.657596588134766,
+      "min": 50.657596588134766,
+      "max": 50.657596588134766
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Memory Total",
+      "sensor_type": "SmallData",
+      "value": 512,
+      "min": 512,
+      "max": 512
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "Fullscreen FPS",
+      "sensor_type": "Factor",
+      "value": -1,
+      "min": -1,
+      "max": -1
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Dedicated Memory Total",
+      "sensor_type": "SmallData",
+      "value": 461.56640625,
+      "min": 461.56640625,
+      "max": 461.56640625
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Dedicated Memory Free",
+      "sensor_type": "SmallData",
+      "value": 39.84375,
+      "min": 39.84375,
+      "max": 42.296875
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Dedicated Memory Used",
+      "sensor_type": "SmallData",
+      "value": 421.72265625,
+      "min": 419.26953125,
+      "max": 421.72265625
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Shared Memory Used",
+      "sensor_type": "SmallData",
+      "value": 570.59765625,
+      "min": 570.59765625,
+      "max": 585.953125
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Shared Memory Free",
+      "sensor_type": "SmallData",
+      "value": 15362.333984375,
+      "min": 15346.978515625,
+      "max": 15362.333984375
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Shared Memory Total",
+      "sensor_type": "SmallData",
+      "value": 15932.931640625,
+      "min": 15932.931640625,
+      "max": 15932.931640625
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D 3D",
+      "sensor_type": "Load",
+      "value": 2.0743839740753174,
+      "min": 2.0743839740753174,
+      "max": 2.2548305988311768
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 14.485315322875977,
+      "min": 14.485315322875977,
+      "max": 14.977377891540527
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Compute 0",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Timer 0",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Security 1",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Video JPEG 0",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Video Processor",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "D3D Video Codec Engine",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Memory Used",
+      "sensor_type": "SmallData",
+      "value": 421,
+      "min": 419,
+      "max": 421
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Memory Free",
+      "sensor_type": "SmallData",
+      "value": 91,
+      "min": 91,
+      "max": 93
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Core",
+      "sensor_type": "Clock",
+      "value": 2225,
+      "min": 2198,
+      "max": 2225
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU SoC",
+      "sensor_type": "Clock",
+      "value": 1192,
+      "min": 1182,
+      "max": 1192
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Memory",
+      "sensor_type": "Clock",
+      "value": 2800,
+      "min": 2800,
+      "max": 2800
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU VR SoC",
+      "sensor_type": "Temperature",
+      "value": 59,
+      "min": 59,
+      "max": 59
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Core",
+      "sensor_type": "Load",
+      "value": 18,
+      "min": 18,
+      "max": 18
+    },
+    {
+      "hardware": "AMD Radeon(TM) Graphics",
+      "hardware_type": "GpuAmd",
+      "name": "GPU Core",
+      "sensor_type": "Power",
+      "value": 6,
+      "min": 6,
+      "max": 6
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Core",
+      "sensor_type": "Temperature",
+      "value": 59,
+      "min": 59,
+      "max": 59
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Core",
+      "sensor_type": "Clock",
+      "value": 1567,
+      "min": 1567,
+      "max": 1567
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory",
+      "sensor_type": "Clock",
+      "value": 11001,
+      "min": 11001,
+      "max": 11001
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Core",
+      "sensor_type": "Load",
+      "value": 16,
+      "min": 15,
+      "max": 16
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory Controller",
+      "sensor_type": "Load",
+      "value": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Video Engine",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Bus",
+      "sensor_type": "Load",
+      "value": 69,
+      "min": 63,
+      "max": 69
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Dedicated Memory Used",
+      "sensor_type": "SmallData",
+      "value": 1281.21484375,
+      "min": 1281.21484375,
+      "max": 1281.21484375
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Shared Memory Used",
+      "sensor_type": "SmallData",
+      "value": 98.1796875,
+      "min": 98.1796875,
+      "max": 98.1796875
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D 3D",
+      "sensor_type": "Load",
+      "value": 15.316451072692871,
+      "min": 15.316451072692871,
+      "max": 19.870227813720703
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Video Decode",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0.041798874735832214,
+      "min": 0.041798874735832214,
+      "max": 0.24887782335281372
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Security",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Video Encode",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D OFA_0",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D JPEG_Decode_0",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D VR",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "D3D Copy",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Hot Spot",
+      "sensor_type": "Temperature",
+      "value": 59.0625,
+      "min": 59.0625,
+      "max": 59.09375
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory Junction",
+      "sensor_type": "Temperature",
+      "value": 255,
+      "min": 255,
+      "max": 255
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory Total",
+      "sensor_type": "SmallData",
+      "value": 8151,
+      "min": 8151,
+      "max": 8151
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory Free",
+      "sensor_type": "SmallData",
+      "value": 6620,
+      "min": 6620,
+      "max": 6620
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory Used",
+      "sensor_type": "SmallData",
+      "value": 1530,
+      "min": 1530,
+      "max": 1530
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Memory",
+      "sensor_type": "Load",
+      "value": 18.772907257080078,
+      "min": 18.772907257080078,
+      "max": 18.772907257080078
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU Package",
+      "sensor_type": "Power",
+      "value": 16.05299949645996,
+      "min": 15.930000305175781,
+      "max": 16.05299949645996
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU PCIe Rx",
+      "sensor_type": "Throughput",
+      "value": 2148543488,
+      "min": 1707267072,
+      "max": 2148543488
+    },
+    {
+      "hardware": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "hardware_type": "GpuNvidia",
+      "name": "GPU PCIe Tx",
+      "sensor_type": "Throughput",
+      "value": 237895680,
+      "min": 237895680,
+      "max": 281322496
+    },
+    {
+      "hardware": "Bluetooth Network Connection 2",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Bluetooth Network Connection 2",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Bluetooth Network Connection 2",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Bluetooth Network Connection 2",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Bluetooth Network Connection 2",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Ethernet",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 3.49257493019104,
+      "min": 3.49257493019104,
+      "max": 3.49257493019104
+    },
+    {
+      "hardware": "Ethernet",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 21.710636138916016,
+      "min": 21.710636138916016,
+      "max": 21.710636138916016
+    },
+    {
+      "hardware": "Ethernet",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Ethernet",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Ethernet",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 11",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 11",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 11",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 11",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 11",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 12",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 12",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 12",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 12",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Local Area Connection* 12",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Tailscale",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 0.0017561493441462517,
+      "min": 0.0017561493441462517,
+      "max": 0.0017561493441462517
+    },
+    {
+      "hardware": "Tailscale",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Tailscale",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Tailscale",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Tailscale",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "hardware": "Wi-Fi",
+      "hardware_type": "Network",
+      "name": "Data Uploaded",
+      "sensor_type": "Data",
+      "value": 0.014633169397711754,
+      "min": 0.014633169397711754,
+      "max": 0.014633169397711754
+    },
+    {
+      "hardware": "Wi-Fi",
+      "hardware_type": "Network",
+      "name": "Data Downloaded",
+      "sensor_type": "Data",
+      "value": 0.0234316885471344,
+      "min": 0.0234316885471344,
+      "max": 0.0234316885471344
+    },
+    {
+      "hardware": "Wi-Fi",
+      "hardware_type": "Network",
+      "name": "Upload Speed",
+      "sensor_type": "Throughput",
+      "value": 2464.26220703125,
+      "min": 2464.26220703125,
+      "max": 2464.26220703125
+    },
+    {
+      "hardware": "Wi-Fi",
+      "hardware_type": "Network",
+      "name": "Download Speed",
+      "sensor_type": "Throughput",
+      "value": 7074.91455078125,
+      "min": 7074.91455078125,
+      "max": 7074.91455078125
+    },
+    {
+      "hardware": "Wi-Fi",
+      "hardware_type": "Network",
+      "name": "Network Utilization",
+      "sensor_type": "Load",
+      "value": 0.01304502785205841,
+      "min": 0.01304502785205841,
+      "max": 0.01304502785205841
+    }
+  ],
+  "sensor_count": 139,
+  "error": "",
+  "read_only": true,
+  "source": "librehardwaremonitor",
+  "command": {
+    "command": [
+      "powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\kkids\\Documents\\Codex_Computer_Optimizing\\AERO_X16_CONTROL_CENTER_APP\\PHASE_4_BACKUP_RESTORE_FOUNDATION_AND_SANDBOXED_APPLY_TESTS\\scripts\\read_librehardwaremonitor_sensors.ps1",
+      "-DllPath",
+      "C:\\Program Files (x86)\\RivaTuner Statistics Server\\Plugins\\Client\\LHMDataProvider\\LibreHardwareMonitorLib.dll"
+    ],
+    "cwd": null,
+    "read_only": true,
+    "dry_run": false,
+    "executed": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "stdout": "{\n    \"ok\":  true,\n    \"generated_local\":  \"2026-06-15T12:08:58\",\n    \"dll_path\":  \"C:\\\\Program Files (x86)\\\\RivaTuner Statistics Server\\\\Plugins\\\\Client\\\\LHMDataProvider\\\\LibreHardwareMonitorLib.dll\",\n    \"sensors\":  [\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #1\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  31.389999389648438,\n                        \"min\":  31.389999389648438,\n                        \"max\":  60\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #2\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  32.119998931884766,\n                        \"min\":  20,\n                        \"max\":  32.119998931884766\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #3\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  32.119998931884766,\n                        \"min\":  20,\n                        \"max\":  32.119998931884766\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #4\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  24.090000152587891,\n                        \"min\":  20,\n                        \"max\":  24.090000152587891\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #5\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  15.329999923706055,\n                        \"min\":  15.329999923706055,\n                        \"max\":  40\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #6\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  46.720001220703125,\n                        \"min\":  20,\n                        \"max\":  46.720001220703125\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #7\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  17.520000457763672,\n                        \"min\":  17.520000457763672,\n                        \"max\":  20\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #8\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  18.979999542236328,\n                        \"min\":  18.979999542236328,\n                        \"max\":  20\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #9\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  32.119998931884766,\n                        \"min\":  20,\n                        \"max\":  32.119998931884766\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #10\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  56.930000305175781,\n                        \"min\":  40,\n                        \"max\":  56.930000305175781\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #11\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  22.6299991607666,\n                        \"min\":  0,\n                        \"max\":  22.6299991607666\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #12\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  18.25,\n                        \"min\":  0,\n                        \"max\":  18.25\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #13\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  33.580001831054688,\n                        \"min\":  33.580001831054688,\n                        \"max\":  40\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #14\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  59.119998931884766,\n                        \"min\":  40,\n                        \"max\":  59.119998931884766\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #15\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  13.869999885559082,\n                        \"min\":  13.869999885559082,\n                        \"max\":  20\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core #16\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  25.549999237060547,\n                        \"min\":  20,\n                        \"max\":  25.549999237060547\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Total\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  30.020000457763672,\n                        \"min\":  25,\n                        \"max\":  30.020000457763672\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"CPU Core Max\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  59.119998931884766,\n                        \"min\":  59.119998931884766,\n                        \"max\":  60\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Package\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Cores (Average)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Cores (Average Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #1 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #1 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #1 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #2 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #2 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #2 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #3 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #3 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #3 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #4 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #4 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #4 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #5 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #5 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #5 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #6 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #6 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #6 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #7 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #7 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #7 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #8 (Effective)\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #8 (SMU)\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core #8 VID\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core (Tctl/Tdie)\",\n                        \"sensor_type\":  \"Temperature\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"Core (SVI2 TFN)\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"AMD Ryzen AI 7 350 w/ Radeon 860M\",\n                        \"hardware_type\":  \"Cpu\",\n                        \"name\":  \"SoC (SVI2 TFN)\",\n                        \"sensor_type\":  \"Voltage\",\n                        \"value\":  1.5499999523162842,\n                        \"min\":  1.5499999523162842,\n                        \"max\":  1.5499999523162842\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Memory Used\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  17.682960510253906,\n                        \"min\":  17.682960510253906,\n                        \"max\":  17.682960510253906\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Memory Available\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  13.436046600341797,\n                        \"min\":  13.436046600341797,\n                        \"max\":  13.436046600341797\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Memory\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  56.823665618896484,\n                        \"min\":  56.823665618896484,\n                        \"max\":  56.823665618896484\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Virtual Memory Used\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  31.528282165527344,\n                        \"min\":  31.528282165527344,\n                        \"max\":  31.528282165527344\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Virtual Memory Available\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  30.709732055664063,\n                        \"min\":  30.709732055664063,\n                        \"max\":  30.709732055664063\n                    },\n                    {\n                        \"hardware\":  \"Generic Memory\",\n                        \"hardware_type\":  \"Memory\",\n                        \"name\":  \"Virtual Memory\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  50.657596588134766,\n                        \"min\":  50.657596588134766,\n                        \"max\":  50.657596588134766\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Memory Total\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  512,\n                        \"min\":  512,\n                        \"max\":  512\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"Fullscreen FPS\",\n                        \"sensor_type\":  \"Factor\",\n                        \"value\":  -1,\n                        \"min\":  -1,\n                        \"max\":  -1\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Dedicated Memory Total\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  461.56640625,\n                        \"min\":  461.56640625,\n                        \"max\":  461.56640625\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Dedicated Memory Free\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  39.84375,\n                        \"min\":  39.84375,\n                        \"max\":  42.296875\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Dedicated Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  421.72265625,\n                        \"min\":  419.26953125,\n                        \"max\":  421.72265625\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Shared Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  570.59765625,\n                        \"min\":  570.59765625,\n                        \"max\":  585.953125\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Shared Memory Free\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  15362.333984375,\n                        \"min\":  15346.978515625,\n                        \"max\":  15362.333984375\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Shared Memory Total\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  15932.931640625,\n                        \"min\":  15932.931640625,\n                        \"max\":  15932.931640625\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D 3D\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  2.0743839740753174,\n                        \"min\":  2.0743839740753174,\n                        \"max\":  2.2548305988311768\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  14.485315322875977,\n                        \"min\":  14.485315322875977,\n                        \"max\":  14.977377891540527\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Compute 0\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Timer 0\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Security 1\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Video JPEG 0\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Video Processor\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"D3D Video Codec Engine\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  421,\n                        \"min\":  419,\n                        \"max\":  421\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Memory Free\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  91,\n                        \"min\":  91,\n                        \"max\":  93\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  2225,\n                        \"min\":  2198,\n                        \"max\":  2225\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU SoC\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  1192,\n                        \"min\":  1182,\n                        \"max\":  1192\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Memory\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  2800,\n                        \"min\":  2800,\n                        \"max\":  2800\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU VR SoC\",\n                        \"sensor_type\":  \"Temperature\",\n                        \"value\":  59,\n                        \"min\":  59,\n                        \"max\":  59\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  18,\n                        \"min\":  18,\n                        \"max\":  18\n                    },\n                    {\n                        \"hardware\":  \"AMD Radeon(TM) Graphics\",\n                        \"hardware_type\":  \"GpuAmd\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  6,\n                        \"min\":  6,\n                        \"max\":  6\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Temperature\",\n                        \"value\":  59,\n                        \"min\":  59,\n                        \"max\":  59\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  1567,\n                        \"min\":  1567,\n                        \"max\":  1567\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory\",\n                        \"sensor_type\":  \"Clock\",\n                        \"value\":  11001,\n                        \"min\":  11001,\n                        \"max\":  11001\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Core\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  16,\n                        \"min\":  15,\n                        \"max\":  16\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory Controller\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  1,\n                        \"min\":  1,\n                        \"max\":  1\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Video Engine\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Bus\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  69,\n                        \"min\":  63,\n                        \"max\":  69\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Dedicated Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  1281.21484375,\n                        \"min\":  1281.21484375,\n                        \"max\":  1281.21484375\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Shared Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  98.1796875,\n                        \"min\":  98.1796875,\n                        \"max\":  98.1796875\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D 3D\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  15.316451072692871,\n                        \"min\":  15.316451072692871,\n                        \"max\":  19.870227813720703\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Video Decode\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0.041798874735832214,\n                        \"min\":  0.041798874735832214,\n                        \"max\":  0.24887782335281372\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Security\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Video Encode\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D OFA_0\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D JPEG_Decode_0\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D VR\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"D3D Copy\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Hot Spot\",\n                        \"sensor_type\":  \"Temperature\",\n                        \"value\":  59.0625,\n                        \"min\":  59.0625,\n                        \"max\":  59.09375\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory Junction\",\n                        \"sensor_type\":  \"Temperature\",\n                        \"value\":  255,\n                        \"min\":  255,\n                        \"max\":  255\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory Total\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  8151,\n                        \"min\":  8151,\n                        \"max\":  8151\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory Free\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  6620,\n                        \"min\":  6620,\n                        \"max\":  6620\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory Used\",\n                        \"sensor_type\":  \"SmallData\",\n                        \"value\":  1530,\n                        \"min\":  1530,\n                        \"max\":  1530\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Memory\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  18.772907257080078,\n                        \"min\":  18.772907257080078,\n                        \"max\":  18.772907257080078\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU Package\",\n                        \"sensor_type\":  \"Power\",\n                        \"value\":  16.052999496459961,\n                        \"min\":  15.930000305175781,\n                        \"max\":  16.052999496459961\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU PCIe Rx\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  2148543488,\n                        \"min\":  1707267072,\n                        \"max\":  2148543488\n                    },\n                    {\n                        \"hardware\":  \"NVIDIA GeForce RTX 5070 Laptop GPU\",\n                        \"hardware_type\":  \"GpuNvidia\",\n                        \"name\":  \"GPU PCIe Tx\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  237895680,\n                        \"min\":  237895680,\n                        \"max\":  281322496\n                    },\n                    {\n                        \"hardware\":  \"Bluetooth Network Connection 2\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Bluetooth Network Connection 2\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Bluetooth Network Connection 2\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Bluetooth Network Connection 2\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Bluetooth Network Connection 2\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Ethernet\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  3.49257493019104,\n                        \"min\":  3.49257493019104,\n                        \"max\":  3.49257493019104\n                    },\n                    {\n                        \"hardware\":  \"Ethernet\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  21.710636138916016,\n                        \"min\":  21.710636138916016,\n                        \"max\":  21.710636138916016\n                    },\n                    {\n                        \"hardware\":  \"Ethernet\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Ethernet\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Ethernet\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 11\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 11\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 11\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 11\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 11\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 12\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 12\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 12\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 12\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Local Area Connection* 12\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Tailscale\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0.0017561493441462517,\n                        \"min\":  0.0017561493441462517,\n                        \"max\":  0.0017561493441462517\n                    },\n                    {\n                        \"hardware\":  \"Tailscale\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Tailscale\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Tailscale\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Tailscale\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0,\n                        \"min\":  0,\n                        \"max\":  0\n                    },\n                    {\n                        \"hardware\":  \"Wi-Fi\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Uploaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0.014633169397711754,\n                        \"min\":  0.014633169397711754,\n                        \"max\":  0.014633169397711754\n                    },\n                    {\n                        \"hardware\":  \"Wi-Fi\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Data Downloaded\",\n                        \"sensor_type\":  \"Data\",\n                        \"value\":  0.0234316885471344,\n                        \"min\":  0.0234316885471344,\n                        \"max\":  0.0234316885471344\n                    },\n                    {\n                        \"hardware\":  \"Wi-Fi\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Upload Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  2464.26220703125,\n                        \"min\":  2464.26220703125,\n                        \"max\":  2464.26220703125\n                    },\n                    {\n                        \"hardware\":  \"Wi-Fi\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Download Speed\",\n                        \"sensor_type\":  \"Throughput\",\n                        \"value\":  7074.91455078125,\n                        \"min\":  7074.91455078125,\n                        \"max\":  7074.91455078125\n                    },\n                    {\n                        \"hardware\":  \"Wi-Fi\",\n                        \"hardware_type\":  \"Network\",\n                        \"name\":  \"Network Utilization\",\n                        \"sensor_type\":  \"Load\",\n                        \"value\":  0.013045027852058411,\n                        \"min\":  0.013045027852058411,\n                        \"max\":  0.013045027852058411\n                    }\n                ],\n    \"sensor_count\":  139,\n    \"error\":  \"\",\n    \"read_only\":  true\n}\n",
+    "stderr": "",
+    "error": null,
+    "started_at": "2026-06-15T12:08:52",
+    "elapsed_seconds": 5.922
+  }
+}

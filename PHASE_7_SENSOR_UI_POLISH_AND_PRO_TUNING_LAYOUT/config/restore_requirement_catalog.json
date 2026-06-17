@@ -1,0 +1,446 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "generated_local": "2026-06-15T03:18:02",
+  "requirements": [
+    {
+      "control_id": "cpu.power_plan.active_selection",
+      "future_action": "Active power plan selection",
+      "what_must_be_backed_up_first": "Reactivate the previously captured active power scheme GUID or import cloned scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Reactivate the previously captured active power scheme GUID or import cloned scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.boost.mode",
+      "future_action": "Processor performance boost mode",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.power.epp",
+      "future_action": "Processor energy performance preference / EPP",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.state.minimum",
+      "future_action": "Minimum processor state",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.state.maximum",
+      "future_action": "Maximum processor state",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.cooling.system_policy",
+      "future_action": "System cooling policy",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "cpu.frequency.maximum",
+      "future_action": "Maximum processor frequency",
+      "what_must_be_backed_up_first": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore previous AC/DC values or re-import cloned power scheme.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.powercfg.cooling_policy",
+      "future_action": "System cooling policy through powercfg",
+      "what_must_be_backed_up_first": "Restore prior cooling policy AC/DC values or cloned power scheme.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore prior cooling policy AC/DC values or cloned power scheme.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.profile.slot1",
+      "future_action": "MSI profile slot 1 launch",
+      "what_must_be_backed_up_first": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.profile.slot2",
+      "future_action": "MSI profile slot 2 launch",
+      "what_must_be_backed_up_first": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.profile.slot3",
+      "future_action": "MSI profile slot 3 launch",
+      "what_must_be_backed_up_first": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.profile.slot4",
+      "future_action": "MSI profile slot 4 launch",
+      "what_must_be_backed_up_first": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.profile.slot5",
+      "future_action": "MSI profile slot 5 launch",
+      "what_must_be_backed_up_first": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up MSI configs/profiles first; restore files and known safe slot if needed.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "gpu.msi.backup.config_profiles",
+      "future_action": "MSI profile/config backup",
+      "what_must_be_backed_up_first": "Use MSI config/profile file backup before any future apply.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Use MSI config/profile file backup before any future apply.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "presentmon.candidate.selection",
+      "future_action": "PresentMon executable candidate selection",
+      "what_must_be_backed_up_first": "Stop capture and keep session files under app-controlled session folder.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Stop capture and keep session files under app-controlled session folder.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "presentmon.syntax.verification",
+      "future_action": "PresentMon syntax verification",
+      "what_must_be_backed_up_first": "Stop capture and keep session files under app-controlled session folder.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Stop capture and keep session files under app-controlled session folder.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "presentmon.process_targeting",
+      "future_action": "PresentMon process targeting",
+      "what_must_be_backed_up_first": "Stop capture and keep session files under app-controlled session folder.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Stop capture and keep session files under app-controlled session folder.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "presentmon.csv_output",
+      "future_action": "PresentMon CSV output",
+      "what_must_be_backed_up_first": "Stop capture and keep session files under app-controlled session folder.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Stop capture and keep session files under app-controlled session folder.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "presentmon.timed_capture",
+      "future_action": "PresentMon timed capture",
+      "what_must_be_backed_up_first": "Stop capture and keep session files under app-controlled session folder.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Stop capture and keep session files under app-controlled session folder.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "automation.auto_apply.future",
+      "future_action": "Auto-apply future action",
+      "what_must_be_backed_up_first": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "automation.restore_on_exit.future",
+      "future_action": "Auto-restore-on-exit future action",
+      "what_must_be_backed_up_first": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app JSON rules; auto-restore must have a previous-state manifest.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.gigabyte.gcc_surfaces",
+      "future_action": "Gigabyte/GCC detected process/service surfaces",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.gigabyte.powergear_service_status",
+      "future_action": "Gigabyte PowerGear service read-only status",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.official_api.status",
+      "future_action": "Official API status unknown",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.command_line_control.status",
+      "future_action": "Command-line control unknown",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.config_file_control.status",
+      "future_action": "Config-file control unproven",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.ui_automation.status",
+      "future_action": "UI automation possible but fragile",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.ec_write.research_only",
+      "future_action": "Embedded controller writes dangerous/research-only",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.mode_display.future",
+      "future_action": "Fan mode display future concept",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "fan.apply_action.blocked",
+      "future_action": "Fan control action blocked",
+      "what_must_be_backed_up_first": "Blocked until a proven OEM restore path exists.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Blocked until a proven OEM restore path exists.",
+      "reboot_may_be_required": true,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.save_current_state",
+      "future_action": "Save current state",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.power_plan.clone_export",
+      "future_action": "Clone/export active power plan",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.powercfg.previous_values",
+      "future_action": "Restore previous powercfg values",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.msi.config_backup",
+      "future_action": "Back up MSI Afterburner config/profile files",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.msi.config_restore",
+      "future_action": "Restore MSI Afterburner config/profile files",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.msi.known_safe_slot_future",
+      "future_action": "Restore known safe MSI slot future concept",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.app_preset_json",
+      "future_action": "Restore app preset JSON",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "restore.panic.future_command",
+      "future_action": "Panic restore future command",
+      "what_must_be_backed_up_first": "Restore workflow is defined here but not proven until Phase 4.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Restore workflow is defined here but not proven until Phase 4.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.launch_app.future",
+      "future_action": "Launch app at startup future setting",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.scheduled_task.future",
+      "future_action": "Scheduled task future setting",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.start_minimized.future",
+      "future_action": "Start minimized future setting",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.auto_detect_game.future",
+      "future_action": "Auto-detect game future setting",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.auto_apply_preset.future",
+      "future_action": "Auto-apply preset future setting",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    },
+    {
+      "control_id": "startup.automation.kill_switch",
+      "future_action": "Disable all automation kill-switch",
+      "what_must_be_backed_up_first": "Back up app config and any startup/scheduled-task state before enabling.",
+      "how_to_capture_current_state": "Use Phase 4 restore manifest before any apply action.",
+      "how_to_restore": "Back up app config and any startup/scheduled-task state before enabling.",
+      "reboot_may_be_required": false,
+      "restore_is_proven": false,
+      "block_future_apply_until_restore_proven": true
+    }
+  ]
+}

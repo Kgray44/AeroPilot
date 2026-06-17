@@ -1,0 +1,183 @@
+{
+  "phase": "PHASE_3_CONTROL_SURFACE_COMPLETENESS_AND_PRESET_EDITING",
+  "phase1_capabilities": [
+    {
+      "name": "MSI Afterburner profile launch templates",
+      "category": "GPU profile loading",
+      "reachability": "Likely reachable by launching MSI Afterburner with profile arguments",
+      "phase1_status": "Dry-run templates only. Not executed.",
+      "risk_level": "Medium",
+      "control_owner": "MSI Afterburner",
+      "notes": "Future app can map friendly preset names to MSI profile slots after manual verification."
+    },
+    {
+      "name": "MSI Afterburner profile/config backup",
+      "category": "GPU voltage/frequency curve profile",
+      "reachability": "Discoverable",
+      "phase1_status": "File metadata read only.",
+      "risk_level": "Low",
+      "control_owner": "App can back up files later",
+      "notes": "Future writes require backup and restore manifest first."
+    },
+    {
+      "name": "Windows CPU power setting viewer",
+      "category": "CPU power behavior",
+      "reachability": "Reachable through powercfg",
+      "phase1_status": "Read-only query complete where supported.",
+      "risk_level": "Read-only",
+      "control_owner": "In-house via powercfg reads",
+      "notes": "Values are captured for active scheme only in Phase 1."
+    },
+    {
+      "name": "Windows CPU power setting writes later",
+      "category": "CPU power behavior",
+      "reachability": "Likely possible for readable settings, not tested",
+      "phase1_status": "Not executed.",
+      "risk_level": "Medium",
+      "control_owner": "In-house via powercfg with admin/confirmation",
+      "notes": "Future app should export or clone plans before writes."
+    },
+    {
+      "name": "NVIDIA telemetry through nvidia-smi",
+      "category": "GPU power/clock telemetry",
+      "reachability": "Reachable",
+      "phase1_status": "Read-only telemetry queries only.",
+      "risk_level": "Read-only",
+      "control_owner": "In-house subprocess polling",
+      "notes": "Good candidate for MVP telemetry if available."
+    },
+    {
+      "name": "NVML Python telemetry later",
+      "category": "GPU power/clock telemetry",
+      "reachability": "Planned optional integration",
+      "phase1_status": "Not tested in Phase 1.",
+      "risk_level": "Read-only",
+      "control_owner": "Optional Python library",
+      "notes": "Use later if nvidia-smi polling is too slow or awkward."
+    },
+    {
+      "name": "PresentMon frame-time capture",
+      "category": "FPS/frame capture",
+      "reachability": "Executable found",
+      "phase1_status": "Help/version attempted only if found.",
+      "risk_level": "Low",
+      "control_owner": "Optional subprocess tool",
+      "notes": "Strongly recommended for benchmark sessions."
+    },
+    {
+      "name": "LibreHardwareMonitor sensors",
+      "category": "CPU power behavior",
+      "reachability": "Files found",
+      "phase1_status": "File/library discovery only. Not launched.",
+      "risk_level": "Read-only",
+      "control_owner": "Optional library/tool",
+      "notes": "Useful for temperatures, fans, voltages, and motherboard sensors if supported."
+    },
+    {
+      "name": "Gigabyte/GCC discovery",
+      "category": "Fan control",
+      "reachability": "Some OEM surfaces discovered",
+      "phase1_status": "Read-only process/service/file metadata.",
+      "risk_level": "Unknown",
+      "control_owner": "Unknown/OEM",
+      "notes": "Fan control remains unproven and should stay experimental."
+    },
+    {
+      "name": "Game and tool process detection",
+      "category": "Game detection",
+      "reachability": "Reachable through Get-Process",
+      "phase1_status": "Read-only enumeration only.",
+      "risk_level": "Safe",
+      "control_owner": "In-house",
+      "notes": "Future app can use editable seed list and per-game overrides."
+    },
+    {
+      "name": "Restore and panic restore framework",
+      "category": "Restore/backup",
+      "reachability": "Planned; file backups and power plan exports are feasible later",
+      "phase1_status": "Architecture only. No restore point or backup created outside app folder.",
+      "risk_level": "Safe",
+      "control_owner": "In-house",
+      "notes": "Must precede any apply phase."
+    }
+  ],
+  "phase2_summary": {
+    "phase": "PHASE_2_APP_SKELETON_READONLY_DRYRUN",
+    "status": "complete",
+    "safety_mode": "READ-ONLY / DRY-RUN",
+    "system_changes_applied": false,
+    "pyside6_available": true,
+    "app_launch_status": {
+      "run_script": "scripts/run_app.ps1",
+      "offscreen_smoke_test": {
+        "passed": true,
+        "window_title": "AERO X16 Control Center",
+        "tab_count": 9
+      }
+    },
+    "phase1_data_loaded": [
+      "phase1_exploration_report.json",
+      "discovered_paths.json",
+      "discovered_capabilities.json",
+      "risk_catalog.json",
+      "command_inventory.md",
+      "future_architecture_notes.md",
+      "app_probe/process_targets_seed.json"
+    ],
+    "tabs_built": [
+      "Dashboard",
+      "CPU Presets",
+      "GPU Profiles",
+      "Sensors / Telemetry",
+      "Game Automation",
+      "Auto Tuning",
+      "Fan Control / Experimental",
+      "Logs",
+      "Settings / Safety"
+    ],
+    "telemetry": {
+      "nvidia_smi_readonly_refresh": true,
+      "latest_snapshot_file": "raw_outputs/readonly_snapshot_latest.json",
+      "latest_gpu_name": "NVIDIA GeForce RTX 5070 Laptop GPU"
+    },
+    "dry_run_only": [
+      "MSI profile slot command previews",
+      "CPU powercfg command previews",
+      "placeholder CPU presets",
+      "game automation rule previews"
+    ],
+    "locked_disabled": [
+      "MSI profile apply",
+      "CPU setting apply",
+      "active power plan changes",
+      "PresentMon capture",
+      "auto tuning",
+      "auto apply",
+      "fan control",
+      "service control",
+      "scheduled tasks",
+      "startup entries",
+      "registry writes",
+      "NVIDIA write commands"
+    ],
+    "presentmon_candidate": {
+      "phase1_candidate": "C:\\Program Files\\AMD\\CNext\\CNext\\PresentMon-x64.exe",
+      "help_confirmed": false,
+      "phase2_capture_started": false
+    },
+    "msi_profile_mapping": {
+      "slots": 5,
+      "verified_slots": 0,
+      "phase2_apply_allowed": false
+    },
+    "validation": {
+      "total_checks": 103,
+      "failed_checks": 0,
+      "python_compile": "pass",
+      "python_import_check": "pass",
+      "static_safety": "pass"
+    },
+    "phase3_recommendation": "Backup/restore foundation and first explicitly-approved apply tests. Build restore manifests, export/clone active power plan, back up MSI Afterburner configs/profiles, verify MSI profile slot mapping manually, and add one or two guarded CPU setting apply tests with immediate restore. No fan control or embedded-controller writes yet."
+  },
+  "manifest_control_count": 102
+}

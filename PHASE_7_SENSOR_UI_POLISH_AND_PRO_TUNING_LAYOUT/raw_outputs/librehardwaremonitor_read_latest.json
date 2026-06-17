@@ -1,0 +1,11 @@
+﻿{
+    "ok":  false,
+    "generated_local":  "2026-06-15T12:08:06",
+    "dll_path":  "C:\\Program Files\\JamesCJ60\\Universal x86 Tuning Utility\\LibreHardwareMonitorLib.dll",
+    "sensors":  [
+
+                ],
+    "sensor_count":  0,
+    "error":  "Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.",
+    "read_only":  true
+}
